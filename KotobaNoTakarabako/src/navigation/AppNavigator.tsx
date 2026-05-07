@@ -13,6 +13,7 @@ import SettingsScreen from '../screens/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
 const HomeStack = createNativeStackNavigator();
+const FavStack = createNativeStackNavigator();
 
 function HomeStackNavigator() {
   const {theme} = useStore();
@@ -29,6 +30,20 @@ function HomeStackNavigator() {
   );
 }
 
+function FavStackNavigator() {
+  const {theme} = useStore();
+  return (
+    <FavStack.Navigator
+      screenOptions={{
+        headerShown: false,
+        contentStyle: {backgroundColor: theme.bg},
+      }}>
+      <FavStack.Screen name="FavoritesList" component={FavoritesScreen} />
+      <FavStack.Screen name="QuoteCard" component={QuoteCardScreen} />
+    </FavStack.Navigator>
+  );
+}
+
 const TAB_ICONS: Record<string, string> = {
   홈: '🏠',
   즐겨찾기: '♥',
@@ -37,7 +52,7 @@ const TAB_ICONS: Record<string, string> = {
 };
 
 export default function AppNavigator() {
-  const {theme} = useStore();
+  const {theme, favorites} = useStore();
 
   return (
     <Tab.Navigator
@@ -68,7 +83,20 @@ export default function AppNavigator() {
         ),
       })}>
       <Tab.Screen name="홈" component={HomeStackNavigator} />
-      <Tab.Screen name="즐겨찾기" component={FavoritesScreen} />
+      <Tab.Screen
+        name="즐겨찾기"
+        component={FavStackNavigator}
+        options={{
+          tabBarBadge: favorites.length > 0 ? favorites.length : undefined,
+          tabBarBadgeStyle: {
+            backgroundColor: '#E8507A',
+            fontSize: 9,
+            minWidth: 16,
+            height: 16,
+            lineHeight: 16,
+          },
+        }}
+      />
       <Tab.Screen name="사전" component={DictionaryScreen} />
       <Tab.Screen name="설정" component={SettingsScreen} />
     </Tab.Navigator>
