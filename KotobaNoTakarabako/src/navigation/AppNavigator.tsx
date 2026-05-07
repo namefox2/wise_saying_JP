@@ -9,12 +9,15 @@ import QuoteListScreen from '../screens/QuoteListScreen';
 import QuoteCardScreen from '../screens/QuoteCardScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
 import DictionaryScreen from '../screens/DictionaryScreen';
+import VocabHomeScreen from '../screens/VocabHomeScreen';
+import VocabCardScreen from '../screens/VocabCardScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
 const HomeStack = createNativeStackNavigator();
 const FavStack = createNativeStackNavigator();
 const DictStack = createNativeStackNavigator();
+const VocabStack = createNativeStackNavigator();
 
 function HomeStackNavigator() {
   const {theme} = useStore();
@@ -59,8 +62,23 @@ function DictStackNavigator() {
   );
 }
 
+function VocabStackNavigator() {
+  const {theme} = useStore();
+  return (
+    <VocabStack.Navigator
+      screenOptions={{
+        headerShown: false,
+        contentStyle: {backgroundColor: theme.bg},
+      }}>
+      <VocabStack.Screen name="VocabHome" component={VocabHomeScreen} />
+      <VocabStack.Screen name="VocabCard" component={VocabCardScreen} />
+    </VocabStack.Navigator>
+  );
+}
+
 const TAB_ICONS: Record<string, string> = {
   홈: '🏠',
+  단어: '🃏',
   즐겨찾기: '♥',
   사전: '📖',
   설정: '⚙️',
@@ -77,7 +95,7 @@ export default function AppNavigator() {
           backgroundColor: theme.navBg,
           borderTopColor: theme.border,
           borderTopWidth: 1,
-          height: 60,
+          height: 64,
           paddingBottom: 8,
         },
         tabBarActiveTintColor: theme.navActive,
@@ -98,6 +116,7 @@ export default function AppNavigator() {
         ),
       })}>
       <Tab.Screen name="홈" component={HomeStackNavigator} />
+      <Tab.Screen name="단어" component={VocabStackNavigator} />
       <Tab.Screen
         name="즐겨찾기"
         component={FavStackNavigator}
