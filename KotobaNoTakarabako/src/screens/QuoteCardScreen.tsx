@@ -29,10 +29,10 @@ export default function QuoteCardScreen({
   const category: Category = route?.params?.category ?? 'all';
   const startIndex: number = route?.params?.startIndex ?? 0;
 
-  const {theme, isFavorite, toggleFavorite, markQuoteSeen, fontSize} =
+  const {theme, isFavorite, toggleFavorite, markQuoteSeen, fontSize, activeQuotes} =
     useStore();
 
-  const quotes = getQuotesByCategory(category);
+  const quotes = getQuotesByCategory(category, activeQuotes ?? undefined);
   const [currentIndex, setCurrentIndex] = useState(startIndex);
   const [readingRevealed, setReadingRevealed] = useState(false);
   const [koreanRevealed, setKoreanRevealed] = useState(false);

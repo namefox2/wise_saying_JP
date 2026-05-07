@@ -40,9 +40,10 @@ export default function VocabCardScreen({
   const level: JLPTLevel = route?.params?.level ?? 'N5';
   const startIndex: number = route?.params?.startIndex ?? 0;
 
-  const {theme, fontSize} = useStore();
+  const {theme, fontSize, activeVocab} = useStore();
 
-  const words = getVocabByLevel(level);
+  const defaultWords = getVocabByLevel(level);
+  const words = activeVocab?.[level] ?? defaultWords;
   const [currentIndex, setCurrentIndex] = useState(startIndex);
   const [readingRevealed, setReadingRevealed] = useState(false);
   const [koreanRevealed, setKoreanRevealed] = useState(false);

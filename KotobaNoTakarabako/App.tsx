@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import AppNavigator from './src/navigation/AppNavigator';
 import {useStore} from './src/store/useStore';
 
 export default function App() {
-  const {theme} = useStore();
+  const {theme, hydrate} = useStore();
+
+  useEffect(() => {
+    hydrate();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <SafeAreaProvider>

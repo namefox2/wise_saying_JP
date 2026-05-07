@@ -748,7 +748,81 @@ const quotes: Quote[] = [
     author: 'ウィリアム・ジェームズ',
     category: 'heart',
   },
+
+  // ── 努力 추가 (e16-e25) ──────────────────────────────────────────
+  {id:'e16',japanese:'七転び八起き。',reading:'ななころびやおき。',korean:'일곱 번 넘어지고 여덟 번 일어난다.',author:'日本のことわざ',category:'effort'},
+  {id:'e17',japanese:'失敗は成功のもと。',reading:'しっぱいはせいこうのもと。',korean:'실패는 성공의 어머니.',author:'日本のことわざ',category:'effort'},
+  {id:'e18',japanese:'急がば回れ。',reading:'いそがばまわれ。',korean:'급할수록 돌아가라.',author:'日本のことわざ',category:'effort'},
+  {id:'e19',japanese:'汗は嘘をつかない。',reading:'あせはうそをつかない。',korean:'땀은 거짓말을 하지 않는다.',author:'日本のことわざ',category:'effort'},
+  {id:'e20',japanese:'一念岩をも通す。',reading:'いちねんいわをもとおす。',korean:'일념으로 바위도 뚫는다.',author:'日本のことわざ',category:'effort'},
+  {id:'e21',japanese:'雨垂れ石を穿つ。',reading:'あまだれいしをうがつ。',korean:'낙숫물이 댓돌을 뚫는다.',author:'日本のことわざ',category:'effort'},
+  {id:'e22',japanese:'できないと思った瞬間、可能性はゼロになる。',reading:'できないとおもったしゅんかん、かのうせいはゼロになる。',korean:'할 수 없다고 생각한 순간 가능성은 제로가 된다.',author:'松岡修造',category:'effort'},
+  {id:'e23',japanese:'努力の壺はいつか満ちる。',reading:'どりょくのつぼはいつかみちる。',korean:'노력의 항아리는 언젠가 가득 찬다.',author:'日本のことわざ',category:'effort'},
+  {id:'e24',japanese:'始めることが仕事の半分だ。',reading:'はじめることがしごとのはんぶんだ。',korean:'시작하는 것이 일의 절반이다.',author:'日本のことわざ',category:'effort'},
+  {id:'e25',japanese:'やれるか、やれないかではない。やるか、やらないかだ。',reading:'やれるか、やれないかではない。やるか、やらないかだ。',korean:'할 수 있냐 없냐가 아니라, 하느냐 안 하느냐다.',author:'松岡修造',category:'effort'},
+
+  // ── 成功 추가 (s16-s25) ──────────────────────────────────────────
+  {id:'s16',japanese:'成功の秘訣は、諦めないことだ。',reading:'せいこうのひけつは、あきらめないことだ。',korean:'성공의 비결은 포기하지 않는 것이다.',author:'本田宗一郎',category:'success'},
+  {id:'s17',japanese:'夢なき者に理想なし。',reading:'ゆめなきものにりそうなし。',korean:'꿈이 없는 자에게 이상이 없다.',author:'吉田松陰',category:'success'},
+  {id:'s18',japanese:'自分を信じよ。そうすれば道は開ける。',reading:'じぶんをしんじよ。そうすればみちはひらける。',korean:'자신을 믿어라. 그러면 길은 열린다.',author:'日本のことわざ',category:'success'},
+  {id:'s19',japanese:'成功は準備が好機に出会ったものだ。',reading:'せいこうはじゅんびがこうきにであったものだ。',korean:'성공은 준비가 기회를 만난 것이다.',author:'日本のことわざ',category:'success'},
+  {id:'s20',japanese:'昨日と同じ今日を生きていては、明日は変わらない。',reading:'きのうとおなじきょうをいきていては、あしたはかわらない。',korean:'어제와 같은 오늘을 살아서는 내일은 바뀌지 않는다.',author:'本田宗一郎',category:'success'},
+  {id:'s21',japanese:'失敗を恐れることが最大の失敗だ。',reading:'しっぱいをおそれることがさいだいのしっぱいだ。',korean:'실패를 두려워하는 것이 가장 큰 실패다.',author:'日本のことわざ',category:'success'},
+  {id:'s22',japanese:'小さな事に忠実な人は、大きな事にも忠実だ。',reading:'ちいさなことにちゅうじつなひとは、おおきなことにもちゅうじつだ。',korean:'작은 일에 충실한 사람은 큰 일에도 충실하다.',author:'日本のことわざ',category:'success'},
+  {id:'s23',japanese:'進歩とは変化を恐れないことから始まる。',reading:'しんぽとはへんかをおそれないことからはじまる。',korean:'진보는 변화를 두려워하지 않는 것으로부터 시작된다.',author:'日本のことわざ',category:'success'},
+  {id:'s24',japanese:'勝負は時の運。しかし準備は自分の努力だ。',reading:'しょうぶはときのうん。しかしじゅんびはじぶんのどりょくだ。',korean:'승부는 때의 운. 하지만 준비는 자신의 노력이다.',author:'日本のことわざ',category:'success'},
+  {id:'s25',japanese:'頂点を目指すより、自分の最善を尽くせ。',reading:'ちょうてんをめざすより、じぶんのさいぜんをつくせ。',korean:'정상을 목표로 하기보다 최선을 다하라.',author:'日本のことわざ',category:'success'},
+
+  // ── 愛 추가 (l16-l25) ────────────────────────────────────────────
+  {id:'l16',japanese:'愛することは、見つめ合うことではなく、同じ方向を見つめることだ。',reading:'あいすることは、みつめあうことではなく、おなじほうこうをみつめることだ。',korean:'사랑한다는 것은 서로를 바라보는 것이 아니라 같은 방향을 바라보는 것이다.',author:'サン＝テグジュペリ',category:'love'},
+  {id:'l17',japanese:'愛は見返りを求めない。',reading:'あいはみかえりをもとめない。',korean:'사랑은 대가를 바라지 않는다.',author:'日本のことわざ',category:'love'},
+  {id:'l18',japanese:'真の愛は時間が経っても褪せない。',reading:'しんのあいはじかんがたってもあせない。',korean:'진정한 사랑은 시간이 지나도 바래지 않는다.',author:'日本のことわざ',category:'love'},
+  {id:'l19',japanese:'心に愛があれば、荒野も楽園になる。',reading:'こころにあいがあれば、あれのもらくえんになる。',korean:'마음에 사랑이 있으면 황야도 낙원이 된다.',author:'日本のことわざ',category:'love'},
+  {id:'l20',japanese:'愛は語るより示せ。',reading:'あいはかたるよりしめせ。',korean:'사랑은 말하기보다 보여주어라.',author:'日本のことわざ',category:'love'},
+  {id:'l21',japanese:'大切な人を大切にすることが、人生の意味だ。',reading:'たいせつなひとをたいせつにすることが、じんせいのいみだ。',korean:'소중한 사람을 소중히 하는 것이 인생의 의미다.',author:'日本のことわざ',category:'love'},
+  {id:'l22',japanese:'別れを惜しむほど、愛は深かった。',reading:'わかれをおしむほど、あいはふかかった。',korean:'헤어짐을 아쉬워할수록 사랑은 그만큼 깊었던 것이다.',author:'日本のことわざ',category:'love'},
+  {id:'l23',japanese:'愛は恐れを追い払う。',reading:'あいはおそれをおいはらう。',korean:'사랑은 두려움을 쫓아낸다.',author:'日本のことわざ',category:'love'},
+  {id:'l24',japanese:'人を愛することを学べば、生きることを学ぶ。',reading:'ひとをあいすることをまなべば、いきることをまなぶ。',korean:'사람을 사랑하는 것을 배우면 사는 것을 배운다.',author:'日本のことわざ',category:'love'},
+  {id:'l25',japanese:'あなたがいるから、今日も頑張れる。',reading:'あなたがいるから、きょうもがんばれる。',korean:'당신이 있기에 오늘도 힘낼 수 있다.',author:'日本のことわざ',category:'love'},
+
+  // ── 人生 추가 (li16-li25) ────────────────────────────────────────
+  {id:'li16',japanese:'人生は短い。今すぐ踊り出せ。',reading:'じんせいはみじかい。いますぐおどりだせ。',korean:'인생은 짧다. 지금 당장 춤춰라.',author:'日本のことわざ',category:'life'},
+  {id:'li17',japanese:'生きることは変化すること。変化することは成熟すること。',reading:'いきることはへんかすること。へんかすることはせいじゅくすること。',korean:'사는 것은 변화하는 것. 변화하는 것은 성숙하는 것.',author:'日本のことわざ',category:'life'},
+  {id:'li18',japanese:'現在という贈り物を大切に。',reading:'げんざいというおくりものをたいせつに。',korean:'현재라는 선물을 소중히.',author:'日本のことわざ',category:'life'},
+  {id:'li19',japanese:'どこにいても、今ここが出発点だ。',reading:'どこにいても、いまここがしゅっぱつてんだ。',korean:'어디에 있든 지금 이 자리가 출발점이다.',author:'日本のことわざ',category:'life'},
+  {id:'li20',japanese:'後悔しない生き方をせよ。',reading:'こうかいしないいきかたをせよ。',korean:'후회하지 않는 삶을 살아라.',author:'日本のことわざ',category:'life'},
+  {id:'li21',japanese:'人生は一度だけ。だから今を精一杯生きよ。',reading:'じんせいはいちどだけ。だからいまをせいいっぱいいきよ。',korean:'인생은 단 한 번. 그러니 지금을 최선을 다해 살아라.',author:'日本のことわざ',category:'life'},
+  {id:'li22',japanese:'喜びも悲しみも、人生の一部だ。',reading:'よろこびもかなしみも、じんせいのいちぶだ。',korean:'기쁨도 슬픔도 인생의 일부다.',author:'日本のことわざ',category:'life'},
+  {id:'li23',japanese:'人生で最も大切なのは、大切なことを大切にすること。',reading:'じんせいでもっともたいせつなのは、たいせつなことをたいせつにすること。',korean:'인생에서 가장 중요한 것은 중요한 것을 소중히 하는 것이다.',author:'日本のことわざ',category:'life'},
+  {id:'li24',japanese:'今日が人生最後の日だと思って生きよ。',reading:'きょうがじんせいさいごのひだとおもっていきよ。',korean:'오늘이 인생 마지막 날이라고 생각하고 살아라.',author:'日本のことわざ',category:'life'},
+  {id:'li25',japanese:'人生の意味は、自分で作るものだ。',reading:'じんせいのいみは、じぶんでつくるものだ。',korean:'인생의 의미는 스스로 만드는 것이다.',author:'日本のことわざ',category:'life'},
+
+  // ── 学び 추가 (le16-le25) ────────────────────────────────────────
+  {id:'le16',japanese:'読書は魂の糧だ。',reading:'どくしょはたましいのかてだ。',korean:'독서는 영혼의 양식이다.',author:'キケロ',category:'learning'},
+  {id:'le17',japanese:'無知の知こそが知恵の始まり。',reading:'むちのちこそがちえのはじまり。',korean:'무지의 지야말로 지혜의 시작.',author:'ソクラテス',category:'learning'},
+  {id:'le18',japanese:'教えることは二度学ぶことだ。',reading:'おしえることはにどまなぶことだ。',korean:'가르치는 것은 두 번 배우는 것이다.',author:'日本のことわざ',category:'learning'},
+  {id:'le19',japanese:'失敗を恐れず、そこから学べ。',reading:'しっぱいをおそれず、そこからまなべ。',korean:'실패를 두려워하지 말고 거기서 배워라.',author:'日本のことわざ',category:'learning'},
+  {id:'le20',japanese:'知識は力なり。',reading:'ちしきはちからなり。',korean:'지식은 힘이다.',author:'フランシス・ベーコン',category:'learning'},
+  {id:'le21',japanese:'学ぶことをやめた人は老いていく。学び続ける人は常に若い。',reading:'まなぶことをやめたひとはおいていく。まなびつづけるひとはつねにわかい。',korean:'배우기를 멈춘 사람은 늙어간다. 계속 배우는 사람은 항상 젊다.',author:'ヘンリー・フォード',category:'learning'},
+  {id:'le22',japanese:'本は人類の進歩の記録だ。',reading:'ほんはじんるいのしんぽのきろくだ。',korean:'책은 인류 진보의 기록이다.',author:'日本のことわざ',category:'learning'},
+  {id:'le23',japanese:'経験に勝る教師はいない。',reading:'けいけんにまさるきょうしはいない。',korean:'경험보다 나은 스승은 없다.',author:'日本のことわざ',category:'learning'},
+  {id:'le24',japanese:'学問に王道なし。',reading:'がくもんにおうどうなし。',korean:'학문에 왕도는 없다.',author:'ユークリッド',category:'learning'},
+  {id:'le25',japanese:'好奇心は全ての学びの源だ。',reading:'こうきしんはすべてのまなびのみなもとだ。',korean:'호기심은 모든 배움의 원천이다.',author:'日本のことわざ',category:'learning'},
+
+  // ── 心 추가 (h16-h25) ───────────────────────────────────────────
+  {id:'h16',japanese:'心が静かであれば、どこでも楽園だ。',reading:'こころがしずかであれば、どこでもらくえんだ。',korean:'마음이 고요하면 어디서나 낙원이다.',author:'日本のことわざ',category:'heart'},
+  {id:'h17',japanese:'感謝の心が幸せを呼ぶ。',reading:'かんしゃのこころがしあわせをよぶ。',korean:'감사하는 마음이 행복을 부른다.',author:'日本のことわざ',category:'heart'},
+  {id:'h18',japanese:'笑顔は人を幸せにする魔法だ。',reading:'えがおはひとをしあわせにするまほうだ。',korean:'미소는 사람을 행복하게 하는 마법이다.',author:'日本のことわざ',category:'heart'},
+  {id:'h19',japanese:'怒りは一時の狂気だ。',reading:'いかりはいちじのきょうきだ。',korean:'분노는 일시적인 광기다.',author:'ホラティウス',category:'heart'},
+  {id:'h20',japanese:'心の平和は内側から生まれる。',reading:'こころのへいわはうちがわからうまれる。',korean:'마음의 평화는 내면에서 태어난다.',author:'日本のことわざ',category:'heart'},
+  {id:'h21',japanese:'許すことは弱さではなく、強さの証だ。',reading:'ゆるすことはよわさではなく、つよさのあかしだ。',korean:'용서는 나약함이 아니라 강함의 증거다.',author:'日本のことわざ',category:'heart'},
+  {id:'h22',japanese:'幸せは持つことではなく、あることにある。',reading:'しあわせはもつことではなく、あることにある。',korean:'행복은 가지는 것이 아니라 존재하는 것에 있다.',author:'日本のことわざ',category:'heart'},
+  {id:'h23',japanese:'心が豊かな人は、何も持たなくても豊かだ。',reading:'こころがゆたかなひとは、なにももたなくてもゆたかだ。',korean:'마음이 풍요로운 사람은 아무것도 없어도 풍요롭다.',author:'日本のことわざ',category:'heart'},
+  {id:'h24',japanese:'今日という日に感謝せよ。',reading:'きょうというひにかんしゃせよ。',korean:'오늘이라는 날에 감사하라.',author:'日本のことわざ',category:'heart'},
+  {id:'h25',japanese:'自分の心の声に従え。',reading:'じぶんのこころのこえにしたがえ。',korean:'자신의 마음의 소리를 따르라.',author:'日本のことわざ',category:'heart'},
 ];
+
+export const QUOTE_POOL_SIZE = quotes.length;
 
 export default quotes;
 
@@ -777,7 +851,16 @@ export function getTodayQuote(): Quote {
   return quotes[dayOfYear % quotes.length];
 }
 
-export function getQuotesByCategory(category: Category): Quote[] {
-  if (category === 'all') return quotes;
-  return quotes.filter(q => q.category === category);
+export function getQuotesByCategory(category: Category, pool?: Quote[]): Quote[] {
+  const source = pool ?? quotes;
+  if (category === 'all') return source;
+  return source.filter(q => q.category === category);
+}
+
+export function pickRandomQuotes(n: number, favoriteIds: string[]): Quote[] {
+  const favorites = quotes.filter(q => favoriteIds.includes(q.id));
+  const rest = quotes.filter(q => !favoriteIds.includes(q.id));
+  const shuffled = [...rest].sort(() => Math.random() - 0.5);
+  const needed = Math.max(0, n - favorites.length);
+  return [...favorites, ...shuffled.slice(0, needed)].sort(() => Math.random() - 0.5);
 }

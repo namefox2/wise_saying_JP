@@ -10,7 +10,7 @@ import {
   Share,
   Alert,
   Modal,
-  FlatList,
+  ActivityIndicator,
 } from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useStore} from '../store/useStore';
@@ -18,6 +18,8 @@ import {themes} from '../theme/colors';
 import type {ThemeKey} from '../theme/colors';
 import quotes from '../data/quotes';
 import {CATEGORIES} from '../data/quotes';
+import {fetchVocabFromJisho, refreshQuotes} from '../services/updateService';
+import type {JLPTLevel} from '../data/vocabulary';
 
 // ── 시간 선택 모달 ──────────────────────────────────────────────
 function TimePickerModal({
@@ -228,9 +230,61 @@ export default function SettingsScreen() {
     studyStreak,
     totalSeen,
     favorites,
+    activeQuotes,
+    lastQuotesUpdate,
+    lastVocabUpdate,
+    isUpdatingQuotes,
+    isUpdatingVocab,
+    setActiveQuotes,
+    setActiveVocab,
+    setLastQuotesUpdate,
+    setLastVocabUpdate,
+    setIsUpdatingQuotes,
+    setIsUpdatingVocab,
   } = useStore();
 
   const [timePickerVisible, setTimePickerVisible] = useState(false);
+
+  const formatUpdateTime = (ts: string | null) => {
+    if (!ts) return '업데이트 기록 없음';
+    const d = new Date(ts);
+    return `마지막: ${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  };
+
+  const handleUpdateQuotes = async () => {
+    if (isUpdatingQuotes) return;
+    setIsUpdatingQuotes(true);
+    try {
+      const updated = refreshQuotes(favorites);
+      setActiveQuotes(updated);
+      setLastQuotesUpdate(new Date().toISOString());
+      Alert.alert('업데이트 완료', `명언 ${updated.length}개가 새로 구성되었습니다.\n(즐겨찾기는 유지됩니다)`);
+    } catch {
+      Alert.alert('오류', '명언 업데이트에 실패했습니다.');
+    } finally {
+      setIsUpdatingQuotes(false);
+    }
+  };
+
+  const handleUpdateVocab = async (level: JLPTLevel) => {
+    if (isUpdatingVocab) return;
+    setIsUpdatingVocab(true);
+    try {
+      const updated = await fetchVocabFromJisho(level, favorites);
+      setActiveVocab(level, updated);
+      setLastVocabUpdate(new Date().toISOString());
+      Alert.alert(
+        '업데이트 완료',
+        `JLPT ${level} 단어 ${updated.length}개를 Jisho.org에서 불러왔습니다.\n단어 뜻은 영어로 표시될 수 있습니다.`,
+      );
+    } catch {
+      Alert.alert('오류', '단어 업데이트에 실패했습니다. 인터넷 연결을 확인해주세요.');
+    } finally {
+      setIsUpdatingVocab(false);
+    }
+  };
+
+  const JLPT_LEVELS: JLPTLevel[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
   const THEME_OPTIONS: {key: ThemeKey; emoji: string; label: string}[] = [
     {key: 'goldDark', emoji: '🌑', label: '골드 다크'},
@@ -485,6 +539,68 @@ export default function SettingsScreen() {
           </View>
         </Section>
 
+        {/* ── 콘텐츠 업데이트 ── */}
+        <Section title="🔄  콘텐츠 업데이트" theme={theme}>
+          {/* 명언 업데이트 */}
+          <View style={[styles.updateRow, {borderBottomColor: theme.border}]}>
+            <View style={styles.updateLeft}>
+              <Text style={[styles.updateLabel, {color: theme.text}]}>
+                📜 명언 새로 구성
+              </Text>
+              <Text style={[styles.updateSub, {color: theme.textMuted}]}>
+                {formatUpdateTime(lastQuotesUpdate)}
+              </Text>
+              <Text style={[styles.updateSub, {color: theme.textMuted}]}>
+                현재 {activeQuotes ? activeQuotes.length : 90}개 · 풀 150개 중 랜덤
+              </Text>
+            </View>
+            <TouchableOpacity
+              style={[
+                styles.updateBtn,
+                {backgroundColor: isUpdatingQuotes ? theme.bgCardAlt : theme.accent, borderColor: theme.accent},
+              ]}
+              onPress={handleUpdateQuotes}
+              disabled={isUpdatingQuotes}
+              activeOpacity={0.8}>
+              {isUpdatingQuotes ? (
+                <ActivityIndicator size="small" color={theme.accent} />
+              ) : (
+                <Text style={[styles.updateBtnText, {color: '#0A0A12'}]}>셔플</Text>
+              )}
+            </TouchableOpacity>
+          </View>
+
+          {/* 단어 업데이트 */}
+          <View style={styles.updateRow}>
+            <View style={styles.updateLeft}>
+              <Text style={[styles.updateLabel, {color: theme.text}]}>
+                📖 단어 업데이트 (Jisho)
+              </Text>
+              <Text style={[styles.updateSub, {color: theme.textMuted}]}>
+                {formatUpdateTime(lastVocabUpdate)}
+              </Text>
+              <Text style={[styles.updateSub, {color: theme.textMuted}]}>
+                인터넷 필요 · 뜻은 영어로 표시
+              </Text>
+            </View>
+            <View style={styles.levelBtnGroup}>
+              {isUpdatingVocab ? (
+                <ActivityIndicator size="small" color={theme.accent} style={{marginRight: 8}} />
+              ) : (
+                JLPT_LEVELS.map(lv => (
+                  <TouchableOpacity
+                    key={lv}
+                    style={[styles.levelBtn, {borderColor: theme.accentSoft}]}
+                    onPress={() => handleUpdateVocab(lv)}
+                    activeOpacity={0.75}>
+                    <Text style={[styles.levelBtnText, {color: theme.accent}]}>{lv}</Text>
+                  </TouchableOpacity>
+                ))
+              )}
+            </View>
+          </View>
+        </Section>
+
         {/* ── 내보내기 ── */}
         <Section title="💾  즐겨찾기 내보내기" theme={theme}>
           <View style={styles.exportInner}>
@@ -681,6 +797,39 @@ const styles = StyleSheet.create({
   statValue: {fontSize: 28, fontWeight: '700', letterSpacing: 1},
   statUnit: {fontSize: 11, letterSpacing: 0.3},
   statLabel: {fontSize: 11, letterSpacing: 0.3, marginTop: 2},
+
+  // Update
+  updateRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    gap: 12,
+  },
+  updateLeft: {flex: 1, gap: 3},
+  updateLabel: {fontSize: 14, fontWeight: '600', letterSpacing: 0.2},
+  updateSub: {fontSize: 11, letterSpacing: 0.2},
+  updateBtn: {
+    borderRadius: 8,
+    borderWidth: 1,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    minWidth: 48,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  updateBtnText: {fontSize: 13, fontWeight: '700', letterSpacing: 0.3},
+  levelBtnGroup: {flexDirection: 'column', gap: 4, alignItems: 'flex-end'},
+  levelBtn: {
+    borderRadius: 6,
+    borderWidth: 1,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    minWidth: 40,
+    alignItems: 'center',
+  },
+  levelBtnText: {fontSize: 11, fontWeight: '700', letterSpacing: 0.5},
 
   // Export
   exportInner: {padding: 16, gap: 14},
