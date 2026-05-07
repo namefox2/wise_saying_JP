@@ -14,6 +14,7 @@ import SettingsScreen from '../screens/SettingsScreen';
 const Tab = createBottomTabNavigator();
 const HomeStack = createNativeStackNavigator();
 const FavStack = createNativeStackNavigator();
+const DictStack = createNativeStackNavigator();
 
 function HomeStackNavigator() {
   const {theme} = useStore();
@@ -41,6 +42,20 @@ function FavStackNavigator() {
       <FavStack.Screen name="FavoritesList" component={FavoritesScreen} />
       <FavStack.Screen name="QuoteCard" component={QuoteCardScreen} />
     </FavStack.Navigator>
+  );
+}
+
+function DictStackNavigator() {
+  const {theme} = useStore();
+  return (
+    <DictStack.Navigator
+      screenOptions={{
+        headerShown: false,
+        contentStyle: {backgroundColor: theme.bg},
+      }}>
+      <DictStack.Screen name="DictionaryMain" component={DictionaryScreen} />
+      <DictStack.Screen name="QuoteCard" component={QuoteCardScreen} />
+    </DictStack.Navigator>
   );
 }
 
@@ -97,7 +112,7 @@ export default function AppNavigator() {
           },
         }}
       />
-      <Tab.Screen name="사전" component={DictionaryScreen} />
+      <Tab.Screen name="사전" component={DictStackNavigator} />
       <Tab.Screen name="설정" component={SettingsScreen} />
     </Tab.Navigator>
   );
