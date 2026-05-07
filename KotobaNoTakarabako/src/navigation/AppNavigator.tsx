@@ -6,6 +6,7 @@ import {useStore} from '../store/useStore';
 
 import HomeScreen from '../screens/HomeScreen';
 import QuoteListScreen from '../screens/QuoteListScreen';
+import QuoteCardScreen from '../screens/QuoteCardScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
 import DictionaryScreen from '../screens/DictionaryScreen';
 import SettingsScreen from '../screens/SettingsScreen';
@@ -23,6 +24,7 @@ function HomeStackNavigator() {
       }}>
       <HomeStack.Screen name="Home" component={HomeScreen} />
       <HomeStack.Screen name="QuoteList" component={QuoteListScreen} />
+      <HomeStack.Screen name="QuoteCard" component={QuoteCardScreen} />
     </HomeStack.Navigator>
   );
 }

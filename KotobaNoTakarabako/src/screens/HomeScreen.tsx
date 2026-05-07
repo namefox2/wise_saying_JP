@@ -29,7 +29,7 @@ export default function HomeScreen({navigation}: HomeScreenProps) {
   });
 
   const handleCategorySelect = (cat: Category) => {
-    navigation.navigate('QuoteList', {category: cat});
+    navigation.navigate('QuoteCard', {category: cat, startIndex: 0});
   };
 
   return (
