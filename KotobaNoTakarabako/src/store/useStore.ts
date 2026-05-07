@@ -23,6 +23,11 @@ interface AppState {
   autoBlurReveal: boolean;
   setAutoBlurReveal: (val: boolean) => void;
 
+  notificationEnabled: boolean;
+  notificationHour: number;
+  notificationMinute: number;
+  setNotification: (enabled: boolean, hour: number, minute: number) => void;
+
   studyStreak: number;
   totalSeen: number;
   markQuoteSeen: () => void;
@@ -52,6 +57,12 @@ export const useStore = create<AppState>((set, get) => ({
 
   autoBlurReveal: false,
   setAutoBlurReveal: (val) => set({autoBlurReveal: val}),
+
+  notificationEnabled: false,
+  notificationHour: 8,
+  notificationMinute: 0,
+  setNotification: (enabled, hour, minute) =>
+    set({notificationEnabled: enabled, notificationHour: hour, notificationMinute: minute}),
 
   studyStreak: 1,
   totalSeen: 0,
