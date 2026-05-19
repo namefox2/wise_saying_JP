@@ -1,11 +1,10 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {
   View,
   Text,
   ScrollView,
   StyleSheet,
   StatusBar,
-  Animated,
   TouchableOpacity,
 } from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -19,14 +18,7 @@ interface HomeScreenProps {
 }
 
 export default function HomeScreen({navigation}: HomeScreenProps) {
-  const {theme, studyStreak, totalSeen} = useStore();
-  const scrollY = useRef(new Animated.Value(0)).current;
-
-  const headerOpacity = scrollY.interpolate({
-    inputRange: [0, 60],
-    outputRange: [1, 0.85],
-    extrapolate: 'clamp',
-  });
+  const {theme} = useStore();
 
   const handleCategorySelect = (cat: Category) => {
     navigation.navigate('QuoteCard', {category: cat, startIndex: 0});
@@ -36,161 +28,81 @@ export default function HomeScreen({navigation}: HomeScreenProps) {
     <SafeAreaView
       style={[styles.safeArea, {backgroundColor: theme.bg}]}
       edges={['top', 'left', 'right']}>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor={theme.bg}
-        translucent={false}
-      />
+      <StatusBar barStyle="light-content" backgroundColor={theme.bg} translucent={false} />
 
-      {/* Fixed Header */}
-      <Animated.View
-        style={[
-          styles.header,
-          {
-            backgroundColor: theme.bg,
-            borderBottomColor: theme.border,
-            opacity: headerOpacity,
-          },
-        ]}>
+      {/* Header */}
+      <View style={[styles.header, {borderBottomColor: theme.border}]}>
         <View>
-          <Text style={[styles.appName, {color: theme.accent}]}>
-            言葉の宝箱
-          </Text>
-          <Text style={[styles.appNameKo, {color: theme.textMuted}]}>
-            코토바노 타카라바코
-          </Text>
+          <Text style={[styles.appName, {color: theme.accent}]}>言葉の宝箱</Text>
+          <Text style={[styles.appSub, {color: theme.textMuted}]}>일본어 명언집</Text>
         </View>
-        <View style={styles.statsRow}>
-          <View
-            style={[styles.statChip, {backgroundColor: theme.bgCardAlt, borderColor: theme.border}]}>
-            <Text style={[styles.statIcon]}>🔥</Text>
-            <Text style={[styles.statValue, {color: theme.accent}]}>
-              {studyStreak}
-            </Text>
-            <Text style={[styles.statLabel, {color: theme.textMuted}]}>일</Text>
-          </View>
-          <View
-            style={[styles.statChip, {backgroundColor: theme.bgCardAlt, borderColor: theme.border}]}>
-            <Text style={styles.statIcon}>📖</Text>
-            <Text style={[styles.statValue, {color: theme.accent}]}>
-              {totalSeen}
-            </Text>
-            <Text style={[styles.statLabel, {color: theme.textMuted}]}>개</Text>
-          </View>
-        </View>
-      </Animated.View>
+        <TouchableOpacity
+          style={[styles.gearBtn, {backgroundColor: theme.bgCard, borderColor: theme.border}]}
+          onPress={() => navigation.navigate('Settings')}
+          activeOpacity={0.7}>
+          <Text style={styles.gearIcon}>⚙</Text>
+        </TouchableOpacity>
+      </View>
 
-      <Animated.ScrollView
+      <ScrollView
         contentContainerStyle={styles.scrollContent}
-        showsVerticalScrollIndicator={false}
-        onScroll={Animated.event(
-          [{nativeEvent: {contentOffset: {y: scrollY}}}],
-          {useNativeDriver: true},
-        )}
-        scrollEventThrottle={16}>
-        {/* Decorative accent line */}
-        <View
-          style={[styles.accentLine, {backgroundColor: theme.accent}]}
-        />
+        showsVerticalScrollIndicator={false}>
 
-        {/* Section: Today's Quote */}
-        <View style={styles.section}>
-          <TodayQuoteCard />
-        </View>
+        {/* 오늘의 명언 */}
+        <TodayQuoteCard />
 
-        {/* Divider with label */}
-        <View style={styles.dividerRow}>
-          <View style={[styles.divider, {backgroundColor: theme.border}]} />
-          <Text style={[styles.dividerLabel, {color: theme.textMuted}]}>
-            카테고리
-          </Text>
-          <View style={[styles.divider, {backgroundColor: theme.border}]} />
-        </View>
+        {/* 카테고리 */}
+        <Text style={[styles.sectionTitle, {color: theme.text}]}>카테고리</Text>
+        <CategoryGrid onSelectCategory={handleCategorySelect} />
 
-        {/* Section: Category Grid */}
-        <View style={styles.section}>
-          <CategoryGrid onSelectCategory={handleCategorySelect} />
-        </View>
-
-        {/* Bottom Padding */}
         <View style={{height: 32}} />
-      </Animated.ScrollView>
+      </ScrollView>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  safeArea: {
-    flex: 1,
-  },
+  safeArea: {flex: 1},
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 20,
-    paddingVertical: 12,
+    paddingVertical: 14,
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
   appName: {
-    fontSize: 20,
+    fontSize: 22,
     fontFamily: 'Georgia',
-    letterSpacing: 2,
-    fontWeight: '600',
-  },
-  appNameKo: {
-    fontSize: 10,
-    letterSpacing: 0.5,
-    marginTop: 1,
-  },
-  statsRow: {
-    flexDirection: 'row',
-    gap: 8,
-  },
-  statChip: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    borderRadius: 8,
-    borderWidth: 1,
-    paddingVertical: 5,
-    paddingHorizontal: 8,
-    gap: 3,
-  },
-  statIcon: {
-    fontSize: 12,
-  },
-  statValue: {
-    fontSize: 14,
+    letterSpacing: 1.5,
     fontWeight: '700',
   },
-  statLabel: {
-    fontSize: 10,
+  appSub: {
+    fontSize: 11,
+    letterSpacing: 0.5,
+    marginTop: 3,
+  },
+  gearBtn: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  gearIcon: {
+    fontSize: 18,
+    color: '#C8A96E',
   },
   scrollContent: {
-    paddingHorizontal: 20,
+    paddingHorizontal: 16,
     paddingTop: 20,
   },
-  accentLine: {
-    height: 2,
-    width: 40,
-    borderRadius: 1,
-    marginBottom: 24,
-  },
-  section: {
-    marginBottom: 8,
-  },
-  dividerRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginVertical: 20,
-    gap: 10,
-  },
-  divider: {
-    flex: 1,
-    height: StyleSheet.hairlineWidth,
-  },
-  dividerLabel: {
-    fontSize: 11,
-    letterSpacing: 1,
-    textTransform: 'uppercase',
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    letterSpacing: 0.3,
+    marginBottom: 14,
+    marginTop: 4,
   },
 });

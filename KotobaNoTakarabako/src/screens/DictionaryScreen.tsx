@@ -279,6 +279,12 @@ export default function DictionaryScreen({navigation}: DictionaryScreenProps) {
             辞書検索
           </Text>
         </View>
+        <TouchableOpacity
+          style={[styles.vocabBtn, {backgroundColor: theme.bgCard, borderColor: theme.border}]}
+          onPress={() => navigation.navigate('VocabHome')}
+          activeOpacity={0.75}>
+          <Text style={[styles.vocabBtnText, {color: theme.accent}]}>🃏 단어</Text>
+        </TouchableOpacity>
       </View>
 
       {/* Search bar */}
@@ -458,6 +464,9 @@ export default function DictionaryScreen({navigation}: DictionaryScreenProps) {
 const styles = StyleSheet.create({
   safeArea: {flex: 1},
   header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     paddingHorizontal: 20,
     paddingVertical: 14,
     borderBottomWidth: StyleSheet.hairlineWidth,
@@ -473,6 +482,13 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
     marginTop: 2,
   },
+  vocabBtn: {
+    borderRadius: 10,
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+  },
+  vocabBtnText: {fontSize: 13, fontWeight: '700', letterSpacing: 0.3},
   searchBarWrapper: {
     flexDirection: 'row',
     paddingHorizontal: 16,

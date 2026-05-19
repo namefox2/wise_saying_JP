@@ -1,11 +1,10 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {Text} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
 import {useStore} from '../store/useStore';
 
 import HomeScreen from '../screens/HomeScreen';
-import QuoteListScreen from '../screens/QuoteListScreen';
 import QuoteCardScreen from '../screens/QuoteCardScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
 import DictionaryScreen from '../screens/DictionaryScreen';
@@ -17,7 +16,6 @@ const Tab = createBottomTabNavigator();
 const HomeStack = createNativeStackNavigator();
 const FavStack = createNativeStackNavigator();
 const DictStack = createNativeStackNavigator();
-const VocabStack = createNativeStackNavigator();
 
 function HomeStackNavigator() {
   const {theme} = useStore();
@@ -28,8 +26,8 @@ function HomeStackNavigator() {
         contentStyle: {backgroundColor: theme.bg},
       }}>
       <HomeStack.Screen name="Home" component={HomeScreen} />
-      <HomeStack.Screen name="QuoteList" component={QuoteListScreen} />
       <HomeStack.Screen name="QuoteCard" component={QuoteCardScreen} />
+      <HomeStack.Screen name="Settings" component={SettingsScreen} />
     </HomeStack.Navigator>
   );
 }
@@ -58,69 +56,68 @@ function DictStackNavigator() {
       }}>
       <DictStack.Screen name="DictionaryMain" component={DictionaryScreen} />
       <DictStack.Screen name="QuoteCard" component={QuoteCardScreen} />
+      <DictStack.Screen name="VocabHome" component={VocabHomeScreen} />
+      <DictStack.Screen name="VocabCard" component={VocabCardScreen} />
     </DictStack.Navigator>
   );
 }
 
-function VocabStackNavigator() {
-  const {theme} = useStore();
+// Tab icon components
+function TabIcon({icon, focused, color}: {icon: string; focused: boolean; color: string}) {
   return (
-    <VocabStack.Navigator
-      screenOptions={{
-        headerShown: false,
-        contentStyle: {backgroundColor: theme.bg},
-      }}>
-      <VocabStack.Screen name="VocabHome" component={VocabHomeScreen} />
-      <VocabStack.Screen name="VocabCard" component={VocabCardScreen} />
-    </VocabStack.Navigator>
+    <View style={tabIconStyles.wrap}>
+      <Text style={[tabIconStyles.icon, {opacity: focused ? 1 : 0.45, color}]}>
+        {icon}
+      </Text>
+      {focused && <View style={[tabIconStyles.dot, {backgroundColor: color}]} />}
+    </View>
   );
 }
 
-const TAB_ICONS: Record<string, string> = {
-  홈: '🏠',
-  단어: '🃏',
-  즐겨찾기: '♥',
-  사전: '📖',
-  설정: '⚙️',
-};
+const tabIconStyles = StyleSheet.create({
+  wrap: {alignItems: 'center', gap: 3},
+  icon: {fontSize: 22},
+  dot: {width: 4, height: 4, borderRadius: 2},
+});
 
 export default function AppNavigator() {
   const {theme, favorites} = useStore();
 
   return (
     <Tab.Navigator
-      screenOptions={({route}) => ({
+      screenOptions={{
         headerShown: false,
         tabBarStyle: {
           backgroundColor: theme.navBg,
           borderTopColor: theme.border,
-          borderTopWidth: 1,
-          height: 64,
+          borderTopWidth: StyleSheet.hairlineWidth,
+          height: 62,
           paddingBottom: 8,
+          paddingTop: 6,
         },
         tabBarActiveTintColor: theme.navActive,
         tabBarInactiveTintColor: theme.navInactive,
         tabBarLabelStyle: {
           fontSize: 10,
           letterSpacing: 0.3,
-          marginTop: -2,
         },
-        tabBarIcon: ({focused}) => (
-          <Text
-            style={{
-              fontSize: 20,
-              opacity: focused ? 1 : 0.5,
-            }}>
-            {TAB_ICONS[route.name] ?? '•'}
-          </Text>
-        ),
-      })}>
-      <Tab.Screen name="홈" component={HomeStackNavigator} />
-      <Tab.Screen name="단어" component={VocabStackNavigator} />
+      }}>
+      <Tab.Screen
+        name="홈"
+        component={HomeStackNavigator}
+        options={{
+          tabBarIcon: ({focused, color}) => (
+            <TabIcon icon="⊞" focused={focused} color={color} />
+          ),
+        }}
+      />
       <Tab.Screen
         name="즐겨찾기"
         component={FavStackNavigator}
         options={{
+          tabBarIcon: ({focused, color}) => (
+            <TabIcon icon="♡" focused={focused} color={color} />
+          ),
           tabBarBadge: favorites.length > 0 ? favorites.length : undefined,
           tabBarBadgeStyle: {
             backgroundColor: '#E8507A',
@@ -131,8 +128,15 @@ export default function AppNavigator() {
           },
         }}
       />
-      <Tab.Screen name="사전" component={DictStackNavigator} />
-      <Tab.Screen name="설정" component={SettingsScreen} />
+      <Tab.Screen
+        name="사전"
+        component={DictStackNavigator}
+        options={{
+          tabBarIcon: ({focused, color}) => (
+            <TabIcon icon="📖" focused={focused} color={color} />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
 }
