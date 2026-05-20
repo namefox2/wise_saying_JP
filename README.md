@@ -36,7 +36,7 @@ Android Studio → File → Open
 → wise_saying_JP/android  ← 이 폴더 선택
 ```
 
-Gradle Sync가 자동으로 시작됩니다. 완료 후 `app` 모듈이 나타납니다.
+Gradle Sync가 자동으로 시작됩니다. 완료 후 좌측 패널 상단 드롭다운을 **Android** 뷰로 전환하면 `app` 모듈이 최상단에 나타납니다.
 
 ### 4단계 — Metro 번들러 실행
 
