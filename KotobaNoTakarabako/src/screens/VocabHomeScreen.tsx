@@ -11,6 +11,7 @@ import {
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useStore} from '../store/useStore';
 import {JLPT_LEVELS, getVocabByLevel} from '../data/vocabulary';
+import {SERIF_FONT} from '../theme/fonts';
 
 const {width} = Dimensions.get('window');
 const CARD_GAP = 12;
@@ -157,7 +158,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     fontWeight: '600',
   },
@@ -228,7 +229,7 @@ const styles = StyleSheet.create({
     marginTop: 0,
   },
   levelEmoji: {fontSize: 28},
-  levelLabel: {fontSize: 26, fontFamily: 'Georgia', letterSpacing: 1},
+  levelLabel: {fontSize: 26, fontFamily: SERIF_FONT, letterSpacing: 1},
   levelDesc: {fontSize: 11, letterSpacing: 0.3},
   countBadge: {
     alignSelf: 'flex-start',

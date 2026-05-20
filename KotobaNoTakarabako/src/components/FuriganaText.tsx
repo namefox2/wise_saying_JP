@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {useStore} from '../store/useStore';
+import {SERIF_FONT} from '../theme/fonts';
 
 interface FuriganaTextProps {
   word: string;
@@ -118,12 +119,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   reading: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     textAlign: 'center',
     marginBottom: 1,
   },
   word: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 2,
     fontWeight: '600',
   },
@@ -137,12 +138,12 @@ const styles = StyleSheet.create({
     marginHorizontal: 1,
   },
   inlineReading: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     textAlign: 'center',
     lineHeight: 14,
   },
   inlineWord: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     fontWeight: '600',
     letterSpacing: 0,
   },

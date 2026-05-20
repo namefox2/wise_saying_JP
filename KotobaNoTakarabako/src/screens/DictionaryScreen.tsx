@@ -17,6 +17,7 @@ import {useStore} from '../store/useStore';
 import {searchDictionary} from '../data/dictionary';
 import type {DictEntry} from '../data/dictionary';
 import FuriganaText from '../components/FuriganaText';
+import {SERIF_FONT} from '../theme/fonts';
 
 const POS_COLORS: Record<string, string> = {
   명사: '#5B9BD5',
@@ -473,7 +474,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     fontWeight: '600',
   },
@@ -551,7 +552,7 @@ const styles = StyleSheet.create({
   },
   chipText: {
     fontSize: 14,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 0.5,
   },
   recentItem: {
@@ -667,7 +668,7 @@ const styles = StyleSheet.create({
   },
   exampleJP: {
     fontSize: 15,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     lineHeight: 26,
   },
@@ -703,7 +704,7 @@ const styles = StyleSheet.create({
   emptyEmoji: {fontSize: 40, marginBottom: 8},
   emptyTitle: {
     fontSize: 17,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 0.5,
   },
   emptyDesc: {

@@ -3,6 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import AppNavigator from './src/navigation/AppNavigator';
 import {useStore} from './src/store/useStore';
+import {SERIF_FONT} from './src/theme/fonts';
 
 export default function App() {
   const {theme, hydrate} = useStore();
@@ -26,10 +27,10 @@ export default function App() {
             notification: theme.accent,
           },
           fonts: {
-            regular: {fontFamily: 'Georgia', fontWeight: '400'},
-            medium: {fontFamily: 'Georgia', fontWeight: '500'},
-            bold: {fontFamily: 'Georgia', fontWeight: '700'},
-            heavy: {fontFamily: 'Georgia', fontWeight: '900'},
+            regular: {fontFamily: SERIF_FONT, fontWeight: '400'},
+            medium: {fontFamily: SERIF_FONT, fontWeight: '500'},
+            bold: {fontFamily: SERIF_FONT, fontWeight: '700'},
+            heavy: {fontFamily: SERIF_FONT, fontWeight: '900'},
           },
         }}>
         <AppNavigator />

@@ -12,6 +12,7 @@ import {useStore} from '../store/useStore';
 import TodayQuoteCard from '../components/TodayQuoteCard';
 import CategoryGrid from '../components/CategoryGrid';
 import type {Category} from '../data/quotes';
+import {SERIF_FONT} from '../theme/fonts';
 
 interface HomeScreenProps {
   navigation: any;
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
   },
   appName: {
     fontSize: 22,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1.5,
     fontWeight: '700',
   },

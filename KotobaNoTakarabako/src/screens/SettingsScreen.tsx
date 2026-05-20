@@ -20,6 +20,7 @@ import quotes from '../data/quotes';
 import {CATEGORIES} from '../data/quotes';
 import {fetchVocabFromJisho, refreshQuotes} from '../services/updateService';
 import type {JLPTLevel} from '../data/vocabulary';
+import {SERIF_FONT} from '../theme/fonts';
 
 // ── 시간 선택 모달 ──────────────────────────────────────────────
 function TimePickerModal({
@@ -680,7 +681,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     fontWeight: '600',
   },
@@ -764,7 +765,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 4,
   },
-  fontBtnKanji: {fontFamily: 'Georgia', fontWeight: '600'},
+  fontBtnKanji: {fontFamily: SERIF_FONT, fontWeight: '600'},
   fontBtnLabel: {fontSize: 11, letterSpacing: 0.3},
   fontPreview: {
     margin: 14,
@@ -775,7 +776,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 4,
   },
-  fontPreviewText: {fontFamily: 'Georgia', letterSpacing: 1, textAlign: 'center'},
+  fontPreviewText: {fontFamily: SERIF_FONT, letterSpacing: 1, textAlign: 'center'},
   fontPreviewSub: {fontSize: 10, letterSpacing: 0.5},
 
   // Stats
@@ -860,7 +861,7 @@ const styles = StyleSheet.create({
   },
   modalTitle: {
     fontSize: 17,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 0.5,
     textAlign: 'center',
     fontWeight: '600',
@@ -886,7 +887,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 4,
     marginVertical: 2,
   },
-  pickerItemText: {fontSize: 18, letterSpacing: 1, fontFamily: 'Georgia'},
+  pickerItemText: {fontSize: 18, letterSpacing: 1, fontFamily: SERIF_FONT},
   colonText: {fontSize: 28, fontWeight: '200', marginTop: 20},
   modalBtns: {flexDirection: 'row', gap: 10},
   modalBtn: {

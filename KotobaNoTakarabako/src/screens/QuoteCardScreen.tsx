@@ -14,6 +14,7 @@ import {useStore} from '../store/useStore';
 import BlurReveal from '../components/BlurReveal';
 import {getQuotesByCategory, CATEGORIES} from '../data/quotes';
 import type {Category, Quote} from '../data/quotes';
+import {SERIF_FONT} from '../theme/fonts';
 
 const {width: SCREEN_WIDTH} = Dimensions.get('window');
 
@@ -326,7 +327,7 @@ const styles = StyleSheet.create({
   },
   headerKanji: {
     fontSize: 16,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     fontWeight: '600',
   },
@@ -392,7 +393,7 @@ const styles = StyleSheet.create({
     borderRadius: 3,
   },
   quoteText: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     lineHeight: 44,
     letterSpacing: 2,
     marginBottom: 16,

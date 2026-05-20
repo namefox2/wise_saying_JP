@@ -14,6 +14,7 @@ import {useStore} from '../store/useStore';
 import {getVocabByLevel, JLPT_LEVELS} from '../data/vocabulary';
 import type {JLPTLevel, VocabWord} from '../data/vocabulary';
 import FuriganaText from '../components/FuriganaText';
+import {SERIF_FONT} from '../theme/fonts';
 
 const {width: SCREEN_WIDTH} = Dimensions.get('window');
 
@@ -398,7 +399,7 @@ const styles = StyleSheet.create({
   headerCenter: {flex: 1, alignItems: 'center'},
   headerLevel: {
     fontSize: 16,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     fontWeight: '700',
   },
@@ -453,7 +454,7 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
   },
   kanjiText: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 4,
     fontWeight: '700',
     textAlign: 'center',
@@ -521,7 +522,7 @@ const styles = StyleSheet.create({
   },
   exampleJP: {
     fontSize: 15,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     lineHeight: 26,
   },

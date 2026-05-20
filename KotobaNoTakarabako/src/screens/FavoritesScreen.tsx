@@ -14,6 +14,7 @@ import {useStore} from '../store/useStore';
 import quotes from '../data/quotes';
 import {CATEGORIES} from '../data/quotes';
 import type {Quote} from '../data/quotes';
+import {SERIF_FONT} from '../theme/fonts';
 
 function FavoriteItem({
   item,
@@ -228,7 +229,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 1,
     fontWeight: '600',
   },
@@ -287,14 +288,14 @@ const styles = StyleSheet.create({
   categoryText: {
     fontSize: 11,
     letterSpacing: 0.5,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
   },
   removeIcon: {
     fontSize: 14,
     lineHeight: 20,
   },
   quoteText: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     fontSize: 17,
     lineHeight: 30,
     letterSpacing: 1.5,
@@ -338,7 +339,7 @@ const styles = StyleSheet.create({
   },
   emptyTitle: {
     fontSize: 18,
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     letterSpacing: 0.5,
     textAlign: 'center',
   },

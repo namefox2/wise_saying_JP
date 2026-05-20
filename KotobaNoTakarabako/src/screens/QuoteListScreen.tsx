@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useStore} from '../store/useStore';
+import {SERIF_FONT} from '../theme/fonts';
 
 export default function QuoteListScreen({route}: any) {
   const {theme} = useStore();
@@ -24,6 +25,6 @@ export default function QuoteListScreen({route}: any) {
 const styles = StyleSheet.create({
   container: {flex: 1},
   center: {flex: 1, alignItems: 'center', justifyContent: 'center', padding: 20},
-  text: {fontSize: 18, fontFamily: 'Georgia', letterSpacing: 1, textAlign: 'center'},
+  text: {fontSize: 18, fontFamily: SERIF_FONT, letterSpacing: 1, textAlign: 'center'},
   sub: {fontSize: 13, marginTop: 8, textAlign: 'center'},
 });

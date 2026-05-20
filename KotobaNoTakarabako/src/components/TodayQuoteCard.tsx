@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import {useStore} from '../store/useStore';
 import BlurReveal from './BlurReveal';
+import {SERIF_FONT} from '../theme/fonts';
 
 if (
   Platform.OS === 'android' &&
@@ -118,7 +119,7 @@ const styles = StyleSheet.create({
     marginBottom: 14,
   },
   quoteText: {
-    fontFamily: 'Georgia',
+    fontFamily: SERIF_FONT,
     lineHeight: 36,
     letterSpacing: 1,
     marginBottom: 12,
