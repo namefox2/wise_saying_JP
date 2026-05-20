@@ -17,13 +17,12 @@ cd wise_saying_JP
 
 **macOS / Linux:**
 ```bash
-cd KotobaNoTakarabako
 bash setup-android.sh
 ```
 
 **Windows:**
 ```
-KotobaNoTakarabako\setup-android.bat 더블클릭
+setup-android.bat 더블클릭
 ```
 
 스크립트가 자동으로:
@@ -32,12 +31,9 @@ KotobaNoTakarabako\setup-android.bat 더블클릭
 
 ### 3단계 — Android Studio에서 열기
 
-> ⚠️ **반드시 `KotobaNoTakarabako/android` 폴더를 열어야 합니다**
-> (`wise_saying_JP/` 나 `KotobaNoTakarabako/` 를 열면 `app` 모듈이 보이지 않습니다)
-
 ```
 Android Studio → File → Open
-→ KotobaNoTakarabako/android  ← 이 폴더 선택
+→ wise_saying_JP/android  ← 이 폴더 선택
 ```
 
 Gradle Sync가 자동으로 시작됩니다. 완료 후 `app` 모듈이 나타납니다.
@@ -47,7 +43,7 @@ Gradle Sync가 자동으로 시작됩니다. 완료 후 `app` 모듈이 나타�
 Android Studio와 **별도 터미널**에서:
 
 ```bash
-cd KotobaNoTakarabako
+cd wise_saying_JP
 npm start
 ```
 
@@ -60,7 +56,7 @@ Android Studio에서 에뮬레이터 또는 연결된 기기 선택 후 ▶ **Ru
 ## 터미널에서만 실행하기 (Android Studio 불필요)
 
 ```bash
-cd KotobaNoTakarabako
+cd wise_saying_JP
 npm install
 npm run android   # Metro + 빌드 + 설치까지 자동
 ```
