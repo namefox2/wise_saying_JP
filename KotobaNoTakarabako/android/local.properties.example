@@ -1,0 +1,11 @@
+## Android SDK 경로 설정 파일
+## 이 파일을 local.properties 로 복사한 뒤 경로를 수정하세요.
+## (또는 setup-android.sh / setup-android.bat 을 실행하면 자동 생성됩니다)
+
+# macOS / Linux 예시:
+# sdk.dir=/Users/yourname/Library/Android/sdk
+
+# Windows 예시:
+# sdk.dir=C\:\\Users\\yourname\\AppData\\Local\\Android\\Sdk
+
+sdk.dir=YOUR_ANDROID_SDK_PATH
