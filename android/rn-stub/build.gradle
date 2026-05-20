@@ -1,0 +1,16 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        reactSettings {
+            id = 'com.facebook.react.settings'
+            implementationClass = 'com.facebook.react.ReactSettingsStubPlugin'
+        }
+        reactApp {
+            id = 'com.facebook.react'
+            implementationClass = 'com.facebook.react.ReactAppStubPlugin'
+        }
+    }
+}
