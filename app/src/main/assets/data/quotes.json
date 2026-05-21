@@ -1,0 +1,2341 @@
+[
+  {
+    "id": "q001",
+    "cat": "노력",
+    "kanji": "千里の道も一歩から。",
+    "segments": [
+      {"kanji":"千里","reading":"せんり"},
+      {"kanji":"の","reading":""},
+      {"kanji":"道","reading":"みち"},
+      {"kanji":"も","reading":""},
+      {"kanji":"一歩","reading":"いっぽ"},
+      {"kanji":"から。","reading":""}
+    ],
+    "korean": "천 리 길도 한 걸음부터.",
+    "author": "老子"
+  },
+  {
+    "id": "q002",
+    "cat": "노력",
+    "kanji": "塵も積もれば山となる。",
+    "segments": [
+      {"kanji":"塵","reading":"ちり"},
+      {"kanji":"も","reading":""},
+      {"kanji":"積","reading":"つ"},
+      {"kanji":"もれば","reading":""},
+      {"kanji":"山","reading":"やま"},
+      {"kanji":"となる。","reading":""}
+    ],
+    "korean": "티끌 모아 태산.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q003",
+    "cat": "노력",
+    "kanji": "石の上にも三年。",
+    "segments": [
+      {"kanji":"石","reading":"いし"},
+      {"kanji":"の","reading":""},
+      {"kanji":"上","reading":"うえ"},
+      {"kanji":"にも","reading":""},
+      {"kanji":"三年","reading":"さんねん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "돌 위에도 삼 년. (참고 견디면 성공한다)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q004",
+    "cat": "노력",
+    "kanji": "七転び八起き。",
+    "segments": [
+      {"kanji":"七","reading":"なな"},
+      {"kanji":"転","reading":"ころ"},
+      {"kanji":"び","reading":""},
+      {"kanji":"八","reading":"や"},
+      {"kanji":"起","reading":"お"},
+      {"kanji":"き。","reading":""}
+    ],
+    "korean": "일곱 번 넘어져도 여덟 번 일어선다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q005",
+    "cat": "노력",
+    "kanji": "継続は力なり。",
+    "segments": [
+      {"kanji":"継続","reading":"けいぞく"},
+      {"kanji":"は","reading":""},
+      {"kanji":"力","reading":"ちから"},
+      {"kanji":"なり。","reading":""}
+    ],
+    "korean": "계속하는 것이 힘이다.",
+    "author": "住岡夜晃"
+  },
+  {
+    "id": "q006",
+    "cat": "노력",
+    "kanji": "為せば成る、為さねば成らぬ何事も。",
+    "segments": [
+      {"kanji":"為","reading":"な"},
+      {"kanji":"せば","reading":""},
+      {"kanji":"成","reading":"な"},
+      {"kanji":"る、","reading":""},
+      {"kanji":"為","reading":"な"},
+      {"kanji":"さねば","reading":""},
+      {"kanji":"成","reading":"な"},
+      {"kanji":"らぬ","reading":""},
+      {"kanji":"何事","reading":"なにごと"},
+      {"kanji":"も。","reading":""}
+    ],
+    "korean": "하면 된다, 하지 않으면 안 된다, 모든 일이.",
+    "author": "上杉鷹山"
+  },
+  {
+    "id": "q007",
+    "cat": "노력",
+    "kanji": "雨垂れ石を穿つ。",
+    "segments": [
+      {"kanji":"雨垂","reading":"あまだ"},
+      {"kanji":"れ","reading":""},
+      {"kanji":"石","reading":"いし"},
+      {"kanji":"を","reading":""},
+      {"kanji":"穿","reading":"うが"},
+      {"kanji":"つ。","reading":""}
+    ],
+    "korean": "낙숫물이 돌을 뚫는다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q008",
+    "cat": "노력",
+    "kanji": "好きこそ物の上手なれ。",
+    "segments": [
+      {"kanji":"好","reading":"す"},
+      {"kanji":"きこそ","reading":""},
+      {"kanji":"物","reading":"もの"},
+      {"kanji":"の","reading":""},
+      {"kanji":"上手","reading":"じょうず"},
+      {"kanji":"なれ。","reading":""}
+    ],
+    "korean": "좋아하는 것이야말로 잘하게 된다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q009",
+    "cat": "노력",
+    "kanji": "苦は楽の種。",
+    "segments": [
+      {"kanji":"苦","reading":"く"},
+      {"kanji":"は","reading":""},
+      {"kanji":"楽","reading":"らく"},
+      {"kanji":"の","reading":""},
+      {"kanji":"種","reading":"たね"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "고생은 즐거움의 씨앗이다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q010",
+    "cat": "노력",
+    "kanji": "努力に勝る天才なし。",
+    "segments": [
+      {"kanji":"努力","reading":"どりょく"},
+      {"kanji":"に","reading":""},
+      {"kanji":"勝","reading":"まさ"},
+      {"kanji":"る","reading":""},
+      {"kanji":"天才","reading":"てんさい"},
+      {"kanji":"なし。","reading":""}
+    ],
+    "korean": "노력을 이기는 천재는 없다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q011",
+    "cat": "노력",
+    "kanji": "光陰矢の如し。",
+    "segments": [
+      {"kanji":"光陰","reading":"こういん"},
+      {"kanji":"矢","reading":"や"},
+      {"kanji":"の","reading":""},
+      {"kanji":"如","reading":"ごと"},
+      {"kanji":"し。","reading":""}
+    ],
+    "korean": "세월은 화살과 같다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q012",
+    "cat": "노력",
+    "kanji": "ローマは一日にして成らず。",
+    "segments": [
+      {"kanji":"ローマは","reading":""},
+      {"kanji":"一日","reading":"いちにち"},
+      {"kanji":"にして","reading":""},
+      {"kanji":"成","reading":"な"},
+      {"kanji":"らず。","reading":""}
+    ],
+    "korean": "로마는 하루아침에 이루어지지 않았다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q013",
+    "cat": "노력",
+    "kanji": "若い時の苦労は買ってでもせよ。",
+    "segments": [
+      {"kanji":"若","reading":"わか"},
+      {"kanji":"い","reading":""},
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"の","reading":""},
+      {"kanji":"苦労","reading":"くろう"},
+      {"kanji":"は","reading":""},
+      {"kanji":"買","reading":"か"},
+      {"kanji":"ってでもせよ。","reading":""}
+    ],
+    "korean": "젊었을 때의 고생은 사서라도 하라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q014",
+    "cat": "노력",
+    "kanji": "失敗は成功のもと。",
+    "segments": [
+      {"kanji":"失敗","reading":"しっぱい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"成功","reading":"せいこう"},
+      {"kanji":"のもと。","reading":""}
+    ],
+    "korean": "실패는 성공의 어머니.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q015",
+    "cat": "노력",
+    "kanji": "鉄は熱いうちに打て。",
+    "segments": [
+      {"kanji":"鉄","reading":"てつ"},
+      {"kanji":"は","reading":""},
+      {"kanji":"熱","reading":"あつ"},
+      {"kanji":"いうちに","reading":""},
+      {"kanji":"打","reading":"う"},
+      {"kanji":"て。","reading":""}
+    ],
+    "korean": "쇠는 뜨거울 때 두드려라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q016",
+    "cat": "노력",
+    "kanji": "急がば回れ。",
+    "segments": [
+      {"kanji":"急","reading":"いそ"},
+      {"kanji":"がば","reading":""},
+      {"kanji":"回","reading":"まわ"},
+      {"kanji":"れ。","reading":""}
+    ],
+    "korean": "급할수록 돌아가라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q017",
+    "cat": "노력",
+    "kanji": "やってみせ、言って聞かせて、させてみせ、ほめてやらねば人は動かじ。",
+    "segments": [
+      {"kanji":"やってみせ、","reading":""},
+      {"kanji":"言","reading":"い"},
+      {"kanji":"って","reading":""},
+      {"kanji":"聞","reading":"き"},
+      {"kanji":"かせて、させてみせ、ほめてやらねば","reading":""},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"は","reading":""},
+      {"kanji":"動","reading":"うご"},
+      {"kanji":"かじ。","reading":""}
+    ],
+    "korean": "해 보이고, 말로 들려주고, 시켜 보고, 칭찬하지 않으면 사람은 움직이지 않는다.",
+    "author": "山本五十六"
+  },
+  {
+    "id": "q018",
+    "cat": "노력",
+    "kanji": "雑草という草はない。",
+    "segments": [
+      {"kanji":"雑草","reading":"ざっそう"},
+      {"kanji":"という","reading":""},
+      {"kanji":"草","reading":"くさ"},
+      {"kanji":"はない。","reading":""}
+    ],
+    "korean": "잡초라는 풀은 없다.",
+    "author": "牧野富太郎"
+  },
+  {
+    "id": "q019",
+    "cat": "노력",
+    "kanji": "備えあれば憂いなし。",
+    "segments": [
+      {"kanji":"備","reading":"そな"},
+      {"kanji":"えあれば","reading":""},
+      {"kanji":"憂","reading":"うれ"},
+      {"kanji":"いなし。","reading":""}
+    ],
+    "korean": "준비가 있으면 근심이 없다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q020",
+    "cat": "노력",
+    "kanji": "思い立ったが吉日。",
+    "segments": [
+      {"kanji":"思","reading":"おも"},
+      {"kanji":"い","reading":""},
+      {"kanji":"立","reading":"た"},
+      {"kanji":"ったが","reading":""},
+      {"kanji":"吉日","reading":"きちじつ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "마음먹은 그때가 좋은 날.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q021",
+    "cat": "노력",
+    "kanji": "夢なき者に成功なし。",
+    "segments": [
+      {"kanji":"夢","reading":"ゆめ"},
+      {"kanji":"なき","reading":""},
+      {"kanji":"者","reading":"もの"},
+      {"kanji":"に","reading":""},
+      {"kanji":"成功","reading":"せいこう"},
+      {"kanji":"なし。","reading":""}
+    ],
+    "korean": "꿈이 없는 자에게 성공은 없다.",
+    "author": "吉田松陰"
+  },
+  {
+    "id": "q022",
+    "cat": "노력",
+    "kanji": "天才とは努力する凡才のことである。",
+    "segments": [
+      {"kanji":"天才","reading":"てんさい"},
+      {"kanji":"とは","reading":""},
+      {"kanji":"努力","reading":"どりょく"},
+      {"kanji":"する","reading":""},
+      {"kanji":"凡才","reading":"ぼんさい"},
+      {"kanji":"のことである。","reading":""}
+    ],
+    "korean": "천재란 노력하는 범인을 말한다.",
+    "author": "アインシュタイン"
+  },
+  {
+    "id": "q023",
+    "cat": "성공",
+    "kanji": "勝って兜の緒を締めよ。",
+    "segments": [
+      {"kanji":"勝","reading":"か"},
+      {"kanji":"って","reading":""},
+      {"kanji":"兜","reading":"かぶと"},
+      {"kanji":"の","reading":""},
+      {"kanji":"緒","reading":"お"},
+      {"kanji":"を","reading":""},
+      {"kanji":"締","reading":"し"},
+      {"kanji":"めよ。","reading":""}
+    ],
+    "korean": "이겼다고 투구 끈을 더 단단히 매어라.",
+    "author": "北条氏綱"
+  },
+  {
+    "id": "q024",
+    "cat": "성공",
+    "kanji": "敵は本能寺にあり。",
+    "segments": [
+      {"kanji":"敵","reading":"てき"},
+      {"kanji":"は","reading":""},
+      {"kanji":"本能寺","reading":"ほんのうじ"},
+      {"kanji":"にあり。","reading":""}
+    ],
+    "korean": "적은 본능사에 있다.",
+    "author": "明智光秀"
+  },
+  {
+    "id": "q025",
+    "cat": "성공",
+    "kanji": "勝負は時の運。",
+    "segments": [
+      {"kanji":"勝負","reading":"しょうぶ"},
+      {"kanji":"は","reading":""},
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"の","reading":""},
+      {"kanji":"運","reading":"うん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "승부는 그때의 운이다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q026",
+    "cat": "성공",
+    "kanji": "人事を尽くして天命を待つ。",
+    "segments": [
+      {"kanji":"人事","reading":"じんじ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"尽","reading":"つ"},
+      {"kanji":"くして","reading":""},
+      {"kanji":"天命","reading":"てんめい"},
+      {"kanji":"を","reading":""},
+      {"kanji":"待","reading":"ま"},
+      {"kanji":"つ。","reading":""}
+    ],
+    "korean": "사람의 할 일을 다하고 천명을 기다린다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q027",
+    "cat": "성공",
+    "kanji": "虎穴に入らずんば虎子を得ず。",
+    "segments": [
+      {"kanji":"虎穴","reading":"こけつ"},
+      {"kanji":"に","reading":""},
+      {"kanji":"入","reading":"い"},
+      {"kanji":"らずんば","reading":""},
+      {"kanji":"虎子","reading":"こじ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"得","reading":"え"},
+      {"kanji":"ず。","reading":""}
+    ],
+    "korean": "호랑이 굴에 들어가지 않으면 호랑이 새끼를 얻지 못한다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q028",
+    "cat": "성공",
+    "kanji": "船は港にいる時最も安全だが、それは船の目的ではない。",
+    "segments": [
+      {"kanji":"船","reading":"ふね"},
+      {"kanji":"は","reading":""},
+      {"kanji":"港","reading":"みなと"},
+      {"kanji":"にいる","reading":""},
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"最","reading":"もっと"},
+      {"kanji":"も","reading":""},
+      {"kanji":"安全","reading":"あんぜん"},
+      {"kanji":"だが、それは","reading":""},
+      {"kanji":"船","reading":"ふね"},
+      {"kanji":"の","reading":""},
+      {"kanji":"目的","reading":"もくてき"},
+      {"kanji":"ではない。","reading":""}
+    ],
+    "korean": "배는 항구에 있을 때 가장 안전하지만, 그것이 배의 목적은 아니다.",
+    "author": "パウロ・コエーリョ"
+  },
+  {
+    "id": "q029",
+    "cat": "성공",
+    "kanji": "成功とは情熱を失わずに失敗を繰り返すこと。",
+    "segments": [
+      {"kanji":"成功","reading":"せいこう"},
+      {"kanji":"とは","reading":""},
+      {"kanji":"情熱","reading":"じょうねつ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"失","reading":"うしな"},
+      {"kanji":"わずに","reading":""},
+      {"kanji":"失敗","reading":"しっぱい"},
+      {"kanji":"を","reading":""},
+      {"kanji":"繰","reading":"く"},
+      {"kanji":"り","reading":""},
+      {"kanji":"返","reading":"かえ"},
+      {"kanji":"すこと。","reading":""}
+    ],
+    "korean": "성공이란 열정을 잃지 않고 실패를 반복하는 것.",
+    "author": "チャーチル"
+  },
+  {
+    "id": "q030",
+    "cat": "성공",
+    "kanji": "夢を見るから、人生は輝く。",
+    "segments": [
+      {"kanji":"夢","reading":"ゆめ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"見","reading":"み"},
+      {"kanji":"るから、","reading":""},
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"輝","reading":"かがや"},
+      {"kanji":"く。","reading":""}
+    ],
+    "korean": "꿈을 꾸기 때문에 인생은 빛난다.",
+    "author": "モーツァルト"
+  },
+  {
+    "id": "q031",
+    "cat": "성공",
+    "kanji": "勝つことばかり知って負くる事を知らざれば害その身に至る。",
+    "segments": [
+      {"kanji":"勝","reading":"か"},
+      {"kanji":"つことばかり","reading":""},
+      {"kanji":"知","reading":"し"},
+      {"kanji":"って","reading":""},
+      {"kanji":"負","reading":"ま"},
+      {"kanji":"くる","reading":""},
+      {"kanji":"事","reading":"こと"},
+      {"kanji":"を","reading":""},
+      {"kanji":"知","reading":"し"},
+      {"kanji":"らざれば","reading":""},
+      {"kanji":"害","reading":"がい"},
+      {"kanji":"その","reading":""},
+      {"kanji":"身","reading":"み"},
+      {"kanji":"に","reading":""},
+      {"kanji":"至","reading":"いた"},
+      {"kanji":"る。","reading":""}
+    ],
+    "korean": "이기는 것만 알고 지는 것을 모르면 그 해는 자신에게 미친다.",
+    "author": "徳川家康"
+  },
+  {
+    "id": "q032",
+    "cat": "성공",
+    "kanji": "鳴かぬなら鳴くまで待とうホトトギス。",
+    "segments": [
+      {"kanji":"鳴","reading":"な"},
+      {"kanji":"かぬなら","reading":""},
+      {"kanji":"鳴","reading":"な"},
+      {"kanji":"くまで","reading":""},
+      {"kanji":"待","reading":"ま"},
+      {"kanji":"とうホトトギス。","reading":""}
+    ],
+    "korean": "울지 않으면 울 때까지 기다리자 두견새.",
+    "author": "徳川家康"
+  },
+  {
+    "id": "q033",
+    "cat": "성공",
+    "kanji": "鳴かぬなら鳴かせてみようホトトギス。",
+    "segments": [
+      {"kanji":"鳴","reading":"な"},
+      {"kanji":"かぬなら","reading":""},
+      {"kanji":"鳴","reading":"な"},
+      {"kanji":"かせてみようホトトギス。","reading":""}
+    ],
+    "korean": "울지 않으면 울게 해보자 두견새.",
+    "author": "豊臣秀吉"
+  },
+  {
+    "id": "q034",
+    "cat": "성공",
+    "kanji": "鳴かぬなら殺してしまえホトトギス。",
+    "segments": [
+      {"kanji":"鳴","reading":"な"},
+      {"kanji":"かぬなら","reading":""},
+      {"kanji":"殺","reading":"ころ"},
+      {"kanji":"してしまえホトトギス。","reading":""}
+    ],
+    "korean": "울지 않으면 죽여 버리자 두견새.",
+    "author": "織田信長"
+  },
+  {
+    "id": "q035",
+    "cat": "성공",
+    "kanji": "得手に帆を揚げる。",
+    "segments": [
+      {"kanji":"得手","reading":"えて"},
+      {"kanji":"に","reading":""},
+      {"kanji":"帆","reading":"ほ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"揚","reading":"あ"},
+      {"kanji":"げる。","reading":""}
+    ],
+    "korean": "잘하는 일에 돛을 올려라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q036",
+    "cat": "성공",
+    "kanji": "桃栗三年柿八年。",
+    "segments": [
+      {"kanji":"桃栗","reading":"ももくり"},
+      {"kanji":"三年","reading":"さんねん"},
+      {"kanji":"柿","reading":"かき"},
+      {"kanji":"八年","reading":"はちねん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "복숭아와 밤은 삼 년, 감은 팔 년.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q037",
+    "cat": "성공",
+    "kanji": "後悔先に立たず。",
+    "segments": [
+      {"kanji":"後悔","reading":"こうかい"},
+      {"kanji":"先","reading":"さき"},
+      {"kanji":"に","reading":""},
+      {"kanji":"立","reading":"た"},
+      {"kanji":"たず。","reading":""}
+    ],
+    "korean": "후회는 먼저 하는 법이 없다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q038",
+    "cat": "성공",
+    "kanji": "万事休す。",
+    "segments": [
+      {"kanji":"万事","reading":"ばんじ"},
+      {"kanji":"休","reading":"きゅう"},
+      {"kanji":"す。","reading":""}
+    ],
+    "korean": "만사는 끝났다. (모든 것이 헛수고가 되다)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q039",
+    "cat": "성공",
+    "kanji": "棚から牡丹餅。",
+    "segments": [
+      {"kanji":"棚","reading":"たな"},
+      {"kanji":"から","reading":""},
+      {"kanji":"牡丹餅","reading":"ぼたもち"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "선반에서 떡이 떨어진다. (뜻밖의 행운)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q040",
+    "cat": "성공",
+    "kanji": "勝てば官軍負ければ賊軍。",
+    "segments": [
+      {"kanji":"勝","reading":"か"},
+      {"kanji":"てば","reading":""},
+      {"kanji":"官軍","reading":"かんぐん"},
+      {"kanji":"負","reading":"ま"},
+      {"kanji":"ければ","reading":""},
+      {"kanji":"賊軍","reading":"ぞくぐん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "이기면 관군, 지면 적군.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q041",
+    "cat": "성공",
+    "kanji": "苦あれば楽あり。",
+    "segments": [
+      {"kanji":"苦","reading":"く"},
+      {"kanji":"あれば","reading":""},
+      {"kanji":"楽","reading":"らく"},
+      {"kanji":"あり。","reading":""}
+    ],
+    "korean": "고생이 있으면 즐거움도 있다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q042",
+    "cat": "성공",
+    "kanji": "終わりよければ全てよし。",
+    "segments": [
+      {"kanji":"終","reading":"お"},
+      {"kanji":"わりよければ","reading":""},
+      {"kanji":"全","reading":"すべ"},
+      {"kanji":"てよし。","reading":""}
+    ],
+    "korean": "끝이 좋으면 모두 좋다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q043",
+    "cat": "성공",
+    "kanji": "百聞は一見にしかず。",
+    "segments": [
+      {"kanji":"百聞","reading":"ひゃくぶん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"一見","reading":"いっけん"},
+      {"kanji":"にしかず。","reading":""}
+    ],
+    "korean": "백 번 듣는 것이 한 번 보는 것만 못하다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q044",
+    "cat": "성공",
+    "kanji": "二兎を追う者は一兎をも得ず。",
+    "segments": [
+      {"kanji":"二兎","reading":"にと"},
+      {"kanji":"を","reading":""},
+      {"kanji":"追","reading":"お"},
+      {"kanji":"う","reading":""},
+      {"kanji":"者","reading":"もの"},
+      {"kanji":"は","reading":""},
+      {"kanji":"一兎","reading":"いっと"},
+      {"kanji":"をも","reading":""},
+      {"kanji":"得","reading":"え"},
+      {"kanji":"ず。","reading":""}
+    ],
+    "korean": "두 마리 토끼를 쫓는 자는 한 마리도 잡지 못한다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q045",
+    "cat": "사랑",
+    "kanji": "月が綺麗ですね。",
+    "segments": [
+      {"kanji":"月","reading":"つき"},
+      {"kanji":"が","reading":""},
+      {"kanji":"綺麗","reading":"きれい"},
+      {"kanji":"ですね。","reading":""}
+    ],
+    "korean": "달이 아름답네요. (당신을 사랑합니다)",
+    "author": "夏目漱石"
+  },
+  {
+    "id": "q046",
+    "cat": "사랑",
+    "kanji": "恋は盲目。",
+    "segments": [
+      {"kanji":"恋","reading":"こい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"盲目","reading":"もうもく"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "사랑은 맹목이다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q047",
+    "cat": "사랑",
+    "kanji": "惚れた病に薬なし。",
+    "segments": [
+      {"kanji":"惚","reading":"ほ"},
+      {"kanji":"れた","reading":""},
+      {"kanji":"病","reading":"やまい"},
+      {"kanji":"に","reading":""},
+      {"kanji":"薬","reading":"くすり"},
+      {"kanji":"なし。","reading":""}
+    ],
+    "korean": "사랑에 빠진 병에는 약이 없다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q048",
+    "cat": "사랑",
+    "kanji": "愛してるって言葉は、君を悲しませる時にだけ使うものだ。",
+    "segments": [
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"してるって","reading":""},
+      {"kanji":"言葉","reading":"ことば"},
+      {"kanji":"は、","reading":""},
+      {"kanji":"君","reading":"きみ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"悲","reading":"かな"},
+      {"kanji":"しませる","reading":""},
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"にだけ","reading":""},
+      {"kanji":"使","reading":"つか"},
+      {"kanji":"うものだ。","reading":""}
+    ],
+    "korean": "사랑한다는 말은 너를 슬프게 할 때만 쓰는 말이다.",
+    "author": "太宰治"
+  },
+  {
+    "id": "q049",
+    "cat": "사랑",
+    "kanji": "愛とは惜しみなく与うるもの。",
+    "segments": [
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"とは","reading":""},
+      {"kanji":"惜","reading":"お"},
+      {"kanji":"しみなく","reading":""},
+      {"kanji":"与","reading":"あた"},
+      {"kanji":"うるもの。","reading":""}
+    ],
+    "korean": "사랑이란 아낌없이 주는 것이다.",
+    "author": "有島武郎"
+  },
+  {
+    "id": "q050",
+    "cat": "사랑",
+    "kanji": "恋に師匠なし。",
+    "segments": [
+      {"kanji":"恋","reading":"こい"},
+      {"kanji":"に","reading":""},
+      {"kanji":"師匠","reading":"ししょう"},
+      {"kanji":"なし。","reading":""}
+    ],
+    "korean": "사랑에는 스승이 없다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q051",
+    "cat": "사랑",
+    "kanji": "惚れて通えば千里も一里。",
+    "segments": [
+      {"kanji":"惚","reading":"ほ"},
+      {"kanji":"れて","reading":""},
+      {"kanji":"通","reading":"かよ"},
+      {"kanji":"えば","reading":""},
+      {"kanji":"千里","reading":"せんり"},
+      {"kanji":"も","reading":""},
+      {"kanji":"一里","reading":"いちり"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "사랑하여 다니면 천 리도 일 리.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q052",
+    "cat": "사랑",
+    "kanji": "愛は技術である。",
+    "segments": [
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"技術","reading":"ぎじゅつ"},
+      {"kanji":"である。","reading":""}
+    ],
+    "korean": "사랑은 기술이다.",
+    "author": "エーリッヒ・フロム"
+  },
+  {
+    "id": "q053",
+    "cat": "사랑",
+    "kanji": "袖振り合うも他生の縁。",
+    "segments": [
+      {"kanji":"袖","reading":"そで"},
+      {"kanji":"振","reading":"ふ"},
+      {"kanji":"り","reading":""},
+      {"kanji":"合","reading":"あ"},
+      {"kanji":"うも","reading":""},
+      {"kanji":"他生","reading":"たしょう"},
+      {"kanji":"の","reading":""},
+      {"kanji":"縁","reading":"えん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "옷깃만 스쳐도 전생의 인연.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q054",
+    "cat": "사랑",
+    "kanji": "片思いは恋の半分。",
+    "segments": [
+      {"kanji":"片思","reading":"かたおも"},
+      {"kanji":"いは","reading":""},
+      {"kanji":"恋","reading":"こい"},
+      {"kanji":"の","reading":""},
+      {"kanji":"半分","reading":"はんぶん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "짝사랑은 사랑의 절반.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q055",
+    "cat": "사랑",
+    "kanji": "恋とはお互いに勘違いをすることだ。",
+    "segments": [
+      {"kanji":"恋","reading":"こい"},
+      {"kanji":"とはお","reading":""},
+      {"kanji":"互","reading":"たが"},
+      {"kanji":"いに","reading":""},
+      {"kanji":"勘違","reading":"かんちが"},
+      {"kanji":"いをすることだ。","reading":""}
+    ],
+    "korean": "사랑이란 서로 착각하는 것이다.",
+    "author": "ゲーテ"
+  },
+  {
+    "id": "q056",
+    "cat": "사랑",
+    "kanji": "結婚は人生の墓場。",
+    "segments": [
+      {"kanji":"結婚","reading":"けっこん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"の","reading":""},
+      {"kanji":"墓場","reading":"はかば"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "결혼은 인생의 무덤.",
+    "author": "ボードレール"
+  },
+  {
+    "id": "q057",
+    "cat": "사랑",
+    "kanji": "愛なき結婚あるところ、結婚なき愛がある。",
+    "segments": [
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"なき","reading":""},
+      {"kanji":"結婚","reading":"けっこん"},
+      {"kanji":"あるところ、","reading":""},
+      {"kanji":"結婚","reading":"けっこん"},
+      {"kanji":"なき","reading":""},
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"がある。","reading":""}
+    ],
+    "korean": "사랑 없는 결혼이 있는 곳에는 결혼 없는 사랑이 있다.",
+    "author": "フランクリン"
+  },
+  {
+    "id": "q058",
+    "cat": "사랑",
+    "kanji": "愛とは、自分とは違う人を理解し、認めること。",
+    "segments": [
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"とは、","reading":""},
+      {"kanji":"自分","reading":"じぶん"},
+      {"kanji":"とは","reading":""},
+      {"kanji":"違","reading":"ちが"},
+      {"kanji":"う","reading":""},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"を","reading":""},
+      {"kanji":"理解","reading":"りかい"},
+      {"kanji":"し、","reading":""},
+      {"kanji":"認","reading":"みと"},
+      {"kanji":"めること。","reading":""}
+    ],
+    "korean": "사랑이란 자신과 다른 사람을 이해하고 인정하는 것.",
+    "author": "オードリー・ヘップバーン"
+  },
+  {
+    "id": "q059",
+    "cat": "사랑",
+    "kanji": "縁は異なもの味なもの。",
+    "segments": [
+      {"kanji":"縁","reading":"えん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"異","reading":"い"},
+      {"kanji":"なもの","reading":""},
+      {"kanji":"味","reading":"あじ"},
+      {"kanji":"なもの。","reading":""}
+    ],
+    "korean": "인연은 신기하고 묘한 것이다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q060",
+    "cat": "사랑",
+    "kanji": "親子は一世、夫婦は二世、主従は三世。",
+    "segments": [
+      {"kanji":"親子","reading":"おやこ"},
+      {"kanji":"は","reading":""},
+      {"kanji":"一世","reading":"いっせ"},
+      {"kanji":"、","reading":""},
+      {"kanji":"夫婦","reading":"ふうふ"},
+      {"kanji":"は","reading":""},
+      {"kanji":"二世","reading":"にせ"},
+      {"kanji":"、","reading":""},
+      {"kanji":"主従","reading":"しゅじゅう"},
+      {"kanji":"は","reading":""},
+      {"kanji":"三世","reading":"さんぜ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "부모자식은 일생, 부부는 이생, 주종은 삼생의 인연.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q061",
+    "cat": "사랑",
+    "kanji": "愛されるよりも愛したい。",
+    "segments": [
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"されるよりも","reading":""},
+      {"kanji":"愛","reading":"あい"},
+      {"kanji":"したい。","reading":""}
+    ],
+    "korean": "사랑받기보다 사랑하고 싶다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q062",
+    "cat": "사랑",
+    "kanji": "去る者は日々に疎し。",
+    "segments": [
+      {"kanji":"去","reading":"さ"},
+      {"kanji":"る","reading":""},
+      {"kanji":"者","reading":"もの"},
+      {"kanji":"は","reading":""},
+      {"kanji":"日々","reading":"ひび"},
+      {"kanji":"に","reading":""},
+      {"kanji":"疎","reading":"うと"},
+      {"kanji":"し。","reading":""}
+    ],
+    "korean": "떠난 사람은 날이 갈수록 소원해진다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q063",
+    "cat": "사랑",
+    "kanji": "案ずるより産むが易し。",
+    "segments": [
+      {"kanji":"案","reading":"あん"},
+      {"kanji":"ずるより","reading":""},
+      {"kanji":"産","reading":"う"},
+      {"kanji":"むが","reading":""},
+      {"kanji":"易","reading":"やす"},
+      {"kanji":"し。","reading":""}
+    ],
+    "korean": "걱정하기보다 낳기가 쉽다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q064",
+    "cat": "사랑",
+    "kanji": "魚心あれば水心。",
+    "segments": [
+      {"kanji":"魚心","reading":"うおごころ"},
+      {"kanji":"あれば","reading":""},
+      {"kanji":"水心","reading":"みずごころ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "물고기 마음이 있으면 물 마음도 있다. (오는 정 가는 정)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q065",
+    "cat": "사랑",
+    "kanji": "恋は思案の外。",
+    "segments": [
+      {"kanji":"恋","reading":"こい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"思案","reading":"しあん"},
+      {"kanji":"の","reading":""},
+      {"kanji":"外","reading":"ほか"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "사랑은 분별을 벗어난다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q066",
+    "cat": "사랑",
+    "kanji": "好きな人ができると、誰にでも優しくなれる。",
+    "segments": [
+      {"kanji":"好","reading":"す"},
+      {"kanji":"きな","reading":""},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"ができると、","reading":""},
+      {"kanji":"誰","reading":"だれ"},
+      {"kanji":"にでも","reading":""},
+      {"kanji":"優","reading":"やさ"},
+      {"kanji":"しくなれる。","reading":""}
+    ],
+    "korean": "좋아하는 사람이 생기면 누구에게나 다정해질 수 있다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q067",
+    "cat": "인생",
+    "kanji": "人生は一度きり。",
+    "segments": [
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"一度","reading":"いちど"},
+      {"kanji":"きり。","reading":""}
+    ],
+    "korean": "인생은 한 번뿐.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q068",
+    "cat": "인생",
+    "kanji": "我が人生に一片の悔いなし。",
+    "segments": [
+      {"kanji":"我","reading":"わ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"に","reading":""},
+      {"kanji":"一片","reading":"いっぺん"},
+      {"kanji":"の","reading":""},
+      {"kanji":"悔","reading":"く"},
+      {"kanji":"いなし。","reading":""}
+    ],
+    "korean": "내 인생에 한 조각의 후회도 없다.",
+    "author": "ラオウ"
+  },
+  {
+    "id": "q069",
+    "cat": "인생",
+    "kanji": "明日は明日の風が吹く。",
+    "segments": [
+      {"kanji":"明日","reading":"あした"},
+      {"kanji":"は","reading":""},
+      {"kanji":"明日","reading":"あした"},
+      {"kanji":"の","reading":""},
+      {"kanji":"風","reading":"かぜ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"吹","reading":"ふ"},
+      {"kanji":"く。","reading":""}
+    ],
+    "korean": "내일은 내일의 바람이 분다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q070",
+    "cat": "인생",
+    "kanji": "人生楽ありゃ苦もあるさ。",
+    "segments": [
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"楽","reading":"らく"},
+      {"kanji":"ありゃ","reading":""},
+      {"kanji":"苦","reading":"く"},
+      {"kanji":"もあるさ。","reading":""}
+    ],
+    "korean": "인생에 즐거움이 있으면 괴로움도 있다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q071",
+    "cat": "인생",
+    "kanji": "生きるとは呼吸することではない。行動することだ。",
+    "segments": [
+      {"kanji":"生","reading":"い"},
+      {"kanji":"きるとは","reading":""},
+      {"kanji":"呼吸","reading":"こきゅう"},
+      {"kanji":"することではない。","reading":""},
+      {"kanji":"行動","reading":"こうどう"},
+      {"kanji":"することだ。","reading":""}
+    ],
+    "korean": "산다는 것은 호흡하는 것이 아니라 행동하는 것이다.",
+    "author": "ルソー"
+  },
+  {
+    "id": "q072",
+    "cat": "인생",
+    "kanji": "光陰矢の如し、時人を待たず。",
+    "segments": [
+      {"kanji":"光陰","reading":"こういん"},
+      {"kanji":"矢","reading":"や"},
+      {"kanji":"の","reading":""},
+      {"kanji":"如","reading":"ごと"},
+      {"kanji":"し、","reading":""},
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"を","reading":""},
+      {"kanji":"待","reading":"ま"},
+      {"kanji":"たず。","reading":""}
+    ],
+    "korean": "세월은 화살같이 빠르고, 때는 사람을 기다리지 않는다.",
+    "author": "陶淵明"
+  },
+  {
+    "id": "q073",
+    "cat": "인생",
+    "kanji": "人間万事塞翁が馬。",
+    "segments": [
+      {"kanji":"人間","reading":"にんげん"},
+      {"kanji":"万事","reading":"ばんじ"},
+      {"kanji":"塞翁","reading":"さいおう"},
+      {"kanji":"が","reading":""},
+      {"kanji":"馬","reading":"うま"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "인간만사 새옹지마.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q074",
+    "cat": "인생",
+    "kanji": "我輩は猫である。名前はまだ無い。",
+    "segments": [
+      {"kanji":"我輩","reading":"わがはい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"猫","reading":"ねこ"},
+      {"kanji":"である。","reading":""},
+      {"kanji":"名前","reading":"なまえ"},
+      {"kanji":"はまだ","reading":""},
+      {"kanji":"無","reading":"な"},
+      {"kanji":"い。","reading":""}
+    ],
+    "korean": "나는 고양이로소이다. 이름은 아직 없다.",
+    "author": "夏目漱石"
+  },
+  {
+    "id": "q075",
+    "cat": "인생",
+    "kanji": "智に働けば角が立つ。情に棹させば流される。",
+    "segments": [
+      {"kanji":"智","reading":"ち"},
+      {"kanji":"に","reading":""},
+      {"kanji":"働","reading":"はたら"},
+      {"kanji":"けば","reading":""},
+      {"kanji":"角","reading":"かど"},
+      {"kanji":"が","reading":""},
+      {"kanji":"立","reading":"た"},
+      {"kanji":"つ。","reading":""},
+      {"kanji":"情","reading":"じょう"},
+      {"kanji":"に","reading":""},
+      {"kanji":"棹","reading":"さお"},
+      {"kanji":"させば","reading":""},
+      {"kanji":"流","reading":"なが"},
+      {"kanji":"される。","reading":""}
+    ],
+    "korean": "지혜로 일하면 모가 나고, 정에 따르면 휩쓸린다.",
+    "author": "夏目漱石"
+  },
+  {
+    "id": "q076",
+    "cat": "인생",
+    "kanji": "笑う門には福来る。",
+    "segments": [
+      {"kanji":"笑","reading":"わら"},
+      {"kanji":"う","reading":""},
+      {"kanji":"門","reading":"かど"},
+      {"kanji":"には","reading":""},
+      {"kanji":"福","reading":"ふく"},
+      {"kanji":"来","reading":"きた"},
+      {"kanji":"る。","reading":""}
+    ],
+    "korean": "웃는 집에 복이 온다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q077",
+    "cat": "인생",
+    "kanji": "禍を転じて福と為す。",
+    "segments": [
+      {"kanji":"禍","reading":"わざわい"},
+      {"kanji":"を","reading":""},
+      {"kanji":"転","reading":"てん"},
+      {"kanji":"じて","reading":""},
+      {"kanji":"福","reading":"ふく"},
+      {"kanji":"と","reading":""},
+      {"kanji":"為","reading":"な"},
+      {"kanji":"す。","reading":""}
+    ],
+    "korean": "재앙을 돌려 복으로 삼는다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q078",
+    "cat": "인생",
+    "kanji": "生まれて、すみません。",
+    "segments": [
+      {"kanji":"生","reading":"う"},
+      {"kanji":"まれて、すみません。","reading":""}
+    ],
+    "korean": "태어나서 죄송합니다.",
+    "author": "太宰治"
+  },
+  {
+    "id": "q079",
+    "cat": "인생",
+    "kanji": "人生は近くで見ると悲劇だが、遠くから見れば喜劇である。",
+    "segments": [
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"近","reading":"ちか"},
+      {"kanji":"くで","reading":""},
+      {"kanji":"見","reading":"み"},
+      {"kanji":"ると","reading":""},
+      {"kanji":"悲劇","reading":"ひげき"},
+      {"kanji":"だが、","reading":""},
+      {"kanji":"遠","reading":"とお"},
+      {"kanji":"くから","reading":""},
+      {"kanji":"見","reading":"み"},
+      {"kanji":"れば","reading":""},
+      {"kanji":"喜劇","reading":"きげき"},
+      {"kanji":"である。","reading":""}
+    ],
+    "korean": "인생은 가까이서 보면 비극, 멀리서 보면 희극이다.",
+    "author": "チャップリン"
+  },
+  {
+    "id": "q080",
+    "cat": "인생",
+    "kanji": "今日できることを明日に延ばすな。",
+    "segments": [
+      {"kanji":"今日","reading":"きょう"},
+      {"kanji":"できることを","reading":""},
+      {"kanji":"明日","reading":"あした"},
+      {"kanji":"に","reading":""},
+      {"kanji":"延","reading":"の"},
+      {"kanji":"ばすな。","reading":""}
+    ],
+    "korean": "오늘 할 수 있는 일을 내일로 미루지 마라.",
+    "author": "フランクリン"
+  },
+  {
+    "id": "q081",
+    "cat": "인생",
+    "kanji": "人の振り見て我が振り直せ。",
+    "segments": [
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"の","reading":""},
+      {"kanji":"振","reading":"ふ"},
+      {"kanji":"り","reading":""},
+      {"kanji":"見","reading":"み"},
+      {"kanji":"て","reading":""},
+      {"kanji":"我","reading":"わ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"振","reading":"ふ"},
+      {"kanji":"り","reading":""},
+      {"kanji":"直","reading":"なお"},
+      {"kanji":"せ。","reading":""}
+    ],
+    "korean": "남의 행동을 보고 자기 행동을 고쳐라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q082",
+    "cat": "인생",
+    "kanji": "一期一会。",
+    "segments": [
+      {"kanji":"一期一会","reading":"いちごいちえ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "일생에 한 번뿐인 만남.",
+    "author": "井伊直弼"
+  },
+  {
+    "id": "q083",
+    "cat": "인생",
+    "kanji": "生きるとは、それは呼吸することではない。",
+    "segments": [
+      {"kanji":"生","reading":"い"},
+      {"kanji":"きるとは、それは","reading":""},
+      {"kanji":"呼吸","reading":"こきゅう"},
+      {"kanji":"することではない。","reading":""}
+    ],
+    "korean": "사는 것은 단지 호흡하는 것이 아니다.",
+    "author": "ルソー"
+  },
+  {
+    "id": "q084",
+    "cat": "인생",
+    "kanji": "雨にも負けず風にも負けず。",
+    "segments": [
+      {"kanji":"雨","reading":"あめ"},
+      {"kanji":"にも","reading":""},
+      {"kanji":"負","reading":"ま"},
+      {"kanji":"けず","reading":""},
+      {"kanji":"風","reading":"かぜ"},
+      {"kanji":"にも","reading":""},
+      {"kanji":"負","reading":"ま"},
+      {"kanji":"けず。","reading":""}
+    ],
+    "korean": "비에도 지지 않고 바람에도 지지 않고.",
+    "author": "宮沢賢治"
+  },
+  {
+    "id": "q085",
+    "cat": "인생",
+    "kanji": "世界がぜんたい幸福にならないうちは個人の幸福はあり得ない。",
+    "segments": [
+      {"kanji":"世界","reading":"せかい"},
+      {"kanji":"がぜんたい","reading":""},
+      {"kanji":"幸福","reading":"こうふく"},
+      {"kanji":"にならないうちは","reading":""},
+      {"kanji":"個人","reading":"こじん"},
+      {"kanji":"の","reading":""},
+      {"kanji":"幸福","reading":"こうふく"},
+      {"kanji":"はあり","reading":""},
+      {"kanji":"得","reading":"え"},
+      {"kanji":"ない。","reading":""}
+    ],
+    "korean": "세계 전체가 행복해지지 않는 한 개인의 행복은 있을 수 없다.",
+    "author": "宮沢賢治"
+  },
+  {
+    "id": "q086",
+    "cat": "인생",
+    "kanji": "短い人生に喧嘩している暇はない。",
+    "segments": [
+      {"kanji":"短","reading":"みじか"},
+      {"kanji":"い","reading":""},
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"に","reading":""},
+      {"kanji":"喧嘩","reading":"けんか"},
+      {"kanji":"している","reading":""},
+      {"kanji":"暇","reading":"ひま"},
+      {"kanji":"はない。","reading":""}
+    ],
+    "korean": "짧은 인생에 싸우고 있을 시간은 없다.",
+    "author": "坂本龍馬"
+  },
+  {
+    "id": "q087",
+    "cat": "인생",
+    "kanji": "世の人は我を何とも言わば言え。我が成すことは我のみぞ知る。",
+    "segments": [
+      {"kanji":"世","reading":"よ"},
+      {"kanji":"の","reading":""},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"は","reading":""},
+      {"kanji":"我","reading":"われ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"何","reading":"なん"},
+      {"kanji":"とも","reading":""},
+      {"kanji":"言","reading":"い"},
+      {"kanji":"わば","reading":""},
+      {"kanji":"言","reading":"い"},
+      {"kanji":"え。","reading":""},
+      {"kanji":"我","reading":"わ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"成","reading":"な"},
+      {"kanji":"すことは","reading":""},
+      {"kanji":"我","reading":"われ"},
+      {"kanji":"のみぞ","reading":""},
+      {"kanji":"知","reading":"し"},
+      {"kanji":"る。","reading":""}
+    ],
+    "korean": "세상 사람들이 나를 뭐라 하든 말해라. 내가 하는 일은 나만이 안다.",
+    "author": "坂本龍馬"
+  },
+  {
+    "id": "q088",
+    "cat": "인생",
+    "kanji": "敬天愛人。",
+    "segments": [
+      {"kanji":"敬天愛人","reading":"けいてんあいじん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "하늘을 공경하고 사람을 사랑하라.",
+    "author": "西郷隆盛"
+  },
+  {
+    "id": "q089",
+    "cat": "인생",
+    "kanji": "命もいらず、名もいらず、官位も金もいらぬ人は始末に困るもの也。",
+    "segments": [
+      {"kanji":"命","reading":"いのち"},
+      {"kanji":"もいらず、","reading":""},
+      {"kanji":"名","reading":"な"},
+      {"kanji":"もいらず、","reading":""},
+      {"kanji":"官位","reading":"かんい"},
+      {"kanji":"も","reading":""},
+      {"kanji":"金","reading":"かね"},
+      {"kanji":"もいらぬ","reading":""},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"は","reading":""},
+      {"kanji":"始末","reading":"しまつ"},
+      {"kanji":"に","reading":""},
+      {"kanji":"困","reading":"こま"},
+      {"kanji":"るもの","reading":""},
+      {"kanji":"也","reading":"なり"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "목숨도, 명예도, 관직도, 돈도 필요 없는 사람은 다루기 어렵다.",
+    "author": "西郷隆盛"
+  },
+  {
+    "id": "q090",
+    "cat": "학습",
+    "kanji": "学問に王道なし。",
+    "segments": [
+      {"kanji":"学問","reading":"がくもん"},
+      {"kanji":"に","reading":""},
+      {"kanji":"王道","reading":"おうどう"},
+      {"kanji":"なし。","reading":""}
+    ],
+    "korean": "학문에 왕도는 없다.",
+    "author": "ユークリッド"
+  },
+  {
+    "id": "q091",
+    "cat": "학습",
+    "kanji": "聞くは一時の恥、聞かぬは一生の恥。",
+    "segments": [
+      {"kanji":"聞","reading":"き"},
+      {"kanji":"くは","reading":""},
+      {"kanji":"一時","reading":"いっとき"},
+      {"kanji":"の","reading":""},
+      {"kanji":"恥","reading":"はじ"},
+      {"kanji":"、","reading":""},
+      {"kanji":"聞","reading":"き"},
+      {"kanji":"かぬは","reading":""},
+      {"kanji":"一生","reading":"いっしょう"},
+      {"kanji":"の","reading":""},
+      {"kanji":"恥","reading":"はじ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "묻는 것은 한때의 부끄러움, 묻지 않는 것은 평생의 부끄러움.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q092",
+    "cat": "학습",
+    "kanji": "井の中の蛙大海を知らず。",
+    "segments": [
+      {"kanji":"井","reading":"い"},
+      {"kanji":"の","reading":""},
+      {"kanji":"中","reading":"なか"},
+      {"kanji":"の","reading":""},
+      {"kanji":"蛙","reading":"かわず"},
+      {"kanji":"大海","reading":"たいかい"},
+      {"kanji":"を","reading":""},
+      {"kanji":"知","reading":"し"},
+      {"kanji":"らず。","reading":""}
+    ],
+    "korean": "우물 안 개구리는 큰 바다를 모른다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q093",
+    "cat": "학습",
+    "kanji": "三人寄れば文殊の知恵。",
+    "segments": [
+      {"kanji":"三人","reading":"さんにん"},
+      {"kanji":"寄","reading":"よ"},
+      {"kanji":"れば","reading":""},
+      {"kanji":"文殊","reading":"もんじゅ"},
+      {"kanji":"の","reading":""},
+      {"kanji":"知恵","reading":"ちえ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "세 사람이 모이면 문수보살의 지혜가 나온다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q094",
+    "cat": "학습",
+    "kanji": "温故知新。",
+    "segments": [
+      {"kanji":"温故知新","reading":"おんこちしん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "옛것을 익히고 새것을 안다.",
+    "author": "孔子"
+  },
+  {
+    "id": "q095",
+    "cat": "학습",
+    "kanji": "知らぬが仏。",
+    "segments": [
+      {"kanji":"知","reading":"し"},
+      {"kanji":"らぬが","reading":""},
+      {"kanji":"仏","reading":"ほとけ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "모르는 것이 부처. (모르는 것이 약)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q096",
+    "cat": "학습",
+    "kanji": "学びて思わざれば則ち罔し。",
+    "segments": [
+      {"kanji":"学","reading":"まな"},
+      {"kanji":"びて","reading":""},
+      {"kanji":"思","reading":"おも"},
+      {"kanji":"わざれば","reading":""},
+      {"kanji":"則","reading":"すなわ"},
+      {"kanji":"ち","reading":""},
+      {"kanji":"罔","reading":"くら"},
+      {"kanji":"し。","reading":""}
+    ],
+    "korean": "배우기만 하고 생각하지 않으면 어둡다.",
+    "author": "孔子"
+  },
+  {
+    "id": "q097",
+    "cat": "학습",
+    "kanji": "読書百遍意自ずから通ず。",
+    "segments": [
+      {"kanji":"読書","reading":"どくしょ"},
+      {"kanji":"百遍","reading":"ひゃっぺん"},
+      {"kanji":"意","reading":"い"},
+      {"kanji":"自","reading":"おの"},
+      {"kanji":"ずから","reading":""},
+      {"kanji":"通","reading":"つう"},
+      {"kanji":"ず。","reading":""}
+    ],
+    "korean": "책을 백 번 읽으면 그 뜻이 저절로 통한다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q098",
+    "cat": "학습",
+    "kanji": "習うより慣れろ。",
+    "segments": [
+      {"kanji":"習","reading":"なら"},
+      {"kanji":"うより","reading":""},
+      {"kanji":"慣","reading":"な"},
+      {"kanji":"れろ。","reading":""}
+    ],
+    "korean": "배우기보다 익숙해져라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q099",
+    "cat": "학습",
+    "kanji": "門前の小僧習わぬ経を読む。",
+    "segments": [
+      {"kanji":"門前","reading":"もんぜん"},
+      {"kanji":"の","reading":""},
+      {"kanji":"小僧","reading":"こぞう"},
+      {"kanji":"習","reading":"なら"},
+      {"kanji":"わぬ","reading":""},
+      {"kanji":"経","reading":"きょう"},
+      {"kanji":"を","reading":""},
+      {"kanji":"読","reading":"よ"},
+      {"kanji":"む。","reading":""}
+    ],
+    "korean": "절 앞의 동자는 배우지 않은 불경을 읽는다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q100",
+    "cat": "학습",
+    "kanji": "知識は力なり。",
+    "segments": [
+      {"kanji":"知識","reading":"ちしき"},
+      {"kanji":"は","reading":""},
+      {"kanji":"力","reading":"ちから"},
+      {"kanji":"なり。","reading":""}
+    ],
+    "korean": "지식은 힘이다.",
+    "author": "ベーコン"
+  },
+  {
+    "id": "q101",
+    "cat": "학습",
+    "kanji": "学問は一生の宝。",
+    "segments": [
+      {"kanji":"学問","reading":"がくもん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"一生","reading":"いっしょう"},
+      {"kanji":"の","reading":""},
+      {"kanji":"宝","reading":"たから"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "학문은 평생의 보물.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q102",
+    "cat": "학습",
+    "kanji": "学びて時にこれを習う、亦た説ばしからずや。",
+    "segments": [
+      {"kanji":"学","reading":"まな"},
+      {"kanji":"びて","reading":""},
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"にこれを","reading":""},
+      {"kanji":"習","reading":"なら"},
+      {"kanji":"う、","reading":""},
+      {"kanji":"亦","reading":"ま"},
+      {"kanji":"た","reading":""},
+      {"kanji":"説","reading":"よろこ"},
+      {"kanji":"ばしからずや。","reading":""}
+    ],
+    "korean": "배우고 때때로 익히면 또한 기쁘지 아니한가.",
+    "author": "孔子"
+  },
+  {
+    "id": "q103",
+    "cat": "학습",
+    "kanji": "我以外皆我師。",
+    "segments": [
+      {"kanji":"我以外","reading":"われいがい"},
+      {"kanji":"皆","reading":"みな"},
+      {"kanji":"我","reading":"わ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"師","reading":"し"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "나 이외에는 모두 나의 스승.",
+    "author": "吉川英治"
+  },
+  {
+    "id": "q104",
+    "cat": "학습",
+    "kanji": "千慮の一失。",
+    "segments": [
+      {"kanji":"千慮","reading":"せんりょ"},
+      {"kanji":"の","reading":""},
+      {"kanji":"一失","reading":"いっしつ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "천 번 생각해도 한 번 실수.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q105",
+    "cat": "학습",
+    "kanji": "蛍雪の功。",
+    "segments": [
+      {"kanji":"蛍雪","reading":"けいせつ"},
+      {"kanji":"の","reading":""},
+      {"kanji":"功","reading":"こう"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "형설지공. (고생하며 공부한 보람)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q106",
+    "cat": "학습",
+    "kanji": "百害あって一利なし。",
+    "segments": [
+      {"kanji":"百害","reading":"ひゃくがい"},
+      {"kanji":"あって","reading":""},
+      {"kanji":"一利","reading":"いちり"},
+      {"kanji":"なし。","reading":""}
+    ],
+    "korean": "백해무익.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q107",
+    "cat": "학습",
+    "kanji": "目は口ほどに物を言う。",
+    "segments": [
+      {"kanji":"目","reading":"め"},
+      {"kanji":"は","reading":""},
+      {"kanji":"口","reading":"くち"},
+      {"kanji":"ほどに","reading":""},
+      {"kanji":"物","reading":"もの"},
+      {"kanji":"を","reading":""},
+      {"kanji":"言","reading":"い"},
+      {"kanji":"う。","reading":""}
+    ],
+    "korean": "눈은 입만큼 말한다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q108",
+    "cat": "학습",
+    "kanji": "弘法も筆の誤り。",
+    "segments": [
+      {"kanji":"弘法","reading":"こうぼう"},
+      {"kanji":"も","reading":""},
+      {"kanji":"筆","reading":"ふで"},
+      {"kanji":"の","reading":""},
+      {"kanji":"誤","reading":"あやま"},
+      {"kanji":"り。","reading":""}
+    ],
+    "korean": "홍법대사도 붓을 잘못 놀린다. (원숭이도 나무에서 떨어진다)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q109",
+    "cat": "학습",
+    "kanji": "猿も木から落ちる。",
+    "segments": [
+      {"kanji":"猿","reading":"さる"},
+      {"kanji":"も","reading":""},
+      {"kanji":"木","reading":"き"},
+      {"kanji":"から","reading":""},
+      {"kanji":"落","reading":"お"},
+      {"kanji":"ちる。","reading":""}
+    ],
+    "korean": "원숭이도 나무에서 떨어진다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q110",
+    "cat": "학습",
+    "kanji": "教うるは学ぶの半ばなり。",
+    "segments": [
+      {"kanji":"教","reading":"おし"},
+      {"kanji":"うるは","reading":""},
+      {"kanji":"学","reading":"まな"},
+      {"kanji":"ぶの","reading":""},
+      {"kanji":"半","reading":"なか"},
+      {"kanji":"ばなり。","reading":""}
+    ],
+    "korean": "가르치는 것은 배우는 것의 절반이다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q111",
+    "cat": "학습",
+    "kanji": "勉強し続けることが、人生を豊かにする。",
+    "segments": [
+      {"kanji":"勉強","reading":"べんきょう"},
+      {"kanji":"し","reading":""},
+      {"kanji":"続","reading":"つづ"},
+      {"kanji":"けることが、","reading":""},
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"を","reading":""},
+      {"kanji":"豊","reading":"ゆた"},
+      {"kanji":"かにする。","reading":""}
+    ],
+    "korean": "공부를 계속하는 것이 인생을 풍요롭게 한다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q112",
+    "cat": "마음",
+    "kanji": "心頭を滅却すれば火もまた涼し。",
+    "segments": [
+      {"kanji":"心頭","reading":"しんとう"},
+      {"kanji":"を","reading":""},
+      {"kanji":"滅却","reading":"めっきゃく"},
+      {"kanji":"すれば","reading":""},
+      {"kanji":"火","reading":"ひ"},
+      {"kanji":"もまた","reading":""},
+      {"kanji":"涼","reading":"すず"},
+      {"kanji":"し。","reading":""}
+    ],
+    "korean": "마음을 비우면 불도 시원하다.",
+    "author": "快川紹喜"
+  },
+  {
+    "id": "q113",
+    "cat": "마음",
+    "kanji": "和を以て貴しと為す。",
+    "segments": [
+      {"kanji":"和","reading":"わ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"以","reading":"もっ"},
+      {"kanji":"て","reading":""},
+      {"kanji":"貴","reading":"とうと"},
+      {"kanji":"しと","reading":""},
+      {"kanji":"為","reading":"な"},
+      {"kanji":"す。","reading":""}
+    ],
+    "korean": "화합을 귀하게 여겨라.",
+    "author": "聖徳太子"
+  },
+  {
+    "id": "q114",
+    "cat": "마음",
+    "kanji": "義を見てせざるは勇なきなり。",
+    "segments": [
+      {"kanji":"義","reading":"ぎ"},
+      {"kanji":"を","reading":""},
+      {"kanji":"見","reading":"み"},
+      {"kanji":"てせざるは","reading":""},
+      {"kanji":"勇","reading":"ゆう"},
+      {"kanji":"なきなり。","reading":""}
+    ],
+    "korean": "의를 보고도 행하지 않는 것은 용기가 없는 것이다.",
+    "author": "孔子"
+  },
+  {
+    "id": "q115",
+    "cat": "마음",
+    "kanji": "情けは人の為ならず。",
+    "segments": [
+      {"kanji":"情","reading":"なさ"},
+      {"kanji":"けは","reading":""},
+      {"kanji":"人","reading":"ひと"},
+      {"kanji":"の","reading":""},
+      {"kanji":"為","reading":"ため"},
+      {"kanji":"ならず。","reading":""}
+    ],
+    "korean": "남에게 베푼 정은 자기에게 돌아온다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q116",
+    "cat": "마음",
+    "kanji": "笑顔は世界共通の言語。",
+    "segments": [
+      {"kanji":"笑顔","reading":"えがお"},
+      {"kanji":"は","reading":""},
+      {"kanji":"世界共通","reading":"せかいきょうつう"},
+      {"kanji":"の","reading":""},
+      {"kanji":"言語","reading":"げんご"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "미소는 세계 공통의 언어.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q117",
+    "cat": "마음",
+    "kanji": "心ここに在らざれば視れども見えず。",
+    "segments": [
+      {"kanji":"心","reading":"こころ"},
+      {"kanji":"ここに","reading":""},
+      {"kanji":"在","reading":"あ"},
+      {"kanji":"らざれば","reading":""},
+      {"kanji":"視","reading":"み"},
+      {"kanji":"れども","reading":""},
+      {"kanji":"見","reading":"み"},
+      {"kanji":"えず。","reading":""}
+    ],
+    "korean": "마음이 없으면 보아도 보이지 않는다.",
+    "author": "孔子"
+  },
+  {
+    "id": "q118",
+    "cat": "마음",
+    "kanji": "正直は最善の策。",
+    "segments": [
+      {"kanji":"正直","reading":"しょうじき"},
+      {"kanji":"は","reading":""},
+      {"kanji":"最善","reading":"さいぜん"},
+      {"kanji":"の","reading":""},
+      {"kanji":"策","reading":"さく"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "정직은 최선의 방책이다.",
+    "author": "フランクリン"
+  },
+  {
+    "id": "q119",
+    "cat": "마음",
+    "kanji": "覆水盆に返らず。",
+    "segments": [
+      {"kanji":"覆水","reading":"ふくすい"},
+      {"kanji":"盆","reading":"ぼん"},
+      {"kanji":"に","reading":""},
+      {"kanji":"返","reading":"かえ"},
+      {"kanji":"らず。","reading":""}
+    ],
+    "korean": "엎질러진 물은 다시 담을 수 없다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q120",
+    "cat": "마음",
+    "kanji": "禍は口より出で病は口より入る。",
+    "segments": [
+      {"kanji":"禍","reading":"わざわい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"口","reading":"くち"},
+      {"kanji":"より","reading":""},
+      {"kanji":"出","reading":"い"},
+      {"kanji":"で","reading":""},
+      {"kanji":"病","reading":"やまい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"口","reading":"くち"},
+      {"kanji":"より","reading":""},
+      {"kanji":"入","reading":"い"},
+      {"kanji":"る。","reading":""}
+    ],
+    "korean": "재앙은 입에서 나오고 병은 입으로 들어온다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q121",
+    "cat": "마음",
+    "kanji": "急いては事を仕損じる。",
+    "segments": [
+      {"kanji":"急","reading":"せ"},
+      {"kanji":"いては","reading":""},
+      {"kanji":"事","reading":"こと"},
+      {"kanji":"を","reading":""},
+      {"kanji":"仕損","reading":"しそん"},
+      {"kanji":"じる。","reading":""}
+    ],
+    "korean": "서두르면 일을 그르친다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q122",
+    "cat": "마음",
+    "kanji": "怒りは敵と思え。",
+    "segments": [
+      {"kanji":"怒","reading":"いか"},
+      {"kanji":"りは","reading":""},
+      {"kanji":"敵","reading":"てき"},
+      {"kanji":"と","reading":""},
+      {"kanji":"思","reading":"おも"},
+      {"kanji":"え。","reading":""}
+    ],
+    "korean": "분노를 적으로 생각하라.",
+    "author": "徳川家康"
+  },
+  {
+    "id": "q123",
+    "cat": "마음",
+    "kanji": "本物の強さとは、優しさのことだ。",
+    "segments": [
+      {"kanji":"本物","reading":"ほんもの"},
+      {"kanji":"の","reading":""},
+      {"kanji":"強","reading":"つよ"},
+      {"kanji":"さとは、","reading":""},
+      {"kanji":"優","reading":"やさ"},
+      {"kanji":"しさのことだ。","reading":""}
+    ],
+    "korean": "진정한 강함이란 다정함이다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q124",
+    "cat": "마음",
+    "kanji": "短気は損気。",
+    "segments": [
+      {"kanji":"短気","reading":"たんき"},
+      {"kanji":"は","reading":""},
+      {"kanji":"損気","reading":"そんき"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "성급함은 손해다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q125",
+    "cat": "마음",
+    "kanji": "我慢は美徳。",
+    "segments": [
+      {"kanji":"我慢","reading":"がまん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"美徳","reading":"びとく"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "참는 것은 미덕.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q126",
+    "cat": "마음",
+    "kanji": "感謝の心が人生を変える。",
+    "segments": [
+      {"kanji":"感謝","reading":"かんしゃ"},
+      {"kanji":"の","reading":""},
+      {"kanji":"心","reading":"こころ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"人生","reading":"じんせい"},
+      {"kanji":"を","reading":""},
+      {"kanji":"変","reading":"か"},
+      {"kanji":"える。","reading":""}
+    ],
+    "korean": "감사하는 마음이 인생을 바꾼다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q127",
+    "cat": "마음",
+    "kanji": "心が変われば態度が変わる。",
+    "segments": [
+      {"kanji":"心","reading":"こころ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"変","reading":"か"},
+      {"kanji":"われば","reading":""},
+      {"kanji":"態度","reading":"たいど"},
+      {"kanji":"が","reading":""},
+      {"kanji":"変","reading":"か"},
+      {"kanji":"わる。","reading":""}
+    ],
+    "korean": "마음이 바뀌면 태도가 바뀐다.",
+    "author": "ヒンドゥー教"
+  },
+  {
+    "id": "q128",
+    "cat": "마음",
+    "kanji": "目から鱗が落ちる。",
+    "segments": [
+      {"kanji":"目","reading":"め"},
+      {"kanji":"から","reading":""},
+      {"kanji":"鱗","reading":"うろこ"},
+      {"kanji":"が","reading":""},
+      {"kanji":"落","reading":"お"},
+      {"kanji":"ちる。","reading":""}
+    ],
+    "korean": "눈에서 비늘이 떨어지다. (깨달음을 얻다)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q129",
+    "cat": "마음",
+    "kanji": "口は災いの元。",
+    "segments": [
+      {"kanji":"口","reading":"くち"},
+      {"kanji":"は","reading":""},
+      {"kanji":"災","reading":"わざわ"},
+      {"kanji":"いの","reading":""},
+      {"kanji":"元","reading":"もと"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "입은 화의 근원.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q130",
+    "cat": "마음",
+    "kanji": "鬼の目にも涙。",
+    "segments": [
+      {"kanji":"鬼","reading":"おに"},
+      {"kanji":"の","reading":""},
+      {"kanji":"目","reading":"め"},
+      {"kanji":"にも","reading":""},
+      {"kanji":"涙","reading":"なみだ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "도깨비 눈에도 눈물.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q131",
+    "cat": "마음",
+    "kanji": "捨てる神あれば拾う神あり。",
+    "segments": [
+      {"kanji":"捨","reading":"す"},
+      {"kanji":"てる","reading":""},
+      {"kanji":"神","reading":"かみ"},
+      {"kanji":"あれば","reading":""},
+      {"kanji":"拾","reading":"ひろ"},
+      {"kanji":"う","reading":""},
+      {"kanji":"神","reading":"かみ"},
+      {"kanji":"あり。","reading":""}
+    ],
+    "korean": "버리는 신이 있으면 줍는 신도 있다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q132",
+    "cat": "마음",
+    "kanji": "おごれる者久しからず。",
+    "segments": [
+      {"kanji":"おごれる","reading":""},
+      {"kanji":"者","reading":"もの"},
+      {"kanji":"久","reading":"ひさ"},
+      {"kanji":"しからず。","reading":""}
+    ],
+    "korean": "교만한 자는 오래가지 못한다.",
+    "author": "平家物語"
+  },
+  {
+    "id": "q133",
+    "cat": "마음",
+    "kanji": "祇園精舎の鐘の声、諸行無常の響きあり。",
+    "segments": [
+      {"kanji":"祇園精舎","reading":"ぎおんしょうじゃ"},
+      {"kanji":"の","reading":""},
+      {"kanji":"鐘","reading":"かね"},
+      {"kanji":"の","reading":""},
+      {"kanji":"声","reading":"こえ"},
+      {"kanji":"、","reading":""},
+      {"kanji":"諸行無常","reading":"しょぎょうむじょう"},
+      {"kanji":"の","reading":""},
+      {"kanji":"響","reading":"ひび"},
+      {"kanji":"きあり。","reading":""}
+    ],
+    "korean": "기온정사의 종소리, 제행무상의 울림이 있다.",
+    "author": "平家物語"
+  },
+  {
+    "id": "q134",
+    "cat": "기타",
+    "kanji": "花より団子。",
+    "segments": [
+      {"kanji":"花","reading":"はな"},
+      {"kanji":"より","reading":""},
+      {"kanji":"団子","reading":"だんご"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "꽃보다 경단. (금강산도 식후경)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q135",
+    "cat": "기타",
+    "kanji": "猫に小判。",
+    "segments": [
+      {"kanji":"猫","reading":"ねこ"},
+      {"kanji":"に","reading":""},
+      {"kanji":"小判","reading":"こばん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "고양이에게 금화. (돼지에 진주)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q136",
+    "cat": "기타",
+    "kanji": "豚に真珠。",
+    "segments": [
+      {"kanji":"豚","reading":"ぶた"},
+      {"kanji":"に","reading":""},
+      {"kanji":"真珠","reading":"しんじゅ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "돼지에 진주.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q137",
+    "cat": "기타",
+    "kanji": "馬の耳に念仏。",
+    "segments": [
+      {"kanji":"馬","reading":"うま"},
+      {"kanji":"の","reading":""},
+      {"kanji":"耳","reading":"みみ"},
+      {"kanji":"に","reading":""},
+      {"kanji":"念仏","reading":"ねんぶつ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "말 귀에 염불. (소 귀에 경 읽기)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q138",
+    "cat": "기타",
+    "kanji": "井戸端会議。",
+    "segments": [
+      {"kanji":"井戸端会議","reading":"いどばたかいぎ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "우물가 회의. (수다)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q139",
+    "cat": "기타",
+    "kanji": "蛇足。",
+    "segments": [
+      {"kanji":"蛇足","reading":"だそく"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "사족. (군더더기)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q140",
+    "cat": "기타",
+    "kanji": "目には目を、歯には歯を。",
+    "segments": [
+      {"kanji":"目","reading":"め"},
+      {"kanji":"には","reading":""},
+      {"kanji":"目","reading":"め"},
+      {"kanji":"を、","reading":""},
+      {"kanji":"歯","reading":"は"},
+      {"kanji":"には","reading":""},
+      {"kanji":"歯","reading":"は"},
+      {"kanji":"を。","reading":""}
+    ],
+    "korean": "눈에는 눈, 이에는 이.",
+    "author": "ハンムラビ法典"
+  },
+  {
+    "id": "q141",
+    "cat": "기타",
+    "kanji": "悪銭身に付かず。",
+    "segments": [
+      {"kanji":"悪銭","reading":"あくせん"},
+      {"kanji":"身","reading":"み"},
+      {"kanji":"に","reading":""},
+      {"kanji":"付","reading":"つ"},
+      {"kanji":"かず。","reading":""}
+    ],
+    "korean": "부정한 돈은 몸에 붙지 않는다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q142",
+    "cat": "기타",
+    "kanji": "時は金なり。",
+    "segments": [
+      {"kanji":"時","reading":"とき"},
+      {"kanji":"は","reading":""},
+      {"kanji":"金","reading":"かね"},
+      {"kanji":"なり。","reading":""}
+    ],
+    "korean": "시간은 돈이다.",
+    "author": "フランクリン"
+  },
+  {
+    "id": "q143",
+    "cat": "기타",
+    "kanji": "言わぬが花。",
+    "segments": [
+      {"kanji":"言","reading":"い"},
+      {"kanji":"わぬが","reading":""},
+      {"kanji":"花","reading":"はな"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "말하지 않는 것이 꽃. (침묵이 금)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q144",
+    "cat": "기타",
+    "kanji": "沈黙は金、雄弁は銀。",
+    "segments": [
+      {"kanji":"沈黙","reading":"ちんもく"},
+      {"kanji":"は","reading":""},
+      {"kanji":"金","reading":"きん"},
+      {"kanji":"、","reading":""},
+      {"kanji":"雄弁","reading":"ゆうべん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"銀","reading":"ぎん"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "침묵은 금, 웅변은 은.",
+    "author": "カーライル"
+  },
+  {
+    "id": "q145",
+    "cat": "기타",
+    "kanji": "餅は餅屋。",
+    "segments": [
+      {"kanji":"餅","reading":"もち"},
+      {"kanji":"は","reading":""},
+      {"kanji":"餅屋","reading":"もちや"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "떡은 떡집. (전문가에게 맡겨라)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q146",
+    "cat": "기타",
+    "kanji": "弱り目に祟り目。",
+    "segments": [
+      {"kanji":"弱","reading":"よわ"},
+      {"kanji":"り","reading":""},
+      {"kanji":"目","reading":"め"},
+      {"kanji":"に","reading":""},
+      {"kanji":"祟","reading":"たた"},
+      {"kanji":"り","reading":""},
+      {"kanji":"目","reading":"め"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "약한 데 또 화. (엎친 데 덮친 격)",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q147",
+    "cat": "기타",
+    "kanji": "果報は寝て待て。",
+    "segments": [
+      {"kanji":"果報","reading":"かほう"},
+      {"kanji":"は","reading":""},
+      {"kanji":"寝","reading":"ね"},
+      {"kanji":"て","reading":""},
+      {"kanji":"待","reading":"ま"},
+      {"kanji":"て。","reading":""}
+    ],
+    "korean": "행운은 자면서 기다려라.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q148",
+    "cat": "기타",
+    "kanji": "出る杭は打たれる。",
+    "segments": [
+      {"kanji":"出","reading":"で"},
+      {"kanji":"る","reading":""},
+      {"kanji":"杭","reading":"くい"},
+      {"kanji":"は","reading":""},
+      {"kanji":"打","reading":"う"},
+      {"kanji":"たれる。","reading":""}
+    ],
+    "korean": "튀어나온 말뚝은 두들겨 맞는다.",
+    "author": "ことわざ"
+  },
+  {
+    "id": "q149",
+    "cat": "기타",
+    "kanji": "天は自ら助くる者を助く。",
+    "segments": [
+      {"kanji":"天","reading":"てん"},
+      {"kanji":"は","reading":""},
+      {"kanji":"自","reading":"みずか"},
+      {"kanji":"ら","reading":""},
+      {"kanji":"助","reading":"たす"},
+      {"kanji":"くる","reading":""},
+      {"kanji":"者","reading":"もの"},
+      {"kanji":"を","reading":""},
+      {"kanji":"助","reading":"たす"},
+      {"kanji":"く。","reading":""}
+    ],
+    "korean": "하늘은 스스로 돕는 자를 돕는다.",
+    "author": "サミュエル・スマイルズ"
+  },
+  {
+    "id": "q150",
+    "cat": "기타",
+    "kanji": "住めば都。",
+    "segments": [
+      {"kanji":"住","reading":"す"},
+      {"kanji":"めば","reading":""},
+      {"kanji":"都","reading":"みやこ"},
+      {"kanji":"。","reading":""}
+    ],
+    "korean": "살면 그곳이 도읍지. (정들면 고향)",
+    "author": "ことわざ"
+  }
+]

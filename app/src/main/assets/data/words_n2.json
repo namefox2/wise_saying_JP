@@ -1,0 +1,4958 @@
+[
+  {
+    "id": "n2_001",
+    "level": "N2",
+    "kanji": "影響",
+    "reading": "えいきょう",
+    "pos": "명사",
+    "meaning": "영향",
+    "exKanji": "天候が農業に影響を与える。",
+    "exSegments": [
+      {
+        "kanji": "天候",
+        "reading": "てんこう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "農業",
+        "reading": "のうぎょう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "影響",
+        "reading": "えいきょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "与える",
+        "reading": "あたえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "날씨가 농업에 영향을 준다."
+  },
+  {
+    "id": "n2_002",
+    "level": "N2",
+    "kanji": "判断",
+    "reading": "はんだん",
+    "pos": "명사",
+    "meaning": "판단",
+    "exKanji": "冷静に判断する必要がある。",
+    "exSegments": [
+      {
+        "kanji": "冷静",
+        "reading": "れいせい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "判断",
+        "reading": "はんだん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "必要",
+        "reading": "ひつよう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "ある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "냉정하게 판단할 필요가 있다."
+  },
+  {
+    "id": "n2_003",
+    "level": "N2",
+    "kanji": "傾向",
+    "reading": "けいこう",
+    "pos": "명사",
+    "meaning": "경향",
+    "exKanji": "最近の傾向を分析する。",
+    "exSegments": [
+      {
+        "kanji": "最近",
+        "reading": "さいきん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "傾向",
+        "reading": "けいこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "分析",
+        "reading": "ぶんせき"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "최근의 경향을 분석한다."
+  },
+  {
+    "id": "n2_004",
+    "level": "N2",
+    "kanji": "提案",
+    "reading": "ていあん",
+    "pos": "명사",
+    "meaning": "제안",
+    "exKanji": "新しい提案を出す。",
+    "exSegments": [
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "提案",
+        "reading": "ていあん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "出す",
+        "reading": "だす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 제안을 낸다."
+  },
+  {
+    "id": "n2_005",
+    "level": "N2",
+    "kanji": "概念",
+    "reading": "がいねん",
+    "pos": "명사",
+    "meaning": "개념",
+    "exKanji": "新しい概念を学ぶ。",
+    "exSegments": [
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "概念",
+        "reading": "がいねん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 개념을 배운다."
+  },
+  {
+    "id": "n2_006",
+    "level": "N2",
+    "kanji": "方針",
+    "reading": "ほうしん",
+    "pos": "명사",
+    "meaning": "방침",
+    "exKanji": "会社の方針が変わった。",
+    "exSegments": [
+      {
+        "kanji": "会社",
+        "reading": "かいしゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "方針",
+        "reading": "ほうしん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "変わった",
+        "reading": "かわった"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "회사의 방침이 바뀌었다."
+  },
+  {
+    "id": "n2_007",
+    "level": "N2",
+    "kanji": "課題",
+    "reading": "かだい",
+    "pos": "명사",
+    "meaning": "과제",
+    "exKanji": "重要な課題に取り組む。",
+    "exSegments": [
+      {
+        "kanji": "重要",
+        "reading": "じゅうよう"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "課題",
+        "reading": "かだい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "取り組む",
+        "reading": "とりくむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "중요한 과제에 임한다."
+  },
+  {
+    "id": "n2_008",
+    "level": "N2",
+    "kanji": "実施",
+    "reading": "じっし",
+    "pos": "명사",
+    "meaning": "실시",
+    "exKanji": "計画を実施する。",
+    "exSegments": [
+      {
+        "kanji": "計画",
+        "reading": "けいかく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "実施",
+        "reading": "じっし"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "계획을 실시한다."
+  },
+  {
+    "id": "n2_009",
+    "level": "N2",
+    "kanji": "対応",
+    "reading": "たいおう",
+    "pos": "명사",
+    "meaning": "대응",
+    "exKanji": "問題に迅速に対応する。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "迅速",
+        "reading": "じんそく"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "対応",
+        "reading": "たいおう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제에 신속하게 대응한다."
+  },
+  {
+    "id": "n2_010",
+    "level": "N2",
+    "kanji": "評価",
+    "reading": "ひょうか",
+    "pos": "명사",
+    "meaning": "평가",
+    "exKanji": "彼の能力が評価された。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "能力",
+        "reading": "のうりょく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "評価",
+        "reading": "ひょうか"
+      },
+      {
+        "kanji": "された",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그의 능력이 평가받았다."
+  },
+  {
+    "id": "n2_011",
+    "level": "N2",
+    "kanji": "検討",
+    "reading": "けんとう",
+    "pos": "명사",
+    "meaning": "검토",
+    "exKanji": "提案を検討する。",
+    "exSegments": [
+      {
+        "kanji": "提案",
+        "reading": "ていあん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "検討",
+        "reading": "けんとう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "제안을 검토한다."
+  },
+  {
+    "id": "n2_012",
+    "level": "N2",
+    "kanji": "確保",
+    "reading": "かくほ",
+    "pos": "명사",
+    "meaning": "확보",
+    "exKanji": "予算を確保する。",
+    "exSegments": [
+      {
+        "kanji": "予算",
+        "reading": "よさん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "確保",
+        "reading": "かくほ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "예산을 확보한다."
+  },
+  {
+    "id": "n2_013",
+    "level": "N2",
+    "kanji": "改善",
+    "reading": "かいぜん",
+    "pos": "명사",
+    "meaning": "개선",
+    "exKanji": "サービスを改善する。",
+    "exSegments": [
+      {
+        "kanji": "サービス",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "改善",
+        "reading": "かいぜん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "서비스를 개선한다."
+  },
+  {
+    "id": "n2_014",
+    "level": "N2",
+    "kanji": "取得",
+    "reading": "しゅとく",
+    "pos": "명사",
+    "meaning": "취득",
+    "exKanji": "資格を取得した。",
+    "exSegments": [
+      {
+        "kanji": "資格",
+        "reading": "しかく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "取得",
+        "reading": "しゅとく"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자격을 취득했다."
+  },
+  {
+    "id": "n2_015",
+    "level": "N2",
+    "kanji": "反映",
+    "reading": "はんえい",
+    "pos": "명사",
+    "meaning": "반영",
+    "exKanji": "意見を反映する。",
+    "exSegments": [
+      {
+        "kanji": "意見",
+        "reading": "いけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "反映",
+        "reading": "はんえい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의견을 반영한다."
+  },
+  {
+    "id": "n2_016",
+    "level": "N2",
+    "kanji": "指摘",
+    "reading": "してき",
+    "pos": "명사",
+    "meaning": "지적",
+    "exKanji": "問題点を指摘する。",
+    "exSegments": [
+      {
+        "kanji": "問題点",
+        "reading": "もんだいてん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "指摘",
+        "reading": "してき"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제점을 지적한다."
+  },
+  {
+    "id": "n2_017",
+    "level": "N2",
+    "kanji": "主張",
+    "reading": "しゅちょう",
+    "pos": "명사",
+    "meaning": "주장",
+    "exKanji": "彼は強く主張した。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "強く",
+        "reading": "つよく"
+      },
+      {
+        "kanji": "主張",
+        "reading": "しゅちょう"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그는 강하게 주장했다."
+  },
+  {
+    "id": "n2_018",
+    "level": "N2",
+    "kanji": "否定",
+    "reading": "ひてい",
+    "pos": "명사",
+    "meaning": "부정",
+    "exKanji": "事実を否定する。",
+    "exSegments": [
+      {
+        "kanji": "事実",
+        "reading": "じじつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "否定",
+        "reading": "ひてい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사실을 부정한다."
+  },
+  {
+    "id": "n2_019",
+    "level": "N2",
+    "kanji": "肯定",
+    "reading": "こうてい",
+    "pos": "명사",
+    "meaning": "긍정",
+    "exKanji": "彼の意見を肯定する。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "意見",
+        "reading": "いけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "肯定",
+        "reading": "こうてい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그의 의견을 긍정한다."
+  },
+  {
+    "id": "n2_020",
+    "level": "N2",
+    "kanji": "承認",
+    "reading": "しょうにん",
+    "pos": "명사",
+    "meaning": "승인",
+    "exKanji": "計画が承認された。",
+    "exSegments": [
+      {
+        "kanji": "計画",
+        "reading": "けいかく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "承認",
+        "reading": "しょうにん"
+      },
+      {
+        "kanji": "された",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "계획이 승인되었다."
+  },
+  {
+    "id": "n2_021",
+    "level": "N2",
+    "kanji": "拒否",
+    "reading": "きょひ",
+    "pos": "명사",
+    "meaning": "거부",
+    "exKanji": "申し出を拒否した。",
+    "exSegments": [
+      {
+        "kanji": "申し出",
+        "reading": "もうしで"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "拒否",
+        "reading": "きょひ"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "제안을 거부했다."
+  },
+  {
+    "id": "n2_022",
+    "level": "N2",
+    "kanji": "許可",
+    "reading": "きょか",
+    "pos": "명사",
+    "meaning": "허가",
+    "exKanji": "入場の許可をもらう。",
+    "exSegments": [
+      {
+        "kanji": "入場",
+        "reading": "にゅうじょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "許可",
+        "reading": "きょか"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "もらう",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "입장 허가를 받는다."
+  },
+  {
+    "id": "n2_023",
+    "level": "N2",
+    "kanji": "禁止",
+    "reading": "きんし",
+    "pos": "명사",
+    "meaning": "금지",
+    "exKanji": "立入禁止の場所。",
+    "exSegments": [
+      {
+        "kanji": "立入",
+        "reading": "たちいり"
+      },
+      {
+        "kanji": "禁止",
+        "reading": "きんし"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "場所",
+        "reading": "ばしょ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "출입금지 장소."
+  },
+  {
+    "id": "n2_024",
+    "level": "N2",
+    "kanji": "制限",
+    "reading": "せいげん",
+    "pos": "명사",
+    "meaning": "제한",
+    "exKanji": "スピード制限を守る。",
+    "exSegments": [
+      {
+        "kanji": "スピード",
+        "reading": ""
+      },
+      {
+        "kanji": "制限",
+        "reading": "せいげん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "守る",
+        "reading": "まもる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "속도 제한을 지킨다."
+  },
+  {
+    "id": "n2_025",
+    "level": "N2",
+    "kanji": "範囲",
+    "reading": "はんい",
+    "pos": "명사",
+    "meaning": "범위",
+    "exKanji": "試験範囲を確認する。",
+    "exSegments": [
+      {
+        "kanji": "試験",
+        "reading": "しけん"
+      },
+      {
+        "kanji": "範囲",
+        "reading": "はんい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "確認",
+        "reading": "かくにん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "시험 범위를 확인한다."
+  },
+  {
+    "id": "n2_026",
+    "level": "N2",
+    "kanji": "基準",
+    "reading": "きじゅん",
+    "pos": "명사",
+    "meaning": "기준",
+    "exKanji": "判断の基準を示す。",
+    "exSegments": [
+      {
+        "kanji": "判断",
+        "reading": "はんだん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "基準",
+        "reading": "きじゅん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "示す",
+        "reading": "しめす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "판단의 기준을 제시한다."
+  },
+  {
+    "id": "n2_027",
+    "level": "N2",
+    "kanji": "目標",
+    "reading": "もくひょう",
+    "pos": "명사",
+    "meaning": "목표",
+    "exKanji": "高い目標を立てる。",
+    "exSegments": [
+      {
+        "kanji": "高い",
+        "reading": "たかい"
+      },
+      {
+        "kanji": "目標",
+        "reading": "もくひょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "立てる",
+        "reading": "たてる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "높은 목표를 세운다."
+  },
+  {
+    "id": "n2_028",
+    "level": "N2",
+    "kanji": "達成",
+    "reading": "たっせい",
+    "pos": "명사",
+    "meaning": "달성",
+    "exKanji": "目標を達成した。",
+    "exSegments": [
+      {
+        "kanji": "目標",
+        "reading": "もくひょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "達成",
+        "reading": "たっせい"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "목표를 달성했다."
+  },
+  {
+    "id": "n2_029",
+    "level": "N2",
+    "kanji": "実現",
+    "reading": "じつげん",
+    "pos": "명사",
+    "meaning": "실현",
+    "exKanji": "夢を実現させる。",
+    "exSegments": [
+      {
+        "kanji": "夢",
+        "reading": "ゆめ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "実現",
+        "reading": "じつげん"
+      },
+      {
+        "kanji": "させる",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "꿈을 실현시킨다."
+  },
+  {
+    "id": "n2_030",
+    "level": "N2",
+    "kanji": "成功",
+    "reading": "せいこう",
+    "pos": "명사",
+    "meaning": "성공",
+    "exKanji": "事業に成功した。",
+    "exSegments": [
+      {
+        "kanji": "事業",
+        "reading": "じぎょう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사업에 성공했다."
+  },
+  {
+    "id": "n2_031",
+    "level": "N2",
+    "kanji": "失敗",
+    "reading": "しっぱい",
+    "pos": "명사",
+    "meaning": "실패",
+    "exKanji": "失敗から学ぶ。",
+    "exSegments": [
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "실패에서 배운다."
+  },
+  {
+    "id": "n2_032",
+    "level": "N2",
+    "kanji": "挑戦",
+    "reading": "ちょうせん",
+    "pos": "명사",
+    "meaning": "도전",
+    "exKanji": "新しいことに挑戦する。",
+    "exSegments": [
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "挑戦",
+        "reading": "ちょうせん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 일에 도전한다."
+  },
+  {
+    "id": "n2_033",
+    "level": "N2",
+    "kanji": "競争",
+    "reading": "きょうそう",
+    "pos": "명사",
+    "meaning": "경쟁",
+    "exKanji": "激しい競争が続く。",
+    "exSegments": [
+      {
+        "kanji": "激しい",
+        "reading": "はげしい"
+      },
+      {
+        "kanji": "競争",
+        "reading": "きょうそう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "続く",
+        "reading": "つづく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "치열한 경쟁이 계속된다."
+  },
+  {
+    "id": "n2_034",
+    "level": "N2",
+    "kanji": "協力",
+    "reading": "きょうりょく",
+    "pos": "명사",
+    "meaning": "협력",
+    "exKanji": "皆で協力する。",
+    "exSegments": [
+      {
+        "kanji": "皆",
+        "reading": "みんな"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "協力",
+        "reading": "きょうりょく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "모두 함께 협력한다."
+  },
+  {
+    "id": "n2_035",
+    "level": "N2",
+    "kanji": "支援",
+    "reading": "しえん",
+    "pos": "명사",
+    "meaning": "지원",
+    "exKanji": "被災者を支援する。",
+    "exSegments": [
+      {
+        "kanji": "被災者",
+        "reading": "ひさいしゃ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "支援",
+        "reading": "しえん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "이재민을 지원한다."
+  },
+  {
+    "id": "n2_036",
+    "level": "N2",
+    "kanji": "援助",
+    "reading": "えんじょ",
+    "pos": "명사",
+    "meaning": "원조",
+    "exKanji": "経済援助を行う。",
+    "exSegments": [
+      {
+        "kanji": "経済",
+        "reading": "けいざい"
+      },
+      {
+        "kanji": "援助",
+        "reading": "えんじょ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "行う",
+        "reading": "おこなう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "경제 원조를 한다."
+  },
+  {
+    "id": "n2_037",
+    "level": "N2",
+    "kanji": "指導",
+    "reading": "しどう",
+    "pos": "명사",
+    "meaning": "지도",
+    "exKanji": "後輩を指導する。",
+    "exSegments": [
+      {
+        "kanji": "後輩",
+        "reading": "こうはい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "指導",
+        "reading": "しどう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "후배를 지도한다."
+  },
+  {
+    "id": "n2_038",
+    "level": "N2",
+    "kanji": "訓練",
+    "reading": "くんれん",
+    "pos": "명사",
+    "meaning": "훈련",
+    "exKanji": "厳しい訓練を受ける。",
+    "exSegments": [
+      {
+        "kanji": "厳しい",
+        "reading": "きびしい"
+      },
+      {
+        "kanji": "訓練",
+        "reading": "くんれん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "受ける",
+        "reading": "うける"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "엄격한 훈련을 받는다."
+  },
+  {
+    "id": "n2_039",
+    "level": "N2",
+    "kanji": "理論",
+    "reading": "りろん",
+    "pos": "명사",
+    "meaning": "이론",
+    "exKanji": "理論と実践が大切だ。",
+    "exSegments": [
+      {
+        "kanji": "理論",
+        "reading": "りろん"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "実践",
+        "reading": "じっせん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "이론과 실천이 중요하다."
+  },
+  {
+    "id": "n2_040",
+    "level": "N2",
+    "kanji": "実践",
+    "reading": "じっせん",
+    "pos": "명사",
+    "meaning": "실천",
+    "exKanji": "知識を実践に活かす。",
+    "exSegments": [
+      {
+        "kanji": "知識",
+        "reading": "ちしき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "実践",
+        "reading": "じっせん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "活かす",
+        "reading": "いかす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "지식을 실천에 활용한다."
+  },
+  {
+    "id": "n2_041",
+    "level": "N2",
+    "kanji": "知識",
+    "reading": "ちしき",
+    "pos": "명사",
+    "meaning": "지식",
+    "exKanji": "豊富な知識を持つ。",
+    "exSegments": [
+      {
+        "kanji": "豊富",
+        "reading": "ほうふ"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "知識",
+        "reading": "ちしき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "持つ",
+        "reading": "もつ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "풍부한 지식을 가진다."
+  },
+  {
+    "id": "n2_042",
+    "level": "N2",
+    "kanji": "分析",
+    "reading": "ぶんせき",
+    "pos": "명사",
+    "meaning": "분석",
+    "exKanji": "データを分析する。",
+    "exSegments": [
+      {
+        "kanji": "データ",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "分析",
+        "reading": "ぶんせき"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "데이터를 분석한다."
+  },
+  {
+    "id": "n2_043",
+    "level": "N2",
+    "kanji": "観察",
+    "reading": "かんさつ",
+    "pos": "명사",
+    "meaning": "관찰",
+    "exKanji": "自然を観察する。",
+    "exSegments": [
+      {
+        "kanji": "自然",
+        "reading": "しぜん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "観察",
+        "reading": "かんさつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자연을 관찰한다."
+  },
+  {
+    "id": "n2_044",
+    "level": "N2",
+    "kanji": "調査",
+    "reading": "ちょうさ",
+    "pos": "명사",
+    "meaning": "조사",
+    "exKanji": "市場調査を行う。",
+    "exSegments": [
+      {
+        "kanji": "市場",
+        "reading": "しじょう"
+      },
+      {
+        "kanji": "調査",
+        "reading": "ちょうさ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "行う",
+        "reading": "おこなう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "시장 조사를 한다."
+  },
+  {
+    "id": "n2_045",
+    "level": "N2",
+    "kanji": "統計",
+    "reading": "とうけい",
+    "pos": "명사",
+    "meaning": "통계",
+    "exKanji": "統計データを集める。",
+    "exSegments": [
+      {
+        "kanji": "統計",
+        "reading": "とうけい"
+      },
+      {
+        "kanji": "データ",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "集める",
+        "reading": "あつめる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "통계 데이터를 모은다."
+  },
+  {
+    "id": "n2_046",
+    "level": "N2",
+    "kanji": "推測",
+    "reading": "すいそく",
+    "pos": "명사",
+    "meaning": "추측",
+    "exKanji": "結果を推測する。",
+    "exSegments": [
+      {
+        "kanji": "結果",
+        "reading": "けっか"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "推測",
+        "reading": "すいそく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "결과를 추측한다."
+  },
+  {
+    "id": "n2_047",
+    "level": "N2",
+    "kanji": "予測",
+    "reading": "よそく",
+    "pos": "명사",
+    "meaning": "예측",
+    "exKanji": "天気を予測する。",
+    "exSegments": [
+      {
+        "kanji": "天気",
+        "reading": "てんき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "予測",
+        "reading": "よそく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "날씨를 예측한다."
+  },
+  {
+    "id": "n2_048",
+    "level": "N2",
+    "kanji": "予想",
+    "reading": "よそう",
+    "pos": "명사",
+    "meaning": "예상",
+    "exKanji": "予想以上の結果が出た。",
+    "exSegments": [
+      {
+        "kanji": "予想",
+        "reading": "よそう"
+      },
+      {
+        "kanji": "以上",
+        "reading": "いじょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "結果",
+        "reading": "けっか"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "出た",
+        "reading": "でた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "예상 이상의 결과가 나왔다."
+  },
+  {
+    "id": "n2_049",
+    "level": "N2",
+    "kanji": "確信",
+    "reading": "かくしん",
+    "pos": "명사",
+    "meaning": "확신",
+    "exKanji": "勝利を確信している。",
+    "exSegments": [
+      {
+        "kanji": "勝利",
+        "reading": "しょうり"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "確信",
+        "reading": "かくしん"
+      },
+      {
+        "kanji": "して",
+        "reading": ""
+      },
+      {
+        "kanji": "いる",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "승리를 확신하고 있다."
+  },
+  {
+    "id": "n2_050",
+    "level": "N2",
+    "kanji": "疑問",
+    "reading": "ぎもん",
+    "pos": "명사",
+    "meaning": "의문",
+    "exKanji": "疑問を持つ。",
+    "exSegments": [
+      {
+        "kanji": "疑問",
+        "reading": "ぎもん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "持つ",
+        "reading": "もつ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의문을 가진다."
+  },
+  {
+    "id": "n2_051",
+    "level": "N2",
+    "kanji": "矛盾",
+    "reading": "むじゅん",
+    "pos": "명사",
+    "meaning": "모순",
+    "exKanji": "話に矛盾がある。",
+    "exSegments": [
+      {
+        "kanji": "話",
+        "reading": "はなし"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "矛盾",
+        "reading": "むじゅん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "ある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "이야기에 모순이 있다."
+  },
+  {
+    "id": "n2_052",
+    "level": "N2",
+    "kanji": "論理",
+    "reading": "ろんり",
+    "pos": "명사",
+    "meaning": "논리",
+    "exKanji": "論理的に考える。",
+    "exSegments": [
+      {
+        "kanji": "論理",
+        "reading": "ろんり"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "考える",
+        "reading": "かんがえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "논리적으로 생각한다."
+  },
+  {
+    "id": "n2_053",
+    "level": "N2",
+    "kanji": "根拠",
+    "reading": "こんきょ",
+    "pos": "명사",
+    "meaning": "근거",
+    "exKanji": "根拠のない話だ。",
+    "exSegments": [
+      {
+        "kanji": "根拠",
+        "reading": "こんきょ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "ない",
+        "reading": ""
+      },
+      {
+        "kanji": "話",
+        "reading": "はなし"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "근거 없는 이야기다."
+  },
+  {
+    "id": "n2_054",
+    "level": "N2",
+    "kanji": "証拠",
+    "reading": "しょうこ",
+    "pos": "명사",
+    "meaning": "증거",
+    "exKanji": "証拠を集める。",
+    "exSegments": [
+      {
+        "kanji": "証拠",
+        "reading": "しょうこ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "集める",
+        "reading": "あつめる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "증거를 모은다."
+  },
+  {
+    "id": "n2_055",
+    "level": "N2",
+    "kanji": "事実",
+    "reading": "じじつ",
+    "pos": "명사",
+    "meaning": "사실",
+    "exKanji": "事実を伝える。",
+    "exSegments": [
+      {
+        "kanji": "事実",
+        "reading": "じじつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "伝える",
+        "reading": "つたえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사실을 전한다."
+  },
+  {
+    "id": "n2_056",
+    "level": "N2",
+    "kanji": "現象",
+    "reading": "げんしょう",
+    "pos": "명사",
+    "meaning": "현상",
+    "exKanji": "自然現象を観察する。",
+    "exSegments": [
+      {
+        "kanji": "自然",
+        "reading": "しぜん"
+      },
+      {
+        "kanji": "現象",
+        "reading": "げんしょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "観察",
+        "reading": "かんさつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자연 현상을 관찰한다."
+  },
+  {
+    "id": "n2_057",
+    "level": "N2",
+    "kanji": "特徴",
+    "reading": "とくちょう",
+    "pos": "명사",
+    "meaning": "특징",
+    "exKanji": "作品の特徴を述べる。",
+    "exSegments": [
+      {
+        "kanji": "作品",
+        "reading": "さくひん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "特徴",
+        "reading": "とくちょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "述べる",
+        "reading": "のべる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "작품의 특징을 서술한다."
+  },
+  {
+    "id": "n2_058",
+    "level": "N2",
+    "kanji": "性質",
+    "reading": "せいしつ",
+    "pos": "명사",
+    "meaning": "성질",
+    "exKanji": "水の性質を調べる。",
+    "exSegments": [
+      {
+        "kanji": "水",
+        "reading": "みず"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "性質",
+        "reading": "せいしつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "調べる",
+        "reading": "しらべる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "물의 성질을 조사한다."
+  },
+  {
+    "id": "n2_059",
+    "level": "N2",
+    "kanji": "構造",
+    "reading": "こうぞう",
+    "pos": "명사",
+    "meaning": "구조",
+    "exKanji": "建物の構造を学ぶ。",
+    "exSegments": [
+      {
+        "kanji": "建物",
+        "reading": "たてもの"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "構造",
+        "reading": "こうぞう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "건물의 구조를 배운다."
+  },
+  {
+    "id": "n2_060",
+    "level": "N2",
+    "kanji": "機能",
+    "reading": "きのう",
+    "pos": "명사",
+    "meaning": "기능",
+    "exKanji": "新しい機能を追加する。",
+    "exSegments": [
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "機能",
+        "reading": "きのう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "追加",
+        "reading": "ついか"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 기능을 추가한다."
+  },
+  {
+    "id": "n2_061",
+    "level": "N2",
+    "kanji": "効率",
+    "reading": "こうりつ",
+    "pos": "명사",
+    "meaning": "효율",
+    "exKanji": "作業の効率を上げる。",
+    "exSegments": [
+      {
+        "kanji": "作業",
+        "reading": "さぎょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "効率",
+        "reading": "こうりつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "上げる",
+        "reading": "あげる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "작업의 효율을 올린다."
+  },
+  {
+    "id": "n2_062",
+    "level": "N2",
+    "kanji": "効果",
+    "reading": "こうか",
+    "pos": "명사",
+    "meaning": "효과",
+    "exKanji": "薬の効果が出た。",
+    "exSegments": [
+      {
+        "kanji": "薬",
+        "reading": "くすり"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "効果",
+        "reading": "こうか"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "出た",
+        "reading": "でた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "약의 효과가 나타났다."
+  },
+  {
+    "id": "n2_063",
+    "level": "N2",
+    "kanji": "影",
+    "reading": "かげ",
+    "pos": "명사",
+    "meaning": "그림자",
+    "exKanji": "木の影で休む。",
+    "exSegments": [
+      {
+        "kanji": "木",
+        "reading": "き"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "影",
+        "reading": "かげ"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "休む",
+        "reading": "やすむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "나무 그림자에서 쉰다."
+  },
+  {
+    "id": "n2_064",
+    "level": "N2",
+    "kanji": "用途",
+    "reading": "ようと",
+    "pos": "명사",
+    "meaning": "용도",
+    "exKanji": "用途を考えて買う。",
+    "exSegments": [
+      {
+        "kanji": "用途",
+        "reading": "ようと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "考えて",
+        "reading": "かんがえて"
+      },
+      {
+        "kanji": "買う",
+        "reading": "かう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "용도를 생각해서 산다."
+  },
+  {
+    "id": "n2_065",
+    "level": "N2",
+    "kanji": "用意",
+    "reading": "ようい",
+    "pos": "명사",
+    "meaning": "준비",
+    "exKanji": "食事の用意をする。",
+    "exSegments": [
+      {
+        "kanji": "食事",
+        "reading": "しょくじ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "用意",
+        "reading": "ようい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "식사 준비를 한다."
+  },
+  {
+    "id": "n2_066",
+    "level": "N2",
+    "kanji": "準備",
+    "reading": "じゅんび",
+    "pos": "명사",
+    "meaning": "준비",
+    "exKanji": "出発の準備を整える。",
+    "exSegments": [
+      {
+        "kanji": "出発",
+        "reading": "しゅっぱつ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "準備",
+        "reading": "じゅんび"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "整える",
+        "reading": "ととのえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "출발 준비를 갖춘다."
+  },
+  {
+    "id": "n2_067",
+    "level": "N2",
+    "kanji": "資源",
+    "reading": "しげん",
+    "pos": "명사",
+    "meaning": "자원",
+    "exKanji": "資源を大切にする。",
+    "exSegments": [
+      {
+        "kanji": "資源",
+        "reading": "しげん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자원을 소중히 한다."
+  },
+  {
+    "id": "n2_068",
+    "level": "N2",
+    "kanji": "資料",
+    "reading": "しりょう",
+    "pos": "명사",
+    "meaning": "자료",
+    "exKanji": "会議用の資料を作る。",
+    "exSegments": [
+      {
+        "kanji": "会議用",
+        "reading": "かいぎよう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "資料",
+        "reading": "しりょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "作る",
+        "reading": "つくる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "회의용 자료를 만든다."
+  },
+  {
+    "id": "n2_069",
+    "level": "N2",
+    "kanji": "情報",
+    "reading": "じょうほう",
+    "pos": "명사",
+    "meaning": "정보",
+    "exKanji": "最新情報を入手する。",
+    "exSegments": [
+      {
+        "kanji": "最新",
+        "reading": "さいしん"
+      },
+      {
+        "kanji": "情報",
+        "reading": "じょうほう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "入手",
+        "reading": "にゅうしゅ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "최신 정보를 입수한다."
+  },
+  {
+    "id": "n2_070",
+    "level": "N2",
+    "kanji": "通信",
+    "reading": "つうしん",
+    "pos": "명사",
+    "meaning": "통신",
+    "exKanji": "通信が途切れた。",
+    "exSegments": [
+      {
+        "kanji": "通信",
+        "reading": "つうしん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "途切れた",
+        "reading": "とぎれた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "통신이 끊겼다."
+  },
+  {
+    "id": "n2_071",
+    "level": "N2",
+    "kanji": "伝達",
+    "reading": "でんたつ",
+    "pos": "명사",
+    "meaning": "전달",
+    "exKanji": "情報を伝達する。",
+    "exSegments": [
+      {
+        "kanji": "情報",
+        "reading": "じょうほう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "伝達",
+        "reading": "でんたつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정보를 전달한다."
+  },
+  {
+    "id": "n2_072",
+    "level": "N2",
+    "kanji": "伝統",
+    "reading": "でんとう",
+    "pos": "명사",
+    "meaning": "전통",
+    "exKanji": "伝統を守る。",
+    "exSegments": [
+      {
+        "kanji": "伝統",
+        "reading": "でんとう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "守る",
+        "reading": "まもる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "전통을 지킨다."
+  },
+  {
+    "id": "n2_073",
+    "level": "N2",
+    "kanji": "行事",
+    "reading": "ぎょうじ",
+    "pos": "명사",
+    "meaning": "행사",
+    "exKanji": "年間行事に参加する。",
+    "exSegments": [
+      {
+        "kanji": "年間",
+        "reading": "ねんかん"
+      },
+      {
+        "kanji": "行事",
+        "reading": "ぎょうじ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "参加",
+        "reading": "さんか"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "연간 행사에 참가한다."
+  },
+  {
+    "id": "n2_074",
+    "level": "N2",
+    "kanji": "祭り",
+    "reading": "まつり",
+    "pos": "명사",
+    "meaning": "축제",
+    "exKanji": "夏祭りに行く。",
+    "exSegments": [
+      {
+        "kanji": "夏祭り",
+        "reading": "なつまつり"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "行く",
+        "reading": "いく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "여름 축제에 간다."
+  },
+  {
+    "id": "n2_075",
+    "level": "N2",
+    "kanji": "宗教",
+    "reading": "しゅうきょう",
+    "pos": "명사",
+    "meaning": "종교",
+    "exKanji": "宗教について学ぶ。",
+    "exSegments": [
+      {
+        "kanji": "宗教",
+        "reading": "しゅうきょう"
+      },
+      {
+        "kanji": "について",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "종교에 대해 배운다."
+  },
+  {
+    "id": "n2_076",
+    "level": "N2",
+    "kanji": "信仰",
+    "reading": "しんこう",
+    "pos": "명사",
+    "meaning": "신앙",
+    "exKanji": "信仰を大切にする。",
+    "exSegments": [
+      {
+        "kanji": "信仰",
+        "reading": "しんこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "신앙을 소중히 한다."
+  },
+  {
+    "id": "n2_077",
+    "level": "N2",
+    "kanji": "信頼",
+    "reading": "しんらい",
+    "pos": "명사",
+    "meaning": "신뢰",
+    "exKanji": "信頼関係を築く。",
+    "exSegments": [
+      {
+        "kanji": "信頼",
+        "reading": "しんらい"
+      },
+      {
+        "kanji": "関係",
+        "reading": "かんけい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "築く",
+        "reading": "きずく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "신뢰관계를 쌓는다."
+  },
+  {
+    "id": "n2_078",
+    "level": "N2",
+    "kanji": "関係",
+    "reading": "かんけい",
+    "pos": "명사",
+    "meaning": "관계",
+    "exKanji": "良い関係を保つ。",
+    "exSegments": [
+      {
+        "kanji": "良い",
+        "reading": "よい"
+      },
+      {
+        "kanji": "関係",
+        "reading": "かんけい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "保つ",
+        "reading": "たもつ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "좋은 관계를 유지한다."
+  },
+  {
+    "id": "n2_079",
+    "level": "N2",
+    "kanji": "接触",
+    "reading": "せっしょく",
+    "pos": "명사",
+    "meaning": "접촉",
+    "exKanji": "異文化と接触する。",
+    "exSegments": [
+      {
+        "kanji": "異文化",
+        "reading": "いぶんか"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "接触",
+        "reading": "せっしょく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "이문화와 접촉한다."
+  },
+  {
+    "id": "n2_080",
+    "level": "N2",
+    "kanji": "交流",
+    "reading": "こうりゅう",
+    "pos": "명사",
+    "meaning": "교류",
+    "exKanji": "国際交流を深める。",
+    "exSegments": [
+      {
+        "kanji": "国際",
+        "reading": "こくさい"
+      },
+      {
+        "kanji": "交流",
+        "reading": "こうりゅう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "深める",
+        "reading": "ふかめる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "국제 교류를 깊게 한다."
+  },
+  {
+    "id": "n2_081",
+    "level": "N2",
+    "kanji": "交渉",
+    "reading": "こうしょう",
+    "pos": "명사",
+    "meaning": "교섭",
+    "exKanji": "価格を交渉する。",
+    "exSegments": [
+      {
+        "kanji": "価格",
+        "reading": "かかく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "交渉",
+        "reading": "こうしょう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "가격을 교섭한다."
+  },
+  {
+    "id": "n2_082",
+    "level": "N2",
+    "kanji": "契約",
+    "reading": "けいやく",
+    "pos": "명사",
+    "meaning": "계약",
+    "exKanji": "契約を結ぶ。",
+    "exSegments": [
+      {
+        "kanji": "契約",
+        "reading": "けいやく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "結ぶ",
+        "reading": "むすぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "계약을 맺는다."
+  },
+  {
+    "id": "n2_083",
+    "level": "N2",
+    "kanji": "義務",
+    "reading": "ぎむ",
+    "pos": "명사",
+    "meaning": "의무",
+    "exKanji": "義務を果たす。",
+    "exSegments": [
+      {
+        "kanji": "義務",
+        "reading": "ぎむ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "果たす",
+        "reading": "はたす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의무를 다한다."
+  },
+  {
+    "id": "n2_084",
+    "level": "N2",
+    "kanji": "権利",
+    "reading": "けんり",
+    "pos": "명사",
+    "meaning": "권리",
+    "exKanji": "権利を主張する。",
+    "exSegments": [
+      {
+        "kanji": "権利",
+        "reading": "けんり"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "主張",
+        "reading": "しゅちょう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "권리를 주장한다."
+  },
+  {
+    "id": "n2_085",
+    "level": "N2",
+    "kanji": "責任",
+    "reading": "せきにん",
+    "pos": "명사",
+    "meaning": "책임",
+    "exKanji": "責任を取る。",
+    "exSegments": [
+      {
+        "kanji": "責任",
+        "reading": "せきにん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "取る",
+        "reading": "とる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "책임을 진다."
+  },
+  {
+    "id": "n2_086",
+    "level": "N2",
+    "kanji": "役割",
+    "reading": "やくわり",
+    "pos": "명사",
+    "meaning": "역할",
+    "exKanji": "重要な役割を担う。",
+    "exSegments": [
+      {
+        "kanji": "重要",
+        "reading": "じゅうよう"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "役割",
+        "reading": "やくわり"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "担う",
+        "reading": "になう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "중요한 역할을 맡는다."
+  },
+  {
+    "id": "n2_087",
+    "level": "N2",
+    "kanji": "立場",
+    "reading": "たちば",
+    "pos": "명사",
+    "meaning": "입장",
+    "exKanji": "相手の立場を考える。",
+    "exSegments": [
+      {
+        "kanji": "相手",
+        "reading": "あいて"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "立場",
+        "reading": "たちば"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "考える",
+        "reading": "かんがえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "상대의 입장을 생각한다."
+  },
+  {
+    "id": "n2_088",
+    "level": "N2",
+    "kanji": "態度",
+    "reading": "たいど",
+    "pos": "명사",
+    "meaning": "태도",
+    "exKanji": "態度を改める。",
+    "exSegments": [
+      {
+        "kanji": "態度",
+        "reading": "たいど"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "改める",
+        "reading": "あらためる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "태도를 고친다."
+  },
+  {
+    "id": "n2_089",
+    "level": "N2",
+    "kanji": "行動",
+    "reading": "こうどう",
+    "pos": "명사",
+    "meaning": "행동",
+    "exKanji": "行動に移す。",
+    "exSegments": [
+      {
+        "kanji": "行動",
+        "reading": "こうどう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "移す",
+        "reading": "うつす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "행동에 옮긴다."
+  },
+  {
+    "id": "n2_090",
+    "level": "N2",
+    "kanji": "姿勢",
+    "reading": "しせい",
+    "pos": "명사",
+    "meaning": "자세",
+    "exKanji": "真剣な姿勢で取り組む。",
+    "exSegments": [
+      {
+        "kanji": "真剣",
+        "reading": "しんけん"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "姿勢",
+        "reading": "しせい"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "取り組む",
+        "reading": "とりくむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "진지한 자세로 임한다."
+  },
+  {
+    "id": "n2_091",
+    "level": "N2",
+    "kanji": "印象",
+    "reading": "いんしょう",
+    "pos": "명사",
+    "meaning": "인상",
+    "exKanji": "良い印象を与える。",
+    "exSegments": [
+      {
+        "kanji": "良い",
+        "reading": "よい"
+      },
+      {
+        "kanji": "印象",
+        "reading": "いんしょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "与える",
+        "reading": "あたえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "좋은 인상을 준다."
+  },
+  {
+    "id": "n2_092",
+    "level": "N2",
+    "kanji": "印刷",
+    "reading": "いんさつ",
+    "pos": "명사",
+    "meaning": "인쇄",
+    "exKanji": "資料を印刷する。",
+    "exSegments": [
+      {
+        "kanji": "資料",
+        "reading": "しりょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "印刷",
+        "reading": "いんさつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자료를 인쇄한다."
+  },
+  {
+    "id": "n2_093",
+    "level": "N2",
+    "kanji": "出版",
+    "reading": "しゅっぱん",
+    "pos": "명사",
+    "meaning": "출판",
+    "exKanji": "本を出版する。",
+    "exSegments": [
+      {
+        "kanji": "本",
+        "reading": "ほん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "出版",
+        "reading": "しゅっぱん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "책을 출판한다."
+  },
+  {
+    "id": "n2_094",
+    "level": "N2",
+    "kanji": "翻訳",
+    "reading": "ほんやく",
+    "pos": "명사",
+    "meaning": "번역",
+    "exKanji": "小説を翻訳する。",
+    "exSegments": [
+      {
+        "kanji": "小説",
+        "reading": "しょうせつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "翻訳",
+        "reading": "ほんやく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "소설을 번역한다."
+  },
+  {
+    "id": "n2_095",
+    "level": "N2",
+    "kanji": "通訳",
+    "reading": "つうやく",
+    "pos": "명사",
+    "meaning": "통역",
+    "exKanji": "会議で通訳する。",
+    "exSegments": [
+      {
+        "kanji": "会議",
+        "reading": "かいぎ"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "通訳",
+        "reading": "つうやく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "회의에서 통역한다."
+  },
+  {
+    "id": "n2_096",
+    "level": "N2",
+    "kanji": "記録",
+    "reading": "きろく",
+    "pos": "명사",
+    "meaning": "기록",
+    "exKanji": "会議の記録を取る。",
+    "exSegments": [
+      {
+        "kanji": "会議",
+        "reading": "かいぎ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "記録",
+        "reading": "きろく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "取る",
+        "reading": "とる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "회의 기록을 한다."
+  },
+  {
+    "id": "n2_097",
+    "level": "N2",
+    "kanji": "記事",
+    "reading": "きじ",
+    "pos": "명사",
+    "meaning": "기사",
+    "exKanji": "新聞の記事を読む。",
+    "exSegments": [
+      {
+        "kanji": "新聞",
+        "reading": "しんぶん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "記事",
+        "reading": "きじ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "読む",
+        "reading": "よむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "신문 기사를 읽는다."
+  },
+  {
+    "id": "n2_098",
+    "level": "N2",
+    "kanji": "報道",
+    "reading": "ほうどう",
+    "pos": "명사",
+    "meaning": "보도",
+    "exKanji": "事件が報道された。",
+    "exSegments": [
+      {
+        "kanji": "事件",
+        "reading": "じけん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "報道",
+        "reading": "ほうどう"
+      },
+      {
+        "kanji": "された",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사건이 보도되었다."
+  },
+  {
+    "id": "n2_099",
+    "level": "N2",
+    "kanji": "放送",
+    "reading": "ほうそう",
+    "pos": "명사",
+    "meaning": "방송",
+    "exKanji": "番組を放送する。",
+    "exSegments": [
+      {
+        "kanji": "番組",
+        "reading": "ばんぐみ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "放送",
+        "reading": "ほうそう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "방송 프로그램을 방송한다."
+  },
+  {
+    "id": "n2_100",
+    "level": "N2",
+    "kanji": "番組",
+    "reading": "ばんぐみ",
+    "pos": "명사",
+    "meaning": "방송 프로그램",
+    "exKanji": "面白い番組を見る。",
+    "exSegments": [
+      {
+        "kanji": "面白い",
+        "reading": "おもしろい"
+      },
+      {
+        "kanji": "番組",
+        "reading": "ばんぐみ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "見る",
+        "reading": "みる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "재미있는 프로그램을 본다."
+  },
+  {
+    "id": "n2_101",
+    "level": "N2",
+    "kanji": "演奏",
+    "reading": "えんそう",
+    "pos": "명사",
+    "meaning": "연주",
+    "exKanji": "ピアノを演奏する。",
+    "exSegments": [
+      {
+        "kanji": "ピアノ",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "演奏",
+        "reading": "えんそう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "피아노를 연주한다."
+  },
+  {
+    "id": "n2_102",
+    "level": "N2",
+    "kanji": "観客",
+    "reading": "かんきゃく",
+    "pos": "명사",
+    "meaning": "관객",
+    "exKanji": "観客が拍手した。",
+    "exSegments": [
+      {
+        "kanji": "観客",
+        "reading": "かんきゃく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "拍手",
+        "reading": "はくしゅ"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "관객이 박수쳤다."
+  },
+  {
+    "id": "n2_103",
+    "level": "N2",
+    "kanji": "観光",
+    "reading": "かんこう",
+    "pos": "명사",
+    "meaning": "관광",
+    "exKanji": "京都を観光する。",
+    "exSegments": [
+      {
+        "kanji": "京都",
+        "reading": "きょうと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "観光",
+        "reading": "かんこう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "교토를 관광한다."
+  },
+  {
+    "id": "n2_104",
+    "level": "N2",
+    "kanji": "温暖",
+    "reading": "おんだん",
+    "pos": "な형용사",
+    "meaning": "온난",
+    "exKanji": "温暖な気候の地域。",
+    "exSegments": [
+      {
+        "kanji": "温暖",
+        "reading": "おんだん"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "気候",
+        "reading": "きこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "地域",
+        "reading": "ちいき"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "온난한 기후의 지역."
+  },
+  {
+    "id": "n2_105",
+    "level": "N2",
+    "kanji": "地域",
+    "reading": "ちいき",
+    "pos": "명사",
+    "meaning": "지역",
+    "exKanji": "地域の発展に努める。",
+    "exSegments": [
+      {
+        "kanji": "地域",
+        "reading": "ちいき"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "発展",
+        "reading": "はってん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "努める",
+        "reading": "つとめる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "지역의 발전에 노력한다."
+  },
+  {
+    "id": "n2_106",
+    "level": "N2",
+    "kanji": "範",
+    "reading": "はん",
+    "pos": "명사",
+    "meaning": "본보기",
+    "exKanji": "後輩の範となる。",
+    "exSegments": [
+      {
+        "kanji": "後輩",
+        "reading": "こうはい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "範",
+        "reading": "はん"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "なる",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "후배의 본보기가 된다."
+  },
+  {
+    "id": "n2_107",
+    "level": "N2",
+    "kanji": "含む",
+    "reading": "ふくむ",
+    "pos": "동사",
+    "meaning": "포함하다",
+    "exKanji": "税金を含む価格だ。",
+    "exSegments": [
+      {
+        "kanji": "税金",
+        "reading": "ぜいきん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "含む",
+        "reading": "ふくむ"
+      },
+      {
+        "kanji": "価格",
+        "reading": "かかく"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "세금을 포함한 가격이다."
+  },
+  {
+    "id": "n2_108",
+    "level": "N2",
+    "kanji": "除く",
+    "reading": "のぞく",
+    "pos": "동사",
+    "meaning": "제외하다",
+    "exKanji": "日曜日を除く毎日。",
+    "exSegments": [
+      {
+        "kanji": "日曜日",
+        "reading": "にちようび"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "除く",
+        "reading": "のぞく"
+      },
+      {
+        "kanji": "毎日",
+        "reading": "まいにち"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "일요일을 제외한 매일."
+  },
+  {
+    "id": "n2_109",
+    "level": "N2",
+    "kanji": "加える",
+    "reading": "くわえる",
+    "pos": "동사",
+    "meaning": "더하다",
+    "exKanji": "砂糖を加える。",
+    "exSegments": [
+      {
+        "kanji": "砂糖",
+        "reading": "さとう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "加える",
+        "reading": "くわえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "설탕을 더한다."
+  },
+  {
+    "id": "n2_110",
+    "level": "N2",
+    "kanji": "省く",
+    "reading": "はぶく",
+    "pos": "동사",
+    "meaning": "생략하다",
+    "exKanji": "手間を省く。",
+    "exSegments": [
+      {
+        "kanji": "手間",
+        "reading": "てま"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "省く",
+        "reading": "はぶく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "수고를 줄인다."
+  },
+  {
+    "id": "n2_111",
+    "level": "N2",
+    "kanji": "区別",
+    "reading": "くべつ",
+    "pos": "명사",
+    "meaning": "구별",
+    "exKanji": "色の区別がつかない。",
+    "exSegments": [
+      {
+        "kanji": "色",
+        "reading": "いろ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "区別",
+        "reading": "くべつ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "つかない",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "색의 구별이 안 된다."
+  },
+  {
+    "id": "n2_112",
+    "level": "N2",
+    "kanji": "差別",
+    "reading": "さべつ",
+    "pos": "명사",
+    "meaning": "차별",
+    "exKanji": "差別をなくす。",
+    "exSegments": [
+      {
+        "kanji": "差別",
+        "reading": "さべつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "なくす",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "차별을 없앤다."
+  },
+  {
+    "id": "n2_113",
+    "level": "N2",
+    "kanji": "平等",
+    "reading": "びょうどう",
+    "pos": "な형용사",
+    "meaning": "평등",
+    "exKanji": "平等な社会を目指す。",
+    "exSegments": [
+      {
+        "kanji": "平等",
+        "reading": "びょうどう"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "社会",
+        "reading": "しゃかい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "目指す",
+        "reading": "めざす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "평등한 사회를 지향한다."
+  },
+  {
+    "id": "n2_114",
+    "level": "N2",
+    "kanji": "公平",
+    "reading": "こうへい",
+    "pos": "な형용사",
+    "meaning": "공평",
+    "exKanji": "公平な判断を下す。",
+    "exSegments": [
+      {
+        "kanji": "公平",
+        "reading": "こうへい"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "判断",
+        "reading": "はんだん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "下す",
+        "reading": "くだす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "공평한 판단을 내린다."
+  },
+  {
+    "id": "n2_115",
+    "level": "N2",
+    "kanji": "正当",
+    "reading": "せいとう",
+    "pos": "な형용사",
+    "meaning": "정당",
+    "exKanji": "正当な理由がある。",
+    "exSegments": [
+      {
+        "kanji": "正当",
+        "reading": "せいとう"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "理由",
+        "reading": "りゆう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "ある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정당한 이유가 있다."
+  },
+  {
+    "id": "n2_116",
+    "level": "N2",
+    "kanji": "正確",
+    "reading": "せいかく",
+    "pos": "な형용사",
+    "meaning": "정확",
+    "exKanji": "正確な情報を求める。",
+    "exSegments": [
+      {
+        "kanji": "正確",
+        "reading": "せいかく"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "情報",
+        "reading": "じょうほう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "求める",
+        "reading": "もとめる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정확한 정보를 요구한다."
+  },
+  {
+    "id": "n2_117",
+    "level": "N2",
+    "kanji": "明確",
+    "reading": "めいかく",
+    "pos": "な형용사",
+    "meaning": "명확",
+    "exKanji": "明確な答えを出す。",
+    "exSegments": [
+      {
+        "kanji": "明確",
+        "reading": "めいかく"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "答え",
+        "reading": "こたえ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "出す",
+        "reading": "だす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "명확한 답을 낸다."
+  },
+  {
+    "id": "n2_118",
+    "level": "N2",
+    "kanji": "具体",
+    "reading": "ぐたい",
+    "pos": "명사",
+    "meaning": "구체",
+    "exKanji": "具体的に説明する。",
+    "exSegments": [
+      {
+        "kanji": "具体",
+        "reading": "ぐたい"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "구체적으로 설명한다."
+  },
+  {
+    "id": "n2_119",
+    "level": "N2",
+    "kanji": "抽象",
+    "reading": "ちゅうしょう",
+    "pos": "명사",
+    "meaning": "추상",
+    "exKanji": "抽象的な話だ。",
+    "exSegments": [
+      {
+        "kanji": "抽象",
+        "reading": "ちゅうしょう"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "話",
+        "reading": "はなし"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "추상적인 이야기다."
+  },
+  {
+    "id": "n2_120",
+    "level": "N2",
+    "kanji": "基本",
+    "reading": "きほん",
+    "pos": "명사",
+    "meaning": "기본",
+    "exKanji": "基本から学ぶ。",
+    "exSegments": [
+      {
+        "kanji": "基本",
+        "reading": "きほん"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "기본부터 배운다."
+  },
+  {
+    "id": "n2_121",
+    "level": "N2",
+    "kanji": "応用",
+    "reading": "おうよう",
+    "pos": "명사",
+    "meaning": "응용",
+    "exKanji": "応用問題を解く。",
+    "exSegments": [
+      {
+        "kanji": "応用",
+        "reading": "おうよう"
+      },
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "解く",
+        "reading": "とく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "응용 문제를 푼다."
+  },
+  {
+    "id": "n2_122",
+    "level": "N2",
+    "kanji": "処理",
+    "reading": "しょり",
+    "pos": "명사",
+    "meaning": "처리",
+    "exKanji": "問題を処理する。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "処理",
+        "reading": "しょり"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제를 처리한다."
+  },
+  {
+    "id": "n2_123",
+    "level": "N2",
+    "kanji": "作業",
+    "reading": "さぎょう",
+    "pos": "명사",
+    "meaning": "작업",
+    "exKanji": "作業を続ける。",
+    "exSegments": [
+      {
+        "kanji": "作業",
+        "reading": "さぎょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "続ける",
+        "reading": "つづける"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "작업을 계속한다."
+  },
+  {
+    "id": "n2_124",
+    "level": "N2",
+    "kanji": "操作",
+    "reading": "そうさ",
+    "pos": "명사",
+    "meaning": "조작",
+    "exKanji": "機械を操作する。",
+    "exSegments": [
+      {
+        "kanji": "機械",
+        "reading": "きかい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "操作",
+        "reading": "そうさ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "기계를 조작한다."
+  },
+  {
+    "id": "n2_125",
+    "level": "N2",
+    "kanji": "管理",
+    "reading": "かんり",
+    "pos": "명사",
+    "meaning": "관리",
+    "exKanji": "工場を管理する。",
+    "exSegments": [
+      {
+        "kanji": "工場",
+        "reading": "こうじょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "管理",
+        "reading": "かんり"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "공장을 관리한다."
+  },
+  {
+    "id": "n2_126",
+    "level": "N2",
+    "kanji": "監督",
+    "reading": "かんとく",
+    "pos": "명사",
+    "meaning": "감독",
+    "exKanji": "工事を監督する。",
+    "exSegments": [
+      {
+        "kanji": "工事",
+        "reading": "こうじ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "監督",
+        "reading": "かんとく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "공사를 감독한다."
+  },
+  {
+    "id": "n2_127",
+    "level": "N2",
+    "kanji": "集中",
+    "reading": "しゅうちゅう",
+    "pos": "명사",
+    "meaning": "집중",
+    "exKanji": "勉強に集中する。",
+    "exSegments": [
+      {
+        "kanji": "勉強",
+        "reading": "べんきょう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "集中",
+        "reading": "しゅうちゅう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "공부에 집중한다."
+  },
+  {
+    "id": "n2_128",
+    "level": "N2",
+    "kanji": "集合",
+    "reading": "しゅうごう",
+    "pos": "명사",
+    "meaning": "집합",
+    "exKanji": "駅前に集合する。",
+    "exSegments": [
+      {
+        "kanji": "駅前",
+        "reading": "えきまえ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "集合",
+        "reading": "しゅうごう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "역 앞에 집합한다."
+  },
+  {
+    "id": "n2_129",
+    "level": "N2",
+    "kanji": "散歩",
+    "reading": "さんぽ",
+    "pos": "명사",
+    "meaning": "산책",
+    "exKanji": "公園を散歩する。",
+    "exSegments": [
+      {
+        "kanji": "公園",
+        "reading": "こうえん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "散歩",
+        "reading": "さんぽ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "공원을 산책한다."
+  },
+  {
+    "id": "n2_130",
+    "level": "N2",
+    "kanji": "発生",
+    "reading": "はっせい",
+    "pos": "명사",
+    "meaning": "발생",
+    "exKanji": "事故が発生した。",
+    "exSegments": [
+      {
+        "kanji": "事故",
+        "reading": "じこ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "発生",
+        "reading": "はっせい"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사고가 발생했다."
+  },
+  {
+    "id": "n2_131",
+    "level": "N2",
+    "kanji": "発見",
+    "reading": "はっけん",
+    "pos": "명사",
+    "meaning": "발견",
+    "exKanji": "新種を発見した。",
+    "exSegments": [
+      {
+        "kanji": "新種",
+        "reading": "しんしゅ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "発見",
+        "reading": "はっけん"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "신종을 발견했다."
+  },
+  {
+    "id": "n2_132",
+    "level": "N2",
+    "kanji": "発明",
+    "reading": "はつめい",
+    "pos": "명사",
+    "meaning": "발명",
+    "exKanji": "電球を発明した。",
+    "exSegments": [
+      {
+        "kanji": "電球",
+        "reading": "でんきゅう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "発明",
+        "reading": "はつめい"
+      },
+      {
+        "kanji": "した",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "전구를 발명했다."
+  },
+  {
+    "id": "n2_133",
+    "level": "N2",
+    "kanji": "製造",
+    "reading": "せいぞう",
+    "pos": "명사",
+    "meaning": "제조",
+    "exKanji": "自動車を製造する。",
+    "exSegments": [
+      {
+        "kanji": "自動車",
+        "reading": "じどうしゃ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "製造",
+        "reading": "せいぞう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자동차를 제조한다."
+  },
+  {
+    "id": "n2_134",
+    "level": "N2",
+    "kanji": "生産",
+    "reading": "せいさん",
+    "pos": "명사",
+    "meaning": "생산",
+    "exKanji": "米を生産する。",
+    "exSegments": [
+      {
+        "kanji": "米",
+        "reading": "こめ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "生産",
+        "reading": "せいさん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "쌀을 생산한다."
+  },
+  {
+    "id": "n2_135",
+    "level": "N2",
+    "kanji": "消費",
+    "reading": "しょうひ",
+    "pos": "명사",
+    "meaning": "소비",
+    "exKanji": "エネルギーを消費する。",
+    "exSegments": [
+      {
+        "kanji": "エネルギー",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "消費",
+        "reading": "しょうひ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "에너지를 소비한다."
+  },
+  {
+    "id": "n2_136",
+    "level": "N2",
+    "kanji": "販売",
+    "reading": "はんばい",
+    "pos": "명사",
+    "meaning": "판매",
+    "exKanji": "商品を販売する。",
+    "exSegments": [
+      {
+        "kanji": "商品",
+        "reading": "しょうひん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "販売",
+        "reading": "はんばい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "상품을 판매한다."
+  },
+  {
+    "id": "n2_137",
+    "level": "N2",
+    "kanji": "購入",
+    "reading": "こうにゅう",
+    "pos": "명사",
+    "meaning": "구입",
+    "exKanji": "新車を購入する。",
+    "exSegments": [
+      {
+        "kanji": "新車",
+        "reading": "しんしゃ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "購入",
+        "reading": "こうにゅう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새 차를 구입한다."
+  },
+  {
+    "id": "n2_138",
+    "level": "N2",
+    "kanji": "輸出",
+    "reading": "ゆしゅつ",
+    "pos": "명사",
+    "meaning": "수출",
+    "exKanji": "製品を輸出する。",
+    "exSegments": [
+      {
+        "kanji": "製品",
+        "reading": "せいひん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "輸出",
+        "reading": "ゆしゅつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "제품을 수출한다."
+  },
+  {
+    "id": "n2_139",
+    "level": "N2",
+    "kanji": "輸入",
+    "reading": "ゆにゅう",
+    "pos": "명사",
+    "meaning": "수입",
+    "exKanji": "小麦を輸入する。",
+    "exSegments": [
+      {
+        "kanji": "小麦",
+        "reading": "こむぎ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "輸入",
+        "reading": "ゆにゅう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "밀을 수입한다."
+  },
+  {
+    "id": "n2_140",
+    "level": "N2",
+    "kanji": "貿易",
+    "reading": "ぼうえき",
+    "pos": "명사",
+    "meaning": "무역",
+    "exKanji": "貿易関係を強化する。",
+    "exSegments": [
+      {
+        "kanji": "貿易",
+        "reading": "ぼうえき"
+      },
+      {
+        "kanji": "関係",
+        "reading": "かんけい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "強化",
+        "reading": "きょうか"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "무역 관계를 강화한다."
+  },
+  {
+    "id": "n2_141",
+    "level": "N2",
+    "kanji": "投資",
+    "reading": "とうし",
+    "pos": "명사",
+    "meaning": "투자",
+    "exKanji": "株に投資する。",
+    "exSegments": [
+      {
+        "kanji": "株",
+        "reading": "かぶ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "投資",
+        "reading": "とうし"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "주식에 투자한다."
+  },
+  {
+    "id": "n2_142",
+    "level": "N2",
+    "kanji": "利益",
+    "reading": "りえき",
+    "pos": "명사",
+    "meaning": "이익",
+    "exKanji": "利益を上げる。",
+    "exSegments": [
+      {
+        "kanji": "利益",
+        "reading": "りえき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "上げる",
+        "reading": "あげる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "이익을 올린다."
+  },
+  {
+    "id": "n2_143",
+    "level": "N2",
+    "kanji": "損失",
+    "reading": "そんしつ",
+    "pos": "명사",
+    "meaning": "손실",
+    "exKanji": "大きな損失を出した。",
+    "exSegments": [
+      {
+        "kanji": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "kanji": "損失",
+        "reading": "そんしつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "出した",
+        "reading": "だした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "큰 손실을 냈다."
+  },
+  {
+    "id": "n2_144",
+    "level": "N2",
+    "kanji": "費用",
+    "reading": "ひよう",
+    "pos": "명사",
+    "meaning": "비용",
+    "exKanji": "費用がかかる。",
+    "exSegments": [
+      {
+        "kanji": "費用",
+        "reading": "ひよう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "かかる",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "비용이 든다."
+  },
+  {
+    "id": "n2_145",
+    "level": "N2",
+    "kanji": "予算",
+    "reading": "よさん",
+    "pos": "명사",
+    "meaning": "예산",
+    "exKanji": "予算を立てる。",
+    "exSegments": [
+      {
+        "kanji": "予算",
+        "reading": "よさん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "立てる",
+        "reading": "たてる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "예산을 세운다."
+  },
+  {
+    "id": "n2_146",
+    "level": "N2",
+    "kanji": "貯金",
+    "reading": "ちょきん",
+    "pos": "명사",
+    "meaning": "저금",
+    "exKanji": "毎月貯金する。",
+    "exSegments": [
+      {
+        "kanji": "毎月",
+        "reading": "まいつき"
+      },
+      {
+        "kanji": "貯金",
+        "reading": "ちょきん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "매달 저금한다."
+  },
+  {
+    "id": "n2_147",
+    "level": "N2",
+    "kanji": "支払い",
+    "reading": "しはらい",
+    "pos": "명사",
+    "meaning": "지불",
+    "exKanji": "支払いを済ませる。",
+    "exSegments": [
+      {
+        "kanji": "支払い",
+        "reading": "しはらい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "済ませる",
+        "reading": "すませる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "지불을 끝낸다."
+  },
+  {
+    "id": "n2_148",
+    "level": "N2",
+    "kanji": "請求",
+    "reading": "せいきゅう",
+    "pos": "명사",
+    "meaning": "청구",
+    "exKanji": "代金を請求する。",
+    "exSegments": [
+      {
+        "kanji": "代金",
+        "reading": "だいきん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "請求",
+        "reading": "せいきゅう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "대금을 청구한다."
+  },
+  {
+    "id": "n2_149",
+    "level": "N2",
+    "kanji": "値段",
+    "reading": "ねだん",
+    "pos": "명사",
+    "meaning": "가격",
+    "exKanji": "値段が高い。",
+    "exSegments": [
+      {
+        "kanji": "値段",
+        "reading": "ねだん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "高い",
+        "reading": "たかい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "가격이 비싸다."
+  },
+  {
+    "id": "n2_150",
+    "level": "N2",
+    "kanji": "割引",
+    "reading": "わりびき",
+    "pos": "명사",
+    "meaning": "할인",
+    "exKanji": "会員は割引される。",
+    "exSegments": [
+      {
+        "kanji": "会員",
+        "reading": "かいいん"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "割引",
+        "reading": "わりびき"
+      },
+      {
+        "kanji": "される",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "회원은 할인된다."
+  }
+]
