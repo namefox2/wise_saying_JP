@@ -1,0 +1,6094 @@
+[
+  {
+    "id": "n1_001",
+    "level": "N1",
+    "kanji": "概括",
+    "reading": "がいかつ",
+    "pos": "명사",
+    "meaning": "개괄",
+    "exKanji": "内容を概括して説明する。",
+    "exSegments": [
+      {
+        "kanji": "内容",
+        "reading": "ないよう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "概括",
+        "reading": "がいかつ"
+      },
+      {
+        "kanji": "して",
+        "reading": ""
+      },
+      {
+        "kanji": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "내용을 개괄해서 설명한다."
+  },
+  {
+    "id": "n1_002",
+    "level": "N1",
+    "kanji": "懸念",
+    "reading": "けねん",
+    "pos": "명사",
+    "meaning": "우려",
+    "exKanji": "事態の悪化を懸念する。",
+    "exSegments": [
+      {
+        "kanji": "事態",
+        "reading": "じたい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "悪化",
+        "reading": "あっか"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "懸念",
+        "reading": "けねん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사태의 악화를 우려한다."
+  },
+  {
+    "id": "n1_003",
+    "level": "N1",
+    "kanji": "維持",
+    "reading": "いじ",
+    "pos": "명사",
+    "meaning": "유지",
+    "exKanji": "健康を維持する。",
+    "exSegments": [
+      {
+        "kanji": "健康",
+        "reading": "けんこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "維持",
+        "reading": "いじ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "건강을 유지한다."
+  },
+  {
+    "id": "n1_004",
+    "level": "N1",
+    "kanji": "促進",
+    "reading": "そくしん",
+    "pos": "명사",
+    "meaning": "촉진",
+    "exKanji": "経済成長を促進する。",
+    "exSegments": [
+      {
+        "kanji": "経済",
+        "reading": "けいざい"
+      },
+      {
+        "kanji": "成長",
+        "reading": "せいちょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "促進",
+        "reading": "そくしん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "경제 성장을 촉진한다."
+  },
+  {
+    "id": "n1_005",
+    "level": "N1",
+    "kanji": "施策",
+    "reading": "しさく",
+    "pos": "명사",
+    "meaning": "시책",
+    "exKanji": "新たな施策を打ち出す。",
+    "exSegments": [
+      {
+        "kanji": "新た",
+        "reading": "あらた"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "施策",
+        "reading": "しさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "打ち出す",
+        "reading": "うちだす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 시책을 내놓는다."
+  },
+  {
+    "id": "n1_006",
+    "level": "N1",
+    "kanji": "排除",
+    "reading": "はいじょ",
+    "pos": "명사",
+    "meaning": "배제",
+    "exKanji": "危険要因を排除する。",
+    "exSegments": [
+      {
+        "kanji": "危険",
+        "reading": "きけん"
+      },
+      {
+        "kanji": "要因",
+        "reading": "よういん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "排除",
+        "reading": "はいじょ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "위험 요인을 배제한다."
+  },
+  {
+    "id": "n1_007",
+    "level": "N1",
+    "kanji": "緩和",
+    "reading": "かんわ",
+    "pos": "명사",
+    "meaning": "완화",
+    "exKanji": "規制を緩和する。",
+    "exSegments": [
+      {
+        "kanji": "規制",
+        "reading": "きせい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "緩和",
+        "reading": "かんわ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "규제를 완화한다."
+  },
+  {
+    "id": "n1_008",
+    "level": "N1",
+    "kanji": "把握",
+    "reading": "はあく",
+    "pos": "명사",
+    "meaning": "파악",
+    "exKanji": "状況を把握する。",
+    "exSegments": [
+      {
+        "kanji": "状況",
+        "reading": "じょうきょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "把握",
+        "reading": "はあく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "상황을 파악한다."
+  },
+  {
+    "id": "n1_009",
+    "level": "N1",
+    "kanji": "妥当",
+    "reading": "だとう",
+    "pos": "な형용사",
+    "meaning": "타당",
+    "exKanji": "妥当な判断を下す。",
+    "exSegments": [
+      {
+        "kanji": "妥当",
+        "reading": "だとう"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "判断",
+        "reading": "はんだん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "下す",
+        "reading": "くだす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "타당한 판단을 내린다."
+  },
+  {
+    "id": "n1_010",
+    "level": "N1",
+    "kanji": "整合",
+    "reading": "せいごう",
+    "pos": "명사",
+    "meaning": "정합",
+    "exKanji": "データの整合性を確認する。",
+    "exSegments": [
+      {
+        "kanji": "データ",
+        "reading": ""
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "整合",
+        "reading": "せいごう"
+      },
+      {
+        "kanji": "性",
+        "reading": "せい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "確認",
+        "reading": "かくにん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "데이터의 정합성을 확인한다."
+  },
+  {
+    "id": "n1_011",
+    "level": "N1",
+    "kanji": "循環",
+    "reading": "じゅんかん",
+    "pos": "명사",
+    "meaning": "순환",
+    "exKanji": "血液が体内を循環する。",
+    "exSegments": [
+      {
+        "kanji": "血液",
+        "reading": "けつえき"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "体内",
+        "reading": "たいない"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "循環",
+        "reading": "じゅんかん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "혈액이 체내를 순환한다."
+  },
+  {
+    "id": "n1_012",
+    "level": "N1",
+    "kanji": "遂行",
+    "reading": "すいこう",
+    "pos": "명사",
+    "meaning": "수행",
+    "exKanji": "任務を遂行する。",
+    "exSegments": [
+      {
+        "kanji": "任務",
+        "reading": "にんむ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "遂行",
+        "reading": "すいこう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "임무를 수행한다."
+  },
+  {
+    "id": "n1_013",
+    "level": "N1",
+    "kanji": "是正",
+    "reading": "ぜせい",
+    "pos": "명사",
+    "meaning": "시정",
+    "exKanji": "誤りを是正する。",
+    "exSegments": [
+      {
+        "kanji": "誤り",
+        "reading": "あやまり"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "是正",
+        "reading": "ぜせい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "잘못된 것을 시정한다."
+  },
+  {
+    "id": "n1_014",
+    "level": "N1",
+    "kanji": "擁護",
+    "reading": "ようご",
+    "pos": "명사",
+    "meaning": "옹호",
+    "exKanji": "人権を擁護する。",
+    "exSegments": [
+      {
+        "kanji": "人権",
+        "reading": "じんけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "擁護",
+        "reading": "ようご"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "인권을 옹호한다."
+  },
+  {
+    "id": "n1_015",
+    "level": "N1",
+    "kanji": "逸脱",
+    "reading": "いつだつ",
+    "pos": "명사",
+    "meaning": "일탈",
+    "exKanji": "規則から逸脱する。",
+    "exSegments": [
+      {
+        "kanji": "規則",
+        "reading": "きそく"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "逸脱",
+        "reading": "いつだつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "규칙에서 일탈한다."
+  },
+  {
+    "id": "n1_016",
+    "level": "N1",
+    "kanji": "配慮",
+    "reading": "はいりょ",
+    "pos": "명사",
+    "meaning": "배려",
+    "exKanji": "相手に配慮する。",
+    "exSegments": [
+      {
+        "kanji": "相手",
+        "reading": "あいて"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "配慮",
+        "reading": "はいりょ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "상대를 배려한다."
+  },
+  {
+    "id": "n1_017",
+    "level": "N1",
+    "kanji": "配布",
+    "reading": "はいふ",
+    "pos": "명사",
+    "meaning": "배포",
+    "exKanji": "資料を配布する。",
+    "exSegments": [
+      {
+        "kanji": "資料",
+        "reading": "しりょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "配布",
+        "reading": "はいふ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자료를 배포한다."
+  },
+  {
+    "id": "n1_018",
+    "level": "N1",
+    "kanji": "包括",
+    "reading": "ほうかつ",
+    "pos": "명사",
+    "meaning": "포괄",
+    "exKanji": "包括的な対策を講じる。",
+    "exSegments": [
+      {
+        "kanji": "包括",
+        "reading": "ほうかつ"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "対策",
+        "reading": "たいさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "講じる",
+        "reading": "こうじる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "포괄적인 대책을 강구한다."
+  },
+  {
+    "id": "n1_019",
+    "level": "N1",
+    "kanji": "顕著",
+    "reading": "けんちょ",
+    "pos": "な형용사",
+    "meaning": "현저",
+    "exKanji": "効果が顕著に表れた。",
+    "exSegments": [
+      {
+        "kanji": "効果",
+        "reading": "こうか"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "顕著",
+        "reading": "けんちょ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "表れた",
+        "reading": "あらわれた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "효과가 현저하게 나타났다."
+  },
+  {
+    "id": "n1_020",
+    "level": "N1",
+    "kanji": "露骨",
+    "reading": "ろこつ",
+    "pos": "な형용사",
+    "meaning": "노골적",
+    "exKanji": "露骨に嫌な顔をする。",
+    "exSegments": [
+      {
+        "kanji": "露骨",
+        "reading": "ろこつ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "嫌な",
+        "reading": "いやな"
+      },
+      {
+        "kanji": "顔",
+        "reading": "かお"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "노골적으로 싫은 표정을 짓는다."
+  },
+  {
+    "id": "n1_021",
+    "level": "N1",
+    "kanji": "穏便",
+    "reading": "おんびん",
+    "pos": "な형용사",
+    "meaning": "원만",
+    "exKanji": "穏便に解決する。",
+    "exSegments": [
+      {
+        "kanji": "穏便",
+        "reading": "おんびん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "解決",
+        "reading": "かいけつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "원만하게 해결한다."
+  },
+  {
+    "id": "n1_022",
+    "level": "N1",
+    "kanji": "曖昧",
+    "reading": "あいまい",
+    "pos": "な형용사",
+    "meaning": "애매",
+    "exKanji": "曖昧な返事をする。",
+    "exSegments": [
+      {
+        "kanji": "曖昧",
+        "reading": "あいまい"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "返事",
+        "reading": "へんじ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "애매한 대답을 한다."
+  },
+  {
+    "id": "n1_023",
+    "level": "N1",
+    "kanji": "安易",
+    "reading": "あんい",
+    "pos": "な형용사",
+    "meaning": "안이",
+    "exKanji": "安易な考えは危険だ。",
+    "exSegments": [
+      {
+        "kanji": "安易",
+        "reading": "あんい"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "考え",
+        "reading": "かんがえ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "危険",
+        "reading": "きけん"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "안이한 생각은 위험하다."
+  },
+  {
+    "id": "n1_024",
+    "level": "N1",
+    "kanji": "潜在",
+    "reading": "せんざい",
+    "pos": "명사",
+    "meaning": "잠재",
+    "exKanji": "潜在能力を引き出す。",
+    "exSegments": [
+      {
+        "kanji": "潜在",
+        "reading": "せんざい"
+      },
+      {
+        "kanji": "能力",
+        "reading": "のうりょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "引き出す",
+        "reading": "ひきだす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "잠재 능력을 끌어낸다."
+  },
+  {
+    "id": "n1_025",
+    "level": "N1",
+    "kanji": "顕在",
+    "reading": "けんざい",
+    "pos": "명사",
+    "meaning": "현재",
+    "exKanji": "問題が顕在化する。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "顕在",
+        "reading": "けんざい"
+      },
+      {
+        "kanji": "化",
+        "reading": "か"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제가 표면화한다."
+  },
+  {
+    "id": "n1_026",
+    "level": "N1",
+    "kanji": "打診",
+    "reading": "だしん",
+    "pos": "명사",
+    "meaning": "타진",
+    "exKanji": "意向を打診する。",
+    "exSegments": [
+      {
+        "kanji": "意向",
+        "reading": "いこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "打診",
+        "reading": "だしん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의향을 타진한다."
+  },
+  {
+    "id": "n1_027",
+    "level": "N1",
+    "kanji": "撤回",
+    "reading": "てっかい",
+    "pos": "명사",
+    "meaning": "철회",
+    "exKanji": "発言を撤回する。",
+    "exSegments": [
+      {
+        "kanji": "発言",
+        "reading": "はつげん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "撤回",
+        "reading": "てっかい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "발언을 철회한다."
+  },
+  {
+    "id": "n1_028",
+    "level": "N1",
+    "kanji": "廃止",
+    "reading": "はいし",
+    "pos": "명사",
+    "meaning": "폐지",
+    "exKanji": "制度を廃止する。",
+    "exSegments": [
+      {
+        "kanji": "制度",
+        "reading": "せいど"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "廃止",
+        "reading": "はいし"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "제도를 폐지한다."
+  },
+  {
+    "id": "n1_029",
+    "level": "N1",
+    "kanji": "発足",
+    "reading": "ほっそく",
+    "pos": "명사",
+    "meaning": "발족",
+    "exKanji": "新組織が発足する。",
+    "exSegments": [
+      {
+        "kanji": "新",
+        "reading": "しん"
+      },
+      {
+        "kanji": "組織",
+        "reading": "そしき"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "発足",
+        "reading": "ほっそく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새 조직이 발족한다."
+  },
+  {
+    "id": "n1_030",
+    "level": "N1",
+    "kanji": "設立",
+    "reading": "せつりつ",
+    "pos": "명사",
+    "meaning": "설립",
+    "exKanji": "会社を設立する。",
+    "exSegments": [
+      {
+        "kanji": "会社",
+        "reading": "かいしゃ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "設立",
+        "reading": "せつりつ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "회사를 설립한다."
+  },
+  {
+    "id": "n1_031",
+    "level": "N1",
+    "kanji": "統合",
+    "reading": "とうごう",
+    "pos": "명사",
+    "meaning": "통합",
+    "exKanji": "二つの組織を統合する。",
+    "exSegments": [
+      {
+        "kanji": "二つ",
+        "reading": "ふたつ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "組織",
+        "reading": "そしき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "統合",
+        "reading": "とうごう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "두 조직을 통합한다."
+  },
+  {
+    "id": "n1_032",
+    "level": "N1",
+    "kanji": "分散",
+    "reading": "ぶんさん",
+    "pos": "명사",
+    "meaning": "분산",
+    "exKanji": "リスクを分散する。",
+    "exSegments": [
+      {
+        "kanji": "リスク",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "分散",
+        "reading": "ぶんさん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "리스크를 분산한다."
+  },
+  {
+    "id": "n1_033",
+    "level": "N1",
+    "kanji": "中枢",
+    "reading": "ちゅうすう",
+    "pos": "명사",
+    "meaning": "중추",
+    "exKanji": "組織の中枢を担う。",
+    "exSegments": [
+      {
+        "kanji": "組織",
+        "reading": "そしき"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "中枢",
+        "reading": "ちゅうすう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "担う",
+        "reading": "になう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "조직의 중추를 맡는다."
+  },
+  {
+    "id": "n1_034",
+    "level": "N1",
+    "kanji": "枠組み",
+    "reading": "わくぐみ",
+    "pos": "명사",
+    "meaning": "틀",
+    "exKanji": "新たな枠組みを構築する。",
+    "exSegments": [
+      {
+        "kanji": "新た",
+        "reading": "あらた"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "枠組み",
+        "reading": "わくぐみ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "構築",
+        "reading": "こうちく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 틀을 구축한다."
+  },
+  {
+    "id": "n1_035",
+    "level": "N1",
+    "kanji": "構築",
+    "reading": "こうちく",
+    "pos": "명사",
+    "meaning": "구축",
+    "exKanji": "システムを構築する。",
+    "exSegments": [
+      {
+        "kanji": "システム",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "構築",
+        "reading": "こうちく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "시스템을 구축한다."
+  },
+  {
+    "id": "n1_036",
+    "level": "N1",
+    "kanji": "基盤",
+    "reading": "きばん",
+    "pos": "명사",
+    "meaning": "기반",
+    "exKanji": "経営基盤を強化する。",
+    "exSegments": [
+      {
+        "kanji": "経営",
+        "reading": "けいえい"
+      },
+      {
+        "kanji": "基盤",
+        "reading": "きばん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "強化",
+        "reading": "きょうか"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "경영 기반을 강화한다."
+  },
+  {
+    "id": "n1_037",
+    "level": "N1",
+    "kanji": "礎",
+    "reading": "いしずえ",
+    "pos": "명사",
+    "meaning": "초석",
+    "exKanji": "未来の礎を築く。",
+    "exSegments": [
+      {
+        "kanji": "未来",
+        "reading": "みらい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "礎",
+        "reading": "いしずえ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "築く",
+        "reading": "きずく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "미래의 초석을 쌓는다."
+  },
+  {
+    "id": "n1_038",
+    "level": "N1",
+    "kanji": "基軸",
+    "reading": "きじく",
+    "pos": "명사",
+    "meaning": "기축",
+    "exKanji": "基軸通貨として認められる。",
+    "exSegments": [
+      {
+        "kanji": "基軸",
+        "reading": "きじく"
+      },
+      {
+        "kanji": "通貨",
+        "reading": "つうか"
+      },
+      {
+        "kanji": "として",
+        "reading": ""
+      },
+      {
+        "kanji": "認められる",
+        "reading": "みとめられる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "기축통화로 인정받는다."
+  },
+  {
+    "id": "n1_039",
+    "level": "N1",
+    "kanji": "基調",
+    "reading": "きちょう",
+    "pos": "명사",
+    "meaning": "기조",
+    "exKanji": "明るい基調の絵だ。",
+    "exSegments": [
+      {
+        "kanji": "明るい",
+        "reading": "あかるい"
+      },
+      {
+        "kanji": "基調",
+        "reading": "きちょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "絵",
+        "reading": "え"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "밝은 기조의 그림이다."
+  },
+  {
+    "id": "n1_040",
+    "level": "N1",
+    "kanji": "勢力",
+    "reading": "せいりょく",
+    "pos": "명사",
+    "meaning": "세력",
+    "exKanji": "勢力を拡大する。",
+    "exSegments": [
+      {
+        "kanji": "勢力",
+        "reading": "せいりょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "拡大",
+        "reading": "かくだい"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "세력을 확대한다."
+  },
+  {
+    "id": "n1_041",
+    "level": "N1",
+    "kanji": "威力",
+    "reading": "いりょく",
+    "pos": "명사",
+    "meaning": "위력",
+    "exKanji": "台風の威力を見せる。",
+    "exSegments": [
+      {
+        "kanji": "台風",
+        "reading": "たいふう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "威力",
+        "reading": "いりょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "見せる",
+        "reading": "みせる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "태풍의 위력을 보여준다."
+  },
+  {
+    "id": "n1_042",
+    "level": "N1",
+    "kanji": "権威",
+    "reading": "けんい",
+    "pos": "명사",
+    "meaning": "권위",
+    "exKanji": "医学の権威に相談する。",
+    "exSegments": [
+      {
+        "kanji": "医学",
+        "reading": "いがく"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "権威",
+        "reading": "けんい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "相談",
+        "reading": "そうだん"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의학의 권위자에게 상담한다."
+  },
+  {
+    "id": "n1_043",
+    "level": "N1",
+    "kanji": "抗議",
+    "reading": "こうぎ",
+    "pos": "명사",
+    "meaning": "항의",
+    "exKanji": "決定に抗議する。",
+    "exSegments": [
+      {
+        "kanji": "決定",
+        "reading": "けってい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "抗議",
+        "reading": "こうぎ"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "결정에 항의한다."
+  },
+  {
+    "id": "n1_044",
+    "level": "N1",
+    "kanji": "反逆",
+    "reading": "はんぎゃく",
+    "pos": "명사",
+    "meaning": "반역",
+    "exKanji": "権力に反逆する。",
+    "exSegments": [
+      {
+        "kanji": "権力",
+        "reading": "けんりょく"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "反逆",
+        "reading": "はんぎゃく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "권력에 반역한다."
+  },
+  {
+    "id": "n1_045",
+    "level": "N1",
+    "kanji": "屈服",
+    "reading": "くっぷく",
+    "pos": "명사",
+    "meaning": "굴복",
+    "exKanji": "圧力に屈服しない。",
+    "exSegments": [
+      {
+        "kanji": "圧力",
+        "reading": "あつりょく"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "屈服",
+        "reading": "くっぷく"
+      },
+      {
+        "kanji": "しない",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "압력에 굴복하지 않는다."
+  },
+  {
+    "id": "n1_046",
+    "level": "N1",
+    "kanji": "屈辱",
+    "reading": "くつじょく",
+    "pos": "명사",
+    "meaning": "굴욕",
+    "exKanji": "屈辱を受ける。",
+    "exSegments": [
+      {
+        "kanji": "屈辱",
+        "reading": "くつじょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "受ける",
+        "reading": "うける"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "굴욕을 받는다."
+  },
+  {
+    "id": "n1_047",
+    "level": "N1",
+    "kanji": "自尊心",
+    "reading": "じそんしん",
+    "pos": "명사",
+    "meaning": "자존심",
+    "exKanji": "自尊心を傷つける。",
+    "exSegments": [
+      {
+        "kanji": "自尊心",
+        "reading": "じそんしん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "傷つける",
+        "reading": "きずつける"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자존심을 상처입힌다."
+  },
+  {
+    "id": "n1_048",
+    "level": "N1",
+    "kanji": "懸念",
+    "reading": "けねん",
+    "pos": "명사",
+    "meaning": "우려, 염려",
+    "exKanji": "環境汚染に対する懸念が高まっている。",
+    "exSegments": [
+      {
+        "kanji": "環境",
+        "reading": "かんきょう"
+      },
+      {
+        "kanji": "汚染",
+        "reading": "おせん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "対する",
+        "reading": "たいする"
+      },
+      {
+        "kanji": "懸念",
+        "reading": "けねん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "高まっている",
+        "reading": "たかまっている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "환경 오염에 대한 우려가 높아지고 있다."
+  },
+  {
+    "id": "n1_049",
+    "level": "N1",
+    "kanji": "維持",
+    "reading": "いじ",
+    "pos": "명사",
+    "meaning": "유지",
+    "exKanji": "健康を維持するために毎日運動する。",
+    "exSegments": [
+      {
+        "kanji": "健康",
+        "reading": "けんこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "維持",
+        "reading": "いじ"
+      },
+      {
+        "kanji": "するために",
+        "reading": ""
+      },
+      {
+        "kanji": "毎日",
+        "reading": "まいにち"
+      },
+      {
+        "kanji": "運動",
+        "reading": "うんどう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "건강을 유지하기 위해 매일 운동한다."
+  },
+  {
+    "id": "n1_050",
+    "level": "N1",
+    "kanji": "促進",
+    "reading": "そくしん",
+    "pos": "명사",
+    "meaning": "촉진",
+    "exKanji": "経済成長を促進するための政策を打ち出した。",
+    "exSegments": [
+      {
+        "kanji": "経済",
+        "reading": "けいざい"
+      },
+      {
+        "kanji": "成長",
+        "reading": "せいちょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "促進",
+        "reading": "そくしん"
+      },
+      {
+        "kanji": "するための",
+        "reading": ""
+      },
+      {
+        "kanji": "政策",
+        "reading": "せいさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "打ち出した",
+        "reading": "うちだした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "경제 성장을 촉진하기 위한 정책을 내놓았다."
+  },
+  {
+    "id": "n1_051",
+    "level": "N1",
+    "kanji": "施策",
+    "reading": "しさく",
+    "pos": "명사",
+    "meaning": "시책, 정책",
+    "exKanji": "政府は新たな施策を発表した。",
+    "exSegments": [
+      {
+        "kanji": "政府",
+        "reading": "せいふ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "新たな",
+        "reading": "あらたな"
+      },
+      {
+        "kanji": "施策",
+        "reading": "しさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "発表した",
+        "reading": "はっぴょうした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정부는 새로운 시책을 발표했다."
+  },
+  {
+    "id": "n1_052",
+    "level": "N1",
+    "kanji": "排除",
+    "reading": "はいじょ",
+    "pos": "명사",
+    "meaning": "배제, 제거",
+    "exKanji": "不正を排除するための制度が必要だ。",
+    "exSegments": [
+      {
+        "kanji": "不正",
+        "reading": "ふせい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "排除",
+        "reading": "はいじょ"
+      },
+      {
+        "kanji": "するための",
+        "reading": ""
+      },
+      {
+        "kanji": "制度",
+        "reading": "せいど"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "必要",
+        "reading": "ひつよう"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "부정을 배제하기 위한 제도가 필요하다."
+  },
+  {
+    "id": "n1_053",
+    "level": "N1",
+    "kanji": "緩和",
+    "reading": "かんわ",
+    "pos": "명사",
+    "meaning": "완화",
+    "exKanji": "規制の緩和により新たなビジネスが生まれた。",
+    "exSegments": [
+      {
+        "kanji": "規制",
+        "reading": "きせい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "緩和",
+        "reading": "かんわ"
+      },
+      {
+        "kanji": "により",
+        "reading": ""
+      },
+      {
+        "kanji": "新たな",
+        "reading": "あらたな"
+      },
+      {
+        "kanji": "ビジネス",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "生まれた",
+        "reading": "うまれた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "규제 완화로 새로운 비즈니스가 생겨났다."
+  },
+  {
+    "id": "n1_054",
+    "level": "N1",
+    "kanji": "把握",
+    "reading": "はあく",
+    "pos": "명사",
+    "meaning": "파악",
+    "exKanji": "状況を正確に把握することが重要だ。",
+    "exSegments": [
+      {
+        "kanji": "状況",
+        "reading": "じょうきょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "正確に",
+        "reading": "せいかくに"
+      },
+      {
+        "kanji": "把握",
+        "reading": "はあく"
+      },
+      {
+        "kanji": "することが",
+        "reading": ""
+      },
+      {
+        "kanji": "重要",
+        "reading": "じゅうよう"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "상황을 정확하게 파악하는 것이 중요하다."
+  },
+  {
+    "id": "n1_055",
+    "level": "N1",
+    "kanji": "妥当",
+    "reading": "だとう",
+    "pos": "な형용사",
+    "meaning": "타당",
+    "exKanji": "その判断は妥当だと思う。",
+    "exSegments": [
+      {
+        "kanji": "その",
+        "reading": ""
+      },
+      {
+        "kanji": "判断",
+        "reading": "はんだん"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "妥当",
+        "reading": "だとう"
+      },
+      {
+        "kanji": "だと",
+        "reading": ""
+      },
+      {
+        "kanji": "思う",
+        "reading": "おもう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그 판단은 타당하다고 생각한다."
+  },
+  {
+    "id": "n1_056",
+    "level": "N1",
+    "kanji": "整合",
+    "reading": "せいごう",
+    "pos": "명사",
+    "meaning": "정합, 일관성",
+    "exKanji": "両者の主張の整合性を確認する必要がある。",
+    "exSegments": [
+      {
+        "kanji": "両者",
+        "reading": "りょうしゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "主張",
+        "reading": "しゅちょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "整合性",
+        "reading": "せいごうせい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "確認する",
+        "reading": "かくにんする"
+      },
+      {
+        "kanji": "必要",
+        "reading": "ひつよう"
+      },
+      {
+        "kanji": "がある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "양측 주장의 일관성을 확인할 필요가 있다."
+  },
+  {
+    "id": "n1_057",
+    "level": "N1",
+    "kanji": "是非",
+    "reading": "ぜひ",
+    "pos": "부사",
+    "meaning": "꼭, 반드시",
+    "exKanji": "是非一度お越しください。",
+    "exSegments": [
+      {
+        "kanji": "是非",
+        "reading": "ぜひ"
+      },
+      {
+        "kanji": "一度",
+        "reading": "いちど"
+      },
+      {
+        "kanji": "お越しください",
+        "reading": "おこしください"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "꼭 한 번 방문해 주세요."
+  },
+  {
+    "id": "n1_058",
+    "level": "N1",
+    "kanji": "勧告",
+    "reading": "かんこく",
+    "pos": "명사",
+    "meaning": "권고",
+    "exKanji": "医師から禁煙を勧告された。",
+    "exSegments": [
+      {
+        "kanji": "医師",
+        "reading": "いし"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "禁煙",
+        "reading": "きんえん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "勧告",
+        "reading": "かんこく"
+      },
+      {
+        "kanji": "された",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의사에게 금연을 권고받았다."
+  },
+  {
+    "id": "n1_059",
+    "level": "N1",
+    "kanji": "批准",
+    "reading": "ひじゅん",
+    "pos": "명사",
+    "meaning": "비준",
+    "exKanji": "条約の批准に向けて国会で審議が行われた。",
+    "exSegments": [
+      {
+        "kanji": "条約",
+        "reading": "じょうやく"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "批准",
+        "reading": "ひじゅん"
+      },
+      {
+        "kanji": "に向けて",
+        "reading": "にむけて"
+      },
+      {
+        "kanji": "国会",
+        "reading": "こっかい"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "審議",
+        "reading": "しんぎ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "行われた",
+        "reading": "おこなわれた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "조약 비준을 위해 국회에서 심의가 이루어졌다."
+  },
+  {
+    "id": "n1_060",
+    "level": "N1",
+    "kanji": "抑制",
+    "reading": "よくせい",
+    "pos": "명사",
+    "meaning": "억제",
+    "exKanji": "感情を抑制して冷静に判断する。",
+    "exSegments": [
+      {
+        "kanji": "感情",
+        "reading": "かんじょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "抑制",
+        "reading": "よくせい"
+      },
+      {
+        "kanji": "して",
+        "reading": ""
+      },
+      {
+        "kanji": "冷静に",
+        "reading": "れいせいに"
+      },
+      {
+        "kanji": "判断する",
+        "reading": "はんだんする"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "감정을 억제하고 냉정하게 판단한다."
+  },
+  {
+    "id": "n1_061",
+    "level": "N1",
+    "kanji": "啓発",
+    "reading": "けいはつ",
+    "pos": "명사",
+    "meaning": "계발, 계몽",
+    "exKanji": "市民への啓発活動を強化している。",
+    "exSegments": [
+      {
+        "kanji": "市民",
+        "reading": "しみん"
+      },
+      {
+        "kanji": "への",
+        "reading": ""
+      },
+      {
+        "kanji": "啓発",
+        "reading": "けいはつ"
+      },
+      {
+        "kanji": "活動",
+        "reading": "かつどう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "強化している",
+        "reading": "きょうかしている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "시민을 대상으로 한 계몽 활동을 강화하고 있다."
+  },
+  {
+    "id": "n1_062",
+    "level": "N1",
+    "kanji": "尽力",
+    "reading": "じんりょく",
+    "pos": "명사",
+    "meaning": "진력, 힘씀",
+    "exKanji": "問題解決のために尽力を惜しまない。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "解決",
+        "reading": "かいけつ"
+      },
+      {
+        "kanji": "のために",
+        "reading": ""
+      },
+      {
+        "kanji": "尽力",
+        "reading": "じんりょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "惜しまない",
+        "reading": "おしまない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제 해결을 위해 힘쓰는 것을 아끼지 않는다."
+  },
+  {
+    "id": "n1_063",
+    "level": "N1",
+    "kanji": "遂行",
+    "reading": "すいこう",
+    "pos": "명사",
+    "meaning": "수행, 완수",
+    "exKanji": "与えられた任務を遂行する。",
+    "exSegments": [
+      {
+        "kanji": "与えられた",
+        "reading": "あたえられた"
+      },
+      {
+        "kanji": "任務",
+        "reading": "にんむ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "遂行する",
+        "reading": "すいこうする"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "주어진 임무를 수행한다."
+  },
+  {
+    "id": "n1_064",
+    "level": "N1",
+    "kanji": "阻止",
+    "reading": "そし",
+    "pos": "명사",
+    "meaning": "저지, 방해",
+    "exKanji": "犯罪を阻止するための措置を講じた。",
+    "exSegments": [
+      {
+        "kanji": "犯罪",
+        "reading": "はんざい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "阻止",
+        "reading": "そし"
+      },
+      {
+        "kanji": "するための",
+        "reading": ""
+      },
+      {
+        "kanji": "措置",
+        "reading": "そち"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "講じた",
+        "reading": "こうじた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "범죄를 저지하기 위한 조치를 취했다."
+  },
+  {
+    "id": "n1_065",
+    "level": "N1",
+    "kanji": "執行",
+    "reading": "しっこう",
+    "pos": "명사",
+    "meaning": "집행",
+    "exKanji": "法律に基づいて刑が執行された。",
+    "exSegments": [
+      {
+        "kanji": "法律",
+        "reading": "ほうりつ"
+      },
+      {
+        "kanji": "に基づいて",
+        "reading": "にもとづいて"
+      },
+      {
+        "kanji": "刑",
+        "reading": "けい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "執行された",
+        "reading": "しっこうされた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "법률에 따라 형이 집행되었다."
+  },
+  {
+    "id": "n1_066",
+    "level": "N1",
+    "kanji": "弊害",
+    "reading": "へいがい",
+    "pos": "명사",
+    "meaning": "폐해",
+    "exKanji": "過度な競争の弊害が社会問題となっている。",
+    "exSegments": [
+      {
+        "kanji": "過度な",
+        "reading": "かどな"
+      },
+      {
+        "kanji": "競争",
+        "reading": "きょうそう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "弊害",
+        "reading": "へいがい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "社会問題",
+        "reading": "しゃかいもんだい"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "なっている",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "과도한 경쟁의 폐해가 사회 문제가 되고 있다."
+  },
+  {
+    "id": "n1_067",
+    "level": "N1",
+    "kanji": "慣行",
+    "reading": "かんこう",
+    "pos": "명사",
+    "meaning": "관행",
+    "exKanji": "長年の慣行を見直す必要がある。",
+    "exSegments": [
+      {
+        "kanji": "長年",
+        "reading": "ながねん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "慣行",
+        "reading": "かんこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "見直す",
+        "reading": "みなおす"
+      },
+      {
+        "kanji": "必要がある",
+        "reading": "ひつようがある"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "오랜 관행을 재검토할 필요가 있다."
+  },
+  {
+    "id": "n1_068",
+    "level": "N1",
+    "kanji": "踏まえる",
+    "reading": "ふまえる",
+    "pos": "동사",
+    "meaning": "~을 토대로 하다, 감안하다",
+    "exKanji": "過去の経験を踏まえて判断する。",
+    "exSegments": [
+      {
+        "kanji": "過去",
+        "reading": "かこ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "経験",
+        "reading": "けいけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "踏まえて",
+        "reading": "ふまえて"
+      },
+      {
+        "kanji": "判断する",
+        "reading": "はんだんする"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "과거의 경험을 토대로 판단한다."
+  },
+  {
+    "id": "n1_069",
+    "level": "N1",
+    "kanji": "培う",
+    "reading": "つちかう",
+    "pos": "동사",
+    "meaning": "기르다, 함양하다",
+    "exKanji": "長い年月をかけて信頼関係を培ってきた。",
+    "exSegments": [
+      {
+        "kanji": "長い",
+        "reading": "ながい"
+      },
+      {
+        "kanji": "年月",
+        "reading": "としつき"
+      },
+      {
+        "kanji": "をかけて",
+        "reading": ""
+      },
+      {
+        "kanji": "信頼関係",
+        "reading": "しんらいかんけい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "培ってきた",
+        "reading": "つちかってきた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "긴 세월을 들여 신뢰 관계를 키워왔다."
+  },
+  {
+    "id": "n1_070",
+    "level": "N1",
+    "kanji": "携わる",
+    "reading": "たずさわる",
+    "pos": "동사",
+    "meaning": "종사하다, 관여하다",
+    "exKanji": "教育の分野に携わる仕事をしている。",
+    "exSegments": [
+      {
+        "kanji": "教育",
+        "reading": "きょういく"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "分野",
+        "reading": "ぶんや"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "携わる",
+        "reading": "たずさわる"
+      },
+      {
+        "kanji": "仕事",
+        "reading": "しごと"
+      },
+      {
+        "kanji": "をしている",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "교육 분야에 종사하는 일을 하고 있다."
+  },
+  {
+    "id": "n1_071",
+    "level": "N1",
+    "kanji": "試みる",
+    "reading": "こころみる",
+    "pos": "동사",
+    "meaning": "시도하다",
+    "exKanji": "新しい方法を試みることが大切だ。",
+    "exSegments": [
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "方法",
+        "reading": "ほうほう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "試みること",
+        "reading": "こころみること"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 방법을 시도하는 것이 중요하다."
+  },
+  {
+    "id": "n1_072",
+    "level": "N1",
+    "kanji": "見据える",
+    "reading": "みすえる",
+    "pos": "동사",
+    "meaning": "바라보다, 내다보다",
+    "exKanji": "将来を見据えた計画を立てる。",
+    "exSegments": [
+      {
+        "kanji": "将来",
+        "reading": "しょうらい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "見据えた",
+        "reading": "みすえた"
+      },
+      {
+        "kanji": "計画",
+        "reading": "けいかく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "立てる",
+        "reading": "たてる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "미래를 내다본 계획을 세운다."
+  },
+  {
+    "id": "n1_073",
+    "level": "N1",
+    "kanji": "鑑みる",
+    "reading": "かんがみる",
+    "pos": "동사",
+    "meaning": "감안하다, 비추어 보다",
+    "exKanji": "現状に鑑みて、方針を変更した。",
+    "exSegments": [
+      {
+        "kanji": "現状",
+        "reading": "げんじょう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "鑑みて",
+        "reading": "かんがみて"
+      },
+      {
+        "kanji": "、",
+        "reading": ""
+      },
+      {
+        "kanji": "方針",
+        "reading": "ほうしん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "変更した",
+        "reading": "へんこうした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "현상을 감안하여 방침을 변경했다."
+  },
+  {
+    "id": "n1_074",
+    "level": "N1",
+    "kanji": "踏み切る",
+    "reading": "ふみきる",
+    "pos": "동사",
+    "meaning": "결단하다, 단행하다",
+    "exKanji": "長年の迷いの末にようやく転職に踏み切った。",
+    "exSegments": [
+      {
+        "kanji": "長年",
+        "reading": "ながねん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "迷い",
+        "reading": "まよい"
+      },
+      {
+        "kanji": "の末に",
+        "reading": "のすえに"
+      },
+      {
+        "kanji": "ようやく",
+        "reading": ""
+      },
+      {
+        "kanji": "転職",
+        "reading": "てんしょく"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "踏み切った",
+        "reading": "ふみきった"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "오랜 망설임 끝에 마침내 이직을 결단했다."
+  },
+  {
+    "id": "n1_075",
+    "level": "N1",
+    "kanji": "伴う",
+    "reading": "ともなう",
+    "pos": "동사",
+    "meaning": "수반하다, 따르다",
+    "exKanji": "リスクを伴う挑戦であっても諦めない。",
+    "exSegments": [
+      {
+        "kanji": "リスク",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "伴う",
+        "reading": "ともなう"
+      },
+      {
+        "kanji": "挑戦",
+        "reading": "ちょうせん"
+      },
+      {
+        "kanji": "であっても",
+        "reading": ""
+      },
+      {
+        "kanji": "諦めない",
+        "reading": "あきらめない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "위험이 수반되는 도전이라도 포기하지 않는다."
+  },
+  {
+    "id": "n1_076",
+    "level": "N1",
+    "kanji": "担う",
+    "reading": "になう",
+    "pos": "동사",
+    "meaning": "맡다, 담당하다",
+    "exKanji": "次世代を担う若者を育てる。",
+    "exSegments": [
+      {
+        "kanji": "次世代",
+        "reading": "じせだい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "担う",
+        "reading": "になう"
+      },
+      {
+        "kanji": "若者",
+        "reading": "わかもの"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "育てる",
+        "reading": "そだてる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "차세대를 이끌 젊은이를 키운다."
+  },
+  {
+    "id": "n1_077",
+    "level": "N1",
+    "kanji": "遂げる",
+    "reading": "とげる",
+    "pos": "동사",
+    "meaning": "이루다, 달성하다",
+    "exKanji": "長年の夢をついに遂げることができた。",
+    "exSegments": [
+      {
+        "kanji": "長年",
+        "reading": "ながねん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "夢",
+        "reading": "ゆめ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "ついに",
+        "reading": ""
+      },
+      {
+        "kanji": "遂げること",
+        "reading": "とげること"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "できた",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "오랜 꿈을 마침내 이룰 수 있었다."
+  },
+  {
+    "id": "n1_078",
+    "level": "N1",
+    "kanji": "招く",
+    "reading": "まねく",
+    "pos": "동사",
+    "meaning": "초래하다, 불러들이다",
+    "exKanji": "不注意が大きな事故を招くことがある。",
+    "exSegments": [
+      {
+        "kanji": "不注意",
+        "reading": "ふちゅうい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "kanji": "事故",
+        "reading": "じこ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "招く",
+        "reading": "まねく"
+      },
+      {
+        "kanji": "ことがある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "부주의가 큰 사고를 초래하는 경우가 있다."
+  },
+  {
+    "id": "n1_079",
+    "level": "N1",
+    "kanji": "支障",
+    "reading": "ししょう",
+    "pos": "명사",
+    "meaning": "지장, 장애",
+    "exKanji": "工事の騒音が業務に支障をきたしている。",
+    "exSegments": [
+      {
+        "kanji": "工事",
+        "reading": "こうじ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "騒音",
+        "reading": "そうおん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "業務",
+        "reading": "ぎょうむ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "支障",
+        "reading": "ししょう"
+      },
+      {
+        "kanji": "をきたしている",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "공사 소음이 업무에 지장을 초래하고 있다."
+  },
+  {
+    "id": "n1_080",
+    "level": "N1",
+    "kanji": "示唆",
+    "reading": "しさ",
+    "pos": "명사",
+    "meaning": "시사, 암시",
+    "exKanji": "研究結果は新しい治療法を示唆している。",
+    "exSegments": [
+      {
+        "kanji": "研究",
+        "reading": "けんきゅう"
+      },
+      {
+        "kanji": "結果",
+        "reading": "けっか"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "治療法",
+        "reading": "ちりょうほう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "示唆している",
+        "reading": "しさしている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "연구 결과는 새로운 치료법을 시사하고 있다."
+  },
+  {
+    "id": "n1_081",
+    "level": "N1",
+    "kanji": "迅速",
+    "reading": "じんそく",
+    "pos": "な형용사",
+    "meaning": "신속",
+    "exKanji": "緊急事態には迅速な対応が求められる。",
+    "exSegments": [
+      {
+        "kanji": "緊急事態",
+        "reading": "きんきゅうじたい"
+      },
+      {
+        "kanji": "には",
+        "reading": ""
+      },
+      {
+        "kanji": "迅速な",
+        "reading": "じんそくな"
+      },
+      {
+        "kanji": "対応",
+        "reading": "たいおう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "求められる",
+        "reading": "もとめられる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "긴급 사태에는 신속한 대응이 요구된다."
+  },
+  {
+    "id": "n1_082",
+    "level": "N1",
+    "kanji": "厳格",
+    "reading": "げんかく",
+    "pos": "な형용사",
+    "meaning": "엄격",
+    "exKanji": "厳格な基準を設けて品質を管理する。",
+    "exSegments": [
+      {
+        "kanji": "厳格な",
+        "reading": "げんかくな"
+      },
+      {
+        "kanji": "基準",
+        "reading": "きじゅん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "設けて",
+        "reading": "もうけて"
+      },
+      {
+        "kanji": "品質",
+        "reading": "ひんしつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "管理する",
+        "reading": "かんりする"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "엄격한 기준을 마련하여 품질을 관리한다."
+  },
+  {
+    "id": "n1_083",
+    "level": "N1",
+    "kanji": "柔軟",
+    "reading": "じゅうなん",
+    "pos": "な형용사",
+    "meaning": "유연",
+    "exKanji": "状況に応じて柔軟に対処する姿勢が大切だ。",
+    "exSegments": [
+      {
+        "kanji": "状況",
+        "reading": "じょうきょう"
+      },
+      {
+        "kanji": "に応じて",
+        "reading": "におうじて"
+      },
+      {
+        "kanji": "柔軟に",
+        "reading": "じゅうなんに"
+      },
+      {
+        "kanji": "対処する",
+        "reading": "たいしょする"
+      },
+      {
+        "kanji": "姿勢",
+        "reading": "しせい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "상황에 따라 유연하게 대처하는 자세가 중요하다."
+  },
+  {
+    "id": "n1_084",
+    "level": "N1",
+    "kanji": "堅実",
+    "reading": "けんじつ",
+    "pos": "な형용사",
+    "meaning": "견실, 착실",
+    "exKanji": "堅実な経営が会社の長期的な発展を支える。",
+    "exSegments": [
+      {
+        "kanji": "堅実な",
+        "reading": "けんじつな"
+      },
+      {
+        "kanji": "経営",
+        "reading": "けいえい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "会社",
+        "reading": "かいしゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "長期的な",
+        "reading": "ちょうきてきな"
+      },
+      {
+        "kanji": "発展",
+        "reading": "はってん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "支える",
+        "reading": "ささえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "견실한 경영이 회사의 장기적인 발전을 뒷받침한다."
+  },
+  {
+    "id": "n1_085",
+    "level": "N1",
+    "kanji": "多岐",
+    "reading": "たき",
+    "pos": "명사",
+    "meaning": "다기, 다방면",
+    "exKanji": "彼の研究は多岐にわたる分野をカバーしている。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "研究",
+        "reading": "けんきゅう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "多岐",
+        "reading": "たき"
+      },
+      {
+        "kanji": "にわたる",
+        "reading": ""
+      },
+      {
+        "kanji": "分野",
+        "reading": "ぶんや"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "カバーしている",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그의 연구는 다방면에 걸친 분야를 커버하고 있다."
+  },
+  {
+    "id": "n1_086",
+    "level": "N1",
+    "kanji": "概ね",
+    "reading": "おおむね",
+    "pos": "부사",
+    "meaning": "대체로, 대부분",
+    "exKanji": "計画は概ね順調に進んでいる。",
+    "exSegments": [
+      {
+        "kanji": "計画",
+        "reading": "けいかく"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "概ね",
+        "reading": "おおむね"
+      },
+      {
+        "kanji": "順調に",
+        "reading": "じゅんちょうに"
+      },
+      {
+        "kanji": "進んでいる",
+        "reading": "すすんでいる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "계획은 대체로 순조롭게 진행되고 있다."
+  },
+  {
+    "id": "n1_087",
+    "level": "N1",
+    "kanji": "端的",
+    "reading": "たんてき",
+    "pos": "な형용사",
+    "meaning": "단적, 간결",
+    "exKanji": "端的に言えば、このプロジェクトは失敗だ。",
+    "exSegments": [
+      {
+        "kanji": "端的に",
+        "reading": "たんてきに"
+      },
+      {
+        "kanji": "言えば",
+        "reading": "いえば"
+      },
+      {
+        "kanji": "、",
+        "reading": ""
+      },
+      {
+        "kanji": "この",
+        "reading": ""
+      },
+      {
+        "kanji": "プロジェクト",
+        "reading": ""
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "단적으로 말하자면, 이 프로젝트는 실패다."
+  },
+  {
+    "id": "n1_088",
+    "level": "N1",
+    "kanji": "懸け橋",
+    "reading": "かけはし",
+    "pos": "명사",
+    "meaning": "가교, 다리 역할",
+    "exKanji": "文化交流は国と国の懸け橋となる。",
+    "exSegments": [
+      {
+        "kanji": "文化",
+        "reading": "ぶんか"
+      },
+      {
+        "kanji": "交流",
+        "reading": "こうりゅう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "国",
+        "reading": "くに"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "国",
+        "reading": "くに"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "懸け橋",
+        "reading": "かけはし"
+      },
+      {
+        "kanji": "となる",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문화 교류는 나라와 나라를 잇는 가교가 된다."
+  },
+  {
+    "id": "n1_089",
+    "level": "N1",
+    "kanji": "概括",
+    "reading": "がいかつ",
+    "pos": "명사",
+    "meaning": "개괄",
+    "exKanji": "議論の内容を概括してまとめた。",
+    "exSegments": [
+      {
+        "kanji": "議論",
+        "reading": "ぎろん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "内容",
+        "reading": "ないよう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "概括して",
+        "reading": "がいかつして"
+      },
+      {
+        "kanji": "まとめた",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "논의 내용을 개괄하여 정리했다."
+  },
+  {
+    "id": "n1_090",
+    "level": "N1",
+    "kanji": "顕著",
+    "reading": "けんちょ",
+    "pos": "な형용사",
+    "meaning": "현저, 두드러짐",
+    "exKanji": "近年、技術の進歩が顕著になっている。",
+    "exSegments": [
+      {
+        "kanji": "近年",
+        "reading": "きんねん"
+      },
+      {
+        "kanji": "、",
+        "reading": ""
+      },
+      {
+        "kanji": "技術",
+        "reading": "ぎじゅつ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "進歩",
+        "reading": "しんぽ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "顕著になっている",
+        "reading": "けんちょになっている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "최근 기술의 발전이 두드러지고 있다."
+  },
+  {
+    "id": "n1_091",
+    "level": "N1",
+    "kanji": "漸次",
+    "reading": "ぜんじ",
+    "pos": "부사",
+    "meaning": "점차, 차츰",
+    "exKanji": "経済状況は漸次改善されつつある。",
+    "exSegments": [
+      {
+        "kanji": "経済",
+        "reading": "けいざい"
+      },
+      {
+        "kanji": "状況",
+        "reading": "じょうきょう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "漸次",
+        "reading": "ぜんじ"
+      },
+      {
+        "kanji": "改善されつつある",
+        "reading": "かいぜんされつつある"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "경제 상황은 점차 개선되어 가고 있다."
+  },
+  {
+    "id": "n1_092",
+    "level": "N1",
+    "kanji": "斬新",
+    "reading": "ざんしん",
+    "pos": "な형용사",
+    "meaning": "참신",
+    "exKanji": "斬新なアイデアが評価されてプロジェクトが採用された。",
+    "exSegments": [
+      {
+        "kanji": "斬新な",
+        "reading": "ざんしんな"
+      },
+      {
+        "kanji": "アイデア",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "評価されて",
+        "reading": "ひょうかされて"
+      },
+      {
+        "kanji": "プロジェクト",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "採用された",
+        "reading": "さいようされた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "참신한 아이디어가 인정받아 프로젝트가 채택되었다."
+  },
+  {
+    "id": "n1_093",
+    "level": "N1",
+    "kanji": "脆弱",
+    "reading": "ぜいじゃく",
+    "pos": "な형용사",
+    "meaning": "취약",
+    "exKanji": "システムのセキュリティが脆弱だと指摘された。",
+    "exSegments": [
+      {
+        "kanji": "システム",
+        "reading": ""
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "セキュリティ",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "脆弱",
+        "reading": "ぜいじゃく"
+      },
+      {
+        "kanji": "だと",
+        "reading": ""
+      },
+      {
+        "kanji": "指摘された",
+        "reading": "してきされた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "시스템 보안이 취약하다고 지적받았다."
+  },
+  {
+    "id": "n1_094",
+    "level": "N1",
+    "kanji": "卓越",
+    "reading": "たくえつ",
+    "pos": "명사",
+    "meaning": "탁월",
+    "exKanji": "彼女は卓越した才能の持ち主だ。",
+    "exSegments": [
+      {
+        "kanji": "彼女",
+        "reading": "かのじょ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "卓越した",
+        "reading": "たくえつした"
+      },
+      {
+        "kanji": "才能",
+        "reading": "さいのう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "持ち主",
+        "reading": "もちぬし"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그녀는 탁월한 재능의 소유자다."
+  },
+  {
+    "id": "n1_095",
+    "level": "N1",
+    "kanji": "錯綜",
+    "reading": "さくそう",
+    "pos": "명사",
+    "meaning": "착종, 뒤얽힘",
+    "exKanji": "情報が錯綜して何が事実かわからなくなった。",
+    "exSegments": [
+      {
+        "kanji": "情報",
+        "reading": "じょうほう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "錯綜して",
+        "reading": "さくそうして"
+      },
+      {
+        "kanji": "何",
+        "reading": "なに"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "事実",
+        "reading": "じじつ"
+      },
+      {
+        "kanji": "か",
+        "reading": ""
+      },
+      {
+        "kanji": "わからなくなった",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정보가 뒤얽혀 무엇이 사실인지 알 수 없게 되었다."
+  },
+  {
+    "id": "n1_096",
+    "level": "N1",
+    "kanji": "凌駕",
+    "reading": "りょうが",
+    "pos": "명사",
+    "meaning": "능가",
+    "exKanji": "彼の実力は他の選手を凌駕している。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "実力",
+        "reading": "じつりょく"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "他の",
+        "reading": "ほかの"
+      },
+      {
+        "kanji": "選手",
+        "reading": "せんしゅ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "凌駕している",
+        "reading": "りょうがしている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그의 실력은 다른 선수들을 능가하고 있다."
+  },
+  {
+    "id": "n1_097",
+    "level": "N1",
+    "kanji": "喚起",
+    "reading": "かんき",
+    "pos": "명사",
+    "meaning": "환기, 불러일으킴",
+    "exKanji": "注意を喚起するためのポスターを掲示した。",
+    "exSegments": [
+      {
+        "kanji": "注意",
+        "reading": "ちゅうい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "喚起するための",
+        "reading": "かんきするための"
+      },
+      {
+        "kanji": "ポスター",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "掲示した",
+        "reading": "けいじした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "주의를 환기하기 위한 포스터를 게시했다."
+  },
+  {
+    "id": "n1_098",
+    "level": "N1",
+    "kanji": "懐疑",
+    "reading": "かいぎ",
+    "pos": "명사",
+    "meaning": "회의, 의심",
+    "exKanji": "その理論に対して懐疑的な見方も多い。",
+    "exSegments": [
+      {
+        "kanji": "その",
+        "reading": ""
+      },
+      {
+        "kanji": "理論",
+        "reading": "りろん"
+      },
+      {
+        "kanji": "に対して",
+        "reading": "にたいして"
+      },
+      {
+        "kanji": "懐疑的な",
+        "reading": "かいぎてきな"
+      },
+      {
+        "kanji": "見方",
+        "reading": "みかた"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "多い",
+        "reading": "おおい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그 이론에 대해 회의적인 시각도 많다."
+  },
+  {
+    "id": "n1_099",
+    "level": "N1",
+    "kanji": "縮小",
+    "reading": "しゅくしょう",
+    "pos": "명사",
+    "meaning": "축소",
+    "exKanji": "予算の縮小により事業規模が小さくなった。",
+    "exSegments": [
+      {
+        "kanji": "予算",
+        "reading": "よさん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "縮小",
+        "reading": "しゅくしょう"
+      },
+      {
+        "kanji": "により",
+        "reading": ""
+      },
+      {
+        "kanji": "事業",
+        "reading": "じぎょう"
+      },
+      {
+        "kanji": "規模",
+        "reading": "きぼ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "小さくなった",
+        "reading": "ちいさくなった"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "예산 축소로 사업 규모가 작아졌다."
+  },
+  {
+    "id": "n1_100",
+    "level": "N1",
+    "kanji": "拡充",
+    "reading": "かくじゅう",
+    "pos": "명사",
+    "meaning": "확충",
+    "exKanji": "医療施設の拡充が急務となっている。",
+    "exSegments": [
+      {
+        "kanji": "医療",
+        "reading": "いりょう"
+      },
+      {
+        "kanji": "施設",
+        "reading": "しせつ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "拡充",
+        "reading": "かくじゅう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "急務",
+        "reading": "きゅうむ"
+      },
+      {
+        "kanji": "となっている",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "의료 시설의 확충이 시급한 과제가 되고 있다."
+  },
+  {
+    "id": "n1_101",
+    "level": "N1",
+    "kanji": "統括",
+    "reading": "とうかつ",
+    "pos": "명사",
+    "meaning": "통괄",
+    "exKanji": "彼は部門全体を統括する立場にある。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "部門",
+        "reading": "ぶもん"
+      },
+      {
+        "kanji": "全体",
+        "reading": "ぜんたい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "統括する",
+        "reading": "とうかつする"
+      },
+      {
+        "kanji": "立場",
+        "reading": "たちば"
+      },
+      {
+        "kanji": "にある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그는 부문 전체를 통괄하는 위치에 있다."
+  },
+  {
+    "id": "n1_102",
+    "level": "N1",
+    "kanji": "克服",
+    "reading": "こくふく",
+    "pos": "명사",
+    "meaning": "극복",
+    "exKanji": "困難を克服する力が人を成長させる。",
+    "exSegments": [
+      {
+        "kanji": "困難",
+        "reading": "こんなん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "克服する",
+        "reading": "こくふくする"
+      },
+      {
+        "kanji": "力",
+        "reading": "ちから"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "成長させる",
+        "reading": "せいちょうさせる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "어려움을 극복하는 힘이 사람을 성장시킨다."
+  },
+  {
+    "id": "n1_103",
+    "level": "N1",
+    "kanji": "醸成",
+    "reading": "じょうせい",
+    "pos": "명사",
+    "meaning": "양성, 조성",
+    "exKanji": "信頼の雰囲気を醸成することが重要だ。",
+    "exSegments": [
+      {
+        "kanji": "信頼",
+        "reading": "しんらい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "雰囲気",
+        "reading": "ふんいき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "醸成すること",
+        "reading": "じょうせいすること"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "重要",
+        "reading": "じゅうよう"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "신뢰의 분위기를 조성하는 것이 중요하다."
+  },
+  {
+    "id": "n1_104",
+    "level": "N1",
+    "kanji": "貢献",
+    "reading": "こうけん",
+    "pos": "명사",
+    "meaning": "공헌, 기여",
+    "exKanji": "社会への貢献を使命として働いている。",
+    "exSegments": [
+      {
+        "kanji": "社会",
+        "reading": "しゃかい"
+      },
+      {
+        "kanji": "への",
+        "reading": ""
+      },
+      {
+        "kanji": "貢献",
+        "reading": "こうけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "使命",
+        "reading": "しめい"
+      },
+      {
+        "kanji": "として",
+        "reading": ""
+      },
+      {
+        "kanji": "働いている",
+        "reading": "はたらいている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사회에 대한 공헌을 사명으로 삼아 일하고 있다."
+  },
+  {
+    "id": "n1_105",
+    "level": "N1",
+    "kanji": "普及",
+    "reading": "ふきゅう",
+    "pos": "명사",
+    "meaning": "보급",
+    "exKanji": "スマートフォンの普及によって生活が変わった。",
+    "exSegments": [
+      {
+        "kanji": "スマートフォン",
+        "reading": ""
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "普及",
+        "reading": "ふきゅう"
+      },
+      {
+        "kanji": "によって",
+        "reading": ""
+      },
+      {
+        "kanji": "生活",
+        "reading": "せいかつ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "変わった",
+        "reading": "かわった"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "스마트폰의 보급으로 생활이 바뀌었다."
+  },
+  {
+    "id": "n1_106",
+    "level": "N1",
+    "kanji": "緊迫",
+    "reading": "きんぱく",
+    "pos": "명사",
+    "meaning": "긴박",
+    "exKanji": "交渉は緊迫した雰囲気の中で行われた。",
+    "exSegments": [
+      {
+        "kanji": "交渉",
+        "reading": "こうしょう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "緊迫した",
+        "reading": "きんぱくした"
+      },
+      {
+        "kanji": "雰囲気",
+        "reading": "ふんいき"
+      },
+      {
+        "kanji": "の中で",
+        "reading": "のなかで"
+      },
+      {
+        "kanji": "行われた",
+        "reading": "おこなわれた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "협상은 긴박한 분위기 속에서 이루어졌다."
+  },
+  {
+    "id": "n1_107",
+    "level": "N1",
+    "kanji": "摩擦",
+    "reading": "まさつ",
+    "pos": "명사",
+    "meaning": "마찰",
+    "exKanji": "貿易摩擦が両国の関係に影響を及ぼしている。",
+    "exSegments": [
+      {
+        "kanji": "貿易",
+        "reading": "ぼうえき"
+      },
+      {
+        "kanji": "摩擦",
+        "reading": "まさつ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "両国",
+        "reading": "りょうこく"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "関係",
+        "reading": "かんけい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "影響",
+        "reading": "えいきょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "及ぼしている",
+        "reading": "およぼしている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "무역 마찰이 양국 관계에 영향을 미치고 있다."
+  },
+  {
+    "id": "n1_108",
+    "level": "N1",
+    "kanji": "偏見",
+    "reading": "へんけん",
+    "pos": "명사",
+    "meaning": "편견",
+    "exKanji": "偏見を持たずに相手を理解しようとする姿勢が大切だ。",
+    "exSegments": [
+      {
+        "kanji": "偏見",
+        "reading": "へんけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "持たずに",
+        "reading": "もたずに"
+      },
+      {
+        "kanji": "相手",
+        "reading": "あいて"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "理解しようとする",
+        "reading": "りかいしようとする"
+      },
+      {
+        "kanji": "姿勢",
+        "reading": "しせい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "편견 없이 상대방을 이해하려는 자세가 중요하다."
+  },
+  {
+    "id": "n1_109",
+    "level": "N1",
+    "kanji": "矛盾",
+    "reading": "むじゅん",
+    "pos": "명사",
+    "meaning": "모순",
+    "exKanji": "彼の説明には明らかな矛盾がある。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "kanji": "には",
+        "reading": ""
+      },
+      {
+        "kanji": "明らかな",
+        "reading": "あきらかな"
+      },
+      {
+        "kanji": "矛盾",
+        "reading": "むじゅん"
+      },
+      {
+        "kanji": "がある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그의 설명에는 명백한 모순이 있다."
+  },
+  {
+    "id": "n1_110",
+    "level": "N1",
+    "kanji": "隔絶",
+    "reading": "かくぜつ",
+    "pos": "명사",
+    "meaning": "격절, 단절",
+    "exKanji": "都市と農村の間に大きな隔絶が生じている。",
+    "exSegments": [
+      {
+        "kanji": "都市",
+        "reading": "とし"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "農村",
+        "reading": "のうそん"
+      },
+      {
+        "kanji": "の間に",
+        "reading": "のあいだに"
+      },
+      {
+        "kanji": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "kanji": "隔絶",
+        "reading": "かくぜつ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "生じている",
+        "reading": "しょうじている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "도시와 농촌 사이에 큰 격차가 생기고 있다."
+  },
+  {
+    "id": "n1_111",
+    "level": "N1",
+    "kanji": "変遷",
+    "reading": "へんせん",
+    "pos": "명사",
+    "meaning": "변천",
+    "exKanji": "時代の変遷とともに価値観も変わる。",
+    "exSegments": [
+      {
+        "kanji": "時代",
+        "reading": "じだい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "変遷",
+        "reading": "へんせん"
+      },
+      {
+        "kanji": "とともに",
+        "reading": ""
+      },
+      {
+        "kanji": "価値観",
+        "reading": "かちかん"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "変わる",
+        "reading": "かわる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "시대의 변천과 함께 가치관도 변한다."
+  },
+  {
+    "id": "n1_112",
+    "level": "N1",
+    "kanji": "漠然",
+    "reading": "ばくぜん",
+    "pos": "な형용사",
+    "meaning": "막연",
+    "exKanji": "漠然とした不安を感じている。",
+    "exSegments": [
+      {
+        "kanji": "漠然とした",
+        "reading": "ばくぜんとした"
+      },
+      {
+        "kanji": "不安",
+        "reading": "ふあん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "感じている",
+        "reading": "かんじている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "막연한 불안을 느끼고 있다."
+  },
+  {
+    "id": "n1_113",
+    "level": "N1",
+    "kanji": "潜在",
+    "reading": "せんざい",
+    "pos": "명사",
+    "meaning": "잠재",
+    "exKanji": "彼には潜在的な能力が眠っている。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "には",
+        "reading": ""
+      },
+      {
+        "kanji": "潜在的な",
+        "reading": "せんざいてきな"
+      },
+      {
+        "kanji": "能力",
+        "reading": "のうりょく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "眠っている",
+        "reading": "ねむっている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그에게는 잠재적인 능력이 잠들어 있다."
+  },
+  {
+    "id": "n1_114",
+    "level": "N1",
+    "kanji": "顕在",
+    "reading": "けんざい",
+    "pos": "명사",
+    "meaning": "현재, 표면화",
+    "exKanji": "社会問題が顕在化してきた。",
+    "exSegments": [
+      {
+        "kanji": "社会問題",
+        "reading": "しゃかいもんだい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "顕在化してきた",
+        "reading": "けんざいかしてきた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사회 문제가 표면화되어 왔다."
+  },
+  {
+    "id": "n1_115",
+    "level": "N1",
+    "kanji": "執着",
+    "reading": "しゅうちゃく",
+    "pos": "명사",
+    "meaning": "집착",
+    "exKanji": "過去への執着を手放すことで楽になれる。",
+    "exSegments": [
+      {
+        "kanji": "過去",
+        "reading": "かこ"
+      },
+      {
+        "kanji": "への",
+        "reading": ""
+      },
+      {
+        "kanji": "執着",
+        "reading": "しゅうちゃく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "手放すことで",
+        "reading": "てばなすことで"
+      },
+      {
+        "kanji": "楽になれる",
+        "reading": "らくになれる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "과거에 대한 집착을 내려놓음으로써 편해질 수 있다."
+  },
+  {
+    "id": "n1_116",
+    "level": "N1",
+    "kanji": "逸脱",
+    "reading": "いつだつ",
+    "pos": "명사",
+    "meaning": "일탈",
+    "exKanji": "規則からの逸脱は許されない。",
+    "exSegments": [
+      {
+        "kanji": "規則",
+        "reading": "きそく"
+      },
+      {
+        "kanji": "からの",
+        "reading": ""
+      },
+      {
+        "kanji": "逸脱",
+        "reading": "いつだつ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "許されない",
+        "reading": "ゆるされない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "규칙에서의 일탈은 허용되지 않는다."
+  },
+  {
+    "id": "n1_117",
+    "level": "N1",
+    "kanji": "充足",
+    "reading": "じゅうそく",
+    "pos": "명사",
+    "meaning": "충족",
+    "exKanji": "人材の充足が課題となっている企業が多い。",
+    "exSegments": [
+      {
+        "kanji": "人材",
+        "reading": "じんざい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "充足",
+        "reading": "じゅうそく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "課題",
+        "reading": "かだい"
+      },
+      {
+        "kanji": "となっている",
+        "reading": ""
+      },
+      {
+        "kanji": "企業",
+        "reading": "きぎょう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "多い",
+        "reading": "おおい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "인재 충족이 과제가 되고 있는 기업이 많다."
+  },
+  {
+    "id": "n1_118",
+    "level": "N1",
+    "kanji": "鑑定",
+    "reading": "かんてい",
+    "pos": "명사",
+    "meaning": "감정, 감별",
+    "exKanji": "専門家による鑑定を依頼した。",
+    "exSegments": [
+      {
+        "kanji": "専門家",
+        "reading": "せんもんか"
+      },
+      {
+        "kanji": "による",
+        "reading": ""
+      },
+      {
+        "kanji": "鑑定",
+        "reading": "かんてい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "依頼した",
+        "reading": "いらいした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "전문가에게 감정을 의뢰했다."
+  },
+  {
+    "id": "n1_119",
+    "level": "N1",
+    "kanji": "擁護",
+    "reading": "ようご",
+    "pos": "명사",
+    "meaning": "옹호",
+    "exKanji": "人権を擁護するための法律が整備された。",
+    "exSegments": [
+      {
+        "kanji": "人権",
+        "reading": "じんけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "擁護するための",
+        "reading": "ようごするための"
+      },
+      {
+        "kanji": "法律",
+        "reading": "ほうりつ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "整備された",
+        "reading": "せいびされた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "인권을 옹호하기 위한 법률이 정비되었다."
+  },
+  {
+    "id": "n1_120",
+    "level": "N1",
+    "kanji": "嗜好",
+    "reading": "しこう",
+    "pos": "명사",
+    "meaning": "기호, 취향",
+    "exKanji": "消費者の嗜好に合った商品を開発する。",
+    "exSegments": [
+      {
+        "kanji": "消費者",
+        "reading": "しょうひしゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "嗜好",
+        "reading": "しこう"
+      },
+      {
+        "kanji": "に合った",
+        "reading": "にあった"
+      },
+      {
+        "kanji": "商品",
+        "reading": "しょうひん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "開発する",
+        "reading": "かいはつする"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "소비자의 기호에 맞는 상품을 개발한다."
+  },
+  {
+    "id": "n1_121",
+    "level": "N1",
+    "kanji": "諮問",
+    "reading": "しもん",
+    "pos": "명사",
+    "meaning": "자문",
+    "exKanji": "政府は専門家委員会に政策を諮問した。",
+    "exSegments": [
+      {
+        "kanji": "政府",
+        "reading": "せいふ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "専門家",
+        "reading": "せんもんか"
+      },
+      {
+        "kanji": "委員会",
+        "reading": "いいんかい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "政策",
+        "reading": "せいさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "諮問した",
+        "reading": "しもんした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정부는 전문가 위원회에 정책을 자문했다."
+  },
+  {
+    "id": "n1_122",
+    "level": "N1",
+    "kanji": "粛清",
+    "reading": "しゅくせい",
+    "pos": "명사",
+    "meaning": "숙청",
+    "exKanji": "政治的な粛清が歴史上何度も繰り返されてきた。",
+    "exSegments": [
+      {
+        "kanji": "政治的な",
+        "reading": "せいじてきな"
+      },
+      {
+        "kanji": "粛清",
+        "reading": "しゅくせい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "歴史上",
+        "reading": "れきしじょう"
+      },
+      {
+        "kanji": "何度も",
+        "reading": "なんども"
+      },
+      {
+        "kanji": "繰り返されてきた",
+        "reading": "くりかえされてきた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정치적인 숙청이 역사상 수차례 반복되어 왔다."
+  },
+  {
+    "id": "n1_123",
+    "level": "N1",
+    "kanji": "均衡",
+    "reading": "きんこう",
+    "pos": "명사",
+    "meaning": "균형",
+    "exKanji": "労働と休暇の均衡を保つことが健康の秘訣だ。",
+    "exSegments": [
+      {
+        "kanji": "労働",
+        "reading": "ろうどう"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "休暇",
+        "reading": "きゅうか"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "均衡",
+        "reading": "きんこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "保つことが",
+        "reading": "たもつことが"
+      },
+      {
+        "kanji": "健康",
+        "reading": "けんこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "秘訣",
+        "reading": "ひけつ"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "노동과 휴가의 균형을 유지하는 것이 건강의 비결이다."
+  },
+  {
+    "id": "n1_124",
+    "level": "N1",
+    "kanji": "欠如",
+    "reading": "けつじょ",
+    "pos": "명사",
+    "meaning": "결여, 부재",
+    "exKanji": "倫理観の欠如が不正行為につながった。",
+    "exSegments": [
+      {
+        "kanji": "倫理観",
+        "reading": "りんりかん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "欠如",
+        "reading": "けつじょ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "不正行為",
+        "reading": "ふせいこうい"
+      },
+      {
+        "kanji": "につながった",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "윤리관의 결여가 부정 행위로 이어졌다."
+  },
+  {
+    "id": "n1_125",
+    "level": "N1",
+    "kanji": "蓄積",
+    "reading": "ちくせき",
+    "pos": "명사",
+    "meaning": "축적",
+    "exKanji": "長年の経験の蓄積が今の実力につながっている。",
+    "exSegments": [
+      {
+        "kanji": "長年",
+        "reading": "ながねん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "経験",
+        "reading": "けいけん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "蓄積",
+        "reading": "ちくせき"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "今",
+        "reading": "いま"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "実力",
+        "reading": "じつりょく"
+      },
+      {
+        "kanji": "につながっている",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "오랜 경험의 축적이 지금의 실력으로 이어지고 있다."
+  },
+  {
+    "id": "n1_126",
+    "level": "N1",
+    "kanji": "浸透",
+    "reading": "しんとう",
+    "pos": "명사",
+    "meaning": "침투, 침투",
+    "exKanji": "新しい文化が社会に浸透していく。",
+    "exSegments": [
+      {
+        "kanji": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "kanji": "文化",
+        "reading": "ぶんか"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "社会",
+        "reading": "しゃかい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "浸透していく",
+        "reading": "しんとうしていく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "새로운 문화가 사회에 침투해 간다."
+  },
+  {
+    "id": "n1_127",
+    "level": "N1",
+    "kanji": "抜本",
+    "reading": "ばっぽん",
+    "pos": "명사",
+    "meaning": "근본적인",
+    "exKanji": "問題の抜本的な解決策を探している。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "抜本的な",
+        "reading": "ばっぽんてきな"
+      },
+      {
+        "kanji": "解決策",
+        "reading": "かいけつさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "探している",
+        "reading": "さがしている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제의 근본적인 해결책을 찾고 있다."
+  },
+  {
+    "id": "n1_128",
+    "level": "N1",
+    "kanji": "懸命",
+    "reading": "けんめい",
+    "pos": "な형용사",
+    "meaning": "필사적, 열심",
+    "exKanji": "彼は懸命に努力して夢を叶えた。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "懸命に",
+        "reading": "けんめいに"
+      },
+      {
+        "kanji": "努力して",
+        "reading": "どりょくして"
+      },
+      {
+        "kanji": "夢",
+        "reading": "ゆめ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "叶えた",
+        "reading": "かなえた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그는 필사적으로 노력하여 꿈을 이루었다."
+  },
+  {
+    "id": "n1_129",
+    "level": "N1",
+    "kanji": "疎外",
+    "reading": "そがい",
+    "pos": "명사",
+    "meaning": "소외",
+    "exKanji": "社会から疎外された人々を支援する活動がある。",
+    "exSegments": [
+      {
+        "kanji": "社会",
+        "reading": "しゃかい"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "疎外された",
+        "reading": "そがいされた"
+      },
+      {
+        "kanji": "人々",
+        "reading": "ひとびと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "支援する",
+        "reading": "しえんする"
+      },
+      {
+        "kanji": "活動",
+        "reading": "かつどう"
+      },
+      {
+        "kanji": "がある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사회에서 소외된 사람들을 지원하는 활동이 있다."
+  },
+  {
+    "id": "n1_130",
+    "level": "N1",
+    "kanji": "斡旋",
+    "reading": "あっせん",
+    "pos": "명사",
+    "meaning": "알선, 중재",
+    "exKanji": "就職を斡旋するサービスが増えている。",
+    "exSegments": [
+      {
+        "kanji": "就職",
+        "reading": "しゅうしょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "斡旋する",
+        "reading": "あっせんする"
+      },
+      {
+        "kanji": "サービス",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "増えている",
+        "reading": "ふえている"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "취업을 알선하는 서비스가 늘고 있다."
+  },
+  {
+    "id": "n1_131",
+    "level": "N1",
+    "kanji": "根拠",
+    "reading": "こんきょ",
+    "pos": "명사",
+    "meaning": "근거",
+    "exKanji": "その主張には根拠がない。",
+    "exSegments": [
+      {
+        "kanji": "その",
+        "reading": ""
+      },
+      {
+        "kanji": "主張",
+        "reading": "しゅちょう"
+      },
+      {
+        "kanji": "には",
+        "reading": ""
+      },
+      {
+        "kanji": "根拠",
+        "reading": "こんきょ"
+      },
+      {
+        "kanji": "がない",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그 주장에는 근거가 없다."
+  },
+  {
+    "id": "n1_132",
+    "level": "N1",
+    "kanji": "帰属",
+    "reading": "きぞく",
+    "pos": "명사",
+    "meaning": "귀속",
+    "exKanji": "その土地の帰属をめぐって争いが起きた。",
+    "exSegments": [
+      {
+        "kanji": "その",
+        "reading": ""
+      },
+      {
+        "kanji": "土地",
+        "reading": "とち"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "帰属",
+        "reading": "きぞく"
+      },
+      {
+        "kanji": "をめぐって",
+        "reading": ""
+      },
+      {
+        "kanji": "争い",
+        "reading": "あらそい"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "起きた",
+        "reading": "おきた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그 토지의 귀속을 둘러싸고 분쟁이 일어났다."
+  },
+  {
+    "id": "n1_133",
+    "level": "N1",
+    "kanji": "傍観",
+    "reading": "ぼうかん",
+    "pos": "명사",
+    "meaning": "방관",
+    "exKanji": "問題を傍観するだけでは解決しない。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "傍観するだけでは",
+        "reading": "ぼうかんするだけでは"
+      },
+      {
+        "kanji": "解決しない",
+        "reading": "かいけつしない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제를 방관하는 것만으로는 해결되지 않는다."
+  },
+  {
+    "id": "n1_134",
+    "level": "N1",
+    "kanji": "吟味",
+    "reading": "ぎんみ",
+    "pos": "명사",
+    "meaning": "음미, 면밀히 검토",
+    "exKanji": "情報を吟味してから発表すべきだ。",
+    "exSegments": [
+      {
+        "kanji": "情報",
+        "reading": "じょうほう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "吟味してから",
+        "reading": "ぎんみしてから"
+      },
+      {
+        "kanji": "発表すべき",
+        "reading": "はっぴょうすべき"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "정보를 충분히 검토한 후 발표해야 한다."
+  },
+  {
+    "id": "n1_135",
+    "level": "N1",
+    "kanji": "拘束",
+    "reading": "こうそく",
+    "pos": "명사",
+    "meaning": "구속",
+    "exKanji": "法律によって身柄が拘束された。",
+    "exSegments": [
+      {
+        "kanji": "法律",
+        "reading": "ほうりつ"
+      },
+      {
+        "kanji": "によって",
+        "reading": ""
+      },
+      {
+        "kanji": "身柄",
+        "reading": "みがら"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "拘束された",
+        "reading": "こうそくされた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "법률에 의해 신병이 구속되었다."
+  },
+  {
+    "id": "n1_136",
+    "level": "N1",
+    "kanji": "忌避",
+    "reading": "きひ",
+    "pos": "명사",
+    "meaning": "기피, 회피",
+    "exKanji": "危険な作業を忌避する傾向がある。",
+    "exSegments": [
+      {
+        "kanji": "危険な",
+        "reading": "きけんな"
+      },
+      {
+        "kanji": "作業",
+        "reading": "さぎょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "忌避する",
+        "reading": "きひする"
+      },
+      {
+        "kanji": "傾向",
+        "reading": "けいこう"
+      },
+      {
+        "kanji": "がある",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "위험한 작업을 기피하는 경향이 있다."
+  },
+  {
+    "id": "n1_137",
+    "level": "N1",
+    "kanji": "奔走",
+    "reading": "ほんそう",
+    "pos": "명사",
+    "meaning": "분주, 동분서주",
+    "exKanji": "資金集めのために奔走した一年だった。",
+    "exSegments": [
+      {
+        "kanji": "資金",
+        "reading": "しきん"
+      },
+      {
+        "kanji": "集め",
+        "reading": "あつめ"
+      },
+      {
+        "kanji": "のために",
+        "reading": ""
+      },
+      {
+        "kanji": "奔走した",
+        "reading": "ほんそうした"
+      },
+      {
+        "kanji": "一年",
+        "reading": "いちねん"
+      },
+      {
+        "kanji": "だった",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "자금 모금을 위해 동분서주한 일 년이었다."
+  },
+  {
+    "id": "n1_138",
+    "level": "N1",
+    "kanji": "躊躇",
+    "reading": "ちゅうちょ",
+    "pos": "명사",
+    "meaning": "주저, 망설임",
+    "exKanji": "躊躇せずに自分の意見を述べることが大切だ。",
+    "exSegments": [
+      {
+        "kanji": "躊躇せずに",
+        "reading": "ちゅうちょせずに"
+      },
+      {
+        "kanji": "自分",
+        "reading": "じぶん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "意見",
+        "reading": "いけん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "述べることが",
+        "reading": "のべることが"
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "だ",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "주저하지 않고 자신의 의견을 말하는 것이 중요하다."
+  },
+  {
+    "id": "n1_139",
+    "level": "N1",
+    "kanji": "顛末",
+    "reading": "てんまつ",
+    "pos": "명사",
+    "meaning": "전말, 경위",
+    "exKanji": "事件の顛末を詳しく報告した。",
+    "exSegments": [
+      {
+        "kanji": "事件",
+        "reading": "じけん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "顛末",
+        "reading": "てんまつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "詳しく",
+        "reading": "くわしく"
+      },
+      {
+        "kanji": "報告した",
+        "reading": "ほうこくした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "사건의 전말을 자세히 보고했다."
+  },
+  {
+    "id": "n1_140",
+    "level": "N1",
+    "kanji": "忍耐",
+    "reading": "にんたい",
+    "pos": "명사",
+    "meaning": "인내",
+    "exKanji": "忍耐強く取り組むことで成果が得られた。",
+    "exSegments": [
+      {
+        "kanji": "忍耐強く",
+        "reading": "にんたいづよく"
+      },
+      {
+        "kanji": "取り組むことで",
+        "reading": "とりくむことで"
+      },
+      {
+        "kanji": "成果",
+        "reading": "せいか"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "得られた",
+        "reading": "えられた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "끈기 있게 임함으로써 성과를 얻을 수 있었다."
+  },
+  {
+    "id": "n1_141",
+    "level": "N1",
+    "kanji": "傾倒",
+    "reading": "けいとう",
+    "pos": "명사",
+    "meaning": "경도, 심취",
+    "exKanji": "若い頃に音楽に傾倒していた時期があった。",
+    "exSegments": [
+      {
+        "kanji": "若い頃に",
+        "reading": "わかいころに"
+      },
+      {
+        "kanji": "音楽",
+        "reading": "おんがく"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "傾倒していた",
+        "reading": "けいとうしていた"
+      },
+      {
+        "kanji": "時期",
+        "reading": "じき"
+      },
+      {
+        "kanji": "があった",
+        "reading": ""
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "젊었을 때 음악에 심취했던 시기가 있었다."
+  },
+  {
+    "id": "n1_142",
+    "level": "N1",
+    "kanji": "網羅",
+    "reading": "もうら",
+    "pos": "명사",
+    "meaning": "망라",
+    "exKanji": "あらゆるテーマを網羅した百科事典を編纂した。",
+    "exSegments": [
+      {
+        "kanji": "あらゆる",
+        "reading": ""
+      },
+      {
+        "kanji": "テーマ",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "網羅した",
+        "reading": "もうらした"
+      },
+      {
+        "kanji": "百科事典",
+        "reading": "ひゃっかじてん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "編纂した",
+        "reading": "へんさんした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "모든 주제를 망라한 백과사전을 편찬했다."
+  },
+  {
+    "id": "n1_143",
+    "level": "N1",
+    "kanji": "糾弾",
+    "reading": "きゅうだん",
+    "pos": "명사",
+    "meaning": "규탄",
+    "exKanji": "不正行為を糾弾する声が上がった。",
+    "exSegments": [
+      {
+        "kanji": "不正行為",
+        "reading": "ふせいこうい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "糾弾する",
+        "reading": "きゅうだんする"
+      },
+      {
+        "kanji": "声",
+        "reading": "こえ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "上がった",
+        "reading": "あがった"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "부정 행위를 규탄하는 목소리가 높아졌다."
+  },
+  {
+    "id": "n1_144",
+    "level": "N1",
+    "kanji": "敷衍",
+    "reading": "ふえん",
+    "pos": "명사",
+    "meaning": "부연",
+    "exKanji": "概念を敷衍して具体的な例を挙げた。",
+    "exSegments": [
+      {
+        "kanji": "概念",
+        "reading": "がいねん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "敷衍して",
+        "reading": "ふえんして"
+      },
+      {
+        "kanji": "具体的な",
+        "reading": "ぐたいてきな"
+      },
+      {
+        "kanji": "例",
+        "reading": "れい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "挙げた",
+        "reading": "あげた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "개념을 부연하여 구체적인 예를 들었다."
+  },
+  {
+    "id": "n1_145",
+    "level": "N1",
+    "kanji": "逡巡",
+    "reading": "しゅんじゅん",
+    "pos": "명사",
+    "meaning": "망설임, 주저",
+    "exKanji": "彼は逡巡した末に転職を決意した。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "逡巡した末に",
+        "reading": "しゅんじゅんしたすえに"
+      },
+      {
+        "kanji": "転職",
+        "reading": "てんしょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "決意した",
+        "reading": "けついした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그는 망설인 끝에 이직을 결심했다."
+  },
+  {
+    "id": "n1_146",
+    "level": "N1",
+    "kanji": "俯瞰",
+    "reading": "ふかん",
+    "pos": "명사",
+    "meaning": "부감, 조감",
+    "exKanji": "問題を俯瞰的に見ることで解決策が見えてくる。",
+    "exSegments": [
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "俯瞰的に",
+        "reading": "ふかんてきに"
+      },
+      {
+        "kanji": "見ること",
+        "reading": "みること"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "解決策",
+        "reading": "かいけつさく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "見えてくる",
+        "reading": "みえてくる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "문제를 부감적으로 봄으로써 해결책이 보이게 된다."
+  },
+  {
+    "id": "n1_147",
+    "level": "N1",
+    "kanji": "邁進",
+    "reading": "まいしん",
+    "pos": "명사",
+    "meaning": "매진, 매력적으로 나아감",
+    "exKanji": "目標に向かって邁進する姿が人々を感動させた。",
+    "exSegments": [
+      {
+        "kanji": "目標",
+        "reading": "もくひょう"
+      },
+      {
+        "kanji": "に向かって",
+        "reading": "にむかって"
+      },
+      {
+        "kanji": "邁進する",
+        "reading": "まいしんする"
+      },
+      {
+        "kanji": "姿",
+        "reading": "すがた"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "人々",
+        "reading": "ひとびと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "感動させた",
+        "reading": "かんどうさせた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "목표를 향해 매진하는 모습이 사람들을 감동시켰다."
+  },
+  {
+    "id": "n1_148",
+    "level": "N1",
+    "kanji": "窮地",
+    "reading": "きゅうち",
+    "pos": "명사",
+    "meaning": "궁지",
+    "exKanji": "窮地に立たされても諦めずに解決策を探した。",
+    "exSegments": [
+      {
+        "kanji": "窮地",
+        "reading": "きゅうち"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "立たされても",
+        "reading": "たたされても"
+      },
+      {
+        "kanji": "諦めずに",
+        "reading": "あきらめずに"
+      },
+      {
+        "kanji": "解決策",
+        "reading": "かいけつさく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "探した",
+        "reading": "さがした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "궁지에 몰려도 포기하지 않고 해결책을 찾았다."
+  },
+  {
+    "id": "n1_149",
+    "level": "N1",
+    "kanji": "奮起",
+    "reading": "ふんき",
+    "pos": "명사",
+    "meaning": "분기, 분발",
+    "exKanji": "失敗を機に奮起して、再び挑戦した。",
+    "exSegments": [
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "を機に",
+        "reading": "をきに"
+      },
+      {
+        "kanji": "奮起して",
+        "reading": "ふんきして"
+      },
+      {
+        "kanji": "、",
+        "reading": ""
+      },
+      {
+        "kanji": "再び",
+        "reading": "ふたたび"
+      },
+      {
+        "kanji": "挑戦した",
+        "reading": "ちょうせんした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "실패를 계기로 분발하여 다시 도전했다."
+  },
+  {
+    "id": "n1_150",
+    "level": "N1",
+    "kanji": "惜しむ",
+    "reading": "おしむ",
+    "pos": "동사",
+    "meaning": "아끼다, 惜しんで惜しまない(아낌없이)",
+    "exKanji": "彼は努力を惜しまずに成功を手にした。",
+    "exSegments": [
+      {
+        "kanji": "彼",
+        "reading": "かれ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "努力",
+        "reading": "どりょく"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "惜しまずに",
+        "reading": "おしまずに"
+      },
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "手にした",
+        "reading": "てにした"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "exKorean": "그는 노력을 아끼지 않고 성공을 거머쥐었다."
+  }
+]
