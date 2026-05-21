@@ -1,0 +1,2591 @@
+[
+  {
+    "id": "n4_001",
+    "level": "N4",
+    "kanji": "準備",
+    "reading": "じゅんび",
+    "pos": "명사",
+    "meaning": "준비",
+    "exKanji": "旅行の準備をする。",
+    "exSegments": [
+      {"kanji": "旅行", "reading": "りょこう"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "準備", "reading": "じゅんび"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "する", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "여행 준비를 하다."
+  },
+  {
+    "id": "n4_002",
+    "level": "N4",
+    "kanji": "予定",
+    "reading": "よてい",
+    "pos": "명사",
+    "meaning": "예정",
+    "exKanji": "明日の予定を確認する。",
+    "exSegments": [
+      {"kanji": "明日", "reading": "あした"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "予定", "reading": "よてい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "確認", "reading": "かくにん"},
+      {"kanji": "する", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "내일 예정을 확인하다."
+  },
+  {
+    "id": "n4_003",
+    "level": "N4",
+    "kanji": "説明",
+    "reading": "せつめい",
+    "pos": "명사",
+    "meaning": "설명",
+    "exKanji": "先生が説明をした。",
+    "exSegments": [
+      {"kanji": "先生", "reading": "せんせい"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "説明", "reading": "せつめい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "した", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "선생님이 설명을 했다."
+  },
+  {
+    "id": "n4_004",
+    "level": "N4",
+    "kanji": "練習",
+    "reading": "れんしゅう",
+    "pos": "명사",
+    "meaning": "연습",
+    "exKanji": "毎日練習すれば上手になる。",
+    "exSegments": [
+      {"kanji": "毎日", "reading": "まいにち"},
+      {"kanji": "練習", "reading": "れんしゅう"},
+      {"kanji": "すれば", "reading": ""},
+      {"kanji": "上手", "reading": "じょうず"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "なる", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "매일 연습하면 능숙해진다."
+  },
+  {
+    "id": "n4_005",
+    "level": "N4",
+    "kanji": "運動",
+    "reading": "うんどう",
+    "pos": "명사",
+    "meaning": "운동",
+    "exKanji": "毎朝運動するのが好きだ。",
+    "exSegments": [
+      {"kanji": "毎朝", "reading": "まいあさ"},
+      {"kanji": "運動", "reading": "うんどう"},
+      {"kanji": "するのが", "reading": ""},
+      {"kanji": "好き", "reading": "すき"},
+      {"kanji": "だ", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "매일 아침 운동하는 것을 좋아한다."
+  },
+  {
+    "id": "n4_006",
+    "level": "N4",
+    "kanji": "気持ち",
+    "reading": "きもち",
+    "pos": "명사",
+    "meaning": "기분, 마음",
+    "exKanji": "今日は気持ちがいい。",
+    "exSegments": [
+      {"kanji": "今日", "reading": "きょう"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "気持ち", "reading": "きもち"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "いい", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "오늘은 기분이 좋다."
+  },
+  {
+    "id": "n4_007",
+    "level": "N4",
+    "kanji": "理由",
+    "reading": "りゆう",
+    "pos": "명사",
+    "meaning": "이유",
+    "exKanji": "遅れた理由を話した。",
+    "exSegments": [
+      {"kanji": "遅れた", "reading": "おくれた"},
+      {"kanji": "理由", "reading": "りゆう"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "話した", "reading": "はなした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "늦은 이유를 말했다."
+  },
+  {
+    "id": "n4_008",
+    "level": "N4",
+    "kanji": "場合",
+    "reading": "ばあい",
+    "pos": "명사",
+    "meaning": "경우",
+    "exKanji": "雨の場合は中止になる。",
+    "exSegments": [
+      {"kanji": "雨", "reading": "あめ"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "場合", "reading": "ばあい"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "中止", "reading": "ちゅうし"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "なる", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "비가 올 경우에는 중지된다."
+  },
+  {
+    "id": "n4_009",
+    "level": "N4",
+    "kanji": "様子",
+    "reading": "ようす",
+    "pos": "명사",
+    "meaning": "모습, 상태",
+    "exKanji": "子供の様子を見る。",
+    "exSegments": [
+      {"kanji": "子供", "reading": "こども"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "様子", "reading": "ようす"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "見る", "reading": "みる"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "아이의 상태를 보다."
+  },
+  {
+    "id": "n4_010",
+    "level": "N4",
+    "kanji": "経済",
+    "reading": "けいざい",
+    "pos": "명사",
+    "meaning": "경제",
+    "exKanji": "世界の経済が変わっている。",
+    "exSegments": [
+      {"kanji": "世界", "reading": "せかい"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "経済", "reading": "けいざい"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "変わっている", "reading": "かわっている"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "세계 경제가 변하고 있다."
+  },
+  {
+    "id": "n4_011",
+    "level": "N4",
+    "kanji": "文化",
+    "reading": "ぶんか",
+    "pos": "명사",
+    "meaning": "문화",
+    "exKanji": "日本の文化に興味がある。",
+    "exSegments": [
+      {"kanji": "日本", "reading": "にほん"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "文化", "reading": "ぶんか"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "興味", "reading": "きょうみ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "ある", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "일본 문화에 관심이 있다."
+  },
+  {
+    "id": "n4_012",
+    "level": "N4",
+    "kanji": "社会",
+    "reading": "しゃかい",
+    "pos": "명사",
+    "meaning": "사회",
+    "exKanji": "社会に出て働く。",
+    "exSegments": [
+      {"kanji": "社会", "reading": "しゃかい"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "出て", "reading": "でて"},
+      {"kanji": "働く", "reading": "はたらく"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "사회에 나가서 일하다."
+  },
+  {
+    "id": "n4_013",
+    "level": "N4",
+    "kanji": "音楽",
+    "reading": "おんがく",
+    "pos": "명사",
+    "meaning": "음악",
+    "exKanji": "音楽を聴きながら勉強する。",
+    "exSegments": [
+      {"kanji": "音楽", "reading": "おんがく"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "聴きながら", "reading": "ききながら"},
+      {"kanji": "勉強", "reading": "べんきょう"},
+      {"kanji": "する", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "음악을 들으면서 공부한다."
+  },
+  {
+    "id": "n4_014",
+    "level": "N4",
+    "kanji": "映画",
+    "reading": "えいが",
+    "pos": "명사",
+    "meaning": "영화",
+    "exKanji": "週末に映画を見た。",
+    "exSegments": [
+      {"kanji": "週末", "reading": "しゅうまつ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "映画", "reading": "えいが"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "見た", "reading": "みた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "주말에 영화를 봤다."
+  },
+  {
+    "id": "n4_015",
+    "level": "N4",
+    "kanji": "料理",
+    "reading": "りょうり",
+    "pos": "명사",
+    "meaning": "요리",
+    "exKanji": "母の料理はおいしい。",
+    "exSegments": [
+      {"kanji": "母", "reading": "はは"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "料理", "reading": "りょうり"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "おいしい", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "어머니의 요리는 맛있다."
+  },
+  {
+    "id": "n4_016",
+    "level": "N4",
+    "kanji": "医者",
+    "reading": "いしゃ",
+    "pos": "명사",
+    "meaning": "의사",
+    "exKanji": "医者に診てもらった。",
+    "exSegments": [
+      {"kanji": "医者", "reading": "いしゃ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "診て", "reading": "みて"},
+      {"kanji": "もらった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "의사에게 진찰을 받았다."
+  },
+  {
+    "id": "n4_017",
+    "level": "N4",
+    "kanji": "病院",
+    "reading": "びょういん",
+    "pos": "명사",
+    "meaning": "병원",
+    "exKanji": "病院へ行って薬をもらった。",
+    "exSegments": [
+      {"kanji": "病院", "reading": "びょういん"},
+      {"kanji": "へ", "reading": ""},
+      {"kanji": "行って", "reading": "いって"},
+      {"kanji": "薬", "reading": "くすり"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "もらった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "병원에 가서 약을 받았다."
+  },
+  {
+    "id": "n4_018",
+    "level": "N4",
+    "kanji": "電話",
+    "reading": "でんわ",
+    "pos": "명사",
+    "meaning": "전화",
+    "exKanji": "友達に電話をかけた。",
+    "exSegments": [
+      {"kanji": "友達", "reading": "ともだち"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "電話", "reading": "でんわ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "かけた", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "친구에게 전화를 걸었다."
+  },
+  {
+    "id": "n4_019",
+    "level": "N4",
+    "kanji": "番号",
+    "reading": "ばんごう",
+    "pos": "명사",
+    "meaning": "번호",
+    "exKanji": "電話番号を教えてください。",
+    "exSegments": [
+      {"kanji": "電話", "reading": "でんわ"},
+      {"kanji": "番号", "reading": "ばんごう"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "教えて", "reading": "おしえて"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "전화번호를 알려 주세요."
+  },
+  {
+    "id": "n4_020",
+    "level": "N4",
+    "kanji": "住所",
+    "reading": "じゅうしょ",
+    "pos": "명사",
+    "meaning": "주소",
+    "exKanji": "住所を書いてください。",
+    "exSegments": [
+      {"kanji": "住所", "reading": "じゅうしょ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "書いて", "reading": "かいて"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "주소를 써 주세요."
+  },
+  {
+    "id": "n4_021",
+    "level": "N4",
+    "kanji": "地図",
+    "reading": "ちず",
+    "pos": "명사",
+    "meaning": "지도",
+    "exKanji": "地図を見て道を確認した。",
+    "exSegments": [
+      {"kanji": "地図", "reading": "ちず"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "見て", "reading": "みて"},
+      {"kanji": "道", "reading": "みち"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "確認した", "reading": "かくにんした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "지도를 보고 길을 확인했다."
+  },
+  {
+    "id": "n4_022",
+    "level": "N4",
+    "kanji": "道路",
+    "reading": "どうろ",
+    "pos": "명사",
+    "meaning": "도로",
+    "exKanji": "道路が混んでいる。",
+    "exSegments": [
+      {"kanji": "道路", "reading": "どうろ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "混んでいる", "reading": "こんでいる"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "도로가 막혀 있다."
+  },
+  {
+    "id": "n4_023",
+    "level": "N4",
+    "kanji": "建物",
+    "reading": "たてもの",
+    "pos": "명사",
+    "meaning": "건물",
+    "exKanji": "大きな建物が建った。",
+    "exSegments": [
+      {"kanji": "大きな", "reading": "おおきな"},
+      {"kanji": "建物", "reading": "たてもの"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "建った", "reading": "たった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "큰 건물이 세워졌다."
+  },
+  {
+    "id": "n4_024",
+    "level": "N4",
+    "kanji": "部屋",
+    "reading": "へや",
+    "pos": "명사",
+    "meaning": "방",
+    "exKanji": "部屋を片付けた。",
+    "exSegments": [
+      {"kanji": "部屋", "reading": "へや"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "片付けた", "reading": "かたづけた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "방을 정리했다."
+  },
+  {
+    "id": "n4_025",
+    "level": "N4",
+    "kanji": "家族",
+    "reading": "かぞく",
+    "pos": "명사",
+    "meaning": "가족",
+    "exKanji": "家族と一緒に食事をした。",
+    "exSegments": [
+      {"kanji": "家族", "reading": "かぞく"},
+      {"kanji": "と", "reading": ""},
+      {"kanji": "一緒に", "reading": "いっしょに"},
+      {"kanji": "食事", "reading": "しょくじ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "した", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "가족과 함께 식사를 했다."
+  },
+  {
+    "id": "n4_026",
+    "level": "N4",
+    "kanji": "子供",
+    "reading": "こども",
+    "pos": "명사",
+    "meaning": "어린이, 아이",
+    "exKanji": "子供たちが公園で遊んでいる。",
+    "exSegments": [
+      {"kanji": "子供", "reading": "こども"},
+      {"kanji": "たちが", "reading": ""},
+      {"kanji": "公園", "reading": "こうえん"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "遊んでいる", "reading": "あそんでいる"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "아이들이 공원에서 놀고 있다."
+  },
+  {
+    "id": "n4_027",
+    "level": "N4",
+    "kanji": "大人",
+    "reading": "おとな",
+    "pos": "명사",
+    "meaning": "어른",
+    "exKanji": "大人になっても夢を持つ。",
+    "exSegments": [
+      {"kanji": "大人", "reading": "おとな"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "なっても", "reading": ""},
+      {"kanji": "夢", "reading": "ゆめ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "持つ", "reading": "もつ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "어른이 되어도 꿈을 갖는다."
+  },
+  {
+    "id": "n4_028",
+    "level": "N4",
+    "kanji": "友達",
+    "reading": "ともだち",
+    "pos": "명사",
+    "meaning": "친구",
+    "exKanji": "友達と映画を見に行った。",
+    "exSegments": [
+      {"kanji": "友達", "reading": "ともだち"},
+      {"kanji": "と", "reading": ""},
+      {"kanji": "映画", "reading": "えいが"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "見に", "reading": "みに"},
+      {"kanji": "行った", "reading": "いった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "친구와 영화를 보러 갔다."
+  },
+  {
+    "id": "n4_029",
+    "level": "N4",
+    "kanji": "最近",
+    "reading": "さいきん",
+    "pos": "부사",
+    "meaning": "최근, 요즘",
+    "exKanji": "最近忙しくて疲れている。",
+    "exSegments": [
+      {"kanji": "最近", "reading": "さいきん"},
+      {"kanji": "忙しくて", "reading": "いそがしくて"},
+      {"kanji": "疲れている", "reading": "つかれている"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "요즘 바빠서 피곤하다."
+  },
+  {
+    "id": "n4_030",
+    "level": "N4",
+    "kanji": "特に",
+    "reading": "とくに",
+    "pos": "부사",
+    "meaning": "특히",
+    "exKanji": "特に問題はない。",
+    "exSegments": [
+      {"kanji": "特に", "reading": "とくに"},
+      {"kanji": "問題", "reading": "もんだい"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "ない", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "특히 문제는 없다."
+  },
+  {
+    "id": "n4_031",
+    "level": "N4",
+    "kanji": "始める",
+    "reading": "はじめる",
+    "pos": "동사",
+    "meaning": "시작하다",
+    "exKanji": "新しい仕事を始めた。",
+    "exSegments": [
+      {"kanji": "新しい", "reading": "あたらしい"},
+      {"kanji": "仕事", "reading": "しごと"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "始めた", "reading": "はじめた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "새로운 일을 시작했다."
+  },
+  {
+    "id": "n4_032",
+    "level": "N4",
+    "kanji": "終わる",
+    "reading": "おわる",
+    "pos": "동사",
+    "meaning": "끝나다",
+    "exKanji": "授業が終わった。",
+    "exSegments": [
+      {"kanji": "授業", "reading": "じゅぎょう"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "終わった", "reading": "おわった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "수업이 끝났다."
+  },
+  {
+    "id": "n4_033",
+    "level": "N4",
+    "kanji": "続ける",
+    "reading": "つづける",
+    "pos": "동사",
+    "meaning": "계속하다",
+    "exKanji": "努力を続けることが大切だ。",
+    "exSegments": [
+      {"kanji": "努力", "reading": "どりょく"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "続けること", "reading": "つづけること"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "大切だ", "reading": "たいせつだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "노력을 계속하는 것이 중요하다."
+  },
+  {
+    "id": "n4_034",
+    "level": "N4",
+    "kanji": "止める",
+    "reading": "とめる",
+    "pos": "동사",
+    "meaning": "멈추다, 세우다",
+    "exKanji": "車を止めてください。",
+    "exSegments": [
+      {"kanji": "車", "reading": "くるま"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "止めて", "reading": "とめて"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "차를 세워 주세요."
+  },
+  {
+    "id": "n4_035",
+    "level": "N4",
+    "kanji": "決める",
+    "reading": "きめる",
+    "pos": "동사",
+    "meaning": "결정하다",
+    "exKanji": "旅行の日程を決めた。",
+    "exSegments": [
+      {"kanji": "旅行", "reading": "りょこう"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "日程", "reading": "にってい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "決めた", "reading": "きめた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "여행 일정을 결정했다."
+  },
+  {
+    "id": "n4_036",
+    "level": "N4",
+    "kanji": "変える",
+    "reading": "かえる",
+    "pos": "동사",
+    "meaning": "바꾸다",
+    "exKanji": "計画を変えることにした。",
+    "exSegments": [
+      {"kanji": "計画", "reading": "けいかく"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "変える", "reading": "かえる"},
+      {"kanji": "ことにした", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "계획을 바꾸기로 했다."
+  },
+  {
+    "id": "n4_037",
+    "level": "N4",
+    "kanji": "知らせる",
+    "reading": "しらせる",
+    "pos": "동사",
+    "meaning": "알리다",
+    "exKanji": "結果を知らせてください。",
+    "exSegments": [
+      {"kanji": "結果", "reading": "けっか"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "知らせて", "reading": "しらせて"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "결과를 알려 주세요."
+  },
+  {
+    "id": "n4_038",
+    "level": "N4",
+    "kanji": "調べる",
+    "reading": "しらべる",
+    "pos": "동사",
+    "meaning": "조사하다, 찾아보다",
+    "exKanji": "インターネットで調べた。",
+    "exSegments": [
+      {"kanji": "インターネット", "reading": ""},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "調べた", "reading": "しらべた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "인터넷으로 찾아봤다."
+  },
+  {
+    "id": "n4_039",
+    "level": "N4",
+    "kanji": "比べる",
+    "reading": "くらべる",
+    "pos": "동사",
+    "meaning": "비교하다",
+    "exKanji": "二つの商品を比べた。",
+    "exSegments": [
+      {"kanji": "二つ", "reading": "ふたつ"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "商品", "reading": "しょうひん"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "比べた", "reading": "くらべた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "두 가지 상품을 비교했다."
+  },
+  {
+    "id": "n4_040",
+    "level": "N4",
+    "kanji": "合わせる",
+    "reading": "あわせる",
+    "pos": "동사",
+    "meaning": "맞추다",
+    "exKanji": "時計を合わせた。",
+    "exSegments": [
+      {"kanji": "時計", "reading": "とけい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "合わせた", "reading": "あわせた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "시계를 맞췄다."
+  },
+  {
+    "id": "n4_041",
+    "level": "N4",
+    "kanji": "遅れる",
+    "reading": "おくれる",
+    "pos": "동사",
+    "meaning": "늦다, 지각하다",
+    "exKanji": "電車が遅れて遅刻した。",
+    "exSegments": [
+      {"kanji": "電車", "reading": "でんしゃ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "遅れて", "reading": "おくれて"},
+      {"kanji": "遅刻した", "reading": "ちこくした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "전철이 늦어서 지각했다."
+  },
+  {
+    "id": "n4_042",
+    "level": "N4",
+    "kanji": "伝える",
+    "reading": "つたえる",
+    "pos": "동사",
+    "meaning": "전하다",
+    "exKanji": "メッセージを伝えてください。",
+    "exSegments": [
+      {"kanji": "メッセージ", "reading": ""},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "伝えて", "reading": "つたえて"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "메시지를 전해 주세요."
+  },
+  {
+    "id": "n4_043",
+    "level": "N4",
+    "kanji": "迎える",
+    "reading": "むかえる",
+    "pos": "동사",
+    "meaning": "맞이하다, 데리러 가다",
+    "exKanji": "空港に迎えに行った。",
+    "exSegments": [
+      {"kanji": "空港", "reading": "くうこう"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "迎えに", "reading": "むかえに"},
+      {"kanji": "行った", "reading": "いった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "공항에 마중 가러 갔다."
+  },
+  {
+    "id": "n4_044",
+    "level": "N4",
+    "kanji": "送る",
+    "reading": "おくる",
+    "pos": "동사",
+    "meaning": "보내다",
+    "exKanji": "荷物を送った。",
+    "exSegments": [
+      {"kanji": "荷物", "reading": "にもつ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "送った", "reading": "おくった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "짐을 보냈다."
+  },
+  {
+    "id": "n4_045",
+    "level": "N4",
+    "kanji": "運ぶ",
+    "reading": "はこぶ",
+    "pos": "동사",
+    "meaning": "옮기다, 나르다",
+    "exKanji": "荷物を部屋に運んだ。",
+    "exSegments": [
+      {"kanji": "荷物", "reading": "にもつ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "部屋", "reading": "へや"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "運んだ", "reading": "はこんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "짐을 방으로 옮겼다."
+  },
+  {
+    "id": "n4_046",
+    "level": "N4",
+    "kanji": "落とす",
+    "reading": "おとす",
+    "pos": "동사",
+    "meaning": "떨어뜨리다",
+    "exKanji": "財布を落としてしまった。",
+    "exSegments": [
+      {"kanji": "財布", "reading": "さいふ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "落として", "reading": "おとして"},
+      {"kanji": "しまった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "지갑을 떨어뜨리고 말았다."
+  },
+  {
+    "id": "n4_047",
+    "level": "N4",
+    "kanji": "拾う",
+    "reading": "ひろう",
+    "pos": "동사",
+    "meaning": "줍다",
+    "exKanji": "道でお金を拾った。",
+    "exSegments": [
+      {"kanji": "道", "reading": "みち"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "お金", "reading": "おかね"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "拾った", "reading": "ひろった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "길에서 돈을 주웠다."
+  },
+  {
+    "id": "n4_048",
+    "level": "N4",
+    "kanji": "直す",
+    "reading": "なおす",
+    "pos": "동사",
+    "meaning": "고치다",
+    "exKanji": "壊れた自転車を直した。",
+    "exSegments": [
+      {"kanji": "壊れた", "reading": "こわれた"},
+      {"kanji": "自転車", "reading": "じてんしゃ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "直した", "reading": "なおした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "고장 난 자전거를 고쳤다."
+  },
+  {
+    "id": "n4_049",
+    "level": "N4",
+    "kanji": "渡す",
+    "reading": "わたす",
+    "pos": "동사",
+    "meaning": "건네다, 넘겨주다",
+    "exKanji": "書類を渡した。",
+    "exSegments": [
+      {"kanji": "書類", "reading": "しょるい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "渡した", "reading": "わたした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "서류를 건넸다."
+  },
+  {
+    "id": "n4_050",
+    "level": "N4",
+    "kanji": "払う",
+    "reading": "はらう",
+    "pos": "동사",
+    "meaning": "지불하다",
+    "exKanji": "料金を払った。",
+    "exSegments": [
+      {"kanji": "料金", "reading": "りょうきん"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "払った", "reading": "はらった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "요금을 지불했다."
+  },
+  {
+    "id": "n4_051",
+    "level": "N4",
+    "kanji": "借りる",
+    "reading": "かりる",
+    "pos": "동사",
+    "meaning": "빌리다",
+    "exKanji": "図書館で本を借りた。",
+    "exSegments": [
+      {"kanji": "図書館", "reading": "としょかん"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "本", "reading": "ほん"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "借りた", "reading": "かりた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "도서관에서 책을 빌렸다."
+  },
+  {
+    "id": "n4_052",
+    "level": "N4",
+    "kanji": "貸す",
+    "reading": "かす",
+    "pos": "동사",
+    "meaning": "빌려주다",
+    "exKanji": "友達に傘を貸した。",
+    "exSegments": [
+      {"kanji": "友達", "reading": "ともだち"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "傘", "reading": "かさ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "貸した", "reading": "かした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "친구에게 우산을 빌려줬다."
+  },
+  {
+    "id": "n4_053",
+    "level": "N4",
+    "kanji": "選ぶ",
+    "reading": "えらぶ",
+    "pos": "동사",
+    "meaning": "고르다, 선택하다",
+    "exKanji": "好きな色を選んでください。",
+    "exSegments": [
+      {"kanji": "好きな", "reading": "すきな"},
+      {"kanji": "色", "reading": "いろ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "選んで", "reading": "えらんで"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "좋아하는 색을 골라 주세요."
+  },
+  {
+    "id": "n4_054",
+    "level": "N4",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "pos": "동사",
+    "meaning": "모으다",
+    "exKanji": "切手を集めるのが趣味だ。",
+    "exSegments": [
+      {"kanji": "切手", "reading": "きって"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "集めるのが", "reading": "あつめるのが"},
+      {"kanji": "趣味だ", "reading": "しゅみだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "우표를 모으는 것이 취미다."
+  },
+  {
+    "id": "n4_055",
+    "level": "N4",
+    "kanji": "捨てる",
+    "reading": "すてる",
+    "pos": "동사",
+    "meaning": "버리다",
+    "exKanji": "古い本を捨てた。",
+    "exSegments": [
+      {"kanji": "古い", "reading": "ふるい"},
+      {"kanji": "本", "reading": "ほん"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "捨てた", "reading": "すてた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "오래된 책을 버렸다."
+  },
+  {
+    "id": "n4_056",
+    "level": "N4",
+    "kanji": "壊れる",
+    "reading": "こわれる",
+    "pos": "동사",
+    "meaning": "고장나다, 부서지다",
+    "exKanji": "パソコンが壊れてしまった。",
+    "exSegments": [
+      {"kanji": "パソコン", "reading": ""},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "壊れて", "reading": "こわれて"},
+      {"kanji": "しまった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "컴퓨터가 고장나고 말았다."
+  },
+  {
+    "id": "n4_057",
+    "level": "N4",
+    "kanji": "折れる",
+    "reading": "おれる",
+    "pos": "동사",
+    "meaning": "부러지다",
+    "exKanji": "強い風で木の枝が折れた。",
+    "exSegments": [
+      {"kanji": "強い", "reading": "つよい"},
+      {"kanji": "風", "reading": "かぜ"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "木", "reading": "き"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "枝", "reading": "えだ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "折れた", "reading": "おれた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "강한 바람에 나뭇가지가 부러졌다."
+  },
+  {
+    "id": "n4_058",
+    "level": "N4",
+    "kanji": "触る",
+    "reading": "さわる",
+    "pos": "동사",
+    "meaning": "만지다",
+    "exKanji": "熱いものに触らないでください。",
+    "exSegments": [
+      {"kanji": "熱い", "reading": "あつい"},
+      {"kanji": "ものに", "reading": ""},
+      {"kanji": "触らないで", "reading": "さわらないで"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "뜨거운 것을 만지지 마세요."
+  },
+  {
+    "id": "n4_059",
+    "level": "N4",
+    "kanji": "驚く",
+    "reading": "おどろく",
+    "pos": "동사",
+    "meaning": "놀라다",
+    "exKanji": "突然の知らせに驚いた。",
+    "exSegments": [
+      {"kanji": "突然", "reading": "とつぜん"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "知らせ", "reading": "しらせ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "驚いた", "reading": "おどろいた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "갑작스러운 소식에 놀랐다."
+  },
+  {
+    "id": "n4_060",
+    "level": "N4",
+    "kanji": "喜ぶ",
+    "reading": "よろこぶ",
+    "pos": "동사",
+    "meaning": "기뻐하다",
+    "exKanji": "プレゼントをもらって喜んだ。",
+    "exSegments": [
+      {"kanji": "プレゼント", "reading": ""},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "もらって", "reading": ""},
+      {"kanji": "喜んだ", "reading": "よろこんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "선물을 받고 기뻐했다."
+  },
+  {
+    "id": "n4_061",
+    "level": "N4",
+    "kanji": "悲しむ",
+    "reading": "かなしむ",
+    "pos": "동사",
+    "meaning": "슬퍼하다",
+    "exKanji": "別れを悲しんだ。",
+    "exSegments": [
+      {"kanji": "別れ", "reading": "わかれ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "悲しんだ", "reading": "かなしんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이별을 슬퍼했다."
+  },
+  {
+    "id": "n4_062",
+    "level": "N4",
+    "kanji": "困る",
+    "reading": "こまる",
+    "pos": "동사",
+    "meaning": "곤란하다, 난처하다",
+    "exKanji": "道に迷って困った。",
+    "exSegments": [
+      {"kanji": "道", "reading": "みち"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "迷って", "reading": "まよって"},
+      {"kanji": "困った", "reading": "こまった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "길을 잃어서 난처했다."
+  },
+  {
+    "id": "n4_063",
+    "level": "N4",
+    "kanji": "怒る",
+    "reading": "おこる",
+    "pos": "동사",
+    "meaning": "화내다",
+    "exKanji": "先生に怒られた。",
+    "exSegments": [
+      {"kanji": "先生", "reading": "せんせい"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "怒られた", "reading": "おこられた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "선생님에게 혼났다."
+  },
+  {
+    "id": "n4_064",
+    "level": "N4",
+    "kanji": "笑う",
+    "reading": "わらう",
+    "pos": "동사",
+    "meaning": "웃다",
+    "exKanji": "面白い話を聞いて笑った。",
+    "exSegments": [
+      {"kanji": "面白い", "reading": "おもしろい"},
+      {"kanji": "話", "reading": "はなし"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "聞いて", "reading": "きいて"},
+      {"kanji": "笑った", "reading": "わらった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "재미있는 이야기를 듣고 웃었다."
+  },
+  {
+    "id": "n4_065",
+    "level": "N4",
+    "kanji": "泣く",
+    "reading": "なく",
+    "pos": "동사",
+    "meaning": "울다",
+    "exKanji": "映画を見て泣いた。",
+    "exSegments": [
+      {"kanji": "映画", "reading": "えいが"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "見て", "reading": "みて"},
+      {"kanji": "泣いた", "reading": "ないた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "영화를 보고 울었다."
+  },
+  {
+    "id": "n4_066",
+    "level": "N4",
+    "kanji": "頑張る",
+    "reading": "がんばる",
+    "pos": "동사",
+    "meaning": "열심히 하다, 힘내다",
+    "exKanji": "試験に向けて頑張った。",
+    "exSegments": [
+      {"kanji": "試験", "reading": "しけん"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "向けて", "reading": "むけて"},
+      {"kanji": "頑張った", "reading": "がんばった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "시험을 향해 열심히 했다."
+  },
+  {
+    "id": "n4_067",
+    "level": "N4",
+    "kanji": "参加する",
+    "reading": "さんかする",
+    "pos": "동사",
+    "meaning": "참가하다",
+    "exKanji": "イベントに参加した。",
+    "exSegments": [
+      {"kanji": "イベント", "reading": ""},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "参加した", "reading": "さんかした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이벤트에 참가했다."
+  },
+  {
+    "id": "n4_068",
+    "level": "N4",
+    "kanji": "利用する",
+    "reading": "りようする",
+    "pos": "동사",
+    "meaning": "이용하다",
+    "exKanji": "バスを利用して通学する。",
+    "exSegments": [
+      {"kanji": "バス", "reading": ""},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "利用して", "reading": "りようして"},
+      {"kanji": "通学する", "reading": "つうがくする"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "버스를 이용해 통학한다."
+  },
+  {
+    "id": "n4_069",
+    "level": "N4",
+    "kanji": "注意する",
+    "reading": "ちゅういする",
+    "pos": "동사",
+    "meaning": "주의하다",
+    "exKanji": "車に注意して渡る。",
+    "exSegments": [
+      {"kanji": "車", "reading": "くるま"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "注意して", "reading": "ちゅういして"},
+      {"kanji": "渡る", "reading": "わたる"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "차를 주의하며 건넌다."
+  },
+  {
+    "id": "n4_070",
+    "level": "N4",
+    "kanji": "連絡する",
+    "reading": "れんらくする",
+    "pos": "동사",
+    "meaning": "연락하다",
+    "exKanji": "後で連絡します。",
+    "exSegments": [
+      {"kanji": "後で", "reading": "あとで"},
+      {"kanji": "連絡します", "reading": "れんらくします"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "나중에 연락할게요."
+  },
+  {
+    "id": "n4_071",
+    "level": "N4",
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "pos": "な형용사",
+    "meaning": "안전",
+    "exKanji": "安全な場所に避難した。",
+    "exSegments": [
+      {"kanji": "安全な", "reading": "あんぜんな"},
+      {"kanji": "場所", "reading": "ばしょ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "避難した", "reading": "ひなんした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "안전한 장소로 피난했다."
+  },
+  {
+    "id": "n4_072",
+    "level": "N4",
+    "kanji": "丁寧",
+    "reading": "ていねい",
+    "pos": "な형용사",
+    "meaning": "정중함, 공손함",
+    "exKanji": "丁寧に説明してくれた。",
+    "exSegments": [
+      {"kanji": "丁寧に", "reading": "ていねいに"},
+      {"kanji": "説明して", "reading": "せつめいして"},
+      {"kanji": "くれた", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "정중하게 설명해 주었다."
+  },
+  {
+    "id": "n4_073",
+    "level": "N4",
+    "kanji": "便利",
+    "reading": "べんり",
+    "pos": "な형용사",
+    "meaning": "편리함",
+    "exKanji": "スマートフォンはとても便利だ。",
+    "exSegments": [
+      {"kanji": "スマートフォン", "reading": ""},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "とても", "reading": ""},
+      {"kanji": "便利だ", "reading": "べんりだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "스마트폰은 매우 편리하다."
+  },
+  {
+    "id": "n4_074",
+    "level": "N4",
+    "kanji": "不便",
+    "reading": "ふべん",
+    "pos": "な형용사",
+    "meaning": "불편함",
+    "exKanji": "田舎は交通が不便だ。",
+    "exSegments": [
+      {"kanji": "田舎", "reading": "いなか"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "交通", "reading": "こうつう"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "不便だ", "reading": "ふべんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "시골은 교통이 불편하다."
+  },
+  {
+    "id": "n4_075",
+    "level": "N4",
+    "kanji": "大切",
+    "reading": "たいせつ",
+    "pos": "な형용사",
+    "meaning": "소중함, 중요함",
+    "exKanji": "健康が一番大切だ。",
+    "exSegments": [
+      {"kanji": "健康", "reading": "けんこう"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "一番", "reading": "いちばん"},
+      {"kanji": "大切だ", "reading": "たいせつだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "건강이 제일 소중하다."
+  },
+  {
+    "id": "n4_076",
+    "level": "N4",
+    "kanji": "得意",
+    "reading": "とくい",
+    "pos": "な형용사",
+    "meaning": "잘함, 자신 있음",
+    "exKanji": "彼は料理が得意だ。",
+    "exSegments": [
+      {"kanji": "彼", "reading": "かれ"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "料理", "reading": "りょうり"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "得意だ", "reading": "とくいだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "그는 요리를 잘한다."
+  },
+  {
+    "id": "n4_077",
+    "level": "N4",
+    "kanji": "苦手",
+    "reading": "にがて",
+    "pos": "な형용사",
+    "meaning": "서툶, 못함",
+    "exKanji": "私は数学が苦手だ。",
+    "exSegments": [
+      {"kanji": "私", "reading": "わたし"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "数学", "reading": "すうがく"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "苦手だ", "reading": "にがてだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "나는 수학을 못한다."
+  },
+  {
+    "id": "n4_078",
+    "level": "N4",
+    "kanji": "必要",
+    "reading": "ひつよう",
+    "pos": "な형용사",
+    "meaning": "필요함",
+    "exKanji": "パスポートが必要です。",
+    "exSegments": [
+      {"kanji": "パスポート", "reading": ""},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "必要です", "reading": "ひつようです"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "여권이 필요합니다."
+  },
+  {
+    "id": "n4_079",
+    "level": "N4",
+    "kanji": "大変",
+    "reading": "たいへん",
+    "pos": "な형용사",
+    "meaning": "힘듦, 대단함",
+    "exKanji": "引越しはとても大変だった。",
+    "exSegments": [
+      {"kanji": "引越し", "reading": "ひっこし"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "とても", "reading": ""},
+      {"kanji": "大変だった", "reading": "たいへんだった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이사는 매우 힘들었다."
+  },
+  {
+    "id": "n4_080",
+    "level": "N4",
+    "kanji": "残念",
+    "reading": "ざんねん",
+    "pos": "な형용사",
+    "meaning": "아쉬움, 유감",
+    "exKanji": "試合に負けて残念だ。",
+    "exSegments": [
+      {"kanji": "試合", "reading": "しあい"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "負けて", "reading": "まけて"},
+      {"kanji": "残念だ", "reading": "ざんねんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "시합에 져서 아쉽다."
+  },
+  {
+    "id": "n4_081",
+    "level": "N4",
+    "kanji": "親切",
+    "reading": "しんせつ",
+    "pos": "な형용사",
+    "meaning": "친절함",
+    "exKanji": "あの人はとても親切だ。",
+    "exSegments": [
+      {"kanji": "あの", "reading": ""},
+      {"kanji": "人", "reading": "ひと"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "とても", "reading": ""},
+      {"kanji": "親切だ", "reading": "しんせつだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "그 사람은 매우 친절하다."
+  },
+  {
+    "id": "n4_082",
+    "level": "N4",
+    "kanji": "正直",
+    "reading": "しょうじき",
+    "pos": "な형용사",
+    "meaning": "솔직함, 정직함",
+    "exKanji": "正直に話してください。",
+    "exSegments": [
+      {"kanji": "正直に", "reading": "しょうじきに"},
+      {"kanji": "話して", "reading": "はなして"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "솔직하게 말해 주세요."
+  },
+  {
+    "id": "n4_083",
+    "level": "N4",
+    "kanji": "真剣",
+    "reading": "しんけん",
+    "pos": "な형용사",
+    "meaning": "진지함, 진심",
+    "exKanji": "真剣に考えた。",
+    "exSegments": [
+      {"kanji": "真剣に", "reading": "しんけんに"},
+      {"kanji": "考えた", "reading": "かんがえた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "진지하게 생각했다."
+  },
+  {
+    "id": "n4_084",
+    "level": "N4",
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "pos": "동사",
+    "meaning": "서두르다",
+    "exKanji": "遅刻しないように急いだ。",
+    "exSegments": [
+      {"kanji": "遅刻しないように", "reading": "ちこくしないように"},
+      {"kanji": "急いだ", "reading": "いそいだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "지각하지 않도록 서둘렀다."
+  },
+  {
+    "id": "n4_085",
+    "level": "N4",
+    "kanji": "慌てる",
+    "reading": "あわてる",
+    "pos": "동사",
+    "meaning": "당황하다, 서두르다",
+    "exKanji": "突然の電話に慌てた。",
+    "exSegments": [
+      {"kanji": "突然", "reading": "とつぜん"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "電話", "reading": "でんわ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "慌てた", "reading": "あわてた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "갑작스러운 전화에 당황했다."
+  },
+  {
+    "id": "n4_086",
+    "level": "N4",
+    "kanji": "倒れる",
+    "reading": "たおれる",
+    "pos": "동사",
+    "meaning": "쓰러지다",
+    "exKanji": "疲れて倒れてしまった。",
+    "exSegments": [
+      {"kanji": "疲れて", "reading": "つかれて"},
+      {"kanji": "倒れて", "reading": "たおれて"},
+      {"kanji": "しまった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "피곤해서 쓰러지고 말았다."
+  },
+  {
+    "id": "n4_087",
+    "level": "N4",
+    "kanji": "生まれる",
+    "reading": "うまれる",
+    "pos": "동사",
+    "meaning": "태어나다",
+    "exKanji": "赤ちゃんが生まれた。",
+    "exSegments": [
+      {"kanji": "赤ちゃん", "reading": "あかちゃん"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "生まれた", "reading": "うまれた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "아기가 태어났다."
+  },
+  {
+    "id": "n4_088",
+    "level": "N4",
+    "kanji": "育てる",
+    "reading": "そだてる",
+    "pos": "동사",
+    "meaning": "키우다, 기르다",
+    "exKanji": "子供を大切に育てた。",
+    "exSegments": [
+      {"kanji": "子供", "reading": "こども"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "大切に", "reading": "たいせつに"},
+      {"kanji": "育てた", "reading": "そだてた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "아이를 소중히 키웠다."
+  },
+  {
+    "id": "n4_089",
+    "level": "N4",
+    "kanji": "増える",
+    "reading": "ふえる",
+    "pos": "동사",
+    "meaning": "늘다, 증가하다",
+    "exKanji": "観光客が増えている。",
+    "exSegments": [
+      {"kanji": "観光客", "reading": "かんこうきゃく"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "増えている", "reading": "ふえている"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "관광객이 늘고 있다."
+  },
+  {
+    "id": "n4_090",
+    "level": "N4",
+    "kanji": "減る",
+    "reading": "へる",
+    "pos": "동사",
+    "meaning": "줄다, 감소하다",
+    "exKanji": "人口が減っている。",
+    "exSegments": [
+      {"kanji": "人口", "reading": "じんこう"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "減っている", "reading": "へっている"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "인구가 줄고 있다."
+  },
+  {
+    "id": "n4_091",
+    "level": "N4",
+    "kanji": "進む",
+    "reading": "すすむ",
+    "pos": "동사",
+    "meaning": "나아가다, 진행되다",
+    "exKanji": "工事がどんどん進んでいる。",
+    "exSegments": [
+      {"kanji": "工事", "reading": "こうじ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "どんどん", "reading": ""},
+      {"kanji": "進んでいる", "reading": "すすんでいる"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "공사가 점점 진행되고 있다."
+  },
+  {
+    "id": "n4_092",
+    "level": "N4",
+    "kanji": "戻る",
+    "reading": "もどる",
+    "pos": "동사",
+    "meaning": "돌아가다, 돌아오다",
+    "exKanji": "忘れ物をして家に戻った。",
+    "exSegments": [
+      {"kanji": "忘れ物", "reading": "わすれもの"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "して", "reading": ""},
+      {"kanji": "家", "reading": "いえ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "戻った", "reading": "もどった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "물건을 두고 와서 집으로 돌아갔다."
+  },
+  {
+    "id": "n4_093",
+    "level": "N4",
+    "kanji": "別れる",
+    "reading": "わかれる",
+    "pos": "동사",
+    "meaning": "헤어지다",
+    "exKanji": "駅で友達と別れた。",
+    "exSegments": [
+      {"kanji": "駅", "reading": "えき"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "友達", "reading": "ともだち"},
+      {"kanji": "と", "reading": ""},
+      {"kanji": "別れた", "reading": "わかれた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "역에서 친구와 헤어졌다."
+  },
+  {
+    "id": "n4_094",
+    "level": "N4",
+    "kanji": "集まる",
+    "reading": "あつまる",
+    "pos": "동사",
+    "meaning": "모이다",
+    "exKanji": "みんなが公園に集まった。",
+    "exSegments": [
+      {"kanji": "みんなが", "reading": ""},
+      {"kanji": "公園", "reading": "こうえん"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "集まった", "reading": "あつまった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "모두가 공원에 모였다."
+  },
+  {
+    "id": "n4_095",
+    "level": "N4",
+    "kanji": "申し込む",
+    "reading": "もうしこむ",
+    "pos": "동사",
+    "meaning": "신청하다",
+    "exKanji": "コースに申し込んだ。",
+    "exSegments": [
+      {"kanji": "コース", "reading": ""},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "申し込んだ", "reading": "もうしこんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "코스에 신청했다."
+  },
+  {
+    "id": "n4_096",
+    "level": "N4",
+    "kanji": "思い出す",
+    "reading": "おもいだす",
+    "pos": "동사",
+    "meaning": "생각해내다, 떠올리다",
+    "exKanji": "昔のことを思い出した。",
+    "exSegments": [
+      {"kanji": "昔", "reading": "むかし"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "ことを", "reading": ""},
+      {"kanji": "思い出した", "reading": "おもいだした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "옛날 일을 떠올렸다."
+  },
+  {
+    "id": "n4_097",
+    "level": "N4",
+    "kanji": "気がつく",
+    "reading": "きがつく",
+    "pos": "동사",
+    "meaning": "알아차리다, 깨닫다",
+    "exKanji": "間違いに気がついた。",
+    "exSegments": [
+      {"kanji": "間違い", "reading": "まちがい"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "気がついた", "reading": "きがついた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "실수를 알아차렸다."
+  },
+  {
+    "id": "n4_098",
+    "level": "N4",
+    "kanji": "大事",
+    "reading": "だいじ",
+    "pos": "な형용사",
+    "meaning": "중요함, 소중함",
+    "exKanji": "大事な書類を無くした。",
+    "exSegments": [
+      {"kanji": "大事な", "reading": "だいじな"},
+      {"kanji": "書類", "reading": "しょるい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "無くした", "reading": "なくした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "중요한 서류를 잃어버렸다."
+  },
+  {
+    "id": "n4_099",
+    "level": "N4",
+    "kanji": "自由",
+    "reading": "じゆう",
+    "pos": "な형용사",
+    "meaning": "자유로움",
+    "exKanji": "自由な時間を楽しんだ。",
+    "exSegments": [
+      {"kanji": "自由な", "reading": "じゆうな"},
+      {"kanji": "時間", "reading": "じかん"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "楽しんだ", "reading": "たのしんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "자유로운 시간을 즐겼다."
+  },
+  {
+    "id": "n4_100",
+    "level": "N4",
+    "kanji": "複雑",
+    "reading": "ふくざつ",
+    "pos": "な형용사",
+    "meaning": "복잡함",
+    "exKanji": "この問題は複雑だ。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "問題", "reading": "もんだい"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "複雑だ", "reading": "ふくざつだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 문제는 복잡하다."
+  },
+  {
+    "id": "n4_101",
+    "level": "N4",
+    "kanji": "危険",
+    "reading": "きけん",
+    "pos": "な형용사",
+    "meaning": "위험함",
+    "exKanji": "一人で夜道を歩くのは危険だ。",
+    "exSegments": [
+      {"kanji": "一人で", "reading": "ひとりで"},
+      {"kanji": "夜道", "reading": "よみち"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "歩くのは", "reading": "あるくのは"},
+      {"kanji": "危険だ", "reading": "きけんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "혼자 밤길을 걷는 것은 위험하다."
+  },
+  {
+    "id": "n4_102",
+    "level": "N4",
+    "kanji": "暖かい",
+    "reading": "あたたかい",
+    "pos": "い형용사",
+    "meaning": "따뜻하다",
+    "exKanji": "春は暖かくて気持ちがいい。",
+    "exSegments": [
+      {"kanji": "春", "reading": "はる"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "暖かくて", "reading": "あたたかくて"},
+      {"kanji": "気持ちがいい", "reading": "きもちがいい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "봄은 따뜻해서 기분이 좋다."
+  },
+  {
+    "id": "n4_103",
+    "level": "N4",
+    "kanji": "涼しい",
+    "reading": "すずしい",
+    "pos": "い형용사",
+    "meaning": "시원하다",
+    "exKanji": "木陰は涼しかった。",
+    "exSegments": [
+      {"kanji": "木陰", "reading": "こかげ"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "涼しかった", "reading": "すずしかった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "나무 그늘은 시원했다."
+  },
+  {
+    "id": "n4_104",
+    "level": "N4",
+    "kanji": "辛い",
+    "reading": "からい",
+    "pos": "い형용사",
+    "meaning": "맵다",
+    "exKanji": "この料理はとても辛い。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "料理", "reading": "りょうり"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "とても", "reading": ""},
+      {"kanji": "辛い", "reading": "からい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 요리는 매우 맵다."
+  },
+  {
+    "id": "n4_105",
+    "level": "N4",
+    "kanji": "甘い",
+    "reading": "あまい",
+    "pos": "い형용사",
+    "meaning": "달다",
+    "exKanji": "このケーキはとても甘い。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "ケーキ", "reading": ""},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "とても", "reading": ""},
+      {"kanji": "甘い", "reading": "あまい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 케이크는 매우 달다."
+  },
+  {
+    "id": "n4_106",
+    "level": "N4",
+    "kanji": "苦い",
+    "reading": "にがい",
+    "pos": "い형용사",
+    "meaning": "쓰다",
+    "exKanji": "コーヒーが苦い。",
+    "exSegments": [
+      {"kanji": "コーヒー", "reading": ""},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "苦い", "reading": "にがい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "커피가 쓰다."
+  },
+  {
+    "id": "n4_107",
+    "level": "N4",
+    "kanji": "固い",
+    "reading": "かたい",
+    "pos": "い형용사",
+    "meaning": "딱딱하다, 단단하다",
+    "exKanji": "このパンは固い。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "パン", "reading": ""},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "固い", "reading": "かたい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 빵은 딱딱하다."
+  },
+  {
+    "id": "n4_108",
+    "level": "N4",
+    "kanji": "柔らかい",
+    "reading": "やわらかい",
+    "pos": "い형용사",
+    "meaning": "부드럽다",
+    "exKanji": "この布団は柔らかい。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "布団", "reading": "ふとん"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "柔らかい", "reading": "やわらかい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 이불은 부드럽다."
+  },
+  {
+    "id": "n4_109",
+    "level": "N4",
+    "kanji": "重い",
+    "reading": "おもい",
+    "pos": "い형용사",
+    "meaning": "무겁다",
+    "exKanji": "荷物が重くて持てない。",
+    "exSegments": [
+      {"kanji": "荷物", "reading": "にもつ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "重くて", "reading": "おもくて"},
+      {"kanji": "持てない", "reading": "もてない"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "짐이 무거워서 들 수 없다."
+  },
+  {
+    "id": "n4_110",
+    "level": "N4",
+    "kanji": "軽い",
+    "reading": "かるい",
+    "pos": "い형용사",
+    "meaning": "가볍다",
+    "exKanji": "このカバンは軽くて使いやすい。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "カバン", "reading": ""},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "軽くて", "reading": "かるくて"},
+      {"kanji": "使いやすい", "reading": "つかいやすい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 가방은 가벼워서 쓰기 편하다."
+  },
+  {
+    "id": "n4_111",
+    "level": "N4",
+    "kanji": "うれしい",
+    "reading": "うれしい",
+    "pos": "い형용사",
+    "meaning": "기쁘다",
+    "exKanji": "合格してうれしかった。",
+    "exSegments": [
+      {"kanji": "合格して", "reading": "ごうかくして"},
+      {"kanji": "うれしかった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "합격해서 기뻤다."
+  },
+  {
+    "id": "n4_112",
+    "level": "N4",
+    "kanji": "悲しい",
+    "reading": "かなしい",
+    "pos": "い형용사",
+    "meaning": "슬프다",
+    "exKanji": "別れの時は悲しかった。",
+    "exSegments": [
+      {"kanji": "別れ", "reading": "わかれ"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "時", "reading": "とき"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "悲しかった", "reading": "かなしかった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이별할 때는 슬펐다."
+  },
+  {
+    "id": "n4_113",
+    "level": "N4",
+    "kanji": "恥ずかしい",
+    "reading": "はずかしい",
+    "pos": "い형용사",
+    "meaning": "부끄럽다",
+    "exKanji": "人前で失敗して恥ずかしかった。",
+    "exSegments": [
+      {"kanji": "人前", "reading": "ひとまえ"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "失敗して", "reading": "しっぱいして"},
+      {"kanji": "恥ずかしかった", "reading": "はずかしかった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "사람들 앞에서 실수해서 부끄러웠다."
+  },
+  {
+    "id": "n4_114",
+    "level": "N4",
+    "kanji": "怖い",
+    "reading": "こわい",
+    "pos": "い형용사",
+    "meaning": "무섭다",
+    "exKanji": "暗い道は怖い。",
+    "exSegments": [
+      {"kanji": "暗い", "reading": "くらい"},
+      {"kanji": "道", "reading": "みち"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "怖い", "reading": "こわい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "어두운 길은 무섭다."
+  },
+  {
+    "id": "n4_115",
+    "level": "N4",
+    "kanji": "痛い",
+    "reading": "いたい",
+    "pos": "い형용사",
+    "meaning": "아프다",
+    "exKanji": "頭が痛くて薬を飲んだ。",
+    "exSegments": [
+      {"kanji": "頭", "reading": "あたま"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "痛くて", "reading": "いたくて"},
+      {"kanji": "薬", "reading": "くすり"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "飲んだ", "reading": "のんだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "머리가 아파서 약을 먹었다."
+  },
+  {
+    "id": "n4_116",
+    "level": "N4",
+    "kanji": "眠い",
+    "reading": "ねむい",
+    "pos": "い형용사",
+    "meaning": "졸리다",
+    "exKanji": "昨夜よく眠れなくて眠い。",
+    "exSegments": [
+      {"kanji": "昨夜", "reading": "さくや"},
+      {"kanji": "よく", "reading": ""},
+      {"kanji": "眠れなくて", "reading": "ねむれなくて"},
+      {"kanji": "眠い", "reading": "ねむい"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "어젯밤 잘 못 자서 졸리다."
+  },
+  {
+    "id": "n4_117",
+    "level": "N4",
+    "kanji": "もったいない",
+    "reading": "もったいない",
+    "pos": "い형용사",
+    "meaning": "아깝다",
+    "exKanji": "食べ物を捨てるのはもったいない。",
+    "exSegments": [
+      {"kanji": "食べ物", "reading": "たべもの"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "捨てるのは", "reading": "すてるのは"},
+      {"kanji": "もったいない", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "음식을 버리는 것은 아깝다."
+  },
+  {
+    "id": "n4_118",
+    "level": "N4",
+    "kanji": "もちろん",
+    "reading": "もちろん",
+    "pos": "부사",
+    "meaning": "물론",
+    "exKanji": "もちろん行くよ。",
+    "exSegments": [
+      {"kanji": "もちろん", "reading": ""},
+      {"kanji": "行くよ", "reading": "いくよ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "물론 갈게."
+  },
+  {
+    "id": "n4_119",
+    "level": "N4",
+    "kanji": "ちゃんと",
+    "reading": "ちゃんと",
+    "pos": "부사",
+    "meaning": "제대로, 확실히",
+    "exKanji": "ちゃんと約束を守った。",
+    "exSegments": [
+      {"kanji": "ちゃんと", "reading": ""},
+      {"kanji": "約束", "reading": "やくそく"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "守った", "reading": "まもった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "제대로 약속을 지켰다."
+  },
+  {
+    "id": "n4_120",
+    "level": "N4",
+    "kanji": "なかなか",
+    "reading": "なかなか",
+    "pos": "부사",
+    "meaning": "좀처럼, 꽤",
+    "exKanji": "なかなかうまくいかない。",
+    "exSegments": [
+      {"kanji": "なかなか", "reading": ""},
+      {"kanji": "うまくいかない", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "좀처럼 잘 되지 않는다."
+  },
+  {
+    "id": "n4_121",
+    "level": "N4",
+    "kanji": "だんだん",
+    "reading": "だんだん",
+    "pos": "부사",
+    "meaning": "점점",
+    "exKanji": "日本語がだんだん上手になった。",
+    "exSegments": [
+      {"kanji": "日本語", "reading": "にほんご"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "だんだん", "reading": ""},
+      {"kanji": "上手", "reading": "じょうず"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "なった", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "일본어가 점점 능숙해졌다."
+  },
+  {
+    "id": "n4_122",
+    "level": "N4",
+    "kanji": "きっと",
+    "reading": "きっと",
+    "pos": "부사",
+    "meaning": "분명히, 틀림없이",
+    "exKanji": "きっと合格できる。",
+    "exSegments": [
+      {"kanji": "きっと", "reading": ""},
+      {"kanji": "合格できる", "reading": "ごうかくできる"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "분명히 합격할 수 있다."
+  },
+  {
+    "id": "n4_123",
+    "level": "N4",
+    "kanji": "やっと",
+    "reading": "やっと",
+    "pos": "부사",
+    "meaning": "겨우, 드디어",
+    "exKanji": "やっと宿題が終わった。",
+    "exSegments": [
+      {"kanji": "やっと", "reading": ""},
+      {"kanji": "宿題", "reading": "しゅくだい"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "終わった", "reading": "おわった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "드디어 숙제가 끝났다."
+  },
+  {
+    "id": "n4_124",
+    "level": "N4",
+    "kanji": "ずっと",
+    "reading": "ずっと",
+    "pos": "부사",
+    "meaning": "계속, 쭉",
+    "exKanji": "ずっと一緒にいたい。",
+    "exSegments": [
+      {"kanji": "ずっと", "reading": ""},
+      {"kanji": "一緒に", "reading": "いっしょに"},
+      {"kanji": "いたい", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "계속 함께 있고 싶다."
+  },
+  {
+    "id": "n4_125",
+    "level": "N4",
+    "kanji": "もし",
+    "reading": "もし",
+    "pos": "부사",
+    "meaning": "만약",
+    "exKanji": "もし時間があれば来てください。",
+    "exSegments": [
+      {"kanji": "もし", "reading": ""},
+      {"kanji": "時間", "reading": "じかん"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "あれば", "reading": ""},
+      {"kanji": "来て", "reading": "きて"},
+      {"kanji": "ください", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "만약 시간이 있으면 오세요."
+  },
+  {
+    "id": "n4_126",
+    "level": "N4",
+    "kanji": "急に",
+    "reading": "きゅうに",
+    "pos": "부사",
+    "meaning": "갑자기",
+    "exKanji": "急に雨が降り出した。",
+    "exSegments": [
+      {"kanji": "急に", "reading": "きゅうに"},
+      {"kanji": "雨", "reading": "あめ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "降り出した", "reading": "ふりだした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "갑자기 비가 내리기 시작했다."
+  },
+  {
+    "id": "n4_127",
+    "level": "N4",
+    "kanji": "以前",
+    "reading": "いぜん",
+    "pos": "명사",
+    "meaning": "이전, 예전",
+    "exKanji": "以前ここに住んでいた。",
+    "exSegments": [
+      {"kanji": "以前", "reading": "いぜん"},
+      {"kanji": "ここに", "reading": ""},
+      {"kanji": "住んでいた", "reading": "すんでいた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "예전에 여기에 살았다."
+  },
+  {
+    "id": "n4_128",
+    "level": "N4",
+    "kanji": "以後",
+    "reading": "いご",
+    "pos": "명사",
+    "meaning": "이후",
+    "exKanji": "以後気をつけます。",
+    "exSegments": [
+      {"kanji": "以後", "reading": "いご"},
+      {"kanji": "気をつけます", "reading": "きをつけます"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이후 조심하겠습니다."
+  },
+  {
+    "id": "n4_129",
+    "level": "N4",
+    "kanji": "以上",
+    "reading": "いじょう",
+    "pos": "명사",
+    "meaning": "이상",
+    "exKanji": "十八歳以上の方が対象です。",
+    "exSegments": [
+      {"kanji": "十八歳", "reading": "じゅうはっさい"},
+      {"kanji": "以上", "reading": "いじょう"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "方", "reading": "かた"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "対象です", "reading": "たいしょうです"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "18세 이상인 분이 대상입니다."
+  },
+  {
+    "id": "n4_130",
+    "level": "N4",
+    "kanji": "以下",
+    "reading": "いか",
+    "pos": "명사",
+    "meaning": "이하",
+    "exKanji": "三十人以下のクラスだ。",
+    "exSegments": [
+      {"kanji": "三十人", "reading": "さんじゅうにん"},
+      {"kanji": "以下", "reading": "いか"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "クラスだ", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "30명 이하의 학급이다."
+  },
+  {
+    "id": "n4_131",
+    "level": "N4",
+    "kanji": "会議",
+    "reading": "かいぎ",
+    "pos": "명사",
+    "meaning": "회의",
+    "exKanji": "午後に会議がある。",
+    "exSegments": [
+      {"kanji": "午後", "reading": "ごご"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "会議", "reading": "かいぎ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "ある", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "오후에 회의가 있다."
+  },
+  {
+    "id": "n4_132",
+    "level": "N4",
+    "kanji": "授業",
+    "reading": "じゅぎょう",
+    "pos": "명사",
+    "meaning": "수업",
+    "exKanji": "今日の授業は面白かった。",
+    "exSegments": [
+      {"kanji": "今日", "reading": "きょう"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "授業", "reading": "じゅぎょう"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "面白かった", "reading": "おもしろかった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "오늘 수업은 재미있었다."
+  },
+  {
+    "id": "n4_133",
+    "level": "N4",
+    "kanji": "宿題",
+    "reading": "しゅくだい",
+    "pos": "명사",
+    "meaning": "숙제",
+    "exKanji": "宿題を忘れた。",
+    "exSegments": [
+      {"kanji": "宿題", "reading": "しゅくだい"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "忘れた", "reading": "わすれた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "숙제를 잊어버렸다."
+  },
+  {
+    "id": "n4_134",
+    "level": "N4",
+    "kanji": "試験",
+    "reading": "しけん",
+    "pos": "명사",
+    "meaning": "시험",
+    "exKanji": "試験の結果が心配だ。",
+    "exSegments": [
+      {"kanji": "試験", "reading": "しけん"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "結果", "reading": "けっか"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "心配だ", "reading": "しんぱいだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "시험 결과가 걱정된다."
+  },
+  {
+    "id": "n4_135",
+    "level": "N4",
+    "kanji": "成績",
+    "reading": "せいせき",
+    "pos": "명사",
+    "meaning": "성적",
+    "exKanji": "成績が上がった。",
+    "exSegments": [
+      {"kanji": "成績", "reading": "せいせき"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "上がった", "reading": "あがった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "성적이 올랐다."
+  },
+  {
+    "id": "n4_136",
+    "level": "N4",
+    "kanji": "卒業",
+    "reading": "そつぎょう",
+    "pos": "명사",
+    "meaning": "졸업",
+    "exKanji": "来年卒業する予定だ。",
+    "exSegments": [
+      {"kanji": "来年", "reading": "らいねん"},
+      {"kanji": "卒業する", "reading": "そつぎょうする"},
+      {"kanji": "予定だ", "reading": "よていだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "내년에 졸업할 예정이다."
+  },
+  {
+    "id": "n4_137",
+    "level": "N4",
+    "kanji": "入学",
+    "reading": "にゅうがく",
+    "pos": "명사",
+    "meaning": "입학",
+    "exKanji": "来月入学式がある。",
+    "exSegments": [
+      {"kanji": "来月", "reading": "らいげつ"},
+      {"kanji": "入学式", "reading": "にゅうがくしき"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "ある", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "다음 달에 입학식이 있다."
+  },
+  {
+    "id": "n4_138",
+    "level": "N4",
+    "kanji": "旅行",
+    "reading": "りょこう",
+    "pos": "명사",
+    "meaning": "여행",
+    "exKanji": "夏休みに旅行した。",
+    "exSegments": [
+      {"kanji": "夏休み", "reading": "なつやすみ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "旅行した", "reading": "りょこうした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "여름방학에 여행했다."
+  },
+  {
+    "id": "n4_139",
+    "level": "N4",
+    "kanji": "空港",
+    "reading": "くうこう",
+    "pos": "명사",
+    "meaning": "공항",
+    "exKanji": "空港で荷物を受け取った。",
+    "exSegments": [
+      {"kanji": "空港", "reading": "くうこう"},
+      {"kanji": "で", "reading": ""},
+      {"kanji": "荷物", "reading": "にもつ"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "受け取った", "reading": "うけとった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "공항에서 짐을 받았다."
+  },
+  {
+    "id": "n4_140",
+    "level": "N4",
+    "kanji": "飛行機",
+    "reading": "ひこうき",
+    "pos": "명사",
+    "meaning": "비행기",
+    "exKanji": "初めて飛行機に乗った。",
+    "exSegments": [
+      {"kanji": "初めて", "reading": "はじめて"},
+      {"kanji": "飛行機", "reading": "ひこうき"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "乗った", "reading": "のった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "처음으로 비행기를 탔다."
+  },
+  {
+    "id": "n4_141",
+    "level": "N4",
+    "kanji": "交通",
+    "reading": "こうつう",
+    "pos": "명사",
+    "meaning": "교통",
+    "exKanji": "この町は交通が便利だ。",
+    "exSegments": [
+      {"kanji": "この", "reading": ""},
+      {"kanji": "町", "reading": "まち"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "交通", "reading": "こうつう"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "便利だ", "reading": "べんりだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "이 마을은 교통이 편리하다."
+  },
+  {
+    "id": "n4_142",
+    "level": "N4",
+    "kanji": "天気",
+    "reading": "てんき",
+    "pos": "명사",
+    "meaning": "날씨",
+    "exKanji": "天気がいいので散歩した。",
+    "exSegments": [
+      {"kanji": "天気", "reading": "てんき"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "いいので", "reading": ""},
+      {"kanji": "散歩した", "reading": "さんぽした"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "날씨가 좋아서 산책했다."
+  },
+  {
+    "id": "n4_143",
+    "level": "N4",
+    "kanji": "気温",
+    "reading": "きおん",
+    "pos": "명사",
+    "meaning": "기온",
+    "exKanji": "今日の気温は三十度だ。",
+    "exSegments": [
+      {"kanji": "今日", "reading": "きょう"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "気温", "reading": "きおん"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "三十度だ", "reading": "さんじゅうどだ"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "오늘 기온은 30도이다."
+  },
+  {
+    "id": "n4_144",
+    "level": "N4",
+    "kanji": "季節",
+    "reading": "きせつ",
+    "pos": "명사",
+    "meaning": "계절",
+    "exKanji": "日本には四つの季節がある。",
+    "exSegments": [
+      {"kanji": "日本", "reading": "にほん"},
+      {"kanji": "には", "reading": ""},
+      {"kanji": "四つ", "reading": "よっつ"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "季節", "reading": "きせつ"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "ある", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "일본에는 네 개의 계절이 있다."
+  },
+  {
+    "id": "n4_145",
+    "level": "N4",
+    "kanji": "自然",
+    "reading": "しぜん",
+    "pos": "명사",
+    "meaning": "자연",
+    "exKanji": "自然の中でリラックスした。",
+    "exSegments": [
+      {"kanji": "自然", "reading": "しぜん"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "中で", "reading": "なかで"},
+      {"kanji": "リラックスした", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "자연 속에서 휴식했다."
+  },
+  {
+    "id": "n4_146",
+    "level": "N4",
+    "kanji": "環境",
+    "reading": "かんきょう",
+    "pos": "명사",
+    "meaning": "환경",
+    "exKanji": "環境を守るために努力する。",
+    "exSegments": [
+      {"kanji": "環境", "reading": "かんきょう"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "守るために", "reading": "まもるために"},
+      {"kanji": "努力する", "reading": "どりょくする"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "환경을 지키기 위해 노력한다."
+  },
+  {
+    "id": "n4_147",
+    "level": "N4",
+    "kanji": "生活",
+    "reading": "せいかつ",
+    "pos": "명사",
+    "meaning": "생활",
+    "exKanji": "日本での生活に慣れた。",
+    "exSegments": [
+      {"kanji": "日本", "reading": "にほん"},
+      {"kanji": "での", "reading": ""},
+      {"kanji": "生活", "reading": "せいかつ"},
+      {"kanji": "に", "reading": ""},
+      {"kanji": "慣れた", "reading": "なれた"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "일본에서의 생활에 익숙해졌다."
+  },
+  {
+    "id": "n4_148",
+    "level": "N4",
+    "kanji": "習慣",
+    "reading": "しゅうかん",
+    "pos": "명사",
+    "meaning": "습관",
+    "exKanji": "毎日日記を書く習慣がある。",
+    "exSegments": [
+      {"kanji": "毎日", "reading": "まいにち"},
+      {"kanji": "日記", "reading": "にっき"},
+      {"kanji": "を", "reading": ""},
+      {"kanji": "書く", "reading": "かく"},
+      {"kanji": "習慣", "reading": "しゅうかん"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "ある", "reading": ""},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "매일 일기를 쓰는 습관이 있다."
+  },
+  {
+    "id": "n4_149",
+    "level": "N4",
+    "kanji": "経験",
+    "reading": "けいけん",
+    "pos": "명사",
+    "meaning": "경험",
+    "exKanji": "海外生活の経験が役立った。",
+    "exSegments": [
+      {"kanji": "海外", "reading": "かいがい"},
+      {"kanji": "生活", "reading": "せいかつ"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "経験", "reading": "けいけん"},
+      {"kanji": "が", "reading": ""},
+      {"kanji": "役立った", "reading": "やくだった"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "해외 생활 경험이 도움이 됐다."
+  },
+  {
+    "id": "n4_150",
+    "level": "N4",
+    "kanji": "目的",
+    "reading": "もくてき",
+    "pos": "명사",
+    "meaning": "목적",
+    "exKanji": "旅行の目的は何ですか。",
+    "exSegments": [
+      {"kanji": "旅行", "reading": "りょこう"},
+      {"kanji": "の", "reading": ""},
+      {"kanji": "目的", "reading": "もくてき"},
+      {"kanji": "は", "reading": ""},
+      {"kanji": "何ですか", "reading": "なんですか"},
+      {"kanji": "。", "reading": ""}
+    ],
+    "exKorean": "여행의 목적은 무엇입니까?"
+  }
+]
