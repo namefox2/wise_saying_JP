@@ -5,7 +5,6 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -13,7 +12,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.TextUnit
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.kotoba.takarabako.data.model.QuoteSegment
 import com.kotoba.takarabako.ui.theme.LocalAppColors
@@ -38,19 +36,19 @@ fun FuriganaText(
 
     FlowRow(modifier = modifier) {
         segments.forEach { segment ->
-            // Always use Column so all segments have the same height (furigana row + kanji row)
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(
-                    text = segment.reading.ifEmpty { " " }, // non-breaking space keeps height
+                    text = segment.reading.ifEmpty { " " },
                     fontSize = furiganaSize,
+                    lineHeight = furiganaSize,
                     color = if (segment.reading.isEmpty()) Color.Transparent
-                            else colors.furigana.copy(alpha = furiganaAlpha),
-                    modifier = Modifier.padding(bottom = 1.dp)
+                            else colors.furigana.copy(alpha = furiganaAlpha)
                 )
                 Text(
                     text = segment.kanji,
                     fontFamily = NotoSerifJP,
                     fontSize = fontSize,
+                    lineHeight = fontSize,
                     color = textColor
                 )
             }

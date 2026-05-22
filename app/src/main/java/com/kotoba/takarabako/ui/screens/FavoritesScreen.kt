@@ -171,7 +171,7 @@ private fun FavQuoteCard(quote: Quote, onRemove: () -> Unit) {
                 Text(text = quote.cat, fontSize = 9.sp, color = colors.accent)
             }
         }
-        Text(text = "— ${quote.author}", fontSize = 10.sp, color = colors.textDim,
+        Text(text = "— ${com.kotoba.takarabako.util.authorDisplay(quote.author)}", fontSize = 10.sp, color = colors.textDim,
             modifier = Modifier.padding(top = 4.dp))
     }
 }

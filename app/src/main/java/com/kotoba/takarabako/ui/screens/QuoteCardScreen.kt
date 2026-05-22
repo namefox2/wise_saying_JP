@@ -44,12 +44,10 @@ import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.components.KotobaProgressBar
 import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
+import com.kotoba.takarabako.util.authorDisplay
 import com.kotoba.takarabako.viewmodel.QuoteViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 import kotlinx.coroutines.delay
-
-private fun authorDisplay(author: String): String =
-    if (author == "ことわざ") "ことわざ (속담)" else author
 
 @Composable
 fun QuoteCardScreen(

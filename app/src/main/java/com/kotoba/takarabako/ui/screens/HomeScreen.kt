@@ -108,7 +108,7 @@ fun HomeScreen(
                     textColor = colors.text
                 )
                 Text(
-                    text = "— ${if (quote.author == "ことわざ") "ことわざ (속담)" else quote.author}",
+                    text = "— ${com.kotoba.takarabako.util.authorDisplay(quote.author)}",
                     fontSize = 11.sp,
                     color = colors.textDim,
                     modifier = Modifier.padding(top = 6.dp, bottom = 10.dp)
