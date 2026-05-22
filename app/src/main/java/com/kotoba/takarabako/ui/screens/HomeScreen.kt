@@ -31,11 +31,16 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.admanager.GoogleAdManagerBannerAdView
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
@@ -48,6 +53,7 @@ fun HomeScreen(
     vm: HomeViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
+    val context = LocalContext.current
     val todayQuote by vm.todayQuote.collectAsState()
     val homeCatTab by vm.homeCatTab.collectAsState()
     val categoryCounts by vm.categoryCounts.collectAsState()
@@ -154,9 +160,25 @@ fun HomeScreen(
             }
         }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(12.dp))
 
-        // 탭 (명언 / JLPT)
+        // 배너 광고
+        AndroidView(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(50.dp),
+            factory = { ctx ->
+                GoogleAdManagerBannerAdView(ctx).apply {
+                    setAdSizes(AdSize.BANNER)
+                    adUnitId = "/6499/example/banner"
+                    loadAd(AdRequest.Builder().build())
+                }
+            }
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        // 탭 (명言 / JLPT)
         TabRow(
             selectedTabIndex = if (homeCatTab == "quote") 0 else 1,
             containerColor = colors.bg,
