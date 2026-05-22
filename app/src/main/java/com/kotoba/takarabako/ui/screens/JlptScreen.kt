@@ -1,5 +1,7 @@
 package com.kotoba.takarabako.ui.screens
 
+import android.app.SearchManager
+import android.content.Intent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -10,6 +12,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.SelectionContainer
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -38,6 +41,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -71,6 +75,7 @@ fun JlptScreen(
     settingsVm: SettingsViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
+    val context = LocalContext.current
     val words by vm.words.collectAsState()
     val currentLevel by vm.currentLevel.collectAsState()
     val currentIndex by vm.currentIndex.collectAsState()
@@ -81,6 +86,13 @@ fun JlptScreen(
     var stepMeaning by remember { mutableStateOf(false) }
     var stepExFurigana by remember { mutableStateOf(false) }
     var stepExKorean by remember { mutableStateOf(false) }
+
+    fun searchDictionary(text: String) {
+        val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
+            putExtra(SearchManager.QUERY, text)
+        }
+        context.startActivity(intent)
+    }
 
     LaunchedEffect(level) { vm.setLevel(level) }
     LaunchedEffect(currentIndex) {
@@ -227,15 +239,31 @@ fun JlptScreen(
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // 단어 (한자)
-                Text(
-                    text = w.kanji,
-                    fontFamily = NotoSerifJP,
-                    fontSize = 28.sp,
-                    fontWeight = FontWeight.Medium,
-                    color = colors.text
-                )
+                SelectionContainer {
+                    Text(
+                        text = w.kanji,
+                        fontFamily = NotoSerifJP,
+                        fontSize = 28.sp,
+                        fontWeight = FontWeight.Medium,
+                        color = colors.text
+                    )
+                }
 
-                Spacer(modifier = Modifier.height(14.dp))
+                Spacer(modifier = Modifier.height(12.dp))
+
+                Box(
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(32.dp)
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(colors.surface2)
+                        .clickable { searchDictionary(w.kanji) }
+                ) {
+                    Text(text = "🔍 사전 검색", fontSize = 12.sp, color = colors.accent, fontWeight = FontWeight.Medium)
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
 
                 // 단어 스텝
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
