@@ -227,10 +227,11 @@ fun SettingsScreen(
                 .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(14.dp))
                 .background(colors.surface)
         ) {
-            SettingsFeatureRow(
-                icon = "▶️",
+            SettingsToggleRow(
                 title = "연속 읽음",
-                description = "자동으로 다음 명언 재생"
+                description = "자동으로 다음 카드로 이동",
+                checked = autoPlay,
+                onToggle = { vm.toggleAutoPlay() }
             )
             SettingsDivider(colors.border2)
             SettingsFeatureRow(
@@ -242,9 +243,17 @@ fun SettingsScreen(
             SettingsDivider(colors.border2)
             SettingsFeatureRow(
                 icon = "🔊",
-                title = "음성정의 내보내기",
-                description = "테스트 원문 저장",
-                hasChevron = true
+                title = "즐겨찾기 내보내기",
+                description = "즐겨찾기 명언 및 단어 저장",
+                hasChevron = true,
+                onClick = {
+                    val intent = Intent(Intent.ACTION_SEND).apply {
+                        type = "text/plain"
+                        putExtra(Intent.EXTRA_SUBJECT, "言葉の宝箱 즐겨찾기")
+                        putExtra(Intent.EXTRA_TEXT, favVm.buildExportText())
+                    }
+                    context.startActivity(Intent.createChooser(intent, "즐겨찾기 내보내기"))
+                }
             )
             SettingsDivider(colors.border2)
             SettingsFeatureRow(
@@ -447,13 +456,15 @@ private fun SettingsFeatureRow(
     icon: String,
     title: String,
     description: String,
-    hasChevron: Boolean = false
+    hasChevron: Boolean = false,
+    onClick: (() -> Unit)? = null
 ) {
     val colors = LocalAppColors.current
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
             .fillMaxWidth()
+            .then(if (onClick != null) Modifier.clickable { onClick() } else Modifier)
             .padding(horizontal = 16.dp, vertical = 12.dp)
     ) {
         Text(text = icon, fontSize = 18.sp, modifier = Modifier.padding(end = 12.dp))
