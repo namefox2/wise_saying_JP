@@ -18,11 +18,21 @@ class QuoteRepository(private val context: Context) {
 
     private var cachedQuotes: List<Quote>? = null
 
+    // Authors still under copyright — blocked regardless of data source
+    private val blockedAuthors = setOf(
+        "チャップリン",            // died 1977, expires 2047
+        "エーリッヒ・フロム",      // died 1980, expires 2050
+        "オードリー・ヘップバーン", // died 1993, expires 2063
+        "パウロ・コエーリョ",      // living author
+        "ラオウ"                   // copyrighted manga character (北斗の拳)
+    )
+
     fun getAll(): List<Quote> {
         if (cachedQuotes != null) return cachedQuotes!!
         val json = context.assets.open("data/quotes.json").bufferedReader().readText()
         val type = object : TypeToken<List<Quote>>() {}.type
-        cachedQuotes = gson.fromJson(json, type)
+        cachedQuotes = gson.fromJson<List<Quote>>(json, type)
+            .filter { it.author !in blockedAuthors }
         return cachedQuotes!!
     }
 
