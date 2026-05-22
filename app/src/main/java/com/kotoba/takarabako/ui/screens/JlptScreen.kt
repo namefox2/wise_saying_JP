@@ -6,7 +6,6 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -40,7 +39,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -81,6 +79,7 @@ fun JlptScreen(
     val currentIndex by vm.currentIndex.collectAsState()
     val likedWordIds by vm.likedWordIds.collectAsState()
     val autoBlur by settingsVm.autoBlur.collectAsState()
+    val autoPlay by settingsVm.autoPlay.collectAsState()
 
     var stepHiragana by remember { mutableStateOf(false) }
     var stepMeaning by remember { mutableStateOf(false) }
@@ -95,6 +94,14 @@ fun JlptScreen(
     }
 
     LaunchedEffect(level) { vm.setLevel(level) }
+
+    LaunchedEffect(currentIndex, autoPlay) {
+        if (autoPlay) {
+            delay(5000)
+            vm.next()
+        }
+    }
+
     LaunchedEffect(currentIndex) {
         stepHiragana = false
         stepMeaning = false
@@ -196,11 +203,6 @@ fun JlptScreen(
                     .clip(RoundedCornerShape(20.dp))
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
-                    .pointerInput(Unit) {
-                        detectTapGestures { offset ->
-                            if (offset.x < size.width / 2f) vm.prev() else vm.next()
-                        }
-                    }
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp)
             ) {

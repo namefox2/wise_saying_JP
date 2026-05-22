@@ -43,6 +43,9 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private val _notifyMinute = MutableStateFlow(0)
     val notifyMinute: StateFlow<Int> = _notifyMinute
 
+    private val _autoPlay = MutableStateFlow(false)
+    val autoPlay: StateFlow<Boolean> = _autoPlay
+
     init {
         dataStore.theme.onEach { _currentTheme.value = it }.launchIn(viewModelScope)
         dataStore.notifyEnabled.onEach { _notifyEnabled.value = it }.launchIn(viewModelScope)
@@ -51,6 +54,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
         dataStore.fontScale.onEach { _fontScale.value = it }.launchIn(viewModelScope)
         dataStore.notifyHour.onEach { _notifyHour.value = it }.launchIn(viewModelScope)
         dataStore.notifyMinute.onEach { _notifyMinute.value = it }.launchIn(viewModelScope)
+        dataStore.autoPlay.onEach { _autoPlay.value = it }.launchIn(viewModelScope)
     }
 
     fun setTheme(theme: String) { viewModelScope.launch { dataStore.setTheme(theme) } }
@@ -66,6 +70,8 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
 
     fun toggleAutoBlur() { viewModelScope.launch { dataStore.setAutoBlur(!_autoBlur.value) } }
 
+    fun toggleAutoPlay() { viewModelScope.launch { dataStore.setAutoPlay(!_autoPlay.value) } }
+
     fun setFontScale(scale: Float) { viewModelScope.launch { dataStore.setFontScale(scale) } }
 
     fun setNotifyTime(hour: Int, minute: Int) {
@@ -79,9 +85,13 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     fun refreshData() {
         viewModelScope.launch {
             _isRefreshing.value = true
-            QuoteRepository.getInstance(ctx).clearCache()
-            WordRepository.getInstance(ctx).clearCache()
-            kotlinx.coroutines.delay(600)
+            val quoteRepo = QuoteRepository.getInstance(ctx)
+            val wordRepo = WordRepository.getInstance(ctx)
+            // Try online fetch; falls back gracefully if no network
+            val quoteFetched = quoteRepo.fetchAndSave()
+            val wordFetched = wordRepo.fetchAndSave()
+            if (!quoteFetched) quoteRepo.clearCache()
+            if (!wordFetched) wordRepo.clearCache()
             val now = java.time.LocalDateTime.now().toString().take(16)
             dataStore.setLastUpdate(now)
             AppRefreshBus.refresh()

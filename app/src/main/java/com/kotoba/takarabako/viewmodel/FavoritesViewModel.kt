@@ -50,4 +50,19 @@ class FavoritesViewModel(application: Application) : AndroidViewModel(applicatio
     fun removeWord(id: String) {
         viewModelScope.launch { wordRepo.removeFavorite(id) }
     }
+
+    fun buildExportText(): String {
+        val sb = StringBuilder()
+        sb.append("=== 즐겨찾기 명언 ===\n\n")
+        _favQuotes.value.forEach { q ->
+            sb.append("${q.kanji}\n")
+            sb.append("${q.korean}\n")
+            sb.append("— ${q.author}\n\n")
+        }
+        sb.append("=== 저장한 단어 ===\n\n")
+        _favWords.value.forEach { w ->
+            sb.append("${w.kanji} (${w.reading}): ${w.meaning}\n")
+        }
+        return sb.toString()
+    }
 }

@@ -1,5 +1,6 @@
 package com.kotoba.takarabako.ui.screens
 
+import android.content.Intent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -38,6 +39,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
+import com.kotoba.takarabako.viewmodel.FavoritesViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 
 private data class ThemeOption(val key: String, val label: String, val emoji: String)
@@ -45,13 +47,15 @@ private data class ThemeOption(val key: String, val label: String, val emoji: St
 @Composable
 fun SettingsScreen(
     navController: NavController,
-    vm: SettingsViewModel = viewModel()
+    vm: SettingsViewModel = viewModel(),
+    favVm: FavoritesViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
     val context = LocalContext.current
     val currentTheme by vm.currentTheme.collectAsState()
     val notifyEnabled by vm.notifyEnabled.collectAsState()
     val autoBlur by vm.autoBlur.collectAsState()
+    val autoPlay by vm.autoPlay.collectAsState()
     val lastUpdated by vm.lastUpdated.collectAsState()
     val isRefreshing by vm.isRefreshing.collectAsState()
     val fontScale by vm.fontScale.collectAsState()
