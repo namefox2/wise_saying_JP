@@ -17,6 +17,7 @@ import com.google.android.gms.ads.MobileAds
 import com.kotoba.takarabako.navigation.BottomNavBar
 import com.kotoba.takarabako.navigation.NavGraph
 import com.kotoba.takarabako.ui.theme.KotobaTheme
+import com.kotoba.takarabako.util.NotificationHelper
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 
 class MainActivity : ComponentActivity() {
@@ -24,11 +25,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         MobileAds.initialize(this)
+        NotificationHelper.createChannel(this)
         setContent {
             val settingsVm: SettingsViewModel = viewModel()
             val currentTheme by settingsVm.currentTheme.collectAsState()
+            val fontScale by settingsVm.fontScale.collectAsState()
 
-            KotobaTheme(theme = currentTheme) {
+            KotobaTheme(theme = currentTheme, fontScale = fontScale) {
                 val navController = rememberNavController()
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),

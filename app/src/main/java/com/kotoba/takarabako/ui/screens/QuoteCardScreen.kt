@@ -1,12 +1,10 @@
 package com.kotoba.takarabako.ui.screens
 
-import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.detectHorizontalDragGestures
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -29,7 +27,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -49,6 +46,9 @@ import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.viewmodel.QuoteViewModel
 
+private fun authorDisplay(author: String): String =
+    if (author == "ことわざ") "ことわざ (속담)" else author
+
 @Composable
 fun QuoteCardScreen(
     navController: NavController,
@@ -62,12 +62,8 @@ fun QuoteCardScreen(
 
     var stepFurigana by remember { mutableStateOf(false) }
     var stepKorean by remember { mutableStateOf(false) }
-    var dragOffset by remember { mutableFloatStateOf(0f) }
 
-    LaunchedEffect(category) {
-        vm.loadByCategory(category)
-    }
-
+    LaunchedEffect(category) { vm.loadByCategory(category) }
     LaunchedEffect(currentIndex) {
         stepFurigana = false
         stepKorean = false
@@ -79,16 +75,6 @@ fun QuoteCardScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(colors.bg)
-            .pointerInput(Unit) {
-                detectHorizontalDragGestures(
-                    onDragEnd = {
-                        if (dragOffset < -80f) vm.next()
-                        else if (dragOffset > 80f) vm.prev()
-                        dragOffset = 0f
-                    },
-                    onHorizontalDrag = { _, delta -> dragOffset += delta }
-                )
-            }
     ) {
         // 헤더
         Row(
@@ -100,7 +86,7 @@ fun QuoteCardScreen(
             IconButton(onClick = { navController.popBackStack() }) {
                 Icon(Icons.Filled.ArrowBack, contentDescription = "뒤로", tint = colors.textMid)
             }
-            Text(
+            androidx.compose.material3.Text(
                 text = category,
                 fontFamily = com.kotoba.takarabako.ui.theme.NotoSerifJP,
                 fontSize = 16.sp,
@@ -113,7 +99,6 @@ fun QuoteCardScreen(
                     .size(6.dp)
                     .clip(androidx.compose.foundation.shape.CircleShape)
                     .background(colors.greenDot)
-                    .padding(end = 12.dp)
             )
             Spacer(modifier = Modifier.size(12.dp))
         }
@@ -142,7 +127,7 @@ fun QuoteCardScreen(
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // 카드
+        // 카드 영역 — 좌/우 탭으로 이전/다음
         quote?.let { q ->
             Column(
                 modifier = Modifier
@@ -151,6 +136,11 @@ fun QuoteCardScreen(
                     .clip(RoundedCornerShape(20.dp))
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
+                    .pointerInput(Unit) {
+                        detectTapGestures { offset ->
+                            if (offset.x < size.width / 2f) vm.prev() else vm.next()
+                        }
+                    }
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp)
             ) {
@@ -167,7 +157,6 @@ fun QuoteCardScreen(
 
                 Spacer(modifier = Modifier.height(14.dp))
 
-                // 한자 원문
                 FuriganaText(
                     segments = q.segments,
                     fontSize = 18.sp,
@@ -177,14 +166,8 @@ fun QuoteCardScreen(
 
                 Spacer(modifier = Modifier.height(14.dp))
 
-                // 스텝 블록
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    StepBlock(
-                        stepNumber = "①",
-                        label = "후리가나",
-                        isOpen = stepFurigana,
-                        onToggle = { stepFurigana = !stepFurigana }
-                    ) {
+                    StepBlock("①", "후리가나", stepFurigana, { stepFurigana = !stepFurigana }) {
                         FuriganaText(
                             segments = q.segments,
                             fontSize = 16.sp,
@@ -192,12 +175,7 @@ fun QuoteCardScreen(
                             textColor = colors.text
                         )
                     }
-                    StepBlock(
-                        stepNumber = "②",
-                        label = "한국어",
-                        isOpen = stepKorean,
-                        onToggle = { stepKorean = !stepKorean }
-                    ) {
+                    StepBlock("②", "한국어", stepKorean, { stepKorean = !stepKorean }) {
                         Text(text = q.korean, fontSize = 13.sp, color = colors.textMid)
                     }
                 }
@@ -210,16 +188,23 @@ fun QuoteCardScreen(
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
-                        text = "— ${q.author}",
+                        text = "— ${authorDisplay(q.author)}",
                         fontSize = 11.sp,
                         color = colors.textDim,
                         modifier = Modifier.weight(1f)
                     )
-                    HeartButton(
-                        isLiked = q.id in likedIds,
-                        onToggle = { vm.toggleLike(q.id) }
-                    )
+                    HeartButton(isLiked = q.id in likedIds, onToggle = { vm.toggleLike(q.id) })
                 }
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                // 탭 힌트
+                Text(
+                    text = "← 탭: 이전  /  탭: 다음 →",
+                    fontSize = 10.sp,
+                    color = colors.textDim,
+                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                )
             }
         }
 

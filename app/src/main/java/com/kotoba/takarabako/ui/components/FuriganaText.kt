@@ -11,9 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -36,39 +34,25 @@ fun FuriganaText(
         animationSpec = tween(durationMillis = 300),
         label = "furiganaAlpha"
     )
+    val furiganaSize = (fontSize.value * 0.48f).sp
 
     FlowRow(modifier = modifier) {
         segments.forEach { segment ->
-            if (segment.reading.isEmpty()) {
+            // Always use Column so all segments have the same height (furigana row + kanji row)
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    text = segment.reading.ifEmpty { " " }, // non-breaking space keeps height
+                    fontSize = furiganaSize,
+                    color = if (segment.reading.isEmpty()) Color.Transparent
+                            else colors.furigana.copy(alpha = furiganaAlpha),
+                    modifier = Modifier.padding(bottom = 1.dp)
+                )
                 Text(
                     text = segment.kanji,
                     fontFamily = NotoSerifJP,
                     fontSize = fontSize,
-                    color = textColor,
-                    lineHeight = fontSize * 1.9
+                    color = textColor
                 )
-            } else {
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    if (showFurigana) {
-                        Text(
-                            text = segment.reading,
-                            fontSize = (fontSize.value * 0.48f).sp,
-                            color = colors.furigana,
-                            modifier = Modifier
-                                .alpha(furiganaAlpha)
-                                .padding(bottom = 1.dp)
-                        )
-                    }
-                    Text(
-                        text = segment.kanji,
-                        fontFamily = NotoSerifJP,
-                        fontSize = fontSize,
-                        color = textColor,
-                        lineHeight = fontSize * 1.9
-                    )
-                }
             }
         }
     }

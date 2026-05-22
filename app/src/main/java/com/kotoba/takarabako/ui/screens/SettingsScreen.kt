@@ -52,6 +52,9 @@ fun SettingsScreen(
     val autoBlur by vm.autoBlur.collectAsState()
     val lastUpdated by vm.lastUpdated.collectAsState()
     val isRefreshing by vm.isRefreshing.collectAsState()
+    val fontScale by vm.fontScale.collectAsState()
+    val notifyHour by vm.notifyHour.collectAsState()
+    val notifyMinute by vm.notifyMinute.collectAsState()
 
     val themes = listOf(
         ThemeOption("gold", "골드 다크", "🌙"),
@@ -60,13 +63,19 @@ fun SettingsScreen(
         ThemeOption("paper", "화지 라이트", "📜")
     )
 
+    val fontOptions = listOf(
+        Triple(0.85f, "작게", "가"),
+        Triple(1.0f, "보통", "가"),
+        Triple(1.2f, "크게", "가"),
+        Triple(1.4f, "매우 크게", "가")
+    )
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(colors.bg)
             .verticalScroll(rememberScrollState())
     ) {
-        // 헤더
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier
@@ -82,7 +91,7 @@ fun SettingsScreen(
             )
         }
 
-        // 테마 섹션
+        // 테마
         SectionHeader(title = "테마")
         LazyRow(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -96,10 +105,7 @@ fun SettingsScreen(
                         .width(80.dp)
                         .clip(RoundedCornerShape(12.dp))
                         .border(
-                            BorderStroke(
-                                if (isSelected) 2.dp else 1.dp,
-                                if (isSelected) colors.accent else colors.border
-                            ),
+                            BorderStroke(if (isSelected) 2.dp else 1.dp, if (isSelected) colors.accent else colors.border),
                             RoundedCornerShape(12.dp)
                         )
                         .background(colors.surface)
@@ -121,7 +127,48 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // 데이터 섹션
+        // 글씨 크기
+        SectionHeader(title = "글씨 크기")
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            fontOptions.forEach { (scale, label, sample) ->
+                val isSelected = fontScale == scale
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    modifier = Modifier
+                        .weight(1f)
+                        .clip(RoundedCornerShape(12.dp))
+                        .border(
+                            BorderStroke(if (isSelected) 2.dp else 1.dp, if (isSelected) colors.accent else colors.border),
+                            RoundedCornerShape(12.dp)
+                        )
+                        .background(colors.surface)
+                        .clickable { vm.setFontScale(scale) }
+                        .padding(vertical = 10.dp, horizontal = 4.dp)
+                ) {
+                    Text(
+                        text = sample,
+                        fontSize = (14 * scale).sp,
+                        color = if (isSelected) colors.accent else colors.text,
+                        fontFamily = NotoSerifJP
+                    )
+                    Text(
+                        text = label,
+                        fontSize = 9.sp,
+                        color = if (isSelected) colors.accent else colors.textDim,
+                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                    )
+                }
+            }
+        }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        // 데이터
         SectionHeader(title = "데이터")
         Column(
             modifier = Modifier
@@ -140,7 +187,7 @@ fun SettingsScreen(
                 Text(text = "저장 용량", fontSize = 13.sp, color = colors.textMid, modifier = Modifier.weight(1f))
                 Text(text = "약 3~6 MB", fontSize = 12.sp, color = colors.textDim)
             }
-            Divider(colors.border2)
+            SettingsDivider(colors.border2)
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier
@@ -155,11 +202,7 @@ fun SettingsScreen(
                     }
                 }
                 if (isRefreshing) {
-                    CircularProgressIndicator(
-                        modifier = Modifier.size(18.dp),
-                        color = colors.accent,
-                        strokeWidth = 2.dp
-                    )
+                    CircularProgressIndicator(modifier = Modifier.size(18.dp), color = colors.accent, strokeWidth = 2.dp)
                 } else {
                     Text(text = "↻", fontSize = 18.sp, color = colors.accent)
                 }
@@ -168,7 +211,7 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // 학습 섹션
+        // 학습
         SectionHeader(title = "학습")
         Column(
             modifier = Modifier
@@ -182,9 +225,68 @@ fun SettingsScreen(
                 title = "학습 알림",
                 description = "매일 알림으로 학습 유지",
                 checked = notifyEnabled,
-                onToggle = { vm.toggleNotify() },
+                onToggle = { vm.toggleNotify() }
             )
-            Divider(colors.border2)
+            if (notifyEnabled) {
+                SettingsDivider(colors.border2)
+                // 알림 시간 설정
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 12.dp)
+                ) {
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text(text = "알림 시간", fontSize = 13.sp, color = colors.text)
+                        Text(text = "매일 이 시간에 알림을 보냅니다", fontSize = 11.sp, color = colors.textDim)
+                    }
+                    // 시간 조절
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        TimeAdjustButton("-", colors) {
+                            val newHour = if (notifyHour == 0) 23 else notifyHour - 1
+                            vm.setNotifyTime(newHour, notifyMinute)
+                        }
+                        Text(
+                            text = "%02d:%02d".format(notifyHour, notifyMinute),
+                            fontSize = 16.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = colors.accent,
+                            modifier = Modifier.padding(horizontal = 8.dp)
+                        )
+                        TimeAdjustButton("+", colors) {
+                            val newHour = if (notifyHour == 23) 0 else notifyHour + 1
+                            vm.setNotifyTime(newHour, notifyMinute)
+                        }
+                    }
+                }
+                SettingsDivider(colors.border2)
+                // 분 조절
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 12.dp)
+                ) {
+                    Text(text = "분 조절", fontSize = 13.sp, color = colors.textMid, modifier = Modifier.weight(1f))
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        TimeAdjustButton("-", colors) {
+                            val newMin = if (notifyMinute == 0) 55 else notifyMinute - 5
+                            vm.setNotifyTime(notifyHour, newMin)
+                        }
+                        Text(
+                            text = "%02d분".format(notifyMinute),
+                            fontSize = 14.sp,
+                            color = colors.text,
+                            modifier = Modifier.padding(horizontal = 8.dp)
+                        )
+                        TimeAdjustButton("+", colors) {
+                            val newMin = if (notifyMinute >= 55) 0 else notifyMinute + 5
+                            vm.setNotifyTime(notifyHour, newMin)
+                        }
+                    }
+                }
+            }
+            SettingsDivider(colors.border2)
             SettingsToggleRow(
                 title = "블러 자동 해제",
                 description = "카드 진입 시 스텝 자동 표시",
@@ -195,7 +297,6 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(32.dp))
 
-        // 앱 정보
         Text(
             text = "言葉の宝箱 v1.0.0",
             fontSize = 11.sp,
@@ -204,6 +305,25 @@ fun SettingsScreen(
                 .align(Alignment.CenterHorizontally)
                 .padding(bottom = 16.dp)
         )
+    }
+}
+
+@Composable
+private fun TimeAdjustButton(
+    label: String,
+    colors: com.kotoba.takarabako.ui.theme.AppColors,
+    onClick: () -> Unit
+) {
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = Modifier
+            .size(32.dp)
+            .clip(RoundedCornerShape(8.dp))
+            .background(colors.surface2)
+            .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(8.dp))
+            .clickable { onClick() }
+    ) {
+        Text(text = label, fontSize = 16.sp, color = colors.accent, fontWeight = FontWeight.Bold)
     }
 }
 
@@ -220,13 +340,8 @@ private fun SectionHeader(title: String) {
 }
 
 @Composable
-private fun Divider(color: androidx.compose.ui.graphics.Color) {
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(1.dp)
-            .background(color)
-    )
+private fun SettingsDivider(color: androidx.compose.ui.graphics.Color) {
+    Box(modifier = Modifier.fillMaxWidth().height(1.dp).background(color))
 }
 
 @Composable

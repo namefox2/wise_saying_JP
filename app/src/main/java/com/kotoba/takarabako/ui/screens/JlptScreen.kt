@@ -4,6 +4,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -17,9 +18,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Icon
@@ -36,14 +37,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.kotoba.takarabako.data.model.Word
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
+import com.kotoba.takarabako.ui.components.KotobaProgressBar
 import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
@@ -68,12 +70,23 @@ fun JlptScreen(
     val colors = LocalAppColors.current
     val words by vm.words.collectAsState()
     val currentLevel by vm.currentLevel.collectAsState()
+    val currentIndex by vm.currentIndex.collectAsState()
     val likedWordIds by vm.likedWordIds.collectAsState()
 
-    LaunchedEffect(level) {
-        vm.setLevel(level)
+    var stepHiragana by remember { mutableStateOf(false) }
+    var stepMeaning by remember { mutableStateOf(false) }
+    var stepExFurigana by remember { mutableStateOf(false) }
+    var stepExKorean by remember { mutableStateOf(false) }
+
+    LaunchedEffect(level) { vm.setLevel(level) }
+    LaunchedEffect(currentIndex) {
+        stepHiragana = false
+        stepMeaning = false
+        stepExFurigana = false
+        stepExKorean = false
     }
 
+    val word = words.getOrNull(currentIndex)
     val levelTabs = listOf("all", "N5", "N4", "N3", "N2", "N1")
     val levelLabels = mapOf("all" to "전체", "N1" to "N1", "N2" to "N2", "N3" to "N3", "N4" to "N4", "N5" to "N5")
 
@@ -114,10 +127,7 @@ fun JlptScreen(
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(8.dp))
-                        .border(
-                            BorderStroke(1.dp, if (isSelected) badgeColor else colors.border),
-                            RoundedCornerShape(8.dp)
-                        )
+                        .border(BorderStroke(1.dp, if (isSelected) badgeColor else colors.border), RoundedCornerShape(8.dp))
                         .background(if (isSelected) badgeColor.copy(alpha = 0.15f) else colors.surface)
                         .clickable { vm.setLevel(tab) }
                         .padding(horizontal = 12.dp, vertical = 5.dp)
@@ -132,156 +142,182 @@ fun JlptScreen(
             }
         }
 
-        Spacer(modifier = Modifier.height(8.dp))
-
-        // 단어 목록
-        LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(10.dp),
-            contentPadding = androidx.compose.foundation.layout.PaddingValues(
-                start = 16.dp, end = 16.dp, bottom = 16.dp
-            )
-        ) {
-            items(words, key = { it.id }) { word ->
-                WordCard(
-                    word = word,
-                    isLiked = word.id in likedWordIds,
-                    onToggleLike = { vm.toggleLike(word.id) }
+        // 진행 표시
+        if (words.isNotEmpty()) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 6.dp)
+            ) {
+                Text(
+                    text = "${currentIndex + 1} / ${words.size}",
+                    fontSize = 11.sp,
+                    color = colors.textDim,
+                    modifier = Modifier.padding(end = 8.dp)
+                )
+                KotobaProgressBar(
+                    current = currentIndex + 1,
+                    total = words.size,
+                    modifier = Modifier.weight(1f).height(2.dp)
                 )
             }
         }
-    }
-}
 
-@Composable
-private fun WordCard(
-    word: Word,
-    isLiked: Boolean,
-    onToggleLike: () -> Unit
-) {
-    val colors = LocalAppColors.current
-    val badgeColor = levelBadgeColor(word.level)
-
-    var stepHiragana by remember(word.id) { mutableStateOf(false) }
-    var stepMeaning by remember(word.id) { mutableStateOf(false) }
-    var stepExFurigana by remember(word.id) { mutableStateOf(false) }
-    var stepExKorean by remember(word.id) { mutableStateOf(false) }
-
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(14.dp))
-            .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(14.dp))
-            .background(colors.surface)
-            .padding(16.dp)
-    ) {
-        // 상단: 한자 + 레벨 배지 + 품사 배지 + 하트
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Text(
-                text = word.kanji,
-                fontFamily = NotoSerifJP,
-                fontSize = 22.sp,
-                color = colors.text,
-                modifier = Modifier.weight(1f)
-            )
-            // 레벨 배지
-            Box(
+        // 카드 영역 — 좌/우 탭으로 이전/다음
+        word?.let { w ->
+            val badgeColor = levelBadgeColor(w.level)
+            Column(
                 modifier = Modifier
-                    .clip(RoundedCornerShape(6.dp))
-                    .background(badgeColor.copy(alpha = 0.15f))
-                    .border(BorderStroke(1.dp, badgeColor.copy(alpha = 0.5f)), RoundedCornerShape(6.dp))
-                    .padding(horizontal = 6.dp, vertical = 2.dp)
+                    .weight(1f)
+                    .padding(horizontal = 16.dp)
+                    .clip(RoundedCornerShape(20.dp))
+                    .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
+                    .background(colors.surface)
+                    .pointerInput(Unit) {
+                        detectTapGestures { offset ->
+                            if (offset.x < size.width / 2f) vm.prev() else vm.next()
+                        }
+                    }
+                    .verticalScroll(rememberScrollState())
+                    .padding(20.dp)
             ) {
-                Text(text = word.level, fontSize = 10.sp, color = badgeColor, fontWeight = FontWeight.Bold)
-            }
-            Spacer(modifier = Modifier.width(6.dp))
-            // 품사 배지
-            Box(
-                modifier = Modifier
-                    .clip(RoundedCornerShape(6.dp))
-                    .background(colors.surface2)
-                    .border(BorderStroke(1.dp, colors.border3), RoundedCornerShape(6.dp))
-                    .padding(horizontal = 6.dp, vertical = 2.dp)
-            ) {
-                Text(text = word.pos, fontSize = 10.sp, color = colors.textMid)
-            }
-            Spacer(modifier = Modifier.width(6.dp))
-            HeartButton(isLiked = isLiked, onToggle = onToggleLike, size = 28.dp)
-        }
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        // 단어 스텝 블록
-        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            StepBlock(
-                stepNumber = "①",
-                label = "히라가나",
-                isOpen = stepHiragana,
-                onToggle = { stepHiragana = !stepHiragana }
-            ) {
-                Text(text = word.reading, fontSize = 13.sp, color = colors.accent)
-            }
-            StepBlock(
-                stepNumber = "②",
-                label = "한국어 뜻",
-                isOpen = stepMeaning,
-                onToggle = { stepMeaning = !stepMeaning }
-            ) {
-                Text(text = word.meaning, fontSize = 12.sp, color = colors.textMid)
-            }
-        }
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        // 예시 문장 박스
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .clip(RoundedCornerShape(10.dp))
-                .border(BorderStroke(1.dp, colors.border3), RoundedCornerShape(10.dp))
-                .background(colors.bg)
-                .padding(12.dp)
-        ) {
-            Text(
-                text = "예시 문장",
-                fontSize = 10.sp,
-                color = colors.textDim,
-                modifier = Modifier.padding(bottom = 6.dp)
-            )
-            FuriganaText(
-                segments = word.exSegments,
-                fontSize = 13.sp,
-                showFurigana = false,
-                textColor = colors.text
-            )
-
-            Spacer(modifier = Modifier.height(6.dp))
-
-            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                StepBlock(
-                    stepNumber = "①",
-                    label = "후리가나",
-                    isOpen = stepExFurigana,
-                    onToggle = { stepExFurigana = !stepExFurigana }
+                // 상단: 레벨 배지 + 품사 배지 + 하트
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth()
                 ) {
-                    FuriganaText(
-                        segments = word.exSegments,
-                        fontSize = 13.sp,
-                        showFurigana = true,
-                        textColor = colors.text
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .background(badgeColor.copy(alpha = 0.15f))
+                            .border(BorderStroke(1.dp, badgeColor.copy(alpha = 0.5f)), RoundedCornerShape(6.dp))
+                            .padding(horizontal = 8.dp, vertical = 2.dp)
+                    ) {
+                        Text(text = w.level, fontSize = 11.sp, color = badgeColor, fontWeight = FontWeight.Bold)
+                    }
+                    Spacer(modifier = Modifier.width(6.dp))
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .background(colors.surface2)
+                            .border(BorderStroke(1.dp, colors.border3), RoundedCornerShape(6.dp))
+                            .padding(horizontal = 8.dp, vertical = 2.dp)
+                    ) {
+                        Text(text = w.pos, fontSize = 11.sp, color = colors.textMid)
+                    }
+                    Spacer(modifier = Modifier.weight(1f))
+                    HeartButton(
+                        isLiked = w.id in likedWordIds,
+                        onToggle = { vm.toggleLike(w.id) },
+                        size = 28.dp
                     )
                 }
-                StepBlock(
-                    stepNumber = "②",
-                    label = "한국어 번역",
-                    isOpen = stepExKorean,
-                    onToggle = { stepExKorean = !stepExKorean }
-                ) {
-                    Text(text = word.exKorean, fontSize = 12.sp, color = colors.textMid)
+
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // 단어 (한자)
+                Text(
+                    text = w.kanji,
+                    fontFamily = NotoSerifJP,
+                    fontSize = 28.sp,
+                    fontWeight = FontWeight.Medium,
+                    color = colors.text
+                )
+
+                Spacer(modifier = Modifier.height(14.dp))
+
+                // 단어 스텝
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    StepBlock("①", "히라가나", stepHiragana, { stepHiragana = !stepHiragana }) {
+                        Text(text = w.reading, fontSize = 16.sp, color = colors.accent)
+                    }
+                    StepBlock("②", "한국어 뜻", stepMeaning, { stepMeaning = !stepMeaning }) {
+                        Text(text = w.meaning, fontSize = 15.sp, color = colors.textMid)
+                    }
                 }
+
+                Spacer(modifier = Modifier.height(14.dp))
+
+                // 예시 문장
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(10.dp))
+                        .border(BorderStroke(1.dp, colors.border3), RoundedCornerShape(10.dp))
+                        .background(colors.bg)
+                        .padding(14.dp)
+                ) {
+                    Text(
+                        text = "예시 문장",
+                        fontSize = 10.sp,
+                        color = colors.textDim,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    FuriganaText(
+                        segments = w.exSegments,
+                        fontSize = 15.sp,
+                        showFurigana = false,
+                        textColor = colors.text
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        StepBlock("①", "후리가나", stepExFurigana, { stepExFurigana = !stepExFurigana }) {
+                            FuriganaText(
+                                segments = w.exSegments,
+                                fontSize = 14.sp,
+                                showFurigana = true,
+                                textColor = colors.text
+                            )
+                        }
+                        StepBlock("②", "한국어 번역", stepExKorean, { stepExKorean = !stepExKorean }) {
+                            Text(text = w.exKorean, fontSize = 13.sp, color = colors.textMid)
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "← 탭: 이전  /  탭: 다음 →",
+                    fontSize = 10.sp,
+                    color = colors.textDim,
+                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                )
+            }
+        }
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        // 이전 / 다음 버튼
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 8.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier
+                    .weight(1f)
+                    .height(44.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(12.dp))
+                    .background(colors.surface)
+                    .clickable { vm.prev() }
+            ) {
+                Text(text = "← 이전", fontSize = 13.sp, color = colors.textMid)
+            }
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier
+                    .weight(1f)
+                    .height(44.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(colors.accentBg)
+                    .border(BorderStroke(1.dp, colors.accentBorder), RoundedCornerShape(12.dp))
+                    .clickable { vm.next() }
+            ) {
+                Text(text = "다음 →", fontSize = 13.sp, color = colors.accent, fontWeight = FontWeight.Bold)
             }
         }
     }

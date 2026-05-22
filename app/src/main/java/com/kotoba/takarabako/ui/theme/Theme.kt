@@ -6,18 +6,20 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.compositionLocalOf
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Density
 
 val LocalAppColors = compositionLocalOf { appColorsForTheme("gold") }
+val LocalFontScale = compositionLocalOf { 1.0f }
 
 @Composable
 fun KotobaTheme(
     theme: String = "gold",
+    fontScale: Float = 1.0f,
     content: @Composable () -> Unit
 ) {
     val colors = appColorsForTheme(theme)
+    val baseDensity = LocalDensity.current
 
     val materialColors = if (theme == "paper") {
         lightColorScheme(
@@ -37,7 +39,11 @@ fun KotobaTheme(
         )
     }
 
-    CompositionLocalProvider(LocalAppColors provides colors) {
+    CompositionLocalProvider(
+        LocalAppColors provides colors,
+        LocalFontScale provides fontScale,
+        LocalDensity provides Density(baseDensity.density, baseDensity.fontScale * fontScale)
+    ) {
         MaterialTheme(
             colorScheme = materialColors,
             typography = KotobaTypography,

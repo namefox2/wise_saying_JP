@@ -21,6 +21,9 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
     private val _words = MutableStateFlow<List<Word>>(emptyList())
     val words: StateFlow<List<Word>> = _words
 
+    private val _currentIndex = MutableStateFlow(0)
+    val currentIndex: StateFlow<Int> = _currentIndex
+
     private val _likedWordIds = MutableStateFlow<Set<String>>(emptySet())
     val likedWordIds: StateFlow<Set<String>> = _likedWordIds
 
@@ -31,18 +34,28 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
 
     fun setLevel(level: String) {
         _currentLevel.value = level
+        _currentIndex.value = 0
         viewModelScope.launch {
             _words.value = repository.getByLevel(level)
         }
     }
 
+    fun next() {
+        val size = _words.value.size
+        if (size == 0) return
+        _currentIndex.value = (_currentIndex.value + 1) % size
+    }
+
+    fun prev() {
+        val size = _words.value.size
+        if (size == 0) return
+        _currentIndex.value = if (_currentIndex.value == 0) size - 1 else _currentIndex.value - 1
+    }
+
     fun toggleLike(id: String) {
         viewModelScope.launch {
-            if (_likedWordIds.value.contains(id)) {
-                repository.removeFavorite(id)
-            } else {
-                repository.addFavorite(id)
-            }
+            if (_likedWordIds.value.contains(id)) repository.removeFavorite(id)
+            else repository.addFavorite(id)
         }
     }
 }
