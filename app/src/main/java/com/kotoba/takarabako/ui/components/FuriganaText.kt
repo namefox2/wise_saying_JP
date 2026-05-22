@@ -51,7 +51,7 @@ fun FuriganaText(
         segments.forEach { segment ->
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy((-1).dp)
+                verticalArrangement = Arrangement.spacedBy((-4).dp)
             ) {
                 Text(
                     text = segment.reading.ifEmpty { " " },

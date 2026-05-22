@@ -10,6 +10,7 @@ import com.kotoba.takarabako.util.AppRefreshBus
 import com.kotoba.takarabako.util.NotificationHelper
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -46,6 +47,9 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private val _autoPlay = MutableStateFlow(false)
     val autoPlay: StateFlow<Boolean> = _autoPlay
 
+    private val _loginStreak = MutableStateFlow(1)
+    val loginStreak: StateFlow<Int> = _loginStreak
+
     init {
         dataStore.theme.onEach { _currentTheme.value = it }.launchIn(viewModelScope)
         dataStore.notifyEnabled.onEach { _notifyEnabled.value = it }.launchIn(viewModelScope)
@@ -55,6 +59,24 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
         dataStore.notifyHour.onEach { _notifyHour.value = it }.launchIn(viewModelScope)
         dataStore.notifyMinute.onEach { _notifyMinute.value = it }.launchIn(viewModelScope)
         dataStore.autoPlay.onEach { _autoPlay.value = it }.launchIn(viewModelScope)
+        dataStore.loginStreak.onEach { _loginStreak.value = it }.launchIn(viewModelScope)
+        updateLoginStreak()
+    }
+
+    private fun updateLoginStreak() {
+        viewModelScope.launch {
+            val today = java.time.LocalDate.now().toString()
+            val lastDate = dataStore.lastLoginDate.first()
+            val currentStreak = dataStore.loginStreak.first()
+            val yesterday = java.time.LocalDate.now().minusDays(1).toString()
+            val newStreak = when {
+                lastDate == today -> currentStreak
+                lastDate == yesterday -> currentStreak + 1
+                else -> 1
+            }
+            dataStore.setLastLoginDate(today)
+            dataStore.setLoginStreak(newStreak)
+        }
     }
 
     fun setTheme(theme: String) { viewModelScope.launch { dataStore.setTheme(theme) } }

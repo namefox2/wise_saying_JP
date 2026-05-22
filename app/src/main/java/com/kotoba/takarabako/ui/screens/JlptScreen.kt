@@ -1,17 +1,17 @@
 package com.kotoba.takarabako.ui.screens
 
-import android.app.SearchManager
-import android.content.Intent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -39,12 +39,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.kotoba.takarabako.ui.components.DictionarySelectionContainer
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.components.KotobaProgressBar
@@ -54,6 +55,7 @@ import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.viewmodel.JlptViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.withTimeoutOrNull
 
 private fun levelBadgeColor(level: String): Color = when (level) {
     "N1" -> Color(0xFFFF4D6D)
@@ -73,7 +75,6 @@ fun JlptScreen(
     settingsVm: SettingsViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
-    val context = LocalContext.current
     val words by vm.words.collectAsState()
     val currentLevel by vm.currentLevel.collectAsState()
     val currentIndex by vm.currentIndex.collectAsState()
@@ -85,13 +86,6 @@ fun JlptScreen(
     var stepMeaning by remember { mutableStateOf(false) }
     var stepExFurigana by remember { mutableStateOf(false) }
     var stepExKorean by remember { mutableStateOf(false) }
-
-    fun searchDictionary(text: String) {
-        val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
-            putExtra(SearchManager.QUERY, text)
-        }
-        context.startActivity(intent)
-    }
 
     LaunchedEffect(level) { vm.setLevel(level) }
 
@@ -203,6 +197,15 @@ fun JlptScreen(
                     .clip(RoundedCornerShape(20.dp))
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
+                    .pointerInput(vm) {
+                        awaitEachGesture {
+                            val down = awaitFirstDown(requireUnconsumed = false)
+                            val up = withTimeoutOrNull(200L) { waitForUpOrCancellation() }
+                            if (up != null) {
+                                if (down.position.x < size.width / 2f) vm.prev() else vm.next()
+                            }
+                        }
+                    }
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp)
             ) {
@@ -241,7 +244,7 @@ fun JlptScreen(
                 Spacer(modifier = Modifier.height(16.dp))
 
                 // 단어 (한자)
-                SelectionContainer {
+                DictionarySelectionContainer {
                     Text(
                         text = w.kanji,
                         fontFamily = NotoSerifJP,
@@ -249,20 +252,6 @@ fun JlptScreen(
                         fontWeight = FontWeight.Medium,
                         color = colors.text
                     )
-                }
-
-                Spacer(modifier = Modifier.height(12.dp))
-
-                Box(
-                    contentAlignment = Alignment.Center,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(32.dp)
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(colors.surface2)
-                        .clickable { searchDictionary(w.kanji) }
-                ) {
-                    Text(text = "🔍 사전 검색", fontSize = 12.sp, color = colors.accent, fontWeight = FontWeight.Medium)
                 }
 
                 Spacer(modifier = Modifier.height(12.dp))

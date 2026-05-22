@@ -58,6 +58,7 @@ fun SettingsScreen(
     val autoPlay by vm.autoPlay.collectAsState()
     val lastUpdated by vm.lastUpdated.collectAsState()
     val isRefreshing by vm.isRefreshing.collectAsState()
+    val loginStreak by vm.loginStreak.collectAsState()
     val fontScale by vm.fontScale.collectAsState()
     val notifyHour by vm.notifyHour.collectAsState()
     val notifyMinute by vm.notifyMinute.collectAsState()
@@ -235,13 +236,6 @@ fun SettingsScreen(
             )
             SettingsDivider(colors.border2)
             SettingsFeatureRow(
-                icon = "✓",
-                title = "본 명언",
-                description = "읽었던 명언 기록 확인",
-                hasChevron = true
-            )
-            SettingsDivider(colors.border2)
-            SettingsFeatureRow(
                 icon = "🔊",
                 title = "즐겨찾기 내보내기",
                 description = "즐겨찾기 명언 및 단어 저장",
@@ -258,9 +252,9 @@ fun SettingsScreen(
             SettingsDivider(colors.border2)
             SettingsFeatureRow(
                 icon = "📊",
-                title = "학습 기록 조회화",
-                description = "진도율 및 통계 확인",
-                hasChevron = true
+                title = "학습기록",
+                description = "${loginStreak}일 연속 접속 중",
+                hasChevron = false
             )
         }
 

@@ -1,17 +1,17 @@
 package com.kotoba.takarabako.ui.screens
 
-import android.app.SearchManager
-import android.content.Intent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -35,12 +35,13 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.kotoba.takarabako.ui.components.DictionarySelectionContainer
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.components.KotobaProgressBar
@@ -50,6 +51,7 @@ import com.kotoba.takarabako.util.authorDisplay
 import com.kotoba.takarabako.viewmodel.QuoteViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.withTimeoutOrNull
 
 @Composable
 fun QuoteCardScreen(
@@ -59,7 +61,6 @@ fun QuoteCardScreen(
     settingsVm: SettingsViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
-    val context = LocalContext.current
     val quotes by vm.quotes.collectAsState()
     val currentIndex by vm.currentIndex.collectAsState()
     val likedIds by vm.likedIds.collectAsState()
@@ -68,13 +69,6 @@ fun QuoteCardScreen(
 
     var stepFurigana by remember { mutableStateOf(false) }
     var stepKorean by remember { mutableStateOf(false) }
-
-    fun searchDictionary(text: String) {
-        val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
-            putExtra(SearchManager.QUERY, text)
-        }
-        context.startActivity(intent)
-    }
 
     LaunchedEffect(category) { vm.loadByCategory(category) }
 
@@ -160,6 +154,15 @@ fun QuoteCardScreen(
                     .clip(RoundedCornerShape(20.dp))
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
+                    .pointerInput(vm) {
+                        awaitEachGesture {
+                            val down = awaitFirstDown(requireUnconsumed = false)
+                            val up = withTimeoutOrNull(200L) { waitForUpOrCancellation() }
+                            if (up != null) {
+                                if (down.position.x < size.width / 2f) vm.prev() else vm.next()
+                            }
+                        }
+                    }
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp)
             ) {
@@ -175,27 +178,13 @@ fun QuoteCardScreen(
 
                 Spacer(modifier = Modifier.height(14.dp))
 
-                SelectionContainer {
+                DictionarySelectionContainer {
                     FuriganaText(
                         segments = q.segments,
                         fontSize = 18.sp,
                         showFurigana = false,
                         textColor = colors.text
                     )
-                }
-
-                Spacer(modifier = Modifier.height(12.dp))
-
-                Box(
-                    contentAlignment = Alignment.Center,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(32.dp)
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(colors.surface2)
-                        .clickable { searchDictionary(q.kanji) }
-                ) {
-                    Text(text = "🔍 사전 검색", fontSize = 12.sp, color = colors.accent, fontWeight = FontWeight.Medium)
                 }
 
                 Spacer(modifier = Modifier.height(12.dp))
