@@ -28,9 +28,14 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     init {
         loadTodayQuote()
         loadCategoryCounts()
-        AppRefreshBus.tick.onEach {
-            if (it > 0) {
-                loadTodayQuote()
+        AppRefreshBus.tick.onEach { refreshCount ->
+            if (refreshCount > 0) {
+                val all = repository.getAll()
+                if (all.isNotEmpty()) {
+                    val dayOfYear = java.time.LocalDate.now().dayOfYear
+                    val offset = refreshCount % all.size
+                    _todayQuote.value = all[(dayOfYear + offset) % all.size]
+                }
                 loadCategoryCounts()
             }
         }.launchIn(viewModelScope)

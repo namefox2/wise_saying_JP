@@ -2,6 +2,7 @@ package com.kotoba.takarabako.ui.components
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -47,7 +48,10 @@ fun FuriganaText(
 
     FlowRow(modifier = modifier) {
         segments.forEach { segment ->
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy((-1).dp)
+            ) {
                 Text(
                     text = segment.reading.ifEmpty { " " },
                     fontSize = furiganaSize,

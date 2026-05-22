@@ -213,6 +213,46 @@ fun SettingsScreen(
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        // 기능
+        SectionHeader(title = "기능")
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp)
+                .clip(RoundedCornerShape(14.dp))
+                .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(14.dp))
+                .background(colors.surface)
+        ) {
+            SettingsFeatureRow(
+                icon = "▶️",
+                title = "연속 읽음",
+                description = "자동으로 다음 명언 재생"
+            )
+            SettingsDivider(colors.border2)
+            SettingsFeatureRow(
+                icon = "✓",
+                title = "본 명언",
+                description = "읽었던 명언 기록 확인",
+                hasChevron = true
+            )
+            SettingsDivider(colors.border2)
+            SettingsFeatureRow(
+                icon = "🔊",
+                title = "음성정의 내보내기",
+                description = "테스트 원문 저장",
+                hasChevron = true
+            )
+            SettingsDivider(colors.border2)
+            SettingsFeatureRow(
+                icon = "📊",
+                title = "학습 기록 조회화",
+                description = "진도율 및 통계 확인",
+                hasChevron = true
+            )
+        }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
         // 학습
         SectionHeader(title = "학습")
         Column(
@@ -395,5 +435,30 @@ private fun SettingsToggleRow(
                 uncheckedTrackColor = colors.surface2
             )
         )
+    }
+}
+
+@Composable
+private fun SettingsFeatureRow(
+    icon: String,
+    title: String,
+    description: String,
+    hasChevron: Boolean = false
+) {
+    val colors = LocalAppColors.current
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 12.dp)
+    ) {
+        Text(text = icon, fontSize = 18.sp, modifier = Modifier.padding(end = 12.dp))
+        Column(modifier = Modifier.weight(1f)) {
+            Text(text = title, fontSize = 13.sp, color = colors.text)
+            Text(text = description, fontSize = 11.sp, color = colors.textDim)
+        }
+        if (hasChevron) {
+            Text(text = "›", fontSize = 20.sp, color = colors.textMid)
+        }
     }
 }
