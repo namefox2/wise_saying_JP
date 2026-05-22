@@ -7,10 +7,17 @@
     <path
         android:fillColor="#C8A96E"
         android:pathData="M54,20 C35.2,20 20,35.2 20,54 C20,72.8 35.2,88 54,88 C72.8,88 88,72.8 88,54 C88,35.2 72.8,20 54,20 Z" />
-    <text
-        android:fontFamily="serif"
-        android:textSize="32"
+    <!-- 言 kanji drawn as paths: top stroke, upper box, lower box with two inner lines -->
+    <path
         android:fillColor="#0A0A12"
-        android:x="38"
-        android:y="66">言</text>
+        android:pathData="M46,27 h16 v3 h-16 Z
+                          M35,34 h38 v3 h-38 Z
+                          M35,34 v13 h3 v-13 Z
+                          M70,34 v13 h3 v-13 Z
+                          M35,44 h38 v3 h-38 Z
+                          M35,47 v28 h3 v-28 Z
+                          M70,47 v28 h3 v-28 Z
+                          M35,72 h38 v3 h-38 Z
+                          M38,54 h32 v3 h-32 Z
+                          M38,63 h32 v3 h-32 Z" />
 </vector>
