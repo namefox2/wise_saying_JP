@@ -229,7 +229,6 @@ fun SettingsScreen(
             )
             if (notifyEnabled) {
                 SettingsDivider(colors.border2)
-                // 알림 시간 설정
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier
@@ -238,50 +237,40 @@ fun SettingsScreen(
                 ) {
                     Column(modifier = Modifier.weight(1f)) {
                         Text(text = "알림 시간", fontSize = 13.sp, color = colors.text)
-                        Text(text = "매일 이 시간에 알림을 보냅니다", fontSize = 11.sp, color = colors.textDim)
+                        Text(text = "매일 이 시간에 알림", fontSize = 11.sp, color = colors.textDim)
                     }
-                    // 시간 조절
+                    // 시 조절
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         TimeAdjustButton("-", colors) {
-                            val newHour = if (notifyHour == 0) 23 else notifyHour - 1
-                            vm.setNotifyTime(newHour, notifyMinute)
+                            vm.setNotifyTime(if (notifyHour == 0) 23 else notifyHour - 1, notifyMinute)
                         }
                         Text(
-                            text = "%02d:%02d".format(notifyHour, notifyMinute),
-                            fontSize = 16.sp,
+                            text = "%02d".format(notifyHour),
+                            fontSize = 18.sp,
                             fontWeight = FontWeight.Bold,
                             color = colors.accent,
-                            modifier = Modifier.padding(horizontal = 8.dp)
+                            modifier = Modifier.padding(horizontal = 6.dp)
                         )
                         TimeAdjustButton("+", colors) {
-                            val newHour = if (notifyHour == 23) 0 else notifyHour + 1
-                            vm.setNotifyTime(newHour, notifyMinute)
+                            vm.setNotifyTime(if (notifyHour == 23) 0 else notifyHour + 1, notifyMinute)
                         }
                     }
-                }
-                SettingsDivider(colors.border2)
-                // 분 조절
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = 16.dp, vertical = 12.dp)
-                ) {
-                    Text(text = "분 조절", fontSize = 13.sp, color = colors.textMid, modifier = Modifier.weight(1f))
+                    Text(text = ":", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = colors.textMid,
+                        modifier = Modifier.padding(horizontal = 4.dp))
+                    // 분 조절
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         TimeAdjustButton("-", colors) {
-                            val newMin = if (notifyMinute == 0) 55 else notifyMinute - 5
-                            vm.setNotifyTime(notifyHour, newMin)
+                            vm.setNotifyTime(notifyHour, if (notifyMinute == 0) 55 else notifyMinute - 5)
                         }
                         Text(
-                            text = "%02d분".format(notifyMinute),
-                            fontSize = 14.sp,
-                            color = colors.text,
-                            modifier = Modifier.padding(horizontal = 8.dp)
+                            text = "%02d".format(notifyMinute),
+                            fontSize = 18.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = colors.accent,
+                            modifier = Modifier.padding(horizontal = 6.dp)
                         )
                         TimeAdjustButton("+", colors) {
-                            val newMin = if (notifyMinute >= 55) 0 else notifyMinute + 5
-                            vm.setNotifyTime(notifyHour, newMin)
+                            vm.setNotifyTime(notifyHour, if (notifyMinute >= 55) 0 else notifyMinute + 5)
                         }
                     }
                 }

@@ -45,6 +45,8 @@ import com.kotoba.takarabako.ui.components.KotobaProgressBar
 import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.viewmodel.QuoteViewModel
+import com.kotoba.takarabako.viewmodel.SettingsViewModel
+import kotlinx.coroutines.delay
 
 private fun authorDisplay(author: String): String =
     if (author == "ことわざ") "ことわざ (속담)" else author
@@ -53,20 +55,29 @@ private fun authorDisplay(author: String): String =
 fun QuoteCardScreen(
     navController: NavController,
     category: String,
-    vm: QuoteViewModel = viewModel()
+    vm: QuoteViewModel = viewModel(),
+    settingsVm: SettingsViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
     val quotes by vm.quotes.collectAsState()
     val currentIndex by vm.currentIndex.collectAsState()
     val likedIds by vm.likedIds.collectAsState()
+    val autoBlur by settingsVm.autoBlur.collectAsState()
 
     var stepFurigana by remember { mutableStateOf(false) }
     var stepKorean by remember { mutableStateOf(false) }
 
     LaunchedEffect(category) { vm.loadByCategory(category) }
+
     LaunchedEffect(currentIndex) {
         stepFurigana = false
         stepKorean = false
+        if (autoBlur) {
+            delay(3000)
+            stepFurigana = true
+            delay(3000)
+            stepKorean = true
+        }
     }
 
     val quote = quotes.getOrNull(currentIndex)
@@ -76,7 +87,6 @@ fun QuoteCardScreen(
             .fillMaxSize()
             .background(colors.bg)
     ) {
-        // 헤더
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier
@@ -86,7 +96,7 @@ fun QuoteCardScreen(
             IconButton(onClick = { navController.popBackStack() }) {
                 Icon(Icons.Filled.ArrowBack, contentDescription = "뒤로", tint = colors.textMid)
             }
-            androidx.compose.material3.Text(
+            Text(
                 text = category,
                 fontFamily = com.kotoba.takarabako.ui.theme.NotoSerifJP,
                 fontSize = 16.sp,
@@ -103,7 +113,6 @@ fun QuoteCardScreen(
             Spacer(modifier = Modifier.size(12.dp))
         }
 
-        // 진행 표시
         if (quotes.isNotEmpty()) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
@@ -127,7 +136,6 @@ fun QuoteCardScreen(
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // 카드 영역 — 좌/우 탭으로 이전/다음
         quote?.let { q ->
             Column(
                 modifier = Modifier
@@ -144,7 +152,6 @@ fun QuoteCardScreen(
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp)
             ) {
-                // 카테고리 배지
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(8.dp))
@@ -167,7 +174,7 @@ fun QuoteCardScreen(
                 Spacer(modifier = Modifier.height(14.dp))
 
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    StepBlock("①", "후리가나", stepFurigana, { stepFurigana = !stepFurigana }) {
+                    StepBlock("후리가나", stepFurigana, { stepFurigana = !stepFurigana }) {
                         FuriganaText(
                             segments = q.segments,
                             fontSize = 16.sp,
@@ -175,14 +182,13 @@ fun QuoteCardScreen(
                             textColor = colors.text
                         )
                     }
-                    StepBlock("②", "한국어", stepKorean, { stepKorean = !stepKorean }) {
+                    StepBlock("한국어", stepKorean, { stepKorean = !stepKorean }) {
                         Text(text = q.korean, fontSize = 13.sp, color = colors.textMid)
                     }
                 }
 
                 Spacer(modifier = Modifier.height(14.dp))
 
-                // 저자 + 하트
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier.fillMaxWidth()
@@ -198,7 +204,6 @@ fun QuoteCardScreen(
 
                 Spacer(modifier = Modifier.height(8.dp))
 
-                // 탭 힌트
                 Text(
                     text = "← 탭: 이전  /  탭: 다음 →",
                     fontSize = 10.sp,
@@ -210,7 +215,6 @@ fun QuoteCardScreen(
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // 이전 / 다음 버튼
         Row(
             modifier = Modifier
                 .fillMaxWidth()

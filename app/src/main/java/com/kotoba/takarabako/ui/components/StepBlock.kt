@@ -12,12 +12,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,7 +27,6 @@ import com.kotoba.takarabako.ui.theme.LocalAppColors
 
 @Composable
 fun StepBlock(
-    stepNumber: String,
     label: String,
     isOpen: Boolean,
     onToggle: () -> Unit,
@@ -39,17 +34,13 @@ fun StepBlock(
 ) {
     val colors = LocalAppColors.current
     val borderColor = if (isOpen) colors.accentBorder else colors.border3
-    val bgColor = colors.surface2
-    val numberBg = if (isOpen) colors.accentBg else colors.surface
-    val numberBorderColor = if (isOpen) colors.accent else colors.border
-    val numberTextColor = if (isOpen) colors.accent else colors.textMid
 
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(12.dp))
             .border(BorderStroke(1.dp, borderColor), RoundedCornerShape(12.dp))
-            .background(bgColor)
+            .background(colors.surface2)
             .clickable(onClick = onToggle)
     ) {
         Row(
@@ -58,22 +49,6 @@ fun StepBlock(
                 .fillMaxWidth()
                 .padding(horizontal = 14.dp, vertical = 10.dp)
         ) {
-            Box(
-                contentAlignment = Alignment.Center,
-                modifier = Modifier
-                    .size(22.dp)
-                    .clip(CircleShape)
-                    .border(BorderStroke(1.dp, numberBorderColor), CircleShape)
-                    .background(numberBg)
-            ) {
-                Text(
-                    text = stepNumber,
-                    fontSize = 11.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = numberTextColor
-                )
-            }
-            Spacer(modifier = Modifier.width(8.dp))
             Text(
                 text = label,
                 fontSize = 12.sp,

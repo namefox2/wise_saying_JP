@@ -54,7 +54,12 @@ fun BottomNavBar(navController: NavController) {
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
             items.forEach { item ->
-                val isActive = currentRoute == item.route
+                val isActive = when (item.route) {
+                    "home" -> currentRoute == "home" ||
+                              currentRoute?.startsWith("quote") == true ||
+                              currentRoute?.startsWith("jlpt") == true
+                    else -> currentRoute == item.route
+                }
                 val tint = if (isActive) colors.accent else colors.textDim
 
                 Column(
@@ -64,7 +69,12 @@ fun BottomNavBar(navController: NavController) {
                         .weight(1f)
                         .height(52.dp)
                         .clickable {
-                            if (currentRoute != item.route) {
+                            if (item.route == "home") {
+                                navController.navigate("home") {
+                                    popUpTo("home") { inclusive = true }
+                                    launchSingleTop = true
+                                }
+                            } else if (currentRoute != item.route) {
                                 navController.navigate(item.route) {
                                     popUpTo("home") { saveState = true }
                                     launchSingleTop = true

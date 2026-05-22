@@ -50,6 +50,8 @@ import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.viewmodel.JlptViewModel
+import com.kotoba.takarabako.viewmodel.SettingsViewModel
+import kotlinx.coroutines.delay
 
 private fun levelBadgeColor(level: String): Color = when (level) {
     "N1" -> Color(0xFFFF4D6D)
@@ -65,13 +67,15 @@ private fun levelBadgeColor(level: String): Color = when (level) {
 fun JlptScreen(
     navController: NavController,
     level: String,
-    vm: JlptViewModel = viewModel()
+    vm: JlptViewModel = viewModel(),
+    settingsVm: SettingsViewModel = viewModel()
 ) {
     val colors = LocalAppColors.current
     val words by vm.words.collectAsState()
     val currentLevel by vm.currentLevel.collectAsState()
     val currentIndex by vm.currentIndex.collectAsState()
     val likedWordIds by vm.likedWordIds.collectAsState()
+    val autoBlur by settingsVm.autoBlur.collectAsState()
 
     var stepHiragana by remember { mutableStateOf(false) }
     var stepMeaning by remember { mutableStateOf(false) }
@@ -84,6 +88,12 @@ fun JlptScreen(
         stepMeaning = false
         stepExFurigana = false
         stepExKorean = false
+        if (autoBlur) {
+            delay(3000)
+            stepHiragana = true
+            delay(3000)
+            stepMeaning = true
+        }
     }
 
     val word = words.getOrNull(currentIndex)
@@ -229,10 +239,10 @@ fun JlptScreen(
 
                 // 단어 스텝
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    StepBlock("①", "히라가나", stepHiragana, { stepHiragana = !stepHiragana }) {
+                    StepBlock("히라가나", stepHiragana, { stepHiragana = !stepHiragana }) {
                         Text(text = w.reading, fontSize = 16.sp, color = colors.accent)
                     }
-                    StepBlock("②", "한국어 뜻", stepMeaning, { stepMeaning = !stepMeaning }) {
+                    StepBlock("한국어 뜻", stepMeaning, { stepMeaning = !stepMeaning }) {
                         Text(text = w.meaning, fontSize = 15.sp, color = colors.textMid)
                     }
                 }
@@ -262,7 +272,7 @@ fun JlptScreen(
                     )
                     Spacer(modifier = Modifier.height(8.dp))
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        StepBlock("①", "후리가나", stepExFurigana, { stepExFurigana = !stepExFurigana }) {
+                        StepBlock("후리가나", stepExFurigana, { stepExFurigana = !stepExFurigana }) {
                             FuriganaText(
                                 segments = w.exSegments,
                                 fontSize = 14.sp,
@@ -270,7 +280,7 @@ fun JlptScreen(
                                 textColor = colors.text
                             )
                         }
-                        StepBlock("②", "한국어 번역", stepExKorean, { stepExKorean = !stepExKorean }) {
+                        StepBlock("한국어 번역", stepExKorean, { stepExKorean = !stepExKorean }) {
                             Text(text = w.exKorean, fontSize = 13.sp, color = colors.textMid)
                         }
                     }
