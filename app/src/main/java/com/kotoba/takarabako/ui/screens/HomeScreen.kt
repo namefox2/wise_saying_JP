@@ -40,7 +40,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
-import com.google.android.gms.ads.admanager.GoogleAdManagerBannerAdView
+import com.google.android.gms.ads.AdView
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
@@ -168,9 +168,9 @@ fun HomeScreen(
                 .fillMaxWidth()
                 .height(50.dp),
             factory = { ctx ->
-                GoogleAdManagerBannerAdView(ctx).apply {
-                    setAdSizes(AdSize.BANNER)
-                    adUnitId = "/6499/example/banner"
+                AdView(ctx).apply {
+                    setAdSize(AdSize.BANNER)
+                    adUnitId = "ca-app-pub-3940256099942544/6300978111" // test banner ID
                     loadAd(AdRequest.Builder().build())
                 }
             }
