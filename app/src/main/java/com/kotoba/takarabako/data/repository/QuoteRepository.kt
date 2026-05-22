@@ -6,16 +6,25 @@ import com.google.gson.reflect.TypeToken
 import com.kotoba.takarabako.data.local.AppDatabase
 import com.kotoba.takarabako.data.local.FavoriteEntity
 import com.kotoba.takarabako.data.model.Quote
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.withContext
+import java.io.File
 import java.time.LocalDate
 
 class QuoteRepository private constructor(private val context: Context) {
 
     companion object {
+        private const val REMOTE_URL =
+            "https://raw.githubusercontent.com/namefox2/wise_saying_jp/main/app/src/main/assets/data/quotes.json"
+        private const val LOCAL_FILE = "quotes.json"
+
         @Volatile private var instance: QuoteRepository? = null
         fun getInstance(context: Context): QuoteRepository =
-            instance ?: synchronized(this) { instance ?: QuoteRepository(context.applicationContext).also { instance = it } }
+            instance ?: synchronized(this) {
+                instance ?: QuoteRepository(context.applicationContext).also { instance = it }
+            }
     }
 
     private val db = AppDatabase.getInstance(context)
@@ -26,22 +35,42 @@ class QuoteRepository private constructor(private val context: Context) {
 
     fun clearCache() { cachedQuotes = null }
 
-    // Authors still under copyright — blocked regardless of data source
     private val blockedAuthors = setOf(
-        "チャップリン",            // died 1977, expires 2047
-        "エーリッヒ・フロム",      // died 1980, expires 2050
-        "オードリー・ヘップバーン", // died 1993, expires 2063
-        "パウロ・コエーリョ",      // living author
-        "ラオウ"                   // copyrighted manga character (北斗の拳)
+        "チャップリン",
+        "エーリッヒ・フロム",
+        "オードリー・ヘップバーン",
+        "パウロ・コエーリョ",
+        "ラオウ"
     )
 
+    private fun localFile() = File(context.filesDir, LOCAL_FILE)
+
+    private fun readJson(): String {
+        val local = localFile()
+        return if (local.exists()) local.readText()
+        else context.assets.open("data/quotes.json").bufferedReader().readText()
+    }
+
     fun getAll(): List<Quote> {
-        if (cachedQuotes != null) return cachedQuotes!!
-        val json = context.assets.open("data/quotes.json").bufferedReader().readText()
+        cachedQuotes?.let { return it }
         val type = object : TypeToken<List<Quote>>() {}.type
-        cachedQuotes = gson.fromJson<List<Quote>>(json, type)
+        cachedQuotes = gson.fromJson<List<Quote>>(readJson(), type)
             .filter { it.author !in blockedAuthors }
         return cachedQuotes!!
+    }
+
+    suspend fun fetchAndSave(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            val json = java.net.URL(REMOTE_URL).openConnection().apply {
+                connectTimeout = 8000
+                readTimeout = 8000
+            }.getInputStream().bufferedReader().readText()
+            localFile().writeText(json)
+            clearCache()
+            true
+        } catch (e: Exception) {
+            false
+        }
     }
 
     fun getByCategory(cat: String): List<Quote> {
