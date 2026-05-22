@@ -9,7 +9,13 @@ import com.kotoba.takarabako.data.model.Word
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-class WordRepository(private val context: Context) {
+class WordRepository private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile private var instance: WordRepository? = null
+        fun getInstance(context: Context): WordRepository =
+            instance ?: synchronized(this) { instance ?: WordRepository(context.applicationContext).also { instance = it } }
+    }
 
     private val db = AppDatabase.getInstance(context)
     private val dao = db.favoriteDao()
@@ -24,6 +30,8 @@ class WordRepository(private val context: Context) {
     )
 
     private val cache = mutableMapOf<String, List<Word>>()
+
+    fun clearCache() { cache.clear() }
 
     fun getByLevel(level: String): List<Word> {
         if (level == "all") return getAll()

@@ -5,13 +5,16 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.kotoba.takarabako.data.model.Quote
 import com.kotoba.takarabako.data.repository.QuoteRepository
+import com.kotoba.takarabako.util.AppRefreshBus
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
 class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val repository = QuoteRepository(application)
+    private val repository = QuoteRepository.getInstance(application)
 
     private val _todayQuote = MutableStateFlow<Quote?>(null)
     val todayQuote: StateFlow<Quote?> = _todayQuote
@@ -25,6 +28,12 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     init {
         loadTodayQuote()
         loadCategoryCounts()
+        AppRefreshBus.tick.onEach {
+            if (it > 0) {
+                loadTodayQuote()
+                loadCategoryCounts()
+            }
+        }.launchIn(viewModelScope)
     }
 
     fun loadTodayQuote() {

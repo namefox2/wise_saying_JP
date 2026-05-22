@@ -15,8 +15,8 @@ import kotlinx.coroutines.launch
 
 class FavoritesViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val quoteRepo = QuoteRepository(application)
-    private val wordRepo = WordRepository(application)
+    private val quoteRepo = QuoteRepository.getInstance(application)
+    private val wordRepo = WordRepository.getInstance(application)
 
     private val _favQuotes = MutableStateFlow<List<Quote>>(emptyList())
     val favQuotes: StateFlow<List<Quote>> = _favQuotes

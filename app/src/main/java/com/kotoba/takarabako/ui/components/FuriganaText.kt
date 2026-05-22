@@ -11,11 +11,22 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.PlatformTextStyle
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import com.kotoba.takarabako.data.model.QuoteSegment
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
+
+private val tightTextStyle = TextStyle(
+    platformStyle = PlatformTextStyle(includeFontPadding = false),
+    lineHeightStyle = LineHeightStyle(
+        alignment = LineHeightStyle.Alignment.Center,
+        trim = LineHeightStyle.Trim.Both
+    )
+)
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -42,14 +53,16 @@ fun FuriganaText(
                     fontSize = furiganaSize,
                     lineHeight = furiganaSize,
                     color = if (segment.reading.isEmpty()) Color.Transparent
-                            else colors.furigana.copy(alpha = furiganaAlpha)
+                            else colors.furigana.copy(alpha = furiganaAlpha),
+                    style = tightTextStyle
                 )
                 Text(
                     text = segment.kanji,
                     fontFamily = NotoSerifJP,
                     fontSize = fontSize,
                     lineHeight = fontSize,
-                    color = textColor
+                    color = textColor,
+                    style = tightTextStyle
                 )
             }
         }

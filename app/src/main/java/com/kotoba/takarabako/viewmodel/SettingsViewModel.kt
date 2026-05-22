@@ -4,6 +4,9 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.kotoba.takarabako.data.local.DataStoreManager
+import com.kotoba.takarabako.data.repository.QuoteRepository
+import com.kotoba.takarabako.data.repository.WordRepository
+import com.kotoba.takarabako.util.AppRefreshBus
 import com.kotoba.takarabako.util.NotificationHelper
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -76,9 +79,12 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     fun refreshData() {
         viewModelScope.launch {
             _isRefreshing.value = true
-            kotlinx.coroutines.delay(1400)
+            QuoteRepository.getInstance(ctx).clearCache()
+            WordRepository.getInstance(ctx).clearCache()
+            kotlinx.coroutines.delay(600)
             val now = java.time.LocalDateTime.now().toString().take(16)
             dataStore.setLastUpdate(now)
+            AppRefreshBus.refresh()
             _isRefreshing.value = false
         }
     }

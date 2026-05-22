@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 
 class QuoteViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val repository = QuoteRepository(application)
+    private val repository = QuoteRepository.getInstance(application)
 
     private val _quotes = MutableStateFlow<List<Quote>>(emptyList())
     val quotes: StateFlow<List<Quote>> = _quotes

@@ -10,13 +10,21 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.time.LocalDate
 
-class QuoteRepository(private val context: Context) {
+class QuoteRepository private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile private var instance: QuoteRepository? = null
+        fun getInstance(context: Context): QuoteRepository =
+            instance ?: synchronized(this) { instance ?: QuoteRepository(context.applicationContext).also { instance = it } }
+    }
 
     private val db = AppDatabase.getInstance(context)
     private val dao = db.favoriteDao()
     private val gson = Gson()
 
-    private var cachedQuotes: List<Quote>? = null
+    @Volatile private var cachedQuotes: List<Quote>? = null
+
+    fun clearCache() { cachedQuotes = null }
 
     // Authors still under copyright — blocked regardless of data source
     private val blockedAuthors = setOf(

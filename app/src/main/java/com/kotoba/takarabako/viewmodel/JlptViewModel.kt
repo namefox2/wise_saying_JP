@@ -5,6 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.kotoba.takarabako.data.model.Word
 import com.kotoba.takarabako.data.repository.WordRepository
+import com.kotoba.takarabako.util.AppRefreshBus
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.launchIn
@@ -13,7 +14,7 @@ import kotlinx.coroutines.launch
 
 class JlptViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val repository = WordRepository(application)
+    private val repository = WordRepository.getInstance(application)
 
     private val _currentLevel = MutableStateFlow("all")
     val currentLevel: StateFlow<String> = _currentLevel
@@ -30,6 +31,7 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
     init {
         repository.getFavoriteIds().onEach { _likedWordIds.value = it }.launchIn(viewModelScope)
         setLevel("all")
+        AppRefreshBus.tick.onEach { if (it > 0) setLevel(_currentLevel.value) }.launchIn(viewModelScope)
     }
 
     fun setLevel(level: String) {
