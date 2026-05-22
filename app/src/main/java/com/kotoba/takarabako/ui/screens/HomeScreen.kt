@@ -50,6 +50,7 @@ fun HomeScreen(
     val colors = LocalAppColors.current
     val todayQuote by vm.todayQuote.collectAsState()
     val homeCatTab by vm.homeCatTab.collectAsState()
+    val categoryCounts by vm.categoryCounts.collectAsState()
 
     var quoteStepFurigana by remember { mutableStateOf(false) }
     var quoteStepKorean by remember { mutableStateOf(false) }
@@ -186,7 +187,7 @@ fun HomeScreen(
 
         // 카테고리 그리드
         if (homeCatTab == "quote") {
-            QuoteCategoryGrid(navController = navController)
+            QuoteCategoryGrid(navController = navController, categoryCounts = categoryCounts)
         } else {
             JlptLevelGrid(navController = navController)
         }
@@ -194,17 +195,17 @@ fun HomeScreen(
 }
 
 @Composable
-private fun QuoteCategoryGrid(navController: NavController) {
+private fun QuoteCategoryGrid(navController: NavController, categoryCounts: Map<String, Int>) {
     val colors = LocalAppColors.current
     val categories = listOf(
-        Triple("📚", "전체", "150"),
-        Triple("💪", "노력", ""),
-        Triple("🏆", "성공", ""),
-        Triple("❤️", "사랑", ""),
-        Triple("🌱", "인생", ""),
-        Triple("📖", "학습", ""),
-        Triple("🌸", "마음", ""),
-        Triple("✨", "기타", "")
+        Pair("📚", "전체"),
+        Pair("💪", "노력"),
+        Pair("🏆", "성공"),
+        Pair("❤️", "사랑"),
+        Pair("🌱", "인생"),
+        Pair("📖", "학습"),
+        Pair("🌸", "마음"),
+        Pair("✨", "기타")
     )
 
     LazyVerticalGrid(
@@ -213,7 +214,8 @@ private fun QuoteCategoryGrid(navController: NavController) {
         horizontalArrangement = Arrangement.spacedBy(8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(categories) { (icon, name, count) ->
+        items(categories) { (icon, name) ->
+            val count = categoryCounts[name]
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier
@@ -227,9 +229,11 @@ private fun QuoteCategoryGrid(navController: NavController) {
                 Text(text = icon, fontSize = 16.sp)
                 Column(modifier = Modifier.padding(start = 8.dp)) {
                     Text(text = name, fontSize = 12.sp, fontWeight = FontWeight.Bold, color = colors.text)
-                    if (count.isNotEmpty()) {
-                        Text(text = "${count}개", fontSize = 10.sp, color = colors.textDim)
-                    }
+                    Text(
+                        text = if (count != null) "${count}개" else "",
+                        fontSize = 10.sp,
+                        color = colors.textDim
+                    )
                 }
             }
         }

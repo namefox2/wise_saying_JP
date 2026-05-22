@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
@@ -43,7 +44,7 @@ fun BottomNavBar(navController: NavController) {
         NavItem("settings", "설정", Icons.Filled.Settings)
     )
 
-    Column {
+    Column(modifier = Modifier.navigationBarsPadding()) {
         Divider(color = colors.border2, thickness = 1.dp)
         Row(
             modifier = Modifier

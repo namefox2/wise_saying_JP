@@ -19,13 +19,28 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val _homeCatTab = MutableStateFlow("quote")
     val homeCatTab: StateFlow<String> = _homeCatTab
 
+    private val _categoryCounts = MutableStateFlow<Map<String, Int>>(emptyMap())
+    val categoryCounts: StateFlow<Map<String, Int>> = _categoryCounts
+
     init {
         loadTodayQuote()
+        loadCategoryCounts()
     }
 
     fun loadTodayQuote() {
         viewModelScope.launch {
             _todayQuote.value = repository.getTodayQuote()
+        }
+    }
+
+    private fun loadCategoryCounts() {
+        viewModelScope.launch {
+            val all = repository.getAll()
+            val cats = listOf("노력", "성공", "사랑", "인생", "학습", "마음", "기타")
+            _categoryCounts.value = buildMap {
+                put("전체", all.size)
+                cats.forEach { cat -> put(cat, all.count { it.cat == cat }) }
+            }
         }
     }
 
