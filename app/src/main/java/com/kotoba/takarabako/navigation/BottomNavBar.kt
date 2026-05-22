@@ -11,7 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.GridView
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Divider
 import androidx.compose.material3.Icon
@@ -38,7 +38,7 @@ fun BottomNavBar(navController: NavController) {
     val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
 
     val items = listOf(
-        NavItem("home", "홈", Icons.Filled.GridView),
+        NavItem("home", "홈", Icons.Filled.Home),
         NavItem("favorites", "즐겨찾기", Icons.Filled.Favorite),
         NavItem("settings", "설정", Icons.Filled.Settings)
     )
