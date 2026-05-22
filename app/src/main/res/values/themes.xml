@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.KotobaTakarabako" parent="android:Theme.Material.NoTitleBar" />
+    <style name="Theme.KotobaTakarabako" parent="Theme.AppCompat.Light.NoActionBar" />
 </resources>

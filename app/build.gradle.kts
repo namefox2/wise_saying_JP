@@ -63,6 +63,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.activity:activity-compose:1.9.2")
+    implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.compose.foundation:foundation")
     // Noto Serif JP: res/font/noto_serif_jp.ttf 추가 후 Type.kt 주석 해제
 
