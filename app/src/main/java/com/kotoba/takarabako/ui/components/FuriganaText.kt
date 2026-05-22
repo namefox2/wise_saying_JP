@@ -16,6 +16,7 @@ import androidx.compose.ui.text.PlatformTextStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.kotoba.takarabako.data.model.QuoteSegment
 import com.kotoba.takarabako.ui.theme.LocalAppColors
