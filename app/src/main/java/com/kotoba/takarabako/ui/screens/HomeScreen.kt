@@ -117,7 +117,6 @@ fun HomeScreen(
                 if (isCardExpanded) {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         StepBlock(
-                            stepNumber = "①",
                             label = "후리가나",
                             isOpen = quoteStepFurigana,
                             onToggle = { quoteStepFurigana = !quoteStepFurigana }
@@ -130,7 +129,6 @@ fun HomeScreen(
                             )
                         }
                         StepBlock(
-                            stepNumber = "②",
                             label = "한국어",
                             isOpen = quoteStepKorean,
                             onToggle = { quoteStepKorean = !quoteStepKorean }
