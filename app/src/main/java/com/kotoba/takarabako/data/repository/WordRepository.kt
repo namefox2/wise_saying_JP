@@ -16,7 +16,7 @@ class WordRepository private constructor(private val context: Context) {
 
     companion object {
         private const val BASE_URL =
-            "https://raw.githubusercontent.com/namefox2/wise_saying_jp/main/app/src/main/assets/data/"
+            "https://raw.githubusercontent.com/namefox2/wise_saying_jp/claude/store-release-prep-RhLsd/app/src/main/assets/data/"
 
         @Volatile private var instance: WordRepository? = null
         fun getInstance(context: Context): WordRepository =
@@ -39,7 +39,10 @@ class WordRepository private constructor(private val context: Context) {
 
     private val cache = mutableMapOf<String, List<Word>>()
 
-    fun clearCache() { cache.clear() }
+    fun clearCache() {
+        cache.clear()
+        levelFiles.values.forEach { localFile(it).delete() }
+    }
 
     private fun localFile(filename: String) = File(context.filesDir, filename)
 

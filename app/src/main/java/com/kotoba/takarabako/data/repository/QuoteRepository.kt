@@ -17,7 +17,7 @@ class QuoteRepository private constructor(private val context: Context) {
 
     companion object {
         private const val REMOTE_URL =
-            "https://raw.githubusercontent.com/namefox2/wise_saying_jp/main/app/src/main/assets/data/quotes.json"
+            "https://raw.githubusercontent.com/namefox2/wise_saying_jp/claude/store-release-prep-RhLsd/app/src/main/assets/data/quotes.json"
         private const val LOCAL_FILE = "quotes.json"
 
         @Volatile private var instance: QuoteRepository? = null
@@ -33,7 +33,10 @@ class QuoteRepository private constructor(private val context: Context) {
 
     @Volatile private var cachedQuotes: List<Quote>? = null
 
-    fun clearCache() { cachedQuotes = null }
+    fun clearCache() {
+        cachedQuotes = null
+        localFile().delete()
+    }
 
     private val blockedAuthors = setOf(
         "チャップリン",

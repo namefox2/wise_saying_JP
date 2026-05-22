@@ -1906,43 +1906,39 @@
   {
     "id": "q057",
     "cat": "사랑",
-    "kanji": "愛なき結婚あるところ、結婚なき愛がある。",
+    "kanji": "縁は異なもの味なもの。",
     "segments": [
       {
-        "kanji": "愛",
-        "reading": "あい"
+        "kanji": "縁",
+        "reading": "えん"
       },
       {
-        "kanji": "なき",
+        "kanji": "は",
         "reading": ""
       },
       {
-        "kanji": "結婚",
-        "reading": "けっこん"
+        "kanji": "異",
+        "reading": "こと"
       },
       {
-        "kanji": "あるところ、",
+        "kanji": "なもの",
         "reading": ""
       },
       {
-        "kanji": "結婚",
-        "reading": "けっこん"
+        "kanji": "味",
+        "reading": "あじ"
       },
       {
-        "kanji": "なき",
+        "kanji": "なもの",
         "reading": ""
       },
       {
-        "kanji": "愛",
-        "reading": "あい"
-      },
-      {
-        "kanji": "がある。",
+        "kanji": "。",
         "reading": ""
       }
     ],
-    "korean": "사랑 없는 결혼이 있는 곳에는 결혼 없는 사랑이 있다.",
-    "author": "フランクリン"
+    "korean": "인연이란 기묘하고도 묘한 것이다.",
+    "author": "ことわざ"
   },
   {
     "id": "q058",
@@ -2777,7 +2773,7 @@
       }
     ],
     "korean": "오늘 할 수 있는 일을 내일로 미루지 마라.",
-    "author": "フランクリン"
+    "author": "ことわざ"
   },
   {
     "id": "q081",
@@ -4163,35 +4159,39 @@
   {
     "id": "q118",
     "cat": "마음",
-    "kanji": "正直は最善の策。",
+    "kanji": "正直の頭に神宿る。",
     "segments": [
       {
         "kanji": "正直",
         "reading": "しょうじき"
       },
       {
-        "kanji": "は",
-        "reading": ""
-      },
-      {
-        "kanji": "最善",
-        "reading": "さいぜん"
-      },
-      {
         "kanji": "の",
         "reading": ""
       },
       {
-        "kanji": "策",
-        "reading": "さく"
+        "kanji": "頭",
+        "reading": "かしら"
       },
       {
-        "kanji": "。",
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "神",
+        "reading": "かみ"
+      },
+      {
+        "kanji": "宿",
+        "reading": "やど"
+      },
+      {
+        "kanji": "る。",
         "reading": ""
       }
     ],
-    "korean": "정직은 최선의 방책이다.",
-    "author": "フランクリン"
+    "korean": "정직한 자의 머리에 신이 깃든다.",
+    "author": "ことわざ"
   },
   {
     "id": "q119",
@@ -4869,43 +4869,35 @@
   {
     "id": "q140",
     "cat": "기타",
-    "kanji": "目には目を、歯には歯を。",
+    "kanji": "七転び八起き。",
     "segments": [
       {
-        "kanji": "目",
-        "reading": "め"
+        "kanji": "七",
+        "reading": "なな"
       },
       {
-        "kanji": "には",
+        "kanji": "転",
+        "reading": "ころ"
+      },
+      {
+        "kanji": "び",
         "reading": ""
       },
       {
-        "kanji": "目",
-        "reading": "め"
+        "kanji": "八",
+        "reading": "や"
       },
       {
-        "kanji": "を、",
-        "reading": ""
+        "kanji": "起",
+        "reading": "お"
       },
       {
-        "kanji": "歯",
-        "reading": "は"
-      },
-      {
-        "kanji": "には",
-        "reading": ""
-      },
-      {
-        "kanji": "歯",
-        "reading": "は"
-      },
-      {
-        "kanji": "を。",
+        "kanji": "き。",
         "reading": ""
       }
     ],
-    "korean": "눈에는 눈, 이에는 이.",
-    "author": "ハンムラビ法典"
+    "korean": "일곱 번 넘어져도 여덟 번 일어난다.",
+    "author": "ことわざ"
   },
   {
     "id": "q141",
@@ -4939,27 +4931,31 @@
   {
     "id": "q142",
     "cat": "기타",
-    "kanji": "時は金なり。",
+    "kanji": "光陰矢の如し。",
     "segments": [
       {
-        "kanji": "時",
-        "reading": "とき"
+        "kanji": "光陰",
+        "reading": "こういん"
       },
       {
-        "kanji": "は",
+        "kanji": "矢",
+        "reading": "や"
+      },
+      {
+        "kanji": "の",
         "reading": ""
       },
       {
-        "kanji": "金",
-        "reading": "かね"
+        "kanji": "如",
+        "reading": "ごと"
       },
       {
-        "kanji": "なり。",
+        "kanji": "し。",
         "reading": ""
       }
     ],
-    "korean": "시간은 돈이다.",
-    "author": "フランクリン"
+    "korean": "세월은 화살과 같다.",
+    "author": "ことわざ"
   },
   {
     "id": "q143",

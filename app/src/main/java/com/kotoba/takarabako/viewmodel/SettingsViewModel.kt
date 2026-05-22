@@ -109,11 +109,12 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
             _isRefreshing.value = true
             val quoteRepo = QuoteRepository.getInstance(ctx)
             val wordRepo = WordRepository.getInstance(ctx)
-            // Try online fetch; falls back gracefully if no network
-            val quoteFetched = quoteRepo.fetchAndSave()
-            val wordFetched = wordRepo.fetchAndSave()
-            if (!quoteFetched) quoteRepo.clearCache()
-            if (!wordFetched) wordRepo.clearCache()
+            // Always clear local cache files first so stale data is never used
+            quoteRepo.clearCache()
+            wordRepo.clearCache()
+            // Fetch fresh data online; if it fails, assets (updated) will be used
+            quoteRepo.fetchAndSave()
+            wordRepo.fetchAndSave()
             val now = java.time.LocalDateTime.now().toString().take(16)
             dataStore.setLastUpdate(now)
             AppRefreshBus.refresh()
