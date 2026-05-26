@@ -1,0 +1,57 @@
+[
+  {
+    "id": "n2_001",
+    "level": "N2",
+    "pos": "動詞",
+    "kanji": "妨げる",
+    "reading": "さまたげる",
+    "meaning": "방해하다",
+    "exampleKanji": "進歩を妨げる要因を取り除いた。",
+    "exampleReading": "しんぽをさまたげるよういんをとりのぞいた。",
+    "exampleKorean": "진보를 방해하는 요인을 제거했다."
+  },
+  {
+    "id": "n2_002",
+    "level": "N2",
+    "pos": "名詞",
+    "kanji": "傾向",
+    "reading": "けいこう",
+    "meaning": "경향",
+    "exampleKanji": "最近、この傾向が強まっている。",
+    "exampleReading": "さいきん、このけいこうがつよまっている。",
+    "exampleKorean": "최근 이 경향이 강해지고 있다."
+  },
+  {
+    "id": "n2_003",
+    "level": "N2",
+    "pos": "な形容詞",
+    "kanji": "曖昧",
+    "reading": "あいまい",
+    "meaning": "애매하다",
+    "exampleKanji": "曖昧な表現は避けてください。",
+    "exampleReading": "あいまいなひょうげんはさけてください。",
+    "exampleKorean": "애매한 표현은 삼가 주세요."
+  },
+  {
+    "id": "n2_004",
+    "level": "N2",
+    "pos": "動詞",
+    "kanji": "把握する",
+    "reading": "はあくする",
+    "meaning": "파악하다",
+    "exampleKanji": "状況を把握してから行動する。",
+    "exampleReading": "じょうきょうをはあくしてからこうどうする。",
+    "exampleKorean": "상황을 파악한 후 행동한다."
+  },
+  {
+    "id": "n2_005",
+    "level": "N2",
+    "pos": "名詞",
+    "kanji": "概念",
+    "reading": "がいねん",
+    "meaning": "개념",
+    "exampleKanji": "新しい概念を理解するのは難しい。",
+    "exampleReading": "あたらしいがいねんをりかいするのはむずかしい。",
+    "exampleKorean": "새로운 개념을 이해하는 것은 어렵다."
+  }
+]

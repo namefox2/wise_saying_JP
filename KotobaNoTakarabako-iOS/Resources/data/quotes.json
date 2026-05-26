@@ -1,0 +1,211 @@
+[
+  {
+    "id": "q001",
+    "cat": "노력",
+    "kanji": "努力は裏切らない",
+    "segments": [
+      { "text": "努力", "reading": "どりょく" },
+      { "text": "は", "reading": "" },
+      { "text": "裏切", "reading": "うらぎ" },
+      { "text": "らない", "reading": "" }
+    ],
+    "korean": "노력은 배신하지 않는다",
+    "author": "不明"
+  },
+  {
+    "id": "q002",
+    "cat": "노력",
+    "kanji": "千里の道も一歩から",
+    "segments": [
+      { "text": "千里", "reading": "せんり" },
+      { "text": "の", "reading": "" },
+      { "text": "道", "reading": "みち" },
+      { "text": "も", "reading": "" },
+      { "text": "一歩", "reading": "いっぽ" },
+      { "text": "から", "reading": "" }
+    ],
+    "korean": "천 리 길도 한 걸음부터",
+    "author": "老子"
+  },
+  {
+    "id": "q003",
+    "cat": "노력",
+    "kanji": "継続は力なり",
+    "segments": [
+      { "text": "継続", "reading": "けいぞく" },
+      { "text": "は", "reading": "" },
+      { "text": "力", "reading": "ちから" },
+      { "text": "なり", "reading": "" }
+    ],
+    "korean": "계속함이 힘이다",
+    "author": "不明"
+  },
+  {
+    "id": "q004",
+    "cat": "성공",
+    "kanji": "成功の秘訣は、諦めないことだ",
+    "segments": [
+      { "text": "成功", "reading": "せいこう" },
+      { "text": "の", "reading": "" },
+      { "text": "秘訣", "reading": "ひけつ" },
+      { "text": "は、", "reading": "" },
+      { "text": "諦", "reading": "あきら" },
+      { "text": "めないことだ", "reading": "" }
+    ],
+    "korean": "성공의 비결은 포기하지 않는 것이다",
+    "author": "不明"
+  },
+  {
+    "id": "q005",
+    "cat": "성공",
+    "kanji": "失敗は成功のもと",
+    "segments": [
+      { "text": "失敗", "reading": "しっぱい" },
+      { "text": "は", "reading": "" },
+      { "text": "成功", "reading": "せいこう" },
+      { "text": "のもと", "reading": "" }
+    ],
+    "korean": "실패는 성공의 어머니",
+    "author": "不明"
+  },
+  {
+    "id": "q006",
+    "cat": "사랑",
+    "kanji": "愛することは、愛されることよりも幸せだ",
+    "segments": [
+      { "text": "愛", "reading": "あい" },
+      { "text": "することは、", "reading": "" },
+      { "text": "愛", "reading": "あい" },
+      { "text": "されることよりも", "reading": "" },
+      { "text": "幸", "reading": "しあわ" },
+      { "text": "せだ", "reading": "" }
+    ],
+    "korean": "사랑하는 것은 사랑받는 것보다 행복하다",
+    "author": "不明"
+  },
+  {
+    "id": "q007",
+    "cat": "사랑",
+    "kanji": "愛は言葉ではなく、行動で示せ",
+    "segments": [
+      { "text": "愛", "reading": "あい" },
+      { "text": "は", "reading": "" },
+      { "text": "言葉", "reading": "ことば" },
+      { "text": "ではなく、", "reading": "" },
+      { "text": "行動", "reading": "こうどう" },
+      { "text": "で", "reading": "" },
+      { "text": "示", "reading": "しめ" },
+      { "text": "せ", "reading": "" }
+    ],
+    "korean": "사랑은 말이 아닌 행동으로 보여라",
+    "author": "不明"
+  },
+  {
+    "id": "q008",
+    "cat": "인생",
+    "kanji": "人生は一度きりだ",
+    "segments": [
+      { "text": "人生", "reading": "じんせい" },
+      { "text": "は", "reading": "" },
+      { "text": "一度", "reading": "いちど" },
+      { "text": "きりだ", "reading": "" }
+    ],
+    "korean": "인생은 한 번뿐이다",
+    "author": "不明"
+  },
+  {
+    "id": "q009",
+    "cat": "인생",
+    "kanji": "七転び八起き",
+    "segments": [
+      { "text": "七", "reading": "なな" },
+      { "text": "転", "reading": "ころ" },
+      { "text": "び", "reading": "" },
+      { "text": "八", "reading": "や" },
+      { "text": "起", "reading": "お" },
+      { "text": "き", "reading": "" }
+    ],
+    "korean": "칠전팔기 — 일곱 번 넘어져도 여덟 번 일어나라",
+    "author": "日本のことわざ"
+  },
+  {
+    "id": "q010",
+    "cat": "학습",
+    "kanji": "学ぶことをやめた時、教えることをやめなければならない",
+    "segments": [
+      { "text": "学", "reading": "まな" },
+      { "text": "ぶことをやめた", "reading": "" },
+      { "text": "時", "reading": "とき" },
+      { "text": "、", "reading": "" },
+      { "text": "教", "reading": "おし" },
+      { "text": "えることをやめなければならない", "reading": "" }
+    ],
+    "korean": "배우기를 멈출 때, 가르치기도 멈춰야 한다",
+    "author": "コメニウス"
+  },
+  {
+    "id": "q011",
+    "cat": "학습",
+    "kanji": "温故知新",
+    "segments": [
+      { "text": "温故", "reading": "おんこ" },
+      { "text": "知新", "reading": "ちしん" }
+    ],
+    "korean": "옛것을 익히고 새것을 안다",
+    "author": "孔子"
+  },
+  {
+    "id": "q012",
+    "cat": "마음",
+    "kanji": "心が変われば行動が変わる",
+    "segments": [
+      { "text": "心", "reading": "こころ" },
+      { "text": "が", "reading": "" },
+      { "text": "変", "reading": "か" },
+      { "text": "われば", "reading": "" },
+      { "text": "行動", "reading": "こうどう" },
+      { "text": "が", "reading": "" },
+      { "text": "変", "reading": "か" },
+      { "text": "わる", "reading": "" }
+    ],
+    "korean": "마음이 바뀌면 행동이 바뀐다",
+    "author": "不明"
+  },
+  {
+    "id": "q013",
+    "cat": "마음",
+    "kanji": "笑う門には福来たる",
+    "segments": [
+      { "text": "笑", "reading": "わら" },
+      { "text": "う", "reading": "" },
+      { "text": "門", "reading": "かど" },
+      { "text": "には", "reading": "" },
+      { "text": "福来", "reading": "ふくきた" },
+      { "text": "たる", "reading": "" }
+    ],
+    "korean": "웃는 집에 복이 온다",
+    "author": "日本のことわざ"
+  },
+  {
+    "id": "q014",
+    "cat": "기타",
+    "kanji": "一期一会",
+    "segments": [
+      { "text": "一期一会", "reading": "いちごいちえ" }
+    ],
+    "korean": "일생에 한 번의 만남 — 매 순간을 소중히 여겨라",
+    "author": "千利休"
+  },
+  {
+    "id": "q015",
+    "cat": "기타",
+    "kanji": "花より団子",
+    "segments": [
+      { "text": "花", "reading": "はな" },
+      { "text": "より", "reading": "" },
+      { "text": "団子", "reading": "だんご" }
+    ],
+    "korean": "꽃보다 경단 — 실속을 더 중요하게 여긴다",
+    "author": "日本のことわざ"
+  }
+]

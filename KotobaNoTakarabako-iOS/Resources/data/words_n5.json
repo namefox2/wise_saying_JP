@@ -1,0 +1,90 @@
+[
+  {
+    "id": "n5_001",
+    "level": "N5",
+    "pos": "名詞",
+    "kanji": "学校",
+    "reading": "がっこう",
+    "meaning": "학교",
+    "exampleKanji": "私は毎日学校へ行きます。",
+    "exampleReading": "わたしはまいにちがっこうへいきます。",
+    "exampleKorean": "나는 매일 학교에 갑니다."
+  },
+  {
+    "id": "n5_002",
+    "level": "N5",
+    "pos": "名詞",
+    "kanji": "先生",
+    "reading": "せんせい",
+    "meaning": "선생님",
+    "exampleKanji": "田中先生はやさしいです。",
+    "exampleReading": "たなかせんせいはやさしいです。",
+    "exampleKorean": "다나카 선생님은 친절합니다."
+  },
+  {
+    "id": "n5_003",
+    "level": "N5",
+    "pos": "名詞",
+    "kanji": "水",
+    "reading": "みず",
+    "meaning": "물",
+    "exampleKanji": "水を一杯ください。",
+    "exampleReading": "みずをいっぱいください。",
+    "exampleKorean": "물 한 잔 주세요."
+  },
+  {
+    "id": "n5_004",
+    "level": "N5",
+    "pos": "動詞",
+    "kanji": "食べる",
+    "reading": "たべる",
+    "meaning": "먹다",
+    "exampleKanji": "朝ご飯を食べましょう。",
+    "exampleReading": "あさごはんをたべましょう。",
+    "exampleKorean": "아침밥을 먹읍시다."
+  },
+  {
+    "id": "n5_005",
+    "level": "N5",
+    "pos": "動詞",
+    "kanji": "飲む",
+    "reading": "のむ",
+    "meaning": "마시다",
+    "exampleKanji": "お茶を飲みます。",
+    "exampleReading": "おちゃをのみます。",
+    "exampleKorean": "차를 마십니다."
+  },
+  {
+    "id": "n5_006",
+    "level": "N5",
+    "pos": "い形容詞",
+    "kanji": "大きい",
+    "reading": "おおきい",
+    "meaning": "크다",
+    "exampleKanji": "大きい犬がいます。",
+    "exampleReading": "おおきいいぬがいます。",
+    "exampleKorean": "큰 개가 있습니다."
+  },
+  {
+    "id": "n5_007",
+    "level": "N5",
+    "pos": "い形容詞",
+    "kanji": "小さい",
+    "reading": "ちいさい",
+    "meaning": "작다",
+    "exampleKanji": "小さい猫がかわいいです。",
+    "exampleReading": "ちいさいねこがかわいいです。",
+    "exampleKorean": "작은 고양이가 귀엽습니다."
+  },
+  {
+    "id": "n5_008",
+    "level": "N5",
+    "pos": "名詞",
+    "kanji": "時間",
+    "reading": "じかん",
+    "meaning": "시간",
+    "exampleKanji": "時間がありません。",
+    "exampleReading": "じかんがありません。",
+    "exampleKorean": "시간이 없습니다."
+  }
+]

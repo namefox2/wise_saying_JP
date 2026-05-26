@@ -1,0 +1,57 @@
+[
+  {
+    "id": "n3_001",
+    "level": "N3",
+    "pos": "動詞",
+    "kanji": "増える",
+    "reading": "ふえる",
+    "meaning": "늘다, 증가하다",
+    "exampleKanji": "利用者が増えています。",
+    "exampleReading": "りようしゃがふえています。",
+    "exampleKorean": "이용자가 늘고 있습니다."
+  },
+  {
+    "id": "n3_002",
+    "level": "N3",
+    "pos": "名詞",
+    "kanji": "原因",
+    "reading": "げんいん",
+    "meaning": "원인",
+    "exampleKanji": "事故の原因を調べています。",
+    "exampleReading": "じこのげんいんをしらべています。",
+    "exampleKorean": "사고의 원인을 조사하고 있습니다."
+  },
+  {
+    "id": "n3_003",
+    "level": "N3",
+    "pos": "な形容詞",
+    "kanji": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "복잡하다",
+    "exampleKanji": "この問題は複雑です。",
+    "exampleReading": "このもんだいはふくざつです。",
+    "exampleKorean": "이 문제는 복잡합니다."
+  },
+  {
+    "id": "n3_004",
+    "level": "N3",
+    "pos": "動詞",
+    "kanji": "比べる",
+    "reading": "くらべる",
+    "meaning": "비교하다",
+    "exampleKanji": "二つの商品を比べてみました。",
+    "exampleReading": "ふたつのしょうひんをくらべてみました。",
+    "exampleKorean": "두 상품을 비교해 보았습니다."
+  },
+  {
+    "id": "n3_005",
+    "level": "N3",
+    "pos": "名詞",
+    "kanji": "意見",
+    "reading": "いけん",
+    "meaning": "의견",
+    "exampleKanji": "あなたの意見を聞かせてください。",
+    "exampleReading": "あなたのいけんをきかせてください。",
+    "exampleKorean": "당신의 의견을 들려주세요."
+  }
+]

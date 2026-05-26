@@ -1,0 +1,57 @@
+[
+  {
+    "id": "n4_001",
+    "level": "N4",
+    "pos": "動詞",
+    "kanji": "決める",
+    "reading": "きめる",
+    "meaning": "결정하다",
+    "exampleKanji": "どこで食べるか決めましょう。",
+    "exampleReading": "どこでたべるかきめましょう。",
+    "exampleKorean": "어디서 먹을지 결정합시다."
+  },
+  {
+    "id": "n4_002",
+    "level": "N4",
+    "pos": "名詞",
+    "kanji": "経験",
+    "reading": "けいけん",
+    "meaning": "경험",
+    "exampleKanji": "いい経験になりました。",
+    "exampleReading": "いいけいけんになりました。",
+    "exampleKorean": "좋은 경험이 되었습니다."
+  },
+  {
+    "id": "n4_003",
+    "level": "N4",
+    "pos": "な形容詞",
+    "kanji": "便利",
+    "reading": "べんり",
+    "meaning": "편리하다",
+    "exampleKanji": "このアプリはとても便利です。",
+    "exampleReading": "このアプリはとてもべんりです。",
+    "exampleKorean": "이 앱은 매우 편리합니다."
+  },
+  {
+    "id": "n4_004",
+    "level": "N4",
+    "pos": "動詞",
+    "kanji": "連絡する",
+    "reading": "れんらくする",
+    "meaning": "연락하다",
+    "exampleKanji": "後で連絡します。",
+    "exampleReading": "あとでれんらくします。",
+    "exampleKorean": "나중에 연락하겠습니다."
+  },
+  {
+    "id": "n4_005",
+    "level": "N4",
+    "pos": "名詞",
+    "kanji": "予定",
+    "reading": "よてい",
+    "meaning": "예정",
+    "exampleKanji": "来週の予定は何ですか。",
+    "exampleReading": "らいしゅうのよていはなんですか。",
+    "exampleKorean": "다음 주 예정이 무엇입니까?"
+  }
+]

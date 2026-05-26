@@ -1,0 +1,57 @@
+[
+  {
+    "id": "n1_001",
+    "level": "N1",
+    "pos": "動詞",
+    "kanji": "翻弄する",
+    "reading": "ほんろうする",
+    "meaning": "농락하다, 휘두르다",
+    "exampleKanji": "運命に翻弄された人生だった。",
+    "exampleReading": "うんめいにほんろうされたじんせいだった。",
+    "exampleKorean": "운명에 농락당한 인생이었다."
+  },
+  {
+    "id": "n1_002",
+    "level": "N1",
+    "pos": "名詞",
+    "kanji": "醸成",
+    "reading": "じょうせい",
+    "meaning": "양성, 조성",
+    "exampleKanji": "信頼関係の醸成が大切だ。",
+    "exampleReading": "しんらいかんけいのじょうせいがたいせつだ。",
+    "exampleKorean": "신뢰 관계의 조성이 중요하다."
+  },
+  {
+    "id": "n1_003",
+    "level": "N1",
+    "pos": "な形容詞",
+    "kanji": "卓越",
+    "reading": "たくえつ",
+    "meaning": "탁월하다",
+    "exampleKanji": "彼女は卓越した才能を持っている。",
+    "exampleReading": "かのじょはたくえつしたさいのうをもっている。",
+    "exampleKorean": "그녀는 탁월한 재능을 가지고 있다."
+  },
+  {
+    "id": "n1_004",
+    "level": "N1",
+    "pos": "動詞",
+    "kanji": "凌駕する",
+    "reading": "りょうがする",
+    "meaning": "능가하다",
+    "exampleKanji": "想像を凌駕する結果が出た。",
+    "exampleReading": "そうぞうをりょうがするけっかがでた。",
+    "exampleKorean": "상상을 능가하는 결과가 나왔다."
+  },
+  {
+    "id": "n1_005",
+    "level": "N1",
+    "pos": "名詞",
+    "kanji": "齟齬",
+    "reading": "そご",
+    "meaning": "어긋남, 불일치",
+    "exampleKanji": "認識の齟齬が問題を引き起こした。",
+    "exampleReading": "にんしきのそごがもんだいをひきおこした。",
+    "exampleKorean": "인식의 불일치가 문제를 일으켰다."
+  }
+]
