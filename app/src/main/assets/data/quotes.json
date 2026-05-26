@@ -9058,5 +9058,2242 @@
     ],
     "korean": "짧은 시간도 가볍게 여기지 마라.",
     "author": "作者不詳"
+  },
+  {
+    "id": "q257",
+    "cat": "속담",
+    "kanji": "石橋を叩いて渡る。",
+    "segments": [
+      {
+        "kanji": "石橋",
+        "reading": "いしばし"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "叩いて",
+        "reading": "たたいて"
+      },
+      {
+        "kanji": "渡る",
+        "reading": "わたる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "돌다리도 두들겨 보고 건너라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q258",
+    "cat": "속담",
+    "kanji": "負けるが勝ち。",
+    "segments": [
+      {
+        "kanji": "負ける",
+        "reading": "まける"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "勝ち",
+        "reading": "かち"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "지는 것이 이기는 것.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q259",
+    "cat": "속담",
+    "kanji": "身から出た錆。",
+    "segments": [
+      {
+        "kanji": "身",
+        "reading": "み"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "出た",
+        "reading": "でた"
+      },
+      {
+        "kanji": "錆",
+        "reading": "さび"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "자업자득.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q260",
+    "cat": "속담",
+    "kanji": "縁の下の力持ち。",
+    "segments": [
+      {
+        "kanji": "縁",
+        "reading": "えん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "下",
+        "reading": "した"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "力持ち",
+        "reading": "ちからもち"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "음지에서 묵묵히 힘쓰는 사람.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q261",
+    "cat": "속담",
+    "kanji": "触らぬ神に祟りなし。",
+    "segments": [
+      {
+        "kanji": "触らぬ",
+        "reading": "さわらぬ"
+      },
+      {
+        "kanji": "神",
+        "reading": "かみ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "祟り",
+        "reading": "たたり"
+      },
+      {
+        "kanji": "なし。",
+        "reading": ""
+      }
+    ],
+    "korean": "긁어 부스럼 만들지 마라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q262",
+    "cat": "속담",
+    "kanji": "立つ鳥跡を濁さず。",
+    "segments": [
+      {
+        "kanji": "立つ",
+        "reading": "たつ"
+      },
+      {
+        "kanji": "鳥",
+        "reading": "とり"
+      },
+      {
+        "kanji": "跡",
+        "reading": "あと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "濁さず",
+        "reading": "にごさず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "떠나는 새는 뒤를 더럽히지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q263",
+    "cat": "속담",
+    "kanji": "灯台下暗し。",
+    "segments": [
+      {
+        "kanji": "灯台",
+        "reading": "とうだい"
+      },
+      {
+        "kanji": "下",
+        "reading": "もと"
+      },
+      {
+        "kanji": "暗し",
+        "reading": "くらし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "등잔 밑이 어둡다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q264",
+    "cat": "속담",
+    "kanji": "船頭多くして船山に登る。",
+    "segments": [
+      {
+        "kanji": "船頭",
+        "reading": "せんどう"
+      },
+      {
+        "kanji": "多くして",
+        "reading": "おおくして"
+      },
+      {
+        "kanji": "船",
+        "reading": "ふね"
+      },
+      {
+        "kanji": "山",
+        "reading": "やま"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "登る",
+        "reading": "のぼる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "사공이 많으면 배가 산으로 간다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q265",
+    "cat": "속담",
+    "kanji": "大器晩成。",
+    "segments": [
+      {
+        "kanji": "大器",
+        "reading": "たいき"
+      },
+      {
+        "kanji": "晩成",
+        "reading": "ばんせい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "대기만성.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q266",
+    "cat": "속담",
+    "kanji": "郷に入れば郷に従え。",
+    "segments": [
+      {
+        "kanji": "郷",
+        "reading": "ごう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "入れば",
+        "reading": "いれば"
+      },
+      {
+        "kanji": "郷",
+        "reading": "ごう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "従え",
+        "reading": "したがえ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "로마에 가면 로마법을 따르라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q267",
+    "cat": "속담",
+    "kanji": "一難去ってまた一難。",
+    "segments": [
+      {
+        "kanji": "一難",
+        "reading": "いちなん"
+      },
+      {
+        "kanji": "去って",
+        "reading": "さって"
+      },
+      {
+        "kanji": "また",
+        "reading": ""
+      },
+      {
+        "kanji": "一難",
+        "reading": "いちなん"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "한 고비가 지나면 또 한 고비.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q268",
+    "cat": "속담",
+    "kanji": "親の心子知らず。",
+    "segments": [
+      {
+        "kanji": "親",
+        "reading": "おや"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "子",
+        "reading": "こ"
+      },
+      {
+        "kanji": "知らず",
+        "reading": "しらず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "부모 마음을 자식은 모른다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q269",
+    "cat": "속담",
+    "kanji": "子は鎹。",
+    "segments": [
+      {
+        "kanji": "子",
+        "reading": "こ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "鎹",
+        "reading": "かすがい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "자식은 꺾쇠. (자식이 부부를 이어줌)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q270",
+    "cat": "속담",
+    "kanji": "泣き面に蜂。",
+    "segments": [
+      {
+        "kanji": "泣き面",
+        "reading": "なきつら"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "蜂",
+        "reading": "はち"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "설상가상.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q271",
+    "cat": "속담",
+    "kanji": "亀の甲より年の功。",
+    "segments": [
+      {
+        "kanji": "亀",
+        "reading": "かめ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "甲",
+        "reading": "こう"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "功",
+        "reading": "こう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "경험에서 오는 지혜가 더 낫다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q272",
+    "cat": "속담",
+    "kanji": "過ぎたるは猶及ばざるが如し。",
+    "segments": [
+      {
+        "kanji": "過ぎたる",
+        "reading": "すぎたる"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "猶",
+        "reading": "なお"
+      },
+      {
+        "kanji": "及ばざるが",
+        "reading": "およばざるが"
+      },
+      {
+        "kanji": "如し",
+        "reading": "ごとし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "지나침은 미치지 못함과 같다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q273",
+    "cat": "속담",
+    "kanji": "転ばぬ先の杖。",
+    "segments": [
+      {
+        "kanji": "転ばぬ",
+        "reading": "ころばぬ"
+      },
+      {
+        "kanji": "先",
+        "reading": "さき"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "杖",
+        "reading": "つえ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "넘어지기 전에 지팡이를 준비하라. (유비무환)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q274",
+    "cat": "속담",
+    "kanji": "暖簾に腕押し。",
+    "segments": [
+      {
+        "kanji": "暖簾",
+        "reading": "のれん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "腕押し",
+        "reading": "うでおし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "헛힘 쓰기. (효과 없는 행동)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q275",
+    "cat": "속담",
+    "kanji": "濡れ手で粟。",
+    "segments": [
+      {
+        "kanji": "濡れ手",
+        "reading": "ぬれて"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "粟",
+        "reading": "あわ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "젖은 손으로 조 잡기. (손쉽게 이득을 얻음)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q276",
+    "cat": "속담",
+    "kanji": "焼け石に水。",
+    "segments": [
+      {
+        "kanji": "焼け石",
+        "reading": "やけいし"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "水",
+        "reading": "みず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "임시방편. (미봉책)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q277",
+    "cat": "속담",
+    "kanji": "弘法は筆を選ばず。",
+    "segments": [
+      {
+        "kanji": "弘法",
+        "reading": "こうぼう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "筆",
+        "reading": "ふで"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "選ばず",
+        "reading": "えらばず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "명인은 도구를 탓하지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q278",
+    "cat": "속담",
+    "kanji": "腹が減っては戦はできぬ。",
+    "segments": [
+      {
+        "kanji": "腹",
+        "reading": "はら"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "減っては",
+        "reading": "へっては"
+      },
+      {
+        "kanji": "戦",
+        "reading": "いくさ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "できぬ。",
+        "reading": ""
+      }
+    ],
+    "korean": "배고프면 싸울 수 없다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q279",
+    "cat": "속담",
+    "kanji": "目は口ほどにものを言う。",
+    "segments": [
+      {
+        "kanji": "目",
+        "reading": "め"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "口",
+        "reading": "くち"
+      },
+      {
+        "kanji": "ほどに",
+        "reading": ""
+      },
+      {
+        "kanji": "ものを",
+        "reading": ""
+      },
+      {
+        "kanji": "言う",
+        "reading": "いう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "눈은 입만큼 말을 한다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q280",
+    "cat": "속담",
+    "kanji": "悪事千里を走る。",
+    "segments": [
+      {
+        "kanji": "悪事",
+        "reading": "あくじ"
+      },
+      {
+        "kanji": "千里",
+        "reading": "せんり"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "走る",
+        "reading": "はしる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "나쁜 소문은 천 리를 달린다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q281",
+    "cat": "속담",
+    "kanji": "人は見かけによらぬもの。",
+    "segments": [
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "見かけ",
+        "reading": "みかけ"
+      },
+      {
+        "kanji": "によらぬもの。",
+        "reading": ""
+      }
+    ],
+    "korean": "사람은 겉모습으로 판단할 수 없다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q282",
+    "cat": "속담",
+    "kanji": "寄らば大樹の陰。",
+    "segments": [
+      {
+        "kanji": "寄らば",
+        "reading": "よらば"
+      },
+      {
+        "kanji": "大樹",
+        "reading": "たいじゅ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "陰",
+        "reading": "かげ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "의지하려면 큰 나무 그늘로. (힘 있는 자에게 기댐)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q283",
+    "cat": "속담",
+    "kanji": "前車の轍を踏む。",
+    "segments": [
+      {
+        "kanji": "前車",
+        "reading": "ぜんしゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "轍",
+        "reading": "わだち"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "踏む",
+        "reading": "ふむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "앞 수레바퀴 자국을 밟는다. (같은 실수 반복)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q284",
+    "cat": "속담",
+    "kanji": "三日坊主。",
+    "segments": [
+      {
+        "kanji": "三日",
+        "reading": "みっか"
+      },
+      {
+        "kanji": "坊主",
+        "reading": "ぼうず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "작심삼일.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q285",
+    "cat": "속담",
+    "kanji": "因果応報。",
+    "segments": [
+      {
+        "kanji": "因果",
+        "reading": "いんが"
+      },
+      {
+        "kanji": "応報",
+        "reading": "おうほう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "인과응보.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q286",
+    "cat": "속담",
+    "kanji": "自業自得。",
+    "segments": [
+      {
+        "kanji": "自業",
+        "reading": "じごう"
+      },
+      {
+        "kanji": "自得",
+        "reading": "じとく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "자업자득.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q287",
+    "cat": "속담",
+    "kanji": "割れ鍋に綴じ蓋。",
+    "segments": [
+      {
+        "kanji": "割れ",
+        "reading": "われ"
+      },
+      {
+        "kanji": "鍋",
+        "reading": "なべ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "綴じ蓋",
+        "reading": "とじぶた"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "깨진 냄비에 맞는 뚜껑. (서로 어울리는 한 쌍)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q288",
+    "cat": "속담",
+    "kanji": "青は藍より出でて藍より青し。",
+    "segments": [
+      {
+        "kanji": "青",
+        "reading": "あお"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "藍",
+        "reading": "あい"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "出でて",
+        "reading": "いでて"
+      },
+      {
+        "kanji": "藍",
+        "reading": "あい"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "青し",
+        "reading": "あおし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "청출어람.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q289",
+    "cat": "속담",
+    "kanji": "十人十色。",
+    "segments": [
+      {
+        "kanji": "十人",
+        "reading": "じゅうにん"
+      },
+      {
+        "kanji": "十色",
+        "reading": "といろ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "십인십색. (사람마다 각자 다름)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q290",
+    "cat": "속담",
+    "kanji": "泥棒を捕らえて縄をなう。",
+    "segments": [
+      {
+        "kanji": "泥棒",
+        "reading": "どろぼう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "捕らえて",
+        "reading": "とらえて"
+      },
+      {
+        "kanji": "縄",
+        "reading": "なわ"
+      },
+      {
+        "kanji": "をなう。",
+        "reading": ""
+      }
+    ],
+    "korean": "소 잃고 외양간 고친다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q291",
+    "cat": "속담",
+    "kanji": "先手必勝。",
+    "segments": [
+      {
+        "kanji": "先手",
+        "reading": "せんて"
+      },
+      {
+        "kanji": "必勝",
+        "reading": "ひっしょう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "선수필승.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q292",
+    "cat": "속담",
+    "kanji": "一を聞いて十を知る。",
+    "segments": [
+      {
+        "kanji": "一",
+        "reading": "いち"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "聞いて",
+        "reading": "きいて"
+      },
+      {
+        "kanji": "十",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "知る",
+        "reading": "しる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "하나를 듣고 열을 안다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q293",
+    "cat": "속담",
+    "kanji": "他山の石。",
+    "segments": [
+      {
+        "kanji": "他山",
+        "reading": "たざん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "石",
+        "reading": "いし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "타산지석.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q294",
+    "cat": "속담",
+    "kanji": "同病相憐れむ。",
+    "segments": [
+      {
+        "kanji": "同病",
+        "reading": "どうびょう"
+      },
+      {
+        "kanji": "相",
+        "reading": "あい"
+      },
+      {
+        "kanji": "憐れむ",
+        "reading": "あわれむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "동병상련.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q295",
+    "cat": "속담",
+    "kanji": "切磋琢磨。",
+    "segments": [
+      {
+        "kanji": "切磋",
+        "reading": "せっさ"
+      },
+      {
+        "kanji": "琢磨",
+        "reading": "たくま"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "절차탁마.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q296",
+    "cat": "속담",
+    "kanji": "臥薪嘗胆。",
+    "segments": [
+      {
+        "kanji": "臥薪",
+        "reading": "がしん"
+      },
+      {
+        "kanji": "嘗胆",
+        "reading": "しょうたん"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "와신상담.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q297",
+    "cat": "속담",
+    "kanji": "水魚の交わり。",
+    "segments": [
+      {
+        "kanji": "水魚",
+        "reading": "すいぎょ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "交わり",
+        "reading": "まじわり"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "수어지교. (물과 물고기처럼 친밀한 관계)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q298",
+    "cat": "속담",
+    "kanji": "大山鳴動して鼠一匹。",
+    "segments": [
+      {
+        "kanji": "大山",
+        "reading": "たいざん"
+      },
+      {
+        "kanji": "鳴動",
+        "reading": "めいどう"
+      },
+      {
+        "kanji": "して",
+        "reading": ""
+      },
+      {
+        "kanji": "鼠",
+        "reading": "ねずみ"
+      },
+      {
+        "kanji": "一匹",
+        "reading": "いっぴき"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "태산명동에 서일필. (큰 소동이지만 결과는 미미)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q299",
+    "cat": "속담",
+    "kanji": "一年の計は元旦にあり。",
+    "segments": [
+      {
+        "kanji": "一年",
+        "reading": "いちねん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "計",
+        "reading": "けい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "元旦",
+        "reading": "がんたん"
+      },
+      {
+        "kanji": "にあり。",
+        "reading": ""
+      }
+    ],
+    "korean": "한 해의 계획은 새해 첫날에 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q300",
+    "cat": "속담",
+    "kanji": "旅は道連れ世は情け。",
+    "segments": [
+      {
+        "kanji": "旅",
+        "reading": "たび"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "道連れ",
+        "reading": "みちづれ"
+      },
+      {
+        "kanji": "世",
+        "reading": "よ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "情け",
+        "reading": "なさけ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "여행은 동행, 세상은 인정.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q301",
+    "cat": "속담",
+    "kanji": "災い転じて福となす。",
+    "segments": [
+      {
+        "kanji": "災い",
+        "reading": "わざわい"
+      },
+      {
+        "kanji": "転じて",
+        "reading": "てんじて"
+      },
+      {
+        "kanji": "福",
+        "reading": "ふく"
+      },
+      {
+        "kanji": "となす。",
+        "reading": ""
+      }
+    ],
+    "korean": "전화위복.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q302",
+    "cat": "속담",
+    "kanji": "初心忘るべからず。",
+    "segments": [
+      {
+        "kanji": "初心",
+        "reading": "しょしん"
+      },
+      {
+        "kanji": "忘る",
+        "reading": "わする"
+      },
+      {
+        "kanji": "べからず。",
+        "reading": ""
+      }
+    ],
+    "korean": "초심을 잊지 마라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q303",
+    "cat": "속담",
+    "kanji": "過ちては改むるに憚ることなかれ。",
+    "segments": [
+      {
+        "kanji": "過ちては",
+        "reading": "あやまちては"
+      },
+      {
+        "kanji": "改むる",
+        "reading": "あらたむる"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "憚る",
+        "reading": "はばかる"
+      },
+      {
+        "kanji": "ことなかれ。",
+        "reading": ""
+      }
+    ],
+    "korean": "잘못했으면 고치기를 주저하지 마라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q304",
+    "cat": "속담",
+    "kanji": "芸は身を助ける。",
+    "segments": [
+      {
+        "kanji": "芸",
+        "reading": "げい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "身",
+        "reading": "み"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "助ける",
+        "reading": "たすける"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "재주는 몸을 돕는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q305",
+    "cat": "속담",
+    "kanji": "一葉落ちて天下の秋を知る。",
+    "segments": [
+      {
+        "kanji": "一葉",
+        "reading": "いちよう"
+      },
+      {
+        "kanji": "落ちて",
+        "reading": "おちて"
+      },
+      {
+        "kanji": "天下",
+        "reading": "てんか"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "秋",
+        "reading": "あき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "知る",
+        "reading": "しる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "잎 하나 떨어짐으로 천하의 가을을 안다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q306",
+    "cat": "속담",
+    "kanji": "花は桜木、人は武士。",
+    "segments": [
+      {
+        "kanji": "花",
+        "reading": "はな"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "桜木",
+        "reading": "さくらぎ"
+      },
+      {
+        "kanji": "、人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "武士",
+        "reading": "ぶし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "꽃은 벚꽃, 사람은 무사. (가장 이상적인 것)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q307",
+    "cat": "속담",
+    "kanji": "臭いものに蓋をする。",
+    "segments": [
+      {
+        "kanji": "臭い",
+        "reading": "くさい"
+      },
+      {
+        "kanji": "ものに",
+        "reading": ""
+      },
+      {
+        "kanji": "蓋",
+        "reading": "ふた"
+      },
+      {
+        "kanji": "をする。",
+        "reading": ""
+      }
+    ],
+    "korean": "냄새나는 것에 뚜껑을 덮는다. (문제를 덮어두다)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q308",
+    "cat": "속담",
+    "kanji": "三十六計逃げるに如かず。",
+    "segments": [
+      {
+        "kanji": "三十六計",
+        "reading": "さんじゅうろっけい"
+      },
+      {
+        "kanji": "逃げるに",
+        "reading": "にげるに"
+      },
+      {
+        "kanji": "如かず",
+        "reading": "しかず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "36계 중 도망이 최상.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q309",
+    "cat": "속담",
+    "kanji": "心頭滅却すれば火もまた涼し。",
+    "segments": [
+      {
+        "kanji": "心頭",
+        "reading": "しんとう"
+      },
+      {
+        "kanji": "滅却",
+        "reading": "めっきゃく"
+      },
+      {
+        "kanji": "すれば",
+        "reading": ""
+      },
+      {
+        "kanji": "火",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "もまた",
+        "reading": ""
+      },
+      {
+        "kanji": "涼し",
+        "reading": "すずし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "마음을 비우면 불도 시원하다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q310",
+    "cat": "속담",
+    "kanji": "天網恢恢疎にして漏らさず。",
+    "segments": [
+      {
+        "kanji": "天網",
+        "reading": "てんもう"
+      },
+      {
+        "kanji": "恢恢",
+        "reading": "かいかい"
+      },
+      {
+        "kanji": "疎",
+        "reading": "そ"
+      },
+      {
+        "kanji": "にして",
+        "reading": ""
+      },
+      {
+        "kanji": "漏らさず",
+        "reading": "もらさず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "하늘의 그물은 성기어도 악을 빠뜨리지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q311",
+    "cat": "속담",
+    "kanji": "弱肉強食。",
+    "segments": [
+      {
+        "kanji": "弱肉",
+        "reading": "じゃくにく"
+      },
+      {
+        "kanji": "強食",
+        "reading": "きょうしょく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "약육강식.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q312",
+    "cat": "속담",
+    "kanji": "喜怒哀楽。",
+    "segments": [
+      {
+        "kanji": "喜怒",
+        "reading": "きど"
+      },
+      {
+        "kanji": "哀楽",
+        "reading": "あいらく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "희로애락.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q313",
+    "cat": "속담",
+    "kanji": "蛇の道は蛇。",
+    "segments": [
+      {
+        "kanji": "蛇",
+        "reading": "じゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "道",
+        "reading": "みち"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "蛇",
+        "reading": "じゃ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "뱀의 길은 뱀이 안다. (동류는 서로 안다)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q314",
+    "cat": "속담",
+    "kanji": "老いては子に従え。",
+    "segments": [
+      {
+        "kanji": "老いては",
+        "reading": "おいては"
+      },
+      {
+        "kanji": "子",
+        "reading": "こ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "従え",
+        "reading": "したがえ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "늙으면 자식에게 따르라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q315",
+    "cat": "속담",
+    "kanji": "習慣は第二の天性。",
+    "segments": [
+      {
+        "kanji": "習慣",
+        "reading": "しゅうかん"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "第二",
+        "reading": "だいに"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "天性",
+        "reading": "てんせい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "습관은 제2의 천성.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q316",
+    "cat": "속담",
+    "kanji": "親の背を見て子は育つ。",
+    "segments": [
+      {
+        "kanji": "親",
+        "reading": "おや"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "背",
+        "reading": "せ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "見て",
+        "reading": "みて"
+      },
+      {
+        "kanji": "子",
+        "reading": "こ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "育つ",
+        "reading": "そだつ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "부모의 뒷모습을 보며 자녀는 자란다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q317",
+    "cat": "속담",
+    "kanji": "七五三は人生の節目。",
+    "segments": [
+      {
+        "kanji": "七五三",
+        "reading": "しちごさん"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "節目",
+        "reading": "ふしめ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "시치고산은 인생의 고비.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q318",
+    "cat": "속담",
+    "kanji": "独り相撲。",
+    "segments": [
+      {
+        "kanji": "独り",
+        "reading": "ひとり"
+      },
+      {
+        "kanji": "相撲",
+        "reading": "ずもう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "혼자 씨름. (혼자 애쓰는 것)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q319",
+    "cat": "속담",
+    "kanji": "見ぬが花。",
+    "segments": [
+      {
+        "kanji": "見ぬ",
+        "reading": "みぬ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "花",
+        "reading": "はな"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "보지 않는 게 꽃. (현실은 기대에 못 미친다)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q320",
+    "cat": "속담",
+    "kanji": "七生報国。",
+    "segments": [
+      {
+        "kanji": "七生",
+        "reading": "しちしょう"
+      },
+      {
+        "kanji": "報国",
+        "reading": "ほうこく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "칠생보국. (몸을 바쳐 나라에 보답함)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q321",
+    "cat": "속담",
+    "kanji": "知彼知己百戦殆からず。",
+    "segments": [
+      {
+        "kanji": "知彼",
+        "reading": "ちひ"
+      },
+      {
+        "kanji": "知己",
+        "reading": "ちき"
+      },
+      {
+        "kanji": "百戦",
+        "reading": "ひゃくせん"
+      },
+      {
+        "kanji": "殆からず",
+        "reading": "あやうからず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "지피지기면 백전백승.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q322",
+    "cat": "속담",
+    "kanji": "山より大きな猪は出ない。",
+    "segments": [
+      {
+        "kanji": "山",
+        "reading": "やま"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "kanji": "猪",
+        "reading": "いのしし"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "出ない",
+        "reading": "でない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "산보다 큰 멧돼지는 없다. (능력을 넘는 것은 없다)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q323",
+    "cat": "속담",
+    "kanji": "何事も経験。",
+    "segments": [
+      {
+        "kanji": "何事",
+        "reading": "なにごと"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "経験",
+        "reading": "けいけん"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "모든 것이 경험이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q324",
+    "cat": "속담",
+    "kanji": "七転八倒。",
+    "segments": [
+      {
+        "kanji": "七転",
+        "reading": "しちてん"
+      },
+      {
+        "kanji": "八倒",
+        "reading": "はっとう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "칠전팔도. (극심한 고통으로 몸부림침)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q325",
+    "cat": "속담",
+    "kanji": "似た者夫婦。",
+    "segments": [
+      {
+        "kanji": "似た者",
+        "reading": "にたもの"
+      },
+      {
+        "kanji": "夫婦",
+        "reading": "ふうふ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "닮은 부부. (부부는 닮아간다)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q326",
+    "cat": "속담",
+    "kanji": "武士は食わねど高楊枝。",
+    "segments": [
+      {
+        "kanji": "武士",
+        "reading": "ぶし"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "食わねど",
+        "reading": "くわねど"
+      },
+      {
+        "kanji": "高楊枝",
+        "reading": "たかようじ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "무사는 굶어도 이쑤시개를 쓴다. (체면을 지킴)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q327",
+    "cat": "속담",
+    "kanji": "七度尋ねて人を疑え。",
+    "segments": [
+      {
+        "kanji": "七度",
+        "reading": "ななたび"
+      },
+      {
+        "kanji": "尋ねて",
+        "reading": "たずねて"
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "疑え",
+        "reading": "うたがえ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "일곱 번 찾아보고 나서 남을 의심하라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q328",
+    "cat": "속담",
+    "kanji": "遠慮なければ近憂あり。",
+    "segments": [
+      {
+        "kanji": "遠慮",
+        "reading": "えんりょ"
+      },
+      {
+        "kanji": "なければ",
+        "reading": ""
+      },
+      {
+        "kanji": "近憂",
+        "reading": "きんゆう"
+      },
+      {
+        "kanji": "あり。",
+        "reading": ""
+      }
+    ],
+    "korean": "장래를 생각하지 않으면 가까운 근심이 생긴다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q329",
+    "cat": "속담",
+    "kanji": "石に漱ぎ流れに枕す。",
+    "segments": [
+      {
+        "kanji": "石",
+        "reading": "いし"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "漱ぎ",
+        "reading": "くちすすぎ"
+      },
+      {
+        "kanji": "流れ",
+        "reading": "ながれ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "枕す",
+        "reading": "まくらす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "억지 이유를 들어 고집을 부리다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q330",
+    "cat": "속담",
+    "kanji": "一を以って万を知る。",
+    "segments": [
+      {
+        "kanji": "一",
+        "reading": "いつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "以って",
+        "reading": "もって"
+      },
+      {
+        "kanji": "万",
+        "reading": "よろず"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "知る",
+        "reading": "しる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "하나로 만 가지를 안다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q331",
+    "cat": "속담",
+    "kanji": "驕る平家は久しからず。",
+    "segments": [
+      {
+        "kanji": "驕る",
+        "reading": "おごる"
+      },
+      {
+        "kanji": "平家",
+        "reading": "へいけ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "久しからず",
+        "reading": "ひさしからず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "교만한 자는 오래가지 못한다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q332",
+    "cat": "속담",
+    "kanji": "長いものには巻かれろ。",
+    "segments": [
+      {
+        "kanji": "長い",
+        "reading": "ながい"
+      },
+      {
+        "kanji": "ものには",
+        "reading": ""
+      },
+      {
+        "kanji": "巻かれろ",
+        "reading": "まかれろ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "긴 것에는 감겨라. (강한 자에게는 따르는 것이 상책)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q333",
+    "cat": "속담",
+    "kanji": "二度あることは三度ある。",
+    "segments": [
+      {
+        "kanji": "二度",
+        "reading": "にど"
+      },
+      {
+        "kanji": "あること",
+        "reading": ""
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "三度",
+        "reading": "さんど"
+      },
+      {
+        "kanji": "ある。",
+        "reading": ""
+      }
+    ],
+    "korean": "두 번 있는 일은 세 번도 있다.",
+    "author": "作者不詳"
   }
 ]
