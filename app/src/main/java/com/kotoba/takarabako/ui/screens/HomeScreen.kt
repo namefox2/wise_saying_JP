@@ -225,6 +225,7 @@ private fun QuoteCategoryGrid(navController: NavController, categoryCounts: Map<
         Pair("🌱", "인생"),
         Pair("📖", "학습"),
         Pair("🌸", "마음"),
+        Pair("💬", "속담"),
         Pair("✨", "기타")
     )
 

@@ -4,9 +4,6 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.kotoba.takarabako.data.local.DataStoreManager
-import com.kotoba.takarabako.data.repository.QuoteRepository
-import com.kotoba.takarabako.data.repository.WordRepository
-import com.kotoba.takarabako.util.AppRefreshBus
 import com.kotoba.takarabako.util.NotificationHelper
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -29,12 +26,6 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private val _autoBlur = MutableStateFlow(false)
     val autoBlur: StateFlow<Boolean> = _autoBlur
 
-    private val _lastUpdated = MutableStateFlow("")
-    val lastUpdated: StateFlow<String> = _lastUpdated
-
-    private val _isRefreshing = MutableStateFlow(false)
-    val isRefreshing: StateFlow<Boolean> = _isRefreshing
-
     private val _fontScale = MutableStateFlow(1.0f)
     val fontScale: StateFlow<Float> = _fontScale
 
@@ -54,7 +45,6 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
         dataStore.theme.onEach { _currentTheme.value = it }.launchIn(viewModelScope)
         dataStore.notifyEnabled.onEach { _notifyEnabled.value = it }.launchIn(viewModelScope)
         dataStore.autoBlur.onEach { _autoBlur.value = it }.launchIn(viewModelScope)
-        dataStore.lastUpdate.onEach { _lastUpdated.value = it }.launchIn(viewModelScope)
         dataStore.fontScale.onEach { _fontScale.value = it }.launchIn(viewModelScope)
         dataStore.notifyHour.onEach { _notifyHour.value = it }.launchIn(viewModelScope)
         dataStore.notifyMinute.onEach { _notifyMinute.value = it }.launchIn(viewModelScope)
@@ -101,24 +91,6 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
             dataStore.setNotifyHour(hour)
             dataStore.setNotifyMinute(minute)
             if (_notifyEnabled.value) NotificationHelper.schedule(ctx, hour, minute)
-        }
-    }
-
-    fun refreshData() {
-        viewModelScope.launch {
-            _isRefreshing.value = true
-            val quoteRepo = QuoteRepository.getInstance(ctx)
-            val wordRepo = WordRepository.getInstance(ctx)
-            // Always clear local cache files first so stale data is never used
-            quoteRepo.clearCache()
-            wordRepo.clearCache()
-            // Fetch fresh data online; if it fails, assets (updated) will be used
-            quoteRepo.fetchAndSave()
-            wordRepo.fetchAndSave()
-            val now = java.time.LocalDateTime.now().toString().take(16)
-            dataStore.setLastUpdate(now)
-            AppRefreshBus.refresh()
-            _isRefreshing.value = false
         }
     }
 }

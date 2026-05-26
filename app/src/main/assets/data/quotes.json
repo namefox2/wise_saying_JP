@@ -8499,5 +8499,564 @@
     ],
     "korean": "백 번 듣는 것이 한 번 보는 것만 못하다.",
     "author": "作者不詳"
+  },
+  {
+    "id": "q238",
+    "cat": "속담",
+    "kanji": "雨降って地固まる。",
+    "segments": [
+      {
+        "kanji": "雨",
+        "reading": "あめ"
+      },
+      {
+        "kanji": "降って",
+        "reading": "ふって"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      },
+      {
+        "kanji": "固まる",
+        "reading": "かたまる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "비가 와야 땅이 굳는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q239",
+    "cat": "속담",
+    "kanji": "七つの海を渡る。",
+    "segments": [
+      {
+        "kanji": "七つ",
+        "reading": "ななつ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "海",
+        "reading": "うみ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "渡る",
+        "reading": "わたる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "칠 개의 바다를 건너다. (큰 도전을 함)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q240",
+    "cat": "속담",
+    "kanji": "七難八苦。",
+    "segments": [
+      {
+        "kanji": "七難",
+        "reading": "しちなん"
+      },
+      {
+        "kanji": "八苦",
+        "reading": "はっく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "온갖 고난과 고통.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q241",
+    "cat": "속담",
+    "kanji": "形見の品は心の支え。",
+    "segments": [
+      {
+        "kanji": "形見",
+        "reading": "かたみ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "品",
+        "reading": "しな"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "支え",
+        "reading": "ささえ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "유품은 마음의 버팀목.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q242",
+    "cat": "속담",
+    "kanji": "鶴の一声。",
+    "segments": [
+      {
+        "kanji": "鶴",
+        "reading": "つる"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "一声",
+        "reading": "ひとこえ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "학의 한 마디. (권위 있는 한 마디)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q243",
+    "cat": "속담",
+    "kanji": "能ある鷹は爪を隠す。",
+    "segments": [
+      {
+        "kanji": "能",
+        "reading": "のう"
+      },
+      {
+        "kanji": "ある",
+        "reading": ""
+      },
+      {
+        "kanji": "鷹",
+        "reading": "たか"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "爪",
+        "reading": "つめ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "隠す",
+        "reading": "かくす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "재주 있는 매는 발톱을 숨긴다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q244",
+    "cat": "속담",
+    "kanji": "蛙の子は蛙。",
+    "segments": [
+      {
+        "kanji": "蛙",
+        "reading": "かえる"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "子",
+        "reading": "こ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "蛙",
+        "reading": "かえる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "개구리 새끼는 개구리. (피는 못 속인다)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q245",
+    "cat": "속담",
+    "kanji": "類は友を呼ぶ。",
+    "segments": [
+      {
+        "kanji": "類",
+        "reading": "るい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "友",
+        "reading": "とも"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "呼ぶ",
+        "reading": "よぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "유유상종.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q246",
+    "cat": "속담",
+    "kanji": "三つ子の魂百まで。",
+    "segments": [
+      {
+        "kanji": "三つ子",
+        "reading": "みつご"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "魂",
+        "reading": "たましい"
+      },
+      {
+        "kanji": "百",
+        "reading": "ひゃく"
+      },
+      {
+        "kanji": "まで。",
+        "reading": ""
+      }
+    ],
+    "korean": "세 살 버릇 여든까지.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q247",
+    "cat": "속담",
+    "kanji": "水は方円の器に従う。",
+    "segments": [
+      {
+        "kanji": "水",
+        "reading": "みず"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "方円",
+        "reading": "ほうえん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "器",
+        "reading": "うつわ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "従う",
+        "reading": "したがう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "물은 그릇에 따라 모양이 달라진다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q248",
+    "cat": "속담",
+    "kanji": "好事魔多し。",
+    "segments": [
+      {
+        "kanji": "好事",
+        "reading": "こうじ"
+      },
+      {
+        "kanji": "魔",
+        "reading": "ま"
+      },
+      {
+        "kanji": "多し",
+        "reading": "おおし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "좋은 일에는 방해가 많다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q249",
+    "cat": "속담",
+    "kanji": "棚からぼた餅。",
+    "segments": [
+      {
+        "kanji": "棚",
+        "reading": "たな"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "ぼた餅",
+        "reading": "ぼたもち"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "선반에서 떡이 떨어진다. (뜻밖의 행운)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q250",
+    "cat": "속담",
+    "kanji": "柳の下にいつもどじょうはいない。",
+    "segments": [
+      {
+        "kanji": "柳",
+        "reading": "やなぎ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "下",
+        "reading": "した"
+      },
+      {
+        "kanji": "にいつも",
+        "reading": ""
+      },
+      {
+        "kanji": "どじょう",
+        "reading": ""
+      },
+      {
+        "kanji": "はいない。",
+        "reading": ""
+      }
+    ],
+    "korean": "버드나무 아래에 항상 미꾸라지가 있지는 않다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q251",
+    "cat": "속담",
+    "kanji": "鬼に金棒。",
+    "segments": [
+      {
+        "kanji": "鬼",
+        "reading": "おに"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "金棒",
+        "reading": "かなぼう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "도깨비에게 철봉. (강한 것에 더 힘을 더함)",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q252",
+    "cat": "속담",
+    "kanji": "終わりよければすべてよし。",
+    "segments": [
+      {
+        "kanji": "終わり",
+        "reading": "おわり"
+      },
+      {
+        "kanji": "よければ",
+        "reading": ""
+      },
+      {
+        "kanji": "すべてよし。",
+        "reading": ""
+      }
+    ],
+    "korean": "끝이 좋으면 모두 좋다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q253",
+    "cat": "속담",
+    "kanji": "嘘も方便。",
+    "segments": [
+      {
+        "kanji": "嘘",
+        "reading": "うそ"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "方便",
+        "reading": "ほうべん"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "거짓말도 방편.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q254",
+    "cat": "속담",
+    "kanji": "七光り。",
+    "segments": [
+      {
+        "kanji": "七光り",
+        "reading": "ななひかり"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "부모의 후광 덕을 봄.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q255",
+    "cat": "속담",
+    "kanji": "夜明け前が一番暗い。",
+    "segments": [
+      {
+        "kanji": "夜明け",
+        "reading": "よあけ"
+      },
+      {
+        "kanji": "前",
+        "reading": "まえ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "一番",
+        "reading": "いちばん"
+      },
+      {
+        "kanji": "暗い",
+        "reading": "くらい"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "새벽이 오기 직전이 가장 어둡다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q256",
+    "cat": "속담",
+    "kanji": "一寸の光陰軽んずべからず。",
+    "segments": [
+      {
+        "kanji": "一寸",
+        "reading": "いっすん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "光陰",
+        "reading": "こういん"
+      },
+      {
+        "kanji": "軽んず",
+        "reading": "かろんず"
+      },
+      {
+        "kanji": "べからず。",
+        "reading": ""
+      }
+    ],
+    "korean": "짧은 시간도 가볍게 여기지 마라.",
+    "author": "作者不詳"
   }
 ]

@@ -21,7 +21,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
@@ -56,8 +55,6 @@ fun SettingsScreen(
     val notifyEnabled by vm.notifyEnabled.collectAsState()
     val autoBlur by vm.autoBlur.collectAsState()
     val autoPlay by vm.autoPlay.collectAsState()
-    val lastUpdated by vm.lastUpdated.collectAsState()
-    val isRefreshing by vm.isRefreshing.collectAsState()
     val loginStreak by vm.loginStreak.collectAsState()
     val fontScale by vm.fontScale.collectAsState()
     val notifyHour by vm.notifyHour.collectAsState()
@@ -169,49 +166,6 @@ fun SettingsScreen(
                         color = if (isSelected) colors.accent else colors.textDim,
                         fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                     )
-                }
-            }
-        }
-
-        Spacer(modifier = Modifier.height(20.dp))
-
-        // 데이터
-        SectionHeader(title = "데이터")
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 16.dp)
-                .clip(RoundedCornerShape(14.dp))
-                .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(14.dp))
-                .background(colors.surface)
-        ) {
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 14.dp)
-            ) {
-                Text(text = "저장 용량", fontSize = 13.sp, color = colors.textMid, modifier = Modifier.weight(1f))
-                Text(text = "약 3~6 MB", fontSize = 12.sp, color = colors.textDim)
-            }
-            SettingsDivider(colors.border2)
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clickable { if (!isRefreshing) vm.refreshData() }
-                    .padding(horizontal = 16.dp, vertical = 14.dp)
-            ) {
-                Column(modifier = Modifier.weight(1f)) {
-                    Text(text = "데이터 새로고침", fontSize = 13.sp, color = colors.text)
-                    if (lastUpdated.isNotEmpty()) {
-                        Text(text = "마지막: $lastUpdated", fontSize = 10.sp, color = colors.textDim)
-                    }
-                }
-                if (isRefreshing) {
-                    CircularProgressIndicator(modifier = Modifier.size(18.dp), color = colors.accent, strokeWidth = 2.dp)
-                } else {
-                    Text(text = "↻", fontSize = 18.sp, color = colors.accent)
                 }
             }
         }
