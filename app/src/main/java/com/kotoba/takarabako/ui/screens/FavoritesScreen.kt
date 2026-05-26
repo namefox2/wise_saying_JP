@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -35,6 +36,7 @@ import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
+import com.kotoba.takarabako.util.authorDisplay
 import com.kotoba.takarabako.viewmodel.FavoritesViewModel
 
 @Composable
@@ -101,7 +103,7 @@ fun FavoritesScreen(
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.spacedBy(10.dp),
-                    contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp)
+                    contentPadding = PaddingValues(16.dp)
                 ) {
                     items(favQuotes, key = { it.id }) { quote ->
                         FavQuoteCard(quote = quote, onRemove = { vm.removeQuote(quote.id) })
@@ -115,7 +117,7 @@ fun FavoritesScreen(
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.spacedBy(10.dp),
-                    contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp)
+                    contentPadding = PaddingValues(16.dp)
                 ) {
                     items(favWords, key = { it.id }) { word ->
                         FavWordCard(word = word, onRemove = { vm.removeWord(word.id) })
@@ -171,7 +173,7 @@ private fun FavQuoteCard(quote: Quote, onRemove: () -> Unit) {
                 Text(text = quote.cat, fontSize = 9.sp, color = colors.accent)
             }
         }
-        Text(text = "— ${com.kotoba.takarabako.util.authorDisplay(quote.author)}", fontSize = 10.sp, color = colors.textDim,
+        Text(text = "— ${authorDisplay(quote.author)}", fontSize = 10.sp, color = colors.textDim,
             modifier = Modifier.padding(top = 4.dp))
     }
 }

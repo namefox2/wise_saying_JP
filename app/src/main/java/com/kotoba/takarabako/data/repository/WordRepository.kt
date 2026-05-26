@@ -6,18 +6,12 @@ import com.google.gson.reflect.TypeToken
 import com.kotoba.takarabako.data.local.AppDatabase
 import com.kotoba.takarabako.data.local.FavoriteEntity
 import com.kotoba.takarabako.data.model.Word
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.withContext
-import java.io.File
 
 class WordRepository private constructor(private val context: Context) {
 
     companion object {
-        private const val BASE_URL =
-            "https://raw.githubusercontent.com/namefox2/wise_saying_jp/claude/store-release-prep-RhLsd/app/src/main/assets/data/"
-
         @Volatile private var instance: WordRepository? = null
         fun getInstance(context: Context): WordRepository =
             instance ?: synchronized(this) {
@@ -39,43 +33,15 @@ class WordRepository private constructor(private val context: Context) {
 
     private val cache = mutableMapOf<String, List<Word>>()
 
-    fun clearCache() {
-        cache.clear()
-        levelFiles.values.forEach { localFile(it).delete() }
-    }
-
-    private fun localFile(filename: String) = File(context.filesDir, filename)
-
-    private fun readJson(level: String): String {
-        val filename = levelFiles[level] ?: return "[]"
-        val local = localFile(filename)
-        return if (local.exists()) local.readText()
-        else context.assets.open("data/$filename").bufferedReader().readText()
-    }
-
     fun getByLevel(level: String): List<Word> {
         if (level == "all") return getAll()
         cache[level]?.let { return it }
+        val filename = levelFiles[level] ?: return emptyList()
         val type = object : TypeToken<List<Word>>() {}.type
-        val words: List<Word> = gson.fromJson(readJson(level), type)
+        val json = context.assets.open("data/$filename").bufferedReader().readText()
+        val words: List<Word> = gson.fromJson(json, type)
         cache[level] = words
         return words
-    }
-
-    suspend fun fetchAndSave(): Boolean = withContext(Dispatchers.IO) {
-        var anySuccess = false
-        levelFiles.forEach { (_, filename) ->
-            try {
-                val json = java.net.URL("$BASE_URL$filename").openConnection().apply {
-                    connectTimeout = 8000
-                    readTimeout = 8000
-                }.getInputStream().bufferedReader().readText()
-                localFile(filename).writeText(json)
-                anySuccess = true
-            } catch (_: Exception) {}
-        }
-        if (anySuccess) clearCache()
-        anySuccess
     }
 
     fun getAll(): List<Word> = levelFiles.keys.flatMap { getByLevel(it) }

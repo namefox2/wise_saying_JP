@@ -20,7 +20,6 @@ class DataStoreManager(private val context: Context) {
         val THEME_KEY = stringPreferencesKey("theme")
         val NOTIFY_KEY = booleanPreferencesKey("notify")
         val AUTOBLUR_KEY = booleanPreferencesKey("auto_blur")
-        val LAST_UPDATE = stringPreferencesKey("last_update")
         val FONT_SCALE_KEY = floatPreferencesKey("font_scale")
         val NOTIFY_HOUR_KEY = intPreferencesKey("notify_hour")
         val NOTIFY_MINUTE_KEY = intPreferencesKey("notify_minute")
@@ -32,7 +31,6 @@ class DataStoreManager(private val context: Context) {
     val theme: Flow<String> = context.dataStore.data.map { it[THEME_KEY] ?: "gold" }
     val notifyEnabled: Flow<Boolean> = context.dataStore.data.map { it[NOTIFY_KEY] ?: true }
     val autoBlur: Flow<Boolean> = context.dataStore.data.map { it[AUTOBLUR_KEY] ?: false }
-    val lastUpdate: Flow<String> = context.dataStore.data.map { it[LAST_UPDATE] ?: "" }
     val fontScale: Flow<Float> = context.dataStore.data.map { it[FONT_SCALE_KEY] ?: 1.0f }
     val notifyHour: Flow<Int> = context.dataStore.data.map { it[NOTIFY_HOUR_KEY] ?: 9 }
     val notifyMinute: Flow<Int> = context.dataStore.data.map { it[NOTIFY_MINUTE_KEY] ?: 0 }

@@ -24,24 +24,19 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
     private val _likedIds = MutableStateFlow<Set<String>>(emptySet())
     val likedIds: StateFlow<Set<String>> = _likedIds
 
-    private var cardViewCount = 0
-
     init {
         repository.getFavoriteIds().onEach { _likedIds.value = it }.launchIn(viewModelScope)
     }
 
     fun loadByCategory(category: String) {
-        val list = repository.getByCategory(category).shuffled()
-        _quotes.value = list
+        _quotes.value = repository.getByCategory(category).shuffled()
         _currentIndex.value = 0
-        cardViewCount = 0
     }
 
     fun next() {
         val size = _quotes.value.size
         if (size == 0) return
         _currentIndex.value = (_currentIndex.value + 1) % size
-        cardViewCount++
     }
 
     fun prev() {
@@ -52,13 +47,8 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
 
     fun toggleLike(id: String) {
         viewModelScope.launch {
-            if (_likedIds.value.contains(id)) {
-                repository.removeFavorite(id)
-            } else {
-                repository.addFavorite(id)
-            }
+            if (_likedIds.value.contains(id)) repository.removeFavorite(id)
+            else repository.addFavorite(id)
         }
     }
-
-    fun shouldShowInterstitial(): Boolean = cardViewCount > 0 && cardViewCount % 10 == 0
 }
