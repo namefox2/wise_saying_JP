@@ -53,14 +53,17 @@ fun FuriganaText(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy((-4).dp)
             ) {
-                Text(
-                    text = segment.reading.ifEmpty { " " },
-                    fontSize = furiganaSize,
-                    lineHeight = furiganaSize,
-                    color = if (segment.reading.isEmpty()) Color.Transparent
-                            else colors.furigana.copy(alpha = furiganaAlpha),
-                    style = tightTextStyle
-                )
+                // 후리가나가 완전히 숨겨졌을 때는 DOM에서 제거해 드래그 선택 충돌 방지
+                if (furiganaAlpha > 0f) {
+                    Text(
+                        text = segment.reading.ifEmpty { " " },
+                        fontSize = furiganaSize,
+                        lineHeight = furiganaSize,
+                        color = if (segment.reading.isEmpty()) Color.Transparent
+                                else colors.furigana.copy(alpha = furiganaAlpha),
+                        style = tightTextStyle
+                    )
+                }
                 Text(
                     text = segment.kanji,
                     fontFamily = NotoSerifJP,
