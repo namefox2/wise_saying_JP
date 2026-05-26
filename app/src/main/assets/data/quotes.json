@@ -5232,5 +5232,3272 @@
     ],
     "korean": "살면 그곳이 도읍지. (정들면 고향)",
     "author": "ことわざ"
+  },
+  {
+    "id": "q151",
+    "cat": "노력",
+    "kanji": "努力は裏切らない。",
+    "segments": [
+      {
+        "kanji": "努力",
+        "reading": "どりょく"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "裏切らない",
+        "reading": "うらぎらない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "노력은 배신하지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q152",
+    "cat": "노력",
+    "kanji": "汗の分だけ花は咲く。",
+    "segments": [
+      {
+        "kanji": "汗",
+        "reading": "あせ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "だけ",
+        "reading": ""
+      },
+      {
+        "kanji": "花",
+        "reading": "はな"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "咲く",
+        "reading": "さく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "땀흘린 만큼 꽃은 핀다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q153",
+    "cat": "노력",
+    "kanji": "成功の秘訣は諦めないことだ。",
+    "segments": [
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "秘訣",
+        "reading": "ひけつ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "諦めない",
+        "reading": "あきらめない"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "성공의 비결은 포기하지 않는 것이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q154",
+    "cat": "노력",
+    "kanji": "一日一歩、三日で三歩。",
+    "segments": [
+      {
+        "kanji": "一日",
+        "reading": "いちにち"
+      },
+      {
+        "kanji": "一歩",
+        "reading": "いっぽ"
+      },
+      {
+        "kanji": "、三日",
+        "reading": "みっか"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "三歩",
+        "reading": "さんぽ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "하루에 한 걸음, 사흘에 세 걸음.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q155",
+    "cat": "노력",
+    "kanji": "努力する人は希望を語り、怠ける人は不満を語る。",
+    "segments": [
+      {
+        "kanji": "努力",
+        "reading": "どりょく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "希望",
+        "reading": "きぼう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "語り",
+        "reading": "かたり"
+      },
+      {
+        "kanji": "、怠ける",
+        "reading": "なまける"
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "不満",
+        "reading": "ふまん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "語る",
+        "reading": "かたる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "노력하는 사람은 희망을 말하고, 게으른 사람은 불만을 말한다.",
+    "author": "井上靖"
+  },
+  {
+    "id": "q156",
+    "cat": "노력",
+    "kanji": "努力なき天才より努力する凡人の方が勝る。",
+    "segments": [
+      {
+        "kanji": "努力",
+        "reading": "どりょく"
+      },
+      {
+        "kanji": "なき",
+        "reading": ""
+      },
+      {
+        "kanji": "天才",
+        "reading": "てんさい"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "努力",
+        "reading": "どりょく"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "凡人",
+        "reading": "ぼんじん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "勝る",
+        "reading": "まさる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "노력 없는 천재보다 노력하는 보통 사람이 낫다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q157",
+    "cat": "노력",
+    "kanji": "汗と涙の分だけ強くなれる。",
+    "segments": [
+      {
+        "kanji": "汗",
+        "reading": "あせ"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "涙",
+        "reading": "なみだ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "だけ",
+        "reading": ""
+      },
+      {
+        "kanji": "強く",
+        "reading": "つよく"
+      },
+      {
+        "kanji": "なれる。",
+        "reading": ""
+      }
+    ],
+    "korean": "땀과 눈물만큼 강해질 수 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q158",
+    "cat": "노력",
+    "kanji": "失敗から学べる者だけが成長できる。",
+    "segments": [
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "学べる",
+        "reading": "まなべる"
+      },
+      {
+        "kanji": "者",
+        "reading": "もの"
+      },
+      {
+        "kanji": "だけ",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "成長",
+        "reading": "せいちょう"
+      },
+      {
+        "kanji": "できる。",
+        "reading": ""
+      }
+    ],
+    "korean": "실패에서 배울 수 있는 자만이 성장할 수 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q159",
+    "cat": "노력",
+    "kanji": "挑戦しなければ何も始まらない。",
+    "segments": [
+      {
+        "kanji": "挑戦",
+        "reading": "ちょうせん"
+      },
+      {
+        "kanji": "しなければ",
+        "reading": ""
+      },
+      {
+        "kanji": "何",
+        "reading": "なに"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "始まらない",
+        "reading": "はじまらない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "도전하지 않으면 아무것도 시작되지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q160",
+    "cat": "노력",
+    "kanji": "今日の努力が明日の自分を作る。",
+    "segments": [
+      {
+        "kanji": "今日",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "努力",
+        "reading": "どりょく"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "明日",
+        "reading": "あした"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "自分",
+        "reading": "じぶん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "作る",
+        "reading": "つくる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "오늘의 노력이 내일의 나를 만든다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q161",
+    "cat": "인생",
+    "kanji": "人生は一度きりだ。",
+    "segments": [
+      {
+        "kanji": "人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "一度",
+        "reading": "いちど"
+      },
+      {
+        "kanji": "きりだ。",
+        "reading": ""
+      }
+    ],
+    "korean": "인생은 단 한 번뿐이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q162",
+    "cat": "인생",
+    "kanji": "生きているだけで丸儲けだ。",
+    "segments": [
+      {
+        "kanji": "生きている",
+        "reading": "いきている"
+      },
+      {
+        "kanji": "だけで",
+        "reading": ""
+      },
+      {
+        "kanji": "丸儲け",
+        "reading": "まるもうけ"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "살아있는 것만으로도 이득이다.",
+    "author": "明石家さんま"
+  },
+  {
+    "id": "q163",
+    "cat": "인생",
+    "kanji": "人生に失敗がないと、人生を失敗する。",
+    "segments": [
+      {
+        "kanji": "人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "がないと",
+        "reading": ""
+      },
+      {
+        "kanji": "、人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "する。",
+        "reading": ""
+      }
+    ],
+    "korean": "인생에 실패가 없으면, 인생을 실패한다.",
+    "author": "斎藤茂太"
+  },
+  {
+    "id": "q164",
+    "cat": "인생",
+    "kanji": "人生は短い、だから今を生きろ。",
+    "segments": [
+      {
+        "kanji": "人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "短い",
+        "reading": "みじかい"
+      },
+      {
+        "kanji": "、だから",
+        "reading": ""
+      },
+      {
+        "kanji": "今",
+        "reading": "いま"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "生きろ",
+        "reading": "いきろ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "인생은 짧다, 그러니 지금을 살아라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q165",
+    "cat": "인생",
+    "kanji": "昨日は過去、明日は未来、今日は贈り物だ。",
+    "segments": [
+      {
+        "kanji": "昨日",
+        "reading": "きのう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "過去",
+        "reading": "かこ"
+      },
+      {
+        "kanji": "、明日",
+        "reading": "あした"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "未来",
+        "reading": "みらい"
+      },
+      {
+        "kanji": "、今日",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "贈り物",
+        "reading": "おくりもの"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "어제는 과거, 내일은 미래, 오늘은 선물이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q166",
+    "cat": "인생",
+    "kanji": "山あり谷あり、それが人生だ。",
+    "segments": [
+      {
+        "kanji": "山",
+        "reading": "やま"
+      },
+      {
+        "kanji": "あり",
+        "reading": ""
+      },
+      {
+        "kanji": "谷",
+        "reading": "たに"
+      },
+      {
+        "kanji": "あり、それが",
+        "reading": ""
+      },
+      {
+        "kanji": "人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "산도 있고 골짜기도 있는 것이 인생이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q167",
+    "cat": "인생",
+    "kanji": "禍福は糾える縄の如し。",
+    "segments": [
+      {
+        "kanji": "禍福",
+        "reading": "かふく"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "糾える",
+        "reading": "あざなえる"
+      },
+      {
+        "kanji": "縄",
+        "reading": "なわ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "如し",
+        "reading": "ごとし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "화와 복은 꼰 새끼줄 같다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q168",
+    "cat": "인생",
+    "kanji": "人は生きた年数ではなく、生きた深さで評価される。",
+    "segments": [
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "生きた",
+        "reading": "いきた"
+      },
+      {
+        "kanji": "年数",
+        "reading": "ねんすう"
+      },
+      {
+        "kanji": "ではなく",
+        "reading": ""
+      },
+      {
+        "kanji": "、生きた",
+        "reading": "いきた"
+      },
+      {
+        "kanji": "深さ",
+        "reading": "ふかさ"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "評価",
+        "reading": "ひょうか"
+      },
+      {
+        "kanji": "される。",
+        "reading": ""
+      }
+    ],
+    "korean": "사람은 산 햇수가 아니라 산 깊이로 평가받는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q169",
+    "cat": "인생",
+    "kanji": "流れに逆らうな、流れを利用せよ。",
+    "segments": [
+      {
+        "kanji": "流れ",
+        "reading": "ながれ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "逆らうな",
+        "reading": "さからうな"
+      },
+      {
+        "kanji": "、流れを",
+        "reading": "ながれを"
+      },
+      {
+        "kanji": "利用",
+        "reading": "りよう"
+      },
+      {
+        "kanji": "せよ。",
+        "reading": ""
+      }
+    ],
+    "korean": "흐름을 거스르지 말고, 흐름을 이용하라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q170",
+    "cat": "인생",
+    "kanji": "生きるとは変化すること、変化するとは成熟すること。",
+    "segments": [
+      {
+        "kanji": "生きる",
+        "reading": "いきる"
+      },
+      {
+        "kanji": "とは",
+        "reading": ""
+      },
+      {
+        "kanji": "変化",
+        "reading": "へんか"
+      },
+      {
+        "kanji": "すること、",
+        "reading": ""
+      },
+      {
+        "kanji": "変化",
+        "reading": "へんか"
+      },
+      {
+        "kanji": "するとは",
+        "reading": ""
+      },
+      {
+        "kanji": "成熟",
+        "reading": "せいじゅく"
+      },
+      {
+        "kanji": "すること。",
+        "reading": ""
+      }
+    ],
+    "korean": "산다는 것은 변화하는 것, 변화한다는 것은 성숙하는 것.",
+    "author": "ベルクソン"
+  },
+  {
+    "id": "q171",
+    "cat": "인생",
+    "kanji": "人生の本当の失敗は、諦めることだ。",
+    "segments": [
+      {
+        "kanji": "人生",
+        "reading": "じんせい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "本当",
+        "reading": "ほんとう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "、諦めること",
+        "reading": "あきらめること"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "인생의 진짜 실패는 포기하는 것이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q172",
+    "cat": "성공",
+    "kanji": "成功とは失敗を重ねても情熱を失わないことだ。",
+    "segments": [
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "とは",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "重ねて",
+        "reading": "かさねて"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "情熱",
+        "reading": "じょうねつ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "失わない",
+        "reading": "うしなわない"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "성공이란 실패를 거듭해도 열정을 잃지 않는 것이다.",
+    "author": "チャーチル"
+  },
+  {
+    "id": "q173",
+    "cat": "성공",
+    "kanji": "成功は目標の継続にある。",
+    "segments": [
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "目標",
+        "reading": "もくひょう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "継続",
+        "reading": "けいぞく"
+      },
+      {
+        "kanji": "にある。",
+        "reading": ""
+      }
+    ],
+    "korean": "성공은 목표의 지속에 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q174",
+    "cat": "성공",
+    "kanji": "失敗は成功の母である。",
+    "segments": [
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "母",
+        "reading": "はは"
+      },
+      {
+        "kanji": "である。",
+        "reading": ""
+      }
+    ],
+    "korean": "실패는 성공의 어머니다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q175",
+    "cat": "성공",
+    "kanji": "成功の鍵は、準備と機会の出会いにある。",
+    "segments": [
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "鍵",
+        "reading": "かぎ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "、準備",
+        "reading": "じゅんび"
+      },
+      {
+        "kanji": "と",
+        "reading": ""
+      },
+      {
+        "kanji": "機会",
+        "reading": "きかい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "出会い",
+        "reading": "であい"
+      },
+      {
+        "kanji": "にある。",
+        "reading": ""
+      }
+    ],
+    "korean": "성공의 열쇠는 준비와 기회의 만남에 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q176",
+    "cat": "성공",
+    "kanji": "夢を持つことから成功は始まる。",
+    "segments": [
+      {
+        "kanji": "夢",
+        "reading": "ゆめ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "持つ",
+        "reading": "もつ"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "始まる",
+        "reading": "はじまる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "꿈을 갖는 것에서 성공은 시작된다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q177",
+    "cat": "성공",
+    "kanji": "高い志がなければ、高い山には登れない。",
+    "segments": [
+      {
+        "kanji": "高い",
+        "reading": "たかい"
+      },
+      {
+        "kanji": "志",
+        "reading": "こころざし"
+      },
+      {
+        "kanji": "がなければ",
+        "reading": ""
+      },
+      {
+        "kanji": "、高い",
+        "reading": "たかい"
+      },
+      {
+        "kanji": "山",
+        "reading": "やま"
+      },
+      {
+        "kanji": "には",
+        "reading": ""
+      },
+      {
+        "kanji": "登れない",
+        "reading": "のぼれない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "높은 뜻이 없으면 높은 산에 오를 수 없다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q178",
+    "cat": "성공",
+    "kanji": "成功する人は常に前向きだ。",
+    "segments": [
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "する",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "常",
+        "reading": "つね"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "前向き",
+        "reading": "まえむき"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "성공하는 사람은 항상 긍정적이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q179",
+    "cat": "성공",
+    "kanji": "結果は過程の中にある。",
+    "segments": [
+      {
+        "kanji": "結果",
+        "reading": "けっか"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "過程",
+        "reading": "かてい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "中",
+        "reading": "なか"
+      },
+      {
+        "kanji": "にある。",
+        "reading": ""
+      }
+    ],
+    "korean": "결과는 과정 속에 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q180",
+    "cat": "성공",
+    "kanji": "小さな成功が大きな自信を生む。",
+    "segments": [
+      {
+        "kanji": "小さな",
+        "reading": "ちいさな"
+      },
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "大きな",
+        "reading": "おおきな"
+      },
+      {
+        "kanji": "自信",
+        "reading": "じしん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "生む",
+        "reading": "うむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "작은 성공이 큰 자신감을 낳는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q181",
+    "cat": "성공",
+    "kanji": "諦めた時が本当の失敗だ。",
+    "segments": [
+      {
+        "kanji": "諦めた",
+        "reading": "あきらめた"
+      },
+      {
+        "kanji": "時",
+        "reading": "とき"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "本当",
+        "reading": "ほんとう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "포기할 때가 진짜 실패다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q182",
+    "cat": "성공",
+    "kanji": "成功の反対は失敗ではなく、何もしないことだ。",
+    "segments": [
+      {
+        "kanji": "成功",
+        "reading": "せいこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "反対",
+        "reading": "はんたい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "ではなく",
+        "reading": ""
+      },
+      {
+        "kanji": "、何",
+        "reading": "なに"
+      },
+      {
+        "kanji": "もしないこと",
+        "reading": ""
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "성공의 반대는 실패가 아니라 아무것도 하지 않는 것이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q183",
+    "cat": "성공",
+    "kanji": "一流の人は一流の失敗をする。",
+    "segments": [
+      {
+        "kanji": "一流",
+        "reading": "いちりゅう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "一流",
+        "reading": "いちりゅう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "をする。",
+        "reading": ""
+      }
+    ],
+    "korean": "일류 사람은 일류의 실패를 한다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q184",
+    "cat": "성공",
+    "kanji": "機会は準備された心にのみ訪れる。",
+    "segments": [
+      {
+        "kanji": "機会",
+        "reading": "きかい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "準備",
+        "reading": "じゅんび"
+      },
+      {
+        "kanji": "された",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "にのみ",
+        "reading": ""
+      },
+      {
+        "kanji": "訪れる",
+        "reading": "おとずれる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "기회는 준비된 마음에만 찾아온다.",
+    "author": "パスツール"
+  },
+  {
+    "id": "q185",
+    "cat": "성공",
+    "kanji": "勝負は時の運、勝って兜の緒を締めよ。",
+    "segments": [
+      {
+        "kanji": "勝負",
+        "reading": "しょうぶ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "時",
+        "reading": "とき"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "運",
+        "reading": "うん"
+      },
+      {
+        "kanji": "、勝って",
+        "reading": "かって"
+      },
+      {
+        "kanji": "兜",
+        "reading": "かぶと"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "緒",
+        "reading": "お"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "締めよ",
+        "reading": "しめよ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "승부는 때의 운, 이겼을 때 투구 끈을 조여라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q186",
+    "cat": "성공",
+    "kanji": "上を向いて歩こう。",
+    "segments": [
+      {
+        "kanji": "上",
+        "reading": "うえ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "向いて",
+        "reading": "むいて"
+      },
+      {
+        "kanji": "歩こう",
+        "reading": "あるこう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "위를 향해 걷자.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q187",
+    "cat": "마음",
+    "kanji": "心が変われば行動が変わる。",
+    "segments": [
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "変われば",
+        "reading": "かわれば"
+      },
+      {
+        "kanji": "行動",
+        "reading": "こうどう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "変わる",
+        "reading": "かわる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "마음이 바뀌면 행동이 바뀐다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q188",
+    "cat": "마음",
+    "kanji": "穏やかな心が人を幸せにする。",
+    "segments": [
+      {
+        "kanji": "穏やか",
+        "reading": "おだやか"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "幸せ",
+        "reading": "しあわせ"
+      },
+      {
+        "kanji": "にする。",
+        "reading": ""
+      }
+    ],
+    "korean": "평온한 마음이 사람을 행복하게 한다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q189",
+    "cat": "마음",
+    "kanji": "感謝の心を持てば幸福になれる。",
+    "segments": [
+      {
+        "kanji": "感謝",
+        "reading": "かんしゃ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "持てば",
+        "reading": "もてば"
+      },
+      {
+        "kanji": "幸福",
+        "reading": "こうふく"
+      },
+      {
+        "kanji": "になれる。",
+        "reading": ""
+      }
+    ],
+    "korean": "감사하는 마음을 가지면 행복해질 수 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q190",
+    "cat": "마음",
+    "kanji": "怒りは百害あって一利なし。",
+    "segments": [
+      {
+        "kanji": "怒り",
+        "reading": "いかり"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "百害",
+        "reading": "ひゃくがい"
+      },
+      {
+        "kanji": "あって",
+        "reading": ""
+      },
+      {
+        "kanji": "一利",
+        "reading": "いちり"
+      },
+      {
+        "kanji": "なし。",
+        "reading": ""
+      }
+    ],
+    "korean": "화는 백해무익이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q191",
+    "cat": "마음",
+    "kanji": "心の平和は心の中から来る。",
+    "segments": [
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "平和",
+        "reading": "へいわ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "中",
+        "reading": "なか"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "来る",
+        "reading": "くる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "마음의 평화는 마음속에서 온다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q192",
+    "cat": "마음",
+    "kanji": "笑顔は心の鏡だ。",
+    "segments": [
+      {
+        "kanji": "笑顔",
+        "reading": "えがお"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "鏡",
+        "reading": "かがみ"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "웃는 얼굴은 마음의 거울이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q193",
+    "cat": "마음",
+    "kanji": "悲しみは雨のように降り注ぐが、必ず晴れる。",
+    "segments": [
+      {
+        "kanji": "悲しみ",
+        "reading": "かなしみ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "雨",
+        "reading": "あめ"
+      },
+      {
+        "kanji": "のように",
+        "reading": ""
+      },
+      {
+        "kanji": "降り注ぐ",
+        "reading": "ふりそそぐ"
+      },
+      {
+        "kanji": "が、必ず",
+        "reading": "かならず"
+      },
+      {
+        "kanji": "晴れる",
+        "reading": "はれる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "슬픔은 비처럼 내리지만 반드시 갠다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q194",
+    "cat": "마음",
+    "kanji": "感情に流されず、理性で判断せよ。",
+    "segments": [
+      {
+        "kanji": "感情",
+        "reading": "かんじょう"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "流されず",
+        "reading": "ながされず"
+      },
+      {
+        "kanji": "、理性",
+        "reading": "りせい"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "判断",
+        "reading": "はんだん"
+      },
+      {
+        "kanji": "せよ。",
+        "reading": ""
+      }
+    ],
+    "korean": "감정에 휩쓸리지 말고 이성으로 판단하라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q195",
+    "cat": "마음",
+    "kanji": "恐れは心の牢獄だ。",
+    "segments": [
+      {
+        "kanji": "恐れ",
+        "reading": "おそれ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "牢獄",
+        "reading": "ろうごく"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "두려움은 마음의 감옥이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q196",
+    "cat": "마음",
+    "kanji": "喜ぶ心が癒しをもたらす。",
+    "segments": [
+      {
+        "kanji": "喜ぶ",
+        "reading": "よろこぶ"
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "癒し",
+        "reading": "いやし"
+      },
+      {
+        "kanji": "をもたらす。",
+        "reading": ""
+      }
+    ],
+    "korean": "기쁜 마음이 치유를 가져온다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q197",
+    "cat": "마음",
+    "kanji": "心の豊かさは物より大切だ。",
+    "segments": [
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "豊か",
+        "reading": "ゆたか"
+      },
+      {
+        "kanji": "さは",
+        "reading": ""
+      },
+      {
+        "kanji": "物",
+        "reading": "もの"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "大切",
+        "reading": "たいせつ"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "마음의 풍요로움이 물질보다 중요하다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q198",
+    "cat": "마음",
+    "kanji": "自分の感情を知ることが第一歩だ。",
+    "segments": [
+      {
+        "kanji": "自分",
+        "reading": "じぶん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "感情",
+        "reading": "かんじょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "知る",
+        "reading": "しる"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "第一歩",
+        "reading": "だいいっぽ"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "자신의 감정을 아는 것이 첫 걸음이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q199",
+    "cat": "마음",
+    "kanji": "心の余裕が人を大きくする。",
+    "segments": [
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "余裕",
+        "reading": "よゆう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "大きく",
+        "reading": "おおきく"
+      },
+      {
+        "kanji": "する。",
+        "reading": ""
+      }
+    ],
+    "korean": "마음의 여유가 사람을 크게 만든다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q200",
+    "cat": "마음",
+    "kanji": "迷ったときは初心に返れ。",
+    "segments": [
+      {
+        "kanji": "迷った",
+        "reading": "まよった"
+      },
+      {
+        "kanji": "ときは",
+        "reading": ""
+      },
+      {
+        "kanji": "初心",
+        "reading": "しょしん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "返れ",
+        "reading": "かえれ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "망설여질 때는 초심으로 돌아가라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q201",
+    "cat": "마음",
+    "kanji": "謙虚な心が人を導く。",
+    "segments": [
+      {
+        "kanji": "謙虚",
+        "reading": "けんきょ"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "導く",
+        "reading": "みちびく"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "겸손한 마음이 사람을 이끈다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q202",
+    "cat": "사랑",
+    "kanji": "愛するとは相手の幸せを願うことだ。",
+    "segments": [
+      {
+        "kanji": "愛する",
+        "reading": "あいする"
+      },
+      {
+        "kanji": "とは",
+        "reading": ""
+      },
+      {
+        "kanji": "相手",
+        "reading": "あいて"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "幸せ",
+        "reading": "しあわせ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "願う",
+        "reading": "ねがう"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑한다는 것은 상대방의 행복을 바라는 것이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q203",
+    "cat": "사랑",
+    "kanji": "愛は言葉より行動で示す。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "言葉",
+        "reading": "ことば"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "行動",
+        "reading": "こうどう"
+      },
+      {
+        "kanji": "で",
+        "reading": ""
+      },
+      {
+        "kanji": "示す",
+        "reading": "しめす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑은 말보다 행동으로 보여준다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q204",
+    "cat": "사랑",
+    "kanji": "真の愛は変わらない。",
+    "segments": [
+      {
+        "kanji": "真",
+        "reading": "しん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "変わらない",
+        "reading": "かわらない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "진정한 사랑은 변하지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q205",
+    "cat": "사랑",
+    "kanji": "愛があれば距離は問題にならない。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "があれば",
+        "reading": ""
+      },
+      {
+        "kanji": "距離",
+        "reading": "きょり"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "kanji": "にならない。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑이 있으면 거리는 문제가 되지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q206",
+    "cat": "사랑",
+    "kanji": "愛の反対は無関心だ。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "反対",
+        "reading": "はんたい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "無関心",
+        "reading": "むかんしん"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑의 반대는 무관심이다.",
+    "author": "マザーテレサ"
+  },
+  {
+    "id": "q207",
+    "cat": "사랑",
+    "kanji": "愛は受け取るよりも与えることにある。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "受け取る",
+        "reading": "うけとる"
+      },
+      {
+        "kanji": "よりも",
+        "reading": ""
+      },
+      {
+        "kanji": "与える",
+        "reading": "あたえる"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "にある。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑은 받는 것보다 주는 것에 있다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q208",
+    "cat": "사랑",
+    "kanji": "愛することは相手を理解することだ。",
+    "segments": [
+      {
+        "kanji": "愛する",
+        "reading": "あいする"
+      },
+      {
+        "kanji": "ことは",
+        "reading": ""
+      },
+      {
+        "kanji": "相手",
+        "reading": "あいて"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "理解",
+        "reading": "りかい"
+      },
+      {
+        "kanji": "すること",
+        "reading": ""
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑하는 것은 상대를 이해하는 것이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q209",
+    "cat": "사랑",
+    "kanji": "愛は小さなことから始まる。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "小さな",
+        "reading": "ちいさな"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "始まる",
+        "reading": "はじまる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑은 작은 것에서 시작된다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q210",
+    "cat": "사랑",
+    "kanji": "愛とは忍耐である。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "とは",
+        "reading": ""
+      },
+      {
+        "kanji": "忍耐",
+        "reading": "にんたい"
+      },
+      {
+        "kanji": "である。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑이란 인내이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q211",
+    "cat": "사랑",
+    "kanji": "人を愛することで自分も成長する。",
+    "segments": [
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "愛する",
+        "reading": "あいする"
+      },
+      {
+        "kanji": "ことで",
+        "reading": ""
+      },
+      {
+        "kanji": "自分",
+        "reading": "じぶん"
+      },
+      {
+        "kanji": "も",
+        "reading": ""
+      },
+      {
+        "kanji": "成長",
+        "reading": "せいちょう"
+      },
+      {
+        "kanji": "する。",
+        "reading": ""
+      }
+    ],
+    "korean": "사람을 사랑함으로써 자신도 성장한다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q212",
+    "cat": "사랑",
+    "kanji": "愛されるより愛する方が幸せだ。",
+    "segments": [
+      {
+        "kanji": "愛される",
+        "reading": "あいされる"
+      },
+      {
+        "kanji": "より",
+        "reading": ""
+      },
+      {
+        "kanji": "愛する",
+        "reading": "あいする"
+      },
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "幸せ",
+        "reading": "しあわせ"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑받는 것보다 사랑하는 것이 더 행복하다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q213",
+    "cat": "사랑",
+    "kanji": "愛は奇跡を起こす。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "奇跡",
+        "reading": "きせき"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "起こす",
+        "reading": "おこす"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑은 기적을 일으킨다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q214",
+    "cat": "사랑",
+    "kanji": "愛は心を豊かにする。",
+    "segments": [
+      {
+        "kanji": "愛",
+        "reading": "あい"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "豊か",
+        "reading": "ゆたか"
+      },
+      {
+        "kanji": "にする。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑은 마음을 풍요롭게 한다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q215",
+    "cat": "사랑",
+    "kanji": "愛する人のために最善を尽くせ。",
+    "segments": [
+      {
+        "kanji": "愛する",
+        "reading": "あいする"
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "ために",
+        "reading": ""
+      },
+      {
+        "kanji": "最善",
+        "reading": "さいぜん"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "尽くせ",
+        "reading": "つくせ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "사랑하는 사람을 위해 최선을 다하라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q216",
+    "cat": "학습",
+    "kanji": "知ることは学ぶことの始まりだ。",
+    "segments": [
+      {
+        "kanji": "知る",
+        "reading": "しる"
+      },
+      {
+        "kanji": "ことは",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "始まり",
+        "reading": "はじまり"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "아는 것은 배움의 시작이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q217",
+    "cat": "학습",
+    "kanji": "読書は心の糧だ。",
+    "segments": [
+      {
+        "kanji": "読書",
+        "reading": "どくしょ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "糧",
+        "reading": "かて"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "독서는 마음의 양식이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q218",
+    "cat": "학습",
+    "kanji": "問うことを恐れるな、知ることを恐れよ。",
+    "segments": [
+      {
+        "kanji": "問う",
+        "reading": "とう"
+      },
+      {
+        "kanji": "ことを",
+        "reading": ""
+      },
+      {
+        "kanji": "恐れるな",
+        "reading": "おそれるな"
+      },
+      {
+        "kanji": "、知る",
+        "reading": "しる"
+      },
+      {
+        "kanji": "ことを",
+        "reading": ""
+      },
+      {
+        "kanji": "恐れよ",
+        "reading": "おそれよ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "묻기를 두려워하지 말고, 모르기를 두려워하라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q219",
+    "cat": "학습",
+    "kanji": "学んで思わざれば則ち罔し。",
+    "segments": [
+      {
+        "kanji": "学んで",
+        "reading": "まなんで"
+      },
+      {
+        "kanji": "思わざれば",
+        "reading": "おもわざれば"
+      },
+      {
+        "kanji": "則ち",
+        "reading": "すなわち"
+      },
+      {
+        "kanji": "罔し",
+        "reading": "くらし"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "배우고 생각하지 않으면 헛된 것이다.",
+    "author": "孔子"
+  },
+  {
+    "id": "q220",
+    "cat": "학습",
+    "kanji": "教えることは二度学ぶことだ。",
+    "segments": [
+      {
+        "kanji": "教える",
+        "reading": "おしえる"
+      },
+      {
+        "kanji": "ことは",
+        "reading": ""
+      },
+      {
+        "kanji": "二度",
+        "reading": "にど"
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "가르치는 것은 두 번 배우는 것이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q221",
+    "cat": "학습",
+    "kanji": "無知の知こそが真の知恵だ。",
+    "segments": [
+      {
+        "kanji": "無知",
+        "reading": "むち"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "知",
+        "reading": "ち"
+      },
+      {
+        "kanji": "こそ",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "真",
+        "reading": "しん"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "知恵",
+        "reading": "ちえ"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "무지를 아는 것이야말로 진정한 지혜다.",
+    "author": "ソクラテス"
+  },
+  {
+    "id": "q222",
+    "cat": "학습",
+    "kanji": "学ぶのに遅すぎることはない。",
+    "segments": [
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "のに",
+        "reading": ""
+      },
+      {
+        "kanji": "遅すぎる",
+        "reading": "おそすぎる"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "はない。",
+        "reading": ""
+      }
+    ],
+    "korean": "배우는 데 늦은 때는 없다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q223",
+    "cat": "학습",
+    "kanji": "失敗から学ぶことが最高の授業だ。",
+    "segments": [
+      {
+        "kanji": "失敗",
+        "reading": "しっぱい"
+      },
+      {
+        "kanji": "から",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "最高",
+        "reading": "さいこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "授業",
+        "reading": "じゅぎょう"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "실패에서 배우는 것이 최고의 수업이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q224",
+    "cat": "학습",
+    "kanji": "学ぶことをやめた人は老いた人だ。",
+    "segments": [
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "こと",
+        "reading": ""
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "やめた",
+        "reading": ""
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "老いた",
+        "reading": "おいた"
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "배우기를 멈춘 사람이 늙은 사람이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q225",
+    "cat": "학습",
+    "kanji": "好奇心が最高の教師だ。",
+    "segments": [
+      {
+        "kanji": "好奇心",
+        "reading": "こうきしん"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "最高",
+        "reading": "さいこう"
+      },
+      {
+        "kanji": "の",
+        "reading": ""
+      },
+      {
+        "kanji": "教師",
+        "reading": "きょうし"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "호기심이 최고의 스승이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q226",
+    "cat": "학습",
+    "kanji": "反省なき学びは成長を生まない。",
+    "segments": [
+      {
+        "kanji": "反省",
+        "reading": "はんせい"
+      },
+      {
+        "kanji": "なき",
+        "reading": ""
+      },
+      {
+        "kanji": "学び",
+        "reading": "まなび"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "成長",
+        "reading": "せいちょう"
+      },
+      {
+        "kanji": "を",
+        "reading": ""
+      },
+      {
+        "kanji": "生まない",
+        "reading": "うまない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "반성 없는 배움은 성장을 낳지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q227",
+    "cat": "학습",
+    "kanji": "深く考えることから知恵は生まれる。",
+    "segments": [
+      {
+        "kanji": "深く",
+        "reading": "ふかく"
+      },
+      {
+        "kanji": "考える",
+        "reading": "かんがえる"
+      },
+      {
+        "kanji": "ことから",
+        "reading": ""
+      },
+      {
+        "kanji": "知恵",
+        "reading": "ちえ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "生まれる",
+        "reading": "うまれる"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "깊이 생각하는 것에서 지혜가 생겨난다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q228",
+    "cat": "학습",
+    "kanji": "実践なき学問は空論だ。",
+    "segments": [
+      {
+        "kanji": "実践",
+        "reading": "じっせん"
+      },
+      {
+        "kanji": "なき",
+        "reading": ""
+      },
+      {
+        "kanji": "学問",
+        "reading": "がくもん"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "空論",
+        "reading": "くうろん"
+      },
+      {
+        "kanji": "だ。",
+        "reading": ""
+      }
+    ],
+    "korean": "실천 없는 학문은 공론이다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q229",
+    "cat": "학습",
+    "kanji": "素直な心が最もよく学ぶ。",
+    "segments": [
+      {
+        "kanji": "素直",
+        "reading": "すなお"
+      },
+      {
+        "kanji": "な",
+        "reading": ""
+      },
+      {
+        "kanji": "心",
+        "reading": "こころ"
+      },
+      {
+        "kanji": "が",
+        "reading": ""
+      },
+      {
+        "kanji": "最も",
+        "reading": "もっとも"
+      },
+      {
+        "kanji": "よく",
+        "reading": ""
+      },
+      {
+        "kanji": "学ぶ",
+        "reading": "まなぶ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "솔직한 마음이 가장 잘 배운다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q230",
+    "cat": "기타",
+    "kanji": "一石二鳥。",
+    "segments": [
+      {
+        "kanji": "一石",
+        "reading": "いっせき"
+      },
+      {
+        "kanji": "二鳥",
+        "reading": "にちょう"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "일석이조.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q231",
+    "cat": "기타",
+    "kanji": "朱に交われば赤くなる。",
+    "segments": [
+      {
+        "kanji": "朱",
+        "reading": "しゅ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "交われば",
+        "reading": "まじわれば"
+      },
+      {
+        "kanji": "赤く",
+        "reading": "あかく"
+      },
+      {
+        "kanji": "なる。",
+        "reading": ""
+      }
+    ],
+    "korean": "붉은 것과 어울리면 붉어진다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q232",
+    "cat": "기타",
+    "kanji": "転んでもただでは起きない。",
+    "segments": [
+      {
+        "kanji": "転んでも",
+        "reading": "ころんでも"
+      },
+      {
+        "kanji": "ただでは",
+        "reading": ""
+      },
+      {
+        "kanji": "起きない",
+        "reading": "おきない"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "넘어져도 그냥 일어나지 않는다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q233",
+    "cat": "기타",
+    "kanji": "人のふり見て我がふり直せ。",
+    "segments": [
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "のふり",
+        "reading": ""
+      },
+      {
+        "kanji": "見て",
+        "reading": "みて"
+      },
+      {
+        "kanji": "我",
+        "reading": "わ"
+      },
+      {
+        "kanji": "がふり",
+        "reading": ""
+      },
+      {
+        "kanji": "直せ",
+        "reading": "なおせ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "남의 행동을 보고 자신의 행동을 고쳐라.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q234",
+    "cat": "기타",
+    "kanji": "芸術に王道なし。",
+    "segments": [
+      {
+        "kanji": "芸術",
+        "reading": "げいじゅつ"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "王道",
+        "reading": "おうどう"
+      },
+      {
+        "kanji": "なし。",
+        "reading": ""
+      }
+    ],
+    "korean": "예술에 왕도는 없다.",
+    "author": "作者不詳"
+  },
+  {
+    "id": "q235",
+    "cat": "기타",
+    "kanji": "万物は流転する。",
+    "segments": [
+      {
+        "kanji": "万物",
+        "reading": "ばんぶつ"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "流転",
+        "reading": "るてん"
+      },
+      {
+        "kanji": "する。",
+        "reading": ""
+      }
+    ],
+    "korean": "만물은 유전한다.",
+    "author": "ヘラクレイトス"
+  },
+  {
+    "id": "q236",
+    "cat": "기타",
+    "kanji": "知足者富。",
+    "segments": [
+      {
+        "kanji": "知足者",
+        "reading": "ちそくしゃ"
+      },
+      {
+        "kanji": "富",
+        "reading": "とむ"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "만족을 아는 자가 부유하다.",
+    "author": "老子"
+  },
+  {
+    "id": "q237",
+    "cat": "기타",
+    "kanji": "百聞は一見に如かず。",
+    "segments": [
+      {
+        "kanji": "百聞",
+        "reading": "ひゃくぶん"
+      },
+      {
+        "kanji": "は",
+        "reading": ""
+      },
+      {
+        "kanji": "一見",
+        "reading": "いっけん"
+      },
+      {
+        "kanji": "に",
+        "reading": ""
+      },
+      {
+        "kanji": "如かず",
+        "reading": "しかず"
+      },
+      {
+        "kanji": "。",
+        "reading": ""
+      }
+    ],
+    "korean": "백 번 듣는 것이 한 번 보는 것만 못하다.",
+    "author": "作者不詳"
   }
 ]
