@@ -9,22 +9,17 @@ struct HomeView: View {
 
     var body: some View {
         NavigationStack {
-            ZStack(alignment: .bottom) {
-                colors.background.ignoresSafeArea()
-
-                ScrollView {
-                    VStack(spacing: 20) {
-                        header
-                        if let q = vm.todayQuote { todayCard(q) }
-                        tabSwitcher
-                        if vm.selectedTab == 0 { categoryGrid } else { jlptGrid }
-                        Spacer(minLength: 70)
-                    }
-                    .padding(.horizontal)
+            ScrollView {
+                VStack(spacing: 20) {
+                    header
+                    if let q = vm.todayQuote { todayCard(q) }
+                    tabSwitcher
+                    if vm.selectedTab == 0 { categoryGrid } else { jlptGrid }
                 }
-
-                AdBannerView()
+                .padding(.horizontal)
+                .padding(.bottom, 20)
             }
+            .background(colors.background.ignoresSafeArea())
             .navigationDestination(isPresented: Binding(
                 get: { quoteDestination != nil },
                 set: { if !$0 { quoteDestination = nil } }
@@ -165,6 +160,7 @@ struct HomeView: View {
         case "인생": return "🌸"
         case "학습": return "📚"
         case "마음": return "🧘"
+        case "속담": return "🏮"
         default:     return "✨"
         }
     }
