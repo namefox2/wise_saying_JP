@@ -1,7 +1,5 @@
 package com.kotoba.takarabako.data.model
 
-import com.kotoba.takarabako.data.model.QuoteSegment
-
 data class Word(
     val id: String,
     val level: String,
