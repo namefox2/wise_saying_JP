@@ -170,7 +170,7 @@ fun HomeScreen(
             factory = { ctx ->
                 AdView(ctx).apply {
                     setAdSize(AdSize.BANNER)
-                    adUnitId = "ca-app-pub-3940256099942544/6300978111" // test banner ID
+                    adUnitId = "ca-app-pub-9392221797396472/3762447349"
                     loadAd(AdRequest.Builder().build())
                 }
             }
