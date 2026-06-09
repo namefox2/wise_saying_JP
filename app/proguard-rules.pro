@@ -1,4 +1,11 @@
 # ──────────────────────────────────────────────
+# App code — keep everything in our package
+# R8 may still optimize third-party libraries
+# ──────────────────────────────────────────────
+-keep class com.kotoba.takarabako.** { *; }
+-keepclassmembers class com.kotoba.takarabako.** { *; }
+
+# ──────────────────────────────────────────────
 # Crash stack traces (keep file/line info)
 # ──────────────────────────────────────────────
 -keepattributes *Annotation*
