@@ -48,8 +48,9 @@ class QuoteRepository private constructor(private val context: Context) {
         return if (cat == "전체") all else all.filter { it.cat == cat }
     }
 
-    fun getTodayQuote(): Quote {
+    fun getTodayQuote(): Quote? {
         val all = getAll()
+        if (all.isEmpty()) return null
         val dayOfYear = LocalDate.now().dayOfYear
         return all[dayOfYear % all.size]
     }
