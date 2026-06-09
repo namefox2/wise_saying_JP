@@ -214,20 +214,22 @@ fun HomeScreen(
     }
 }
 
+private val quoteCategoryItems = listOf(
+    Pair("📚", "전체"),
+    Pair("💪", "노력"),
+    Pair("🏆", "성공"),
+    Pair("❤️", "사랑"),
+    Pair("🌱", "인생"),
+    Pair("📖", "학습"),
+    Pair("🌸", "마음"),
+    Pair("💬", "속담"),
+    Pair("✨", "기타")
+)
+
 @Composable
 private fun QuoteCategoryGrid(navController: NavController, categoryCounts: Map<String, Int>) {
     val colors = LocalAppColors.current
-    val categories = listOf(
-        Pair("📚", "전체"),
-        Pair("💪", "노력"),
-        Pair("🏆", "성공"),
-        Pair("❤️", "사랑"),
-        Pair("🌱", "인생"),
-        Pair("📖", "학습"),
-        Pair("🌸", "마음"),
-        Pair("💬", "속담"),
-        Pair("✨", "기타")
-    )
+    val categories = quoteCategoryItems
 
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
@@ -261,17 +263,19 @@ private fun QuoteCategoryGrid(navController: NavController, categoryCounts: Map<
     }
 }
 
+private val jlptLevelItems = listOf(
+    Triple("📚", "전체", "750"),
+    Triple("🔴", "N1", "150"),
+    Triple("🟠", "N2", "150"),
+    Triple("🟡", "N3", "150"),
+    Triple("🔵", "N4", "150"),
+    Triple("🟢", "N5", "150")
+)
+
 @Composable
 private fun JlptLevelGrid(navController: NavController) {
     val colors = LocalAppColors.current
-    val levels = listOf(
-        Triple("📚", "전체", "750"),
-        Triple("🔴", "N1", "150"),
-        Triple("🟠", "N2", "150"),
-        Triple("🟡", "N3", "150"),
-        Triple("🔵", "N4", "150"),
-        Triple("🟢", "N5", "150")
-    )
+    val levels = jlptLevelItems
 
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),

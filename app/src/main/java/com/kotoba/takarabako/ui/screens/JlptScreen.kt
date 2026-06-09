@@ -57,6 +57,9 @@ import com.kotoba.takarabako.viewmodel.SettingsViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withTimeoutOrNull
 
+private val jlptLevelTabs = listOf("all", "N5", "N4", "N3", "N2", "N1")
+private val jlptLevelLabels = mapOf("all" to "전체", "N1" to "N1", "N2" to "N2", "N3" to "N3", "N4" to "N4", "N5" to "N5")
+
 private fun levelBadgeColor(level: String): Color = when (level) {
     "N1" -> Color(0xFFFF4D6D)
     "N2" -> Color(0xFFFF8C00)
@@ -110,8 +113,8 @@ fun JlptScreen(
     }
 
     val word = words.getOrNull(currentIndex)
-    val levelTabs = listOf("all", "N5", "N4", "N3", "N2", "N1")
-    val levelLabels = mapOf("all" to "전체", "N1" to "N1", "N2" to "N2", "N3" to "N3", "N4" to "N4", "N5" to "N5")
+    val levelTabs = jlptLevelTabs
+    val levelLabels = jlptLevelLabels
 
     Column(
         modifier = Modifier
