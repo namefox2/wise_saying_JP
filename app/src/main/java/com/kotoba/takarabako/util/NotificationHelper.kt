@@ -10,6 +10,7 @@ import java.util.Calendar
 
 object NotificationHelper {
     const val CHANNEL_ID = "kotoba_daily"
+    const val NOTIFICATION_ID = 1001
     private const val REQUEST_CODE = 1001
     private const val PREFS = "kotoba_notif"
 

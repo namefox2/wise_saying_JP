@@ -24,7 +24,7 @@ class NotificationReceiver : BroadcastReceiver() {
             .setContentText("오늘의 일본어 학습을 시작하세요!")
             .setAutoCancel(true)
             .build()
-        nm.notify(1001, notification)
+        nm.notify(NotificationHelper.NOTIFICATION_ID, notification)
 
         // Reschedule for tomorrow
         NotificationHelper.schedule(context, hour, minute)

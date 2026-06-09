@@ -36,10 +36,10 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private fun loadCategoryCounts() {
         viewModelScope.launch {
             val all = repository.getAll()
-            val cats = listOf("노력", "성공", "사랑", "인생", "학습", "마음", "속담", "기타")
+            val countsByCat = all.groupingBy { it.cat }.eachCount()
             _categoryCounts.value = buildMap {
                 put("전체", all.size)
-                cats.forEach { cat -> put(cat, all.count { it.cat == cat }) }
+                countsByCat.forEach { (cat, count) -> put(cat, count) }
             }
         }
     }

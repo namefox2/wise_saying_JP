@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -43,6 +44,20 @@ import com.kotoba.takarabako.viewmodel.SettingsViewModel
 
 private data class ThemeOption(val key: String, val label: String, val emoji: String)
 
+private val themeOptions = listOf(
+    ThemeOption("gold", "골드 다크", "🌙"),
+    ThemeOption("sakura", "벚꽃 다크", "🌸"),
+    ThemeOption("ocean", "오션 다크", "🌊"),
+    ThemeOption("paper", "화지 라이트", "📜")
+)
+
+private val fontScaleOptions = listOf(
+    Triple(0.85f, "작게", "가"),
+    Triple(1.0f, "보통", "가"),
+    Triple(1.2f, "크게", "가"),
+    Triple(1.4f, "매우 크게", "가")
+)
+
 @Composable
 fun SettingsScreen(
     navController: NavController,
@@ -59,20 +74,6 @@ fun SettingsScreen(
     val fontScale by vm.fontScale.collectAsState()
     val notifyHour by vm.notifyHour.collectAsState()
     val notifyMinute by vm.notifyMinute.collectAsState()
-
-    val themes = listOf(
-        ThemeOption("gold", "골드 다크", "🌙"),
-        ThemeOption("sakura", "벚꽃 다크", "🌸"),
-        ThemeOption("ocean", "오션 다크", "🌊"),
-        ThemeOption("paper", "화지 라이트", "📜")
-    )
-
-    val fontOptions = listOf(
-        Triple(0.85f, "작게", "가"),
-        Triple(1.0f, "보통", "가"),
-        Triple(1.2f, "크게", "가"),
-        Triple(1.4f, "매우 크게", "가")
-    )
 
     Column(
         modifier = Modifier
@@ -99,9 +100,9 @@ fun SettingsScreen(
         SectionHeader(title = "테마")
         LazyRow(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
-            contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 16.dp)
+            contentPadding = PaddingValues(horizontal = 16.dp)
         ) {
-            items(themes) { theme ->
+            items(themeOptions) { theme ->
                 val isSelected = currentTheme == theme.key
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
@@ -139,7 +140,7 @@ fun SettingsScreen(
                 .padding(horizontal = 16.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            fontOptions.forEach { (scale, label, sample) ->
+            fontScaleOptions.forEach { (scale, label, sample) ->
                 val isSelected = fontScale == scale
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
