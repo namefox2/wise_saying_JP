@@ -24,6 +24,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        MobileAds.setRequestConfiguration(
+            com.google.android.gms.ads.RequestConfiguration.Builder()
+                .setTestDeviceIds(listOf("EDB1FC15E44D699A918000A49655C8BE"))
+                .build()
+        )
         MobileAds.initialize(this)
         NotificationHelper.createChannel(this)
         setContent {
