@@ -36,7 +36,7 @@ class QuoteRepository private constructor(private val context: Context) {
 
     fun getAll(): List<Quote> {
         cachedQuotes?.let { return it }
-        val type = object : TypeToken<List<Quote>>() {}.type
+        val type = TypeToken.getParameterized(List::class.java, Quote::class.java).type
         val json = context.assets.open("data/quotes.json").bufferedReader().readText()
         cachedQuotes = gson.fromJson<List<Quote>>(json, type)
             .filter { it.author !in blockedAuthors }
