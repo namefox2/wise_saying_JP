@@ -14,11 +14,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
@@ -41,10 +40,11 @@ import androidx.navigation.NavController
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
+import com.kotoba.takarabako.ui.components.BlurReveal
 import com.kotoba.takarabako.ui.components.FuriganaText
-import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
+import com.kotoba.takarabako.util.authorDisplay
 import com.kotoba.takarabako.viewmodel.HomeViewModel
 
 @Composable
@@ -60,12 +60,12 @@ fun HomeScreen(
 
     var quoteStepFurigana by remember { mutableStateOf(false) }
     var quoteStepKorean by remember { mutableStateOf(false) }
-    var isCardExpanded by remember { mutableStateOf(false) }
 
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(colors.bg)
+            .verticalScroll(rememberScrollState())
     ) {
         // 헤더
         Row(
@@ -114,49 +114,32 @@ fun HomeScreen(
                     textColor = colors.text
                 )
                 Text(
-                    text = "— ${com.kotoba.takarabako.util.authorDisplay(quote.author)}",
+                    text = "— ${authorDisplay(quote.author)}",
                     fontSize = 11.sp,
                     color = colors.textDim,
                     modifier = Modifier.padding(top = 6.dp, bottom = 10.dp)
                 )
-
-                if (isCardExpanded) {
-                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        StepBlock(
-                            label = "후리가나",
-                            isOpen = quoteStepFurigana,
-                            onToggle = { quoteStepFurigana = !quoteStepFurigana }
-                        ) {
-                            FuriganaText(
-                                segments = quote.segments,
-                                fontSize = 14.sp,
-                                showFurigana = true,
-                                textColor = colors.text
-                            )
-                        }
-                        StepBlock(
-                            label = "한국어",
-                            isOpen = quoteStepKorean,
-                            onToggle = { quoteStepKorean = !quoteStepKorean }
-                        ) {
-                            Text(text = quote.korean, fontSize = 13.sp, color = colors.textMid)
-                        }
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    BlurReveal(
+                        label = "후리가나",
+                        isRevealed = quoteStepFurigana,
+                        onToggle = { quoteStepFurigana = !quoteStepFurigana }
+                    ) {
+                        FuriganaText(
+                            segments = quote.segments,
+                            fontSize = 14.sp,
+                            showFurigana = true,
+                            textColor = colors.text
+                        )
                     }
-                    Spacer(modifier = Modifier.height(8.dp))
+                    BlurReveal(
+                        label = "한국어",
+                        isRevealed = quoteStepKorean,
+                        onToggle = { quoteStepKorean = !quoteStepKorean }
+                    ) {
+                        Text(text = quote.korean, fontSize = 13.sp, color = colors.textMid)
+                    }
                 }
-
-                Text(
-                    text = if (isCardExpanded) "접기 ▲" else "후리가나 · 한국어 보기 ▼",
-                    fontSize = 11.sp,
-                    color = colors.accent,
-                    modifier = Modifier.clickable {
-                        isCardExpanded = !isCardExpanded
-                        if (!isCardExpanded) {
-                            quoteStepFurigana = false
-                            quoteStepKorean = false
-                        }
-                    }
-                )
             }
         }
 
@@ -205,12 +188,13 @@ fun HomeScreen(
             }
         }
 
-        // 카테고리 그리드
         if (homeCatTab == "quote") {
             QuoteCategoryGrid(navController = navController, categoryCounts = categoryCounts)
         } else {
             JlptLevelGrid(navController = navController)
         }
+
+        Spacer(modifier = Modifier.height(8.dp))
     }
 }
 
@@ -229,35 +213,39 @@ private val quoteCategoryItems = listOf(
 @Composable
 private fun QuoteCategoryGrid(navController: NavController, categoryCounts: Map<String, Int>) {
     val colors = LocalAppColors.current
-    val categories = quoteCategoryItems
-
-    LazyVerticalGrid(
-        columns = GridCells.Fixed(2),
+    Column(
         modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(categories) { (icon, name) ->
-            val count = categoryCounts[name]
+        quoteCategoryItems.chunked(2).forEach { row ->
             Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(12.dp))
-                    .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(12.dp))
-                    .background(colors.surface)
-                    .clickable { navController.navigate("quote/$name") }
-                    .padding(horizontal = 12.dp, vertical = 10.dp)
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Text(text = icon, fontSize = 16.sp)
-                Column(modifier = Modifier.padding(start = 8.dp)) {
-                    Text(text = name, fontSize = 12.sp, fontWeight = FontWeight.Bold, color = colors.text)
-                    Text(
-                        text = if (count != null) "${count}개" else "",
-                        fontSize = 10.sp,
-                        color = colors.textDim
-                    )
+                row.forEach { (icon, name) ->
+                    val count = categoryCounts[name]
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier
+                            .weight(1f)
+                            .clip(RoundedCornerShape(12.dp))
+                            .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(12.dp))
+                            .background(colors.surface)
+                            .clickable { navController.navigate("quote/$name") }
+                            .padding(horizontal = 12.dp, vertical = 10.dp)
+                    ) {
+                        Text(text = icon, fontSize = 16.sp)
+                        Column(modifier = Modifier.padding(start = 8.dp)) {
+                            Text(text = name, fontSize = 12.sp, fontWeight = FontWeight.Bold, color = colors.text)
+                            Text(
+                                text = if (count != null) "${count}개" else "",
+                                fontSize = 10.sp,
+                                color = colors.textDim
+                            )
+                        }
+                    }
                 }
+                if (row.size == 1) Spacer(modifier = Modifier.weight(1f))
             }
         }
     }
@@ -275,31 +263,35 @@ private val jlptLevelItems = listOf(
 @Composable
 private fun JlptLevelGrid(navController: NavController) {
     val colors = LocalAppColors.current
-    val levels = jlptLevelItems
-
-    LazyVerticalGrid(
-        columns = GridCells.Fixed(2),
+    Column(
         modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(levels) { (icon, name, count) ->
-            val route = if (name == "전체") "jlpt/all" else "jlpt/$name"
+        jlptLevelItems.chunked(2).forEach { row ->
             Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(12.dp))
-                    .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(12.dp))
-                    .background(colors.surface)
-                    .clickable { navController.navigate(route) }
-                    .padding(horizontal = 12.dp, vertical = 10.dp)
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                Text(text = icon, fontSize = 16.sp)
-                Column(modifier = Modifier.padding(start = 8.dp)) {
-                    Text(text = name, fontSize = 12.sp, fontWeight = FontWeight.Bold, color = colors.text)
-                    Text(text = "${count}개", fontSize = 10.sp, color = colors.textDim)
+                row.forEach { (icon, name, count) ->
+                    val route = if (name == "전체") "jlpt/all" else "jlpt/$name"
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier
+                            .weight(1f)
+                            .clip(RoundedCornerShape(12.dp))
+                            .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(12.dp))
+                            .background(colors.surface)
+                            .clickable { navController.navigate(route) }
+                            .padding(horizontal = 12.dp, vertical = 10.dp)
+                    ) {
+                        Text(text = icon, fontSize = 16.sp)
+                        Column(modifier = Modifier.padding(start = 8.dp)) {
+                            Text(text = name, fontSize = 12.sp, fontWeight = FontWeight.Bold, color = colors.text)
+                            Text(text = "${count}개", fontSize = 10.sp, color = colors.textDim)
+                        }
+                    }
                 }
+                if (row.size == 1) Spacer(modifier = Modifier.weight(1f))
             }
         }
     }

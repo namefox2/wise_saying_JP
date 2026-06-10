@@ -45,11 +45,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.kotoba.takarabako.ui.components.BlurReveal
 import com.kotoba.takarabako.ui.components.DictionarySelectionContainer
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.components.KotobaProgressBar
-import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.viewmodel.JlptViewModel
@@ -259,10 +259,10 @@ fun JlptScreen(
 
                 // 단어 스텝
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    StepBlock("히라가나", stepHiragana, { stepHiragana = !stepHiragana }) {
+                    BlurReveal("히라가나", stepHiragana, { stepHiragana = !stepHiragana }) {
                         Text(text = w.reading, fontSize = 16.sp, color = colors.accent)
                     }
-                    StepBlock("한국어 뜻", stepMeaning, { stepMeaning = !stepMeaning }) {
+                    BlurReveal("한국어 뜻", stepMeaning, { stepMeaning = !stepMeaning }) {
                         Text(text = w.meaning, fontSize = 15.sp, color = colors.textMid)
                     }
                 }
@@ -292,7 +292,7 @@ fun JlptScreen(
                     )
                     Spacer(modifier = Modifier.height(8.dp))
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        StepBlock("후리가나", stepExFurigana, { stepExFurigana = !stepExFurigana }) {
+                        BlurReveal("후리가나", stepExFurigana, { stepExFurigana = !stepExFurigana }) {
                             FuriganaText(
                                 segments = w.exSegments,
                                 fontSize = 14.sp,
@@ -300,7 +300,7 @@ fun JlptScreen(
                                 textColor = colors.text
                             )
                         }
-                        StepBlock("한국어 번역", stepExKorean, { stepExKorean = !stepExKorean }) {
+                        BlurReveal("한국어 번역", stepExKorean, { stepExKorean = !stepExKorean }) {
                             Text(text = w.exKorean, fontSize = 13.sp, color = colors.textMid)
                         }
                     }

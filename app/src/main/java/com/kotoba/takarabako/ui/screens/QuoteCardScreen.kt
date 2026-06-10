@@ -42,11 +42,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.kotoba.takarabako.ui.components.BlurReveal
 import com.kotoba.takarabako.ui.components.DictionarySelectionContainer
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.components.KotobaProgressBar
-import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.util.authorDisplay
@@ -192,7 +192,7 @@ fun QuoteCardScreen(
                 Spacer(modifier = Modifier.height(12.dp))
 
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    StepBlock("후리가나", stepFurigana, { stepFurigana = !stepFurigana }) {
+                    BlurReveal("후리가나", stepFurigana, { stepFurigana = !stepFurigana }) {
                         FuriganaText(
                             segments = q.segments,
                             fontSize = 16.sp,
@@ -200,7 +200,7 @@ fun QuoteCardScreen(
                             textColor = colors.text
                         )
                     }
-                    StepBlock("한국어", stepKorean, { stepKorean = !stepKorean }) {
+                    BlurReveal("한국어", stepKorean, { stepKorean = !stepKorean }) {
                         Text(text = q.korean, fontSize = 13.sp, color = colors.textMid)
                     }
                 }
