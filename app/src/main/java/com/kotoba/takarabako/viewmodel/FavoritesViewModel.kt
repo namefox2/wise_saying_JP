@@ -28,13 +28,12 @@ class FavoritesViewModel(application: Application) : AndroidViewModel(applicatio
     val activeTab: StateFlow<String> = _activeTab
 
     init {
+        val allQuotes = quoteRepo.getAll()
+        val allWords = wordRepo.getAll()
         quoteRepo.getFavoriteIds().onEach { ids ->
-            val allQuotes = quoteRepo.getAll()
             _favQuotes.value = allQuotes.filter { it.id in ids }
         }.launchIn(viewModelScope)
-
         wordRepo.getFavoriteIds().onEach { ids ->
-            val allWords = wordRepo.getAll()
             _favWords.value = allWords.filter { it.id in ids }
         }.launchIn(viewModelScope)
     }

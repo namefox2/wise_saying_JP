@@ -42,8 +42,12 @@ class DataStoreManager(private val context: Context) {
     suspend fun setNotify(enabled: Boolean) { context.dataStore.edit { it[NOTIFY_KEY] = enabled } }
     suspend fun setAutoBlur(enabled: Boolean) { context.dataStore.edit { it[AUTOBLUR_KEY] = enabled } }
     suspend fun setFontScale(scale: Float) { context.dataStore.edit { it[FONT_SCALE_KEY] = scale } }
-    suspend fun setNotifyHour(hour: Int) { context.dataStore.edit { it[NOTIFY_HOUR_KEY] = hour } }
-    suspend fun setNotifyMinute(minute: Int) { context.dataStore.edit { it[NOTIFY_MINUTE_KEY] = minute } }
+    suspend fun setNotifyTime(hour: Int, minute: Int) {
+        context.dataStore.edit {
+            it[NOTIFY_HOUR_KEY] = hour
+            it[NOTIFY_MINUTE_KEY] = minute
+        }
+    }
     suspend fun setAutoPlay(enabled: Boolean) { context.dataStore.edit { it[AUTO_PLAY_KEY] = enabled } }
     suspend fun setLoginStreak(streak: Int) { context.dataStore.edit { it[STREAK_KEY] = streak } }
     suspend fun setLastLoginDate(date: String) { context.dataStore.edit { it[LAST_LOGIN_DATE_KEY] = date } }

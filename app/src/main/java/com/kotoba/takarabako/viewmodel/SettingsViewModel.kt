@@ -88,8 +88,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
 
     fun setNotifyTime(hour: Int, minute: Int) {
         viewModelScope.launch {
-            dataStore.setNotifyHour(hour)
-            dataStore.setNotifyMinute(minute)
+            dataStore.setNotifyTime(hour, minute)
             if (_notifyEnabled.value) NotificationHelper.schedule(ctx, hour, minute)
         }
     }

@@ -37,7 +37,7 @@ class WordRepository private constructor(private val context: Context) {
         if (level == "all") return getAll()
         cache[level]?.let { return it }
         val filename = levelFiles[level] ?: return emptyList()
-        val type = object : TypeToken<List<Word>>() {}.type
+        val type = TypeToken.getParameterized(List::class.java, Word::class.java).type
         val json = context.assets.open("data/$filename").bufferedReader().readText()
         val words: List<Word> = gson.fromJson(json, type)
         cache[level] = words

@@ -24,6 +24,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -47,6 +48,7 @@ import com.kotoba.takarabako.ui.components.HeartButton
 import com.kotoba.takarabako.ui.components.KotobaProgressBar
 import com.kotoba.takarabako.ui.components.StepBlock
 import com.kotoba.takarabako.ui.theme.LocalAppColors
+import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.util.authorDisplay
 import com.kotoba.takarabako.viewmodel.QuoteViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
@@ -108,7 +110,7 @@ fun QuoteCardScreen(
             }
             Text(
                 text = category,
-                fontFamily = com.kotoba.takarabako.ui.theme.NotoSerifJP,
+                fontFamily = NotoSerifJP,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Medium,
                 color = colors.text,
@@ -117,7 +119,7 @@ fun QuoteCardScreen(
             Box(
                 modifier = Modifier
                     .size(6.dp)
-                    .clip(androidx.compose.foundation.shape.CircleShape)
+                    .clip(CircleShape)
                     .background(colors.greenDot)
             )
             Spacer(modifier = Modifier.size(12.dp))

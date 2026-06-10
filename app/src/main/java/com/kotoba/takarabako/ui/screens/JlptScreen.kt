@@ -113,8 +113,6 @@ fun JlptScreen(
     }
 
     val word = words.getOrNull(currentIndex)
-    val levelTabs = jlptLevelTabs
-    val levelLabels = jlptLevelLabels
 
     Column(
         modifier = Modifier
@@ -147,7 +145,7 @@ fun JlptScreen(
                 .padding(horizontal = 16.dp, vertical = 4.dp),
             horizontalArrangement = Arrangement.spacedBy(6.dp)
         ) {
-            levelTabs.forEach { tab ->
+            jlptLevelTabs.forEach { tab ->
                 val isSelected = currentLevel == tab
                 val badgeColor = if (tab == "all") colors.accent else levelBadgeColor(tab)
                 Box(
@@ -159,7 +157,7 @@ fun JlptScreen(
                         .padding(horizontal = 12.dp, vertical = 5.dp)
                 ) {
                     Text(
-                        text = levelLabels[tab] ?: tab,
+                        text = jlptLevelLabels[tab] ?: tab,
                         fontSize = 12.sp,
                         fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
                         color = if (isSelected) badgeColor else colors.textMid

@@ -323,7 +323,7 @@ fun SettingsScreen(
         Spacer(modifier = Modifier.height(32.dp))
 
         Text(
-            text = "言葉の宝箱 v1.0.0",
+            text = "일본어명언집 v1.0.7",
             fontSize = 11.sp,
             color = colors.textDim,
             modifier = Modifier
