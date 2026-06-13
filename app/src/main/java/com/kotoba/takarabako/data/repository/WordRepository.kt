@@ -32,6 +32,7 @@ class WordRepository private constructor(private val context: Context) {
     )
 
     private val cache = mutableMapOf<String, List<Word>>()
+    @Volatile private var cachedAll: List<Word>? = null
 
     fun getByLevel(level: String): List<Word> {
         if (level == "all") return getAll()
@@ -44,7 +45,12 @@ class WordRepository private constructor(private val context: Context) {
         return words
     }
 
-    fun getAll(): List<Word> = levelFiles.keys.flatMap { getByLevel(it) }
+    fun getAll(): List<Word> {
+        cachedAll?.let { return it }
+        val result = levelFiles.keys.flatMap { getByLevel(it) }
+        cachedAll = result
+        return result
+    }
 
     fun getFavoriteIds(): Flow<Set<String>> =
         dao.getAllIds("word").map { it.toSet() }

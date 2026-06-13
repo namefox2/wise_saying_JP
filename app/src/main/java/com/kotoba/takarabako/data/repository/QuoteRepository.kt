@@ -31,7 +31,11 @@ class QuoteRepository private constructor(private val context: Context) {
         "エーリッヒ・フロム",
         "オードリー・ヘップバーン",
         "パウロ・コエーリョ",
-        "ラオウ"
+        "ラオウ",
+        "明石家さんま",
+        "井上靖",
+        "斎藤茂太",
+        "マザーテレサ"
     )
 
     fun getAll(): List<Quote> {
