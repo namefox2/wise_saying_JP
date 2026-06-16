@@ -61,10 +61,14 @@ fun HomeScreen(
     var quoteStepFurigana by remember { mutableStateOf(false) }
     var quoteStepKorean by remember { mutableStateOf(false) }
 
-    Column(
+    Box(
         modifier = Modifier
             .fillMaxSize()
             .background(colors.bg)
+    ) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
             .verticalScroll(rememberScrollState())
     ) {
         // 헤더
@@ -196,6 +200,7 @@ fun HomeScreen(
 
         Spacer(modifier = Modifier.height(8.dp))
     }
+    } // Box
 }
 
 private val quoteCategoryItems = listOf(
