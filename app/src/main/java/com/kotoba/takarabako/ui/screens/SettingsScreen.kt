@@ -48,7 +48,8 @@ private val themeOptions = listOf(
     ThemeOption("gold", "골드 다크", "🌙"),
     ThemeOption("sakura", "벚꽃 다크", "🌸"),
     ThemeOption("ocean", "오션 다크", "🌊"),
-    ThemeOption("paper", "화지 라이트", "📜")
+    ThemeOption("paper", "화지 라이트", "📜"),
+    ThemeOption("sky", "스카이 라이트", "☀️")
 )
 
 private val fontScaleOptions = listOf(

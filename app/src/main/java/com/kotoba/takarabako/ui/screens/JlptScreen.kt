@@ -25,6 +25,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Shuffle
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
@@ -45,6 +46,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.kotoba.takarabako.data.model.QuoteSegment
 import com.kotoba.takarabako.ui.components.BlurReveal
 import com.kotoba.takarabako.ui.components.DictionarySelectionContainer
 import com.kotoba.takarabako.ui.components.FuriganaText
@@ -136,6 +138,9 @@ fun JlptScreen(
                 color = colors.text,
                 modifier = Modifier.weight(1f)
             )
+            IconButton(onClick = { vm.shuffle() }) {
+                Icon(Icons.Filled.Shuffle, contentDescription = "섞기", tint = colors.textMid)
+            }
         }
 
         // 레벨 탭
@@ -259,8 +264,13 @@ fun JlptScreen(
 
                 // 단어 스텝
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    BlurReveal("히라가나", stepHiragana, { stepHiragana = !stepHiragana }) {
-                        Text(text = w.reading, fontSize = 16.sp, color = colors.accent)
+                    BlurReveal("후리가나", stepHiragana, { stepHiragana = !stepHiragana }) {
+                        FuriganaText(
+                            segments = listOf(QuoteSegment(kanji = w.kanji, reading = w.reading)),
+                            fontSize = 20.sp,
+                            showFurigana = true,
+                            textColor = colors.text
+                        )
                     }
                     BlurReveal("한국어 뜻", stepMeaning, { stepMeaning = !stepMeaning }) {
                         Text(text = w.meaning, fontSize = 15.sp, color = colors.textMid)

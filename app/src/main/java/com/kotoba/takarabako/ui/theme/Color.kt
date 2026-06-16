@@ -78,6 +78,25 @@ object PaperTheme {
     val GreenDot  = Color(0xFF2A8855)
 }
 
+// ── 스카이 라이트 (Sky) ───────────────────────────────────────────
+object SkyTheme {
+    val Bg           = Color(0xFFF3F8FE)
+    val Surface      = Color(0xFFE8F2FC)
+    val Surface2     = Color(0xFFDDECFA)
+    val Border       = Color(0xFFBBD4EE)
+    val Border2      = Color(0xFFCCDFF5)
+    val Border3      = Color(0xFFD5E7F8)
+    val Accent       = Color(0xFF1E6FCC)
+    val AccentBg     = Color(0x1A1E6FCC)
+    val AccentBorder = Color(0x441E6FCC)
+    val Text         = Color(0xFF0C1E30)
+    val TextMid      = Color(0xFF3D5570)
+    val TextDim      = Color(0xFF7A9AB0)
+    val Heart        = Color(0xFFCC3355)
+    val Furigana     = Color(0x991E6FCC)
+    val GreenDot     = Color(0xFF1A9955)
+}
+
 data class AppColors(
     val bg: Color,
     val surface: Color,
@@ -117,6 +136,13 @@ fun appColorsForTheme(theme: String): AppColors = when (theme) {
         accent = PaperTheme.Accent, accentBg = PaperTheme.AccentBg, accentBorder = PaperTheme.AccentBorder,
         text = PaperTheme.Text, textMid = PaperTheme.TextMid, textDim = PaperTheme.TextDim,
         heart = PaperTheme.Heart, furigana = PaperTheme.Furigana, greenDot = PaperTheme.GreenDot
+    )
+    "sky" -> AppColors(
+        bg = SkyTheme.Bg, surface = SkyTheme.Surface, surface2 = SkyTheme.Surface2,
+        border = SkyTheme.Border, border2 = SkyTheme.Border2, border3 = SkyTheme.Border3,
+        accent = SkyTheme.Accent, accentBg = SkyTheme.AccentBg, accentBorder = SkyTheme.AccentBorder,
+        text = SkyTheme.Text, textMid = SkyTheme.TextMid, textDim = SkyTheme.TextDim,
+        heart = SkyTheme.Heart, furigana = SkyTheme.Furigana, greenDot = SkyTheme.GreenDot
     )
     else -> AppColors( // gold (default)
         bg = GoldTheme.Bg, surface = GoldTheme.Surface, surface2 = GoldTheme.Surface2,

@@ -36,8 +36,14 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
         _currentLevel.value = level
         _currentIndex.value = 0
         viewModelScope.launch {
-            _words.value = repository.getByLevel(level)
+            _words.value = repository.getByLevel(level).shuffled()
         }
+    }
+
+    fun shuffle() {
+        if (_words.value.isEmpty()) return
+        _words.value = _words.value.shuffled()
+        _currentIndex.value = 0
     }
 
     fun next() {

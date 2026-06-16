@@ -21,7 +21,7 @@ fun KotobaTheme(
     val colors = appColorsForTheme(theme)
     val baseDensity = LocalDensity.current
 
-    val materialColors = if (theme == "paper") {
+    val materialColors = if (theme == "paper" || theme == "sky") {
         lightColorScheme(
             background = colors.bg,
             surface = colors.surface,

@@ -22,6 +22,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Shuffle
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.foundation.shape.CircleShape
@@ -116,6 +117,9 @@ fun QuoteCardScreen(
                 color = colors.text,
                 modifier = Modifier.weight(1f)
             )
+            IconButton(onClick = { vm.shuffle() }) {
+                Icon(Icons.Filled.Shuffle, contentDescription = "섞기", tint = colors.textMid)
+            }
             Box(
                 modifier = Modifier
                     .size(6.dp)

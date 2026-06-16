@@ -45,6 +45,12 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
         _currentIndex.value = if (_currentIndex.value == 0) size - 1 else _currentIndex.value - 1
     }
 
+    fun shuffle() {
+        if (_quotes.value.isEmpty()) return
+        _quotes.value = _quotes.value.shuffled()
+        _currentIndex.value = 0
+    }
+
     fun toggleLike(id: String) {
         viewModelScope.launch {
             if (_likedIds.value.contains(id)) repository.removeFavorite(id)
