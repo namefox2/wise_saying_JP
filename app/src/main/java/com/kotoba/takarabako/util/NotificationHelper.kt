@@ -25,7 +25,10 @@ object NotificationHelper {
 
     fun schedule(context: Context, hour: Int, minute: Int) {
         context.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit()
-            .putInt("hour", hour).putInt("minute", minute).apply()
+            .putInt("hour", hour)
+            .putInt("minute", minute)
+            .putBoolean("enabled", true)
+            .apply()
 
         val am = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val cal = Calendar.getInstance().apply {
@@ -47,10 +50,14 @@ object NotificationHelper {
 
     fun rescheduleFromPrefs(context: Context) {
         val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+        if (!prefs.getBoolean("enabled", false)) return
         schedule(context, prefs.getInt("hour", 9), prefs.getInt("minute", 0))
     }
 
     fun cancel(context: Context) {
+        context.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit()
+            .putBoolean("enabled", false)
+            .apply()
         (context.getSystemService(Context.ALARM_SERVICE) as AlarmManager)
             .cancel(buildPendingIntent(context, 0, 0))
     }

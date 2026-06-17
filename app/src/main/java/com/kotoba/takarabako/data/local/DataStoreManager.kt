@@ -35,7 +35,7 @@ class DataStoreManager private constructor(private val context: Context) {
     }
 
     val theme: Flow<String> = context.dataStore.data.map { it[THEME_KEY] ?: "gold" }
-    val notifyEnabled: Flow<Boolean> = context.dataStore.data.map { it[NOTIFY_KEY] ?: true }
+    val notifyEnabled: Flow<Boolean> = context.dataStore.data.map { it[NOTIFY_KEY] ?: false }
     val autoBlur: Flow<Boolean> = context.dataStore.data.map { it[AUTOBLUR_KEY] ?: false }
     val fontScale: Flow<Float> = context.dataStore.data.map { it[FONT_SCALE_KEY] ?: 1.0f }
     val notifyHour: Flow<Int> = context.dataStore.data.map { it[NOTIFY_HOUR_KEY] ?: 9 }

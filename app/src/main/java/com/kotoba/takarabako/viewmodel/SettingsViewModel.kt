@@ -20,7 +20,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private val _currentTheme = MutableStateFlow("gold")
     val currentTheme: StateFlow<String> = _currentTheme
 
-    private val _notifyEnabled = MutableStateFlow(true)
+    private val _notifyEnabled = MutableStateFlow(false)
     val notifyEnabled: StateFlow<Boolean> = _notifyEnabled
 
     private val _autoBlur = MutableStateFlow(false)
