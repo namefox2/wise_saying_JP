@@ -14,9 +14,15 @@ import kotlinx.coroutines.flow.map
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "kotoba_prefs")
 
-class DataStoreManager(private val context: Context) {
+class DataStoreManager private constructor(private val context: Context) {
 
     companion object {
+        @Volatile private var instance: DataStoreManager? = null
+        fun getInstance(context: Context): DataStoreManager =
+            instance ?: synchronized(this) {
+                instance ?: DataStoreManager(context.applicationContext).also { instance = it }
+            }
+
         val THEME_KEY = stringPreferencesKey("theme")
         val NOTIFY_KEY = booleanPreferencesKey("notify")
         val AUTOBLUR_KEY = booleanPreferencesKey("auto_blur")

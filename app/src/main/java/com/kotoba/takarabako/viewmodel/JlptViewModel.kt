@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 class JlptViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = WordRepository.getInstance(application)
-    private val ds = DataStoreManager(application)
+    private val ds = DataStoreManager.getInstance(application)
 
     private val _currentLevel = MutableStateFlow("all")
     val currentLevel: StateFlow<String> = _currentLevel

@@ -4,9 +4,6 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.awaitEachGesture
-import androidx.compose.foundation.gestures.awaitFirstDown
-import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -41,7 +38,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -49,6 +45,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.kotoba.takarabako.data.model.QuoteSegment
 import com.kotoba.takarabako.ui.components.BlurReveal
+import com.kotoba.takarabako.ui.components.cardSwipe
 import com.kotoba.takarabako.ui.components.DictionarySelectionContainer
 import com.kotoba.takarabako.ui.components.FuriganaText
 import com.kotoba.takarabako.ui.components.HeartButton
@@ -58,7 +55,6 @@ import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.viewmodel.JlptViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.withTimeoutOrNull
 
 private val jlptLevelTabs = listOf("all", "N5", "N4", "N3", "N2", "N1")
 private val jlptLevelLabels = mapOf("all" to "전체", "N1" to "N1", "N2" to "N2", "N3" to "N3", "N4" to "N4", "N5" to "N5")
@@ -233,15 +229,7 @@ fun JlptScreen(
                     .clip(RoundedCornerShape(20.dp))
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
-                    .pointerInput(vm) {
-                        awaitEachGesture {
-                            val down = awaitFirstDown(requireUnconsumed = false)
-                            val up = withTimeoutOrNull(200L) { waitForUpOrCancellation() }
-                            if (up != null) {
-                                if (down.position.x < size.width / 2f) vm.prev() else vm.next()
-                            }
-                        }
-                    }
+                    .cardSwipe(vm, onPrev = { vm.prev() }, onNext = { vm.next() })
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp)
             ) {

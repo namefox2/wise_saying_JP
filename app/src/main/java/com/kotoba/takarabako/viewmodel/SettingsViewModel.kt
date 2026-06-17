@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 
 class SettingsViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val dataStore = DataStoreManager(application)
+    private val dataStore = DataStoreManager.getInstance(application)
     private val ctx = application.applicationContext
 
     private val _currentTheme = MutableStateFlow("gold")

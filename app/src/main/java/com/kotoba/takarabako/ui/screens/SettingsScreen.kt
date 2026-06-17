@@ -46,6 +46,13 @@ import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.viewmodel.FavoritesViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
 
+private fun to24Hour(displayHour: Int, isPm: Boolean): Int = when {
+    isPm && displayHour == 12 -> 12
+    isPm -> displayHour + 12
+    displayHour == 12 -> 0
+    else -> displayHour
+}
+
 private data class ThemeOption(val key: String, val label: String, val emoji: String)
 
 private val themeOptions = listOf(
@@ -261,118 +268,116 @@ fun SettingsScreen(
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(horizontal = 16.dp, vertical = 12.dp)
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
                     val isPm = notifyHour >= 12
-                    val displayHour = when {
-                        notifyHour == 0 -> 12
-                        notifyHour > 12 -> notifyHour - 12
-                        else -> notifyHour
-                    }
-                    fun to24Hour(h: Int, pm: Boolean) = when {
-                        pm && h == 12 -> 12
-                        pm -> h + 12
-                        h == 12 -> 0
-                        else -> h
-                    }
+                    val displayHour = if (notifyHour == 0) 12 else if (notifyHour > 12) notifyHour - 12 else notifyHour
 
-                    Row(verticalAlignment = Alignment.CenterVertically) {
+                    // 1행: 레이블 + 오전/오후 가로 토글
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
                         Column(modifier = Modifier.weight(1f)) {
                             Text(text = "알림 시간", fontSize = 13.sp, color = colors.text)
                             Text(text = "매일 이 시간에 알림", fontSize = 11.sp, color = colors.textDim)
                         }
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            // 오전/오후 토글
-                            Column(
-                                modifier = Modifier
-                                    .clip(RoundedCornerShape(8.dp))
-                                    .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(8.dp))
-                                    .background(colors.surface2)
-                            ) {
-                                listOf("오전" to false, "오후" to true).forEach { (label, pm) ->
-                                    Box(
-                                        contentAlignment = Alignment.Center,
-                                        modifier = Modifier
-                                            .padding(horizontal = 1.dp, vertical = 1.dp)
-                                            .clip(RoundedCornerShape(7.dp))
-                                            .background(if (isPm == pm) colors.accent else colors.surface2)
-                                            .clickable {
-                                                val newH = if (pm) {
-                                                    if (notifyHour == 0) 12 else if (notifyHour < 12) notifyHour + 12 else notifyHour
-                                                } else {
-                                                    if (notifyHour == 12) 0 else if (notifyHour > 12) notifyHour - 12 else notifyHour
-                                                }
-                                                vm.setNotifyTime(newH, notifyMinute)
+                        Row(
+                            modifier = Modifier
+                                .clip(RoundedCornerShape(8.dp))
+                                .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(8.dp))
+                                .background(colors.surface2)
+                                .padding(2.dp)
+                        ) {
+                            listOf("오전" to false, "오후" to true).forEach { (label, pm) ->
+                                Box(
+                                    contentAlignment = Alignment.Center,
+                                    modifier = Modifier
+                                        .clip(RoundedCornerShape(6.dp))
+                                        .background(if (isPm == pm) colors.accent else colors.surface2)
+                                        .clickable {
+                                            val newH = if (pm) {
+                                                if (notifyHour == 0) 12 else if (notifyHour < 12) notifyHour + 12 else notifyHour
+                                            } else {
+                                                if (notifyHour == 12) 0 else if (notifyHour > 12) notifyHour - 12 else notifyHour
                                             }
-                                            .padding(horizontal = 8.dp, vertical = 4.dp)
-                                    ) {
-                                        Text(
-                                            text = label,
-                                            fontSize = 11.sp,
-                                            fontWeight = FontWeight.Medium,
-                                            color = if (isPm == pm) colors.bg else colors.textDim
-                                        )
-                                    }
+                                            vm.setNotifyTime(newH, notifyMinute)
+                                        }
+                                        .padding(horizontal = 14.dp, vertical = 5.dp)
+                                ) {
+                                    Text(
+                                        text = label,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.Medium,
+                                        color = if (isPm == pm) colors.bg else colors.textDim
+                                    )
                                 }
                             }
-                            Spacer(modifier = Modifier.width(8.dp))
-                            // 시 조절
-                            TimeAdjustButton("-", colors) {
-                                val newD = if (displayHour == 1) 12 else displayHour - 1
-                                vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
-                            }
-                            Text(
-                                text = "%02d".format(displayHour),
-                                fontSize = 18.sp,
-                                fontWeight = FontWeight.Bold,
-                                color = colors.accent,
-                                modifier = Modifier
-                                    .padding(horizontal = 6.dp)
-                                    .clickable {
-                                        android.app.TimePickerDialog(
-                                            context,
-                                            { _, h, m -> vm.setNotifyTime(h, m) },
-                                            notifyHour,
-                                            notifyMinute,
-                                            false
-                                        ).show()
-                                    }
-                            )
-                            TimeAdjustButton("+", colors) {
-                                val newD = if (displayHour == 12) 1 else displayHour + 1
-                                vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
-                            }
-                            Text(
-                                text = ":",
-                                fontSize = 18.sp,
-                                fontWeight = FontWeight.Bold,
-                                color = colors.textMid,
-                                modifier = Modifier.padding(horizontal = 4.dp)
-                            )
-                            // 분 조절
-                            TimeAdjustButton("-", colors) {
-                                vm.setNotifyTime(notifyHour, if (notifyMinute == 0) 55 else notifyMinute - 5)
-                            }
-                            Text(
-                                text = "%02d".format(notifyMinute),
-                                fontSize = 18.sp,
-                                fontWeight = FontWeight.Bold,
-                                color = colors.accent,
-                                modifier = Modifier
-                                    .padding(horizontal = 6.dp)
-                                    .clickable {
-                                        android.app.TimePickerDialog(
-                                            context,
-                                            { _, h, m -> vm.setNotifyTime(h, m) },
-                                            notifyHour,
-                                            notifyMinute,
-                                            false
-                                        ).show()
-                                    }
-                            )
-                            TimeAdjustButton("+", colors) {
-                                vm.setNotifyTime(notifyHour, if (notifyMinute >= 55) 0 else notifyMinute + 5)
-                            }
+                        }
+                    }
+
+                    // 2행: 시간 조절
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        // 시 조절
+                        TimeAdjustButton("-", colors) {
+                            val newD = if (displayHour == 1) 12 else displayHour - 1
+                            vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
+                        }
+                        Text(
+                            text = "%02d".format(displayHour),
+                            fontSize = 22.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = colors.accent,
+                            modifier = Modifier
+                                .padding(horizontal = 8.dp)
+                                .clickable {
+                                    android.app.TimePickerDialog(
+                                        context,
+                                        { _, h, m -> vm.setNotifyTime(h, m) },
+                                        notifyHour,
+                                        notifyMinute,
+                                        false
+                                    ).show()
+                                }
+                        )
+                        TimeAdjustButton("+", colors) {
+                            val newD = if (displayHour == 12) 1 else displayHour + 1
+                            vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
+                        }
+                        Text(
+                            text = ":",
+                            fontSize = 22.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = colors.textMid,
+                            modifier = Modifier.padding(horizontal = 6.dp)
+                        )
+                        // 분 조절
+                        TimeAdjustButton("-", colors) {
+                            vm.setNotifyTime(notifyHour, if (notifyMinute == 0) 55 else notifyMinute - 5)
+                        }
+                        Text(
+                            text = "%02d".format(notifyMinute),
+                            fontSize = 22.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = colors.accent,
+                            modifier = Modifier
+                                .padding(horizontal = 8.dp)
+                                .clickable {
+                                    android.app.TimePickerDialog(
+                                        context,
+                                        { _, h, m -> vm.setNotifyTime(h, m) },
+                                        notifyHour,
+                                        notifyMinute,
+                                        false
+                                    ).show()
+                                }
+                        )
+                        TimeAdjustButton("+", colors) {
+                            vm.setNotifyTime(notifyHour, if (notifyMinute >= 55) 0 else notifyMinute + 5)
                         }
                     }
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {

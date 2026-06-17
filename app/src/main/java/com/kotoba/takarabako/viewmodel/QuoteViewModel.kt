@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 class QuoteViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = QuoteRepository.getInstance(application)
-    private val ds = DataStoreManager(application)
+    private val ds = DataStoreManager.getInstance(application)
 
     private val _quotes = MutableStateFlow<List<Quote>>(emptyList())
     val quotes: StateFlow<List<Quote>> = _quotes
