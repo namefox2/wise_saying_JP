@@ -51,4 +51,15 @@ class DataStoreManager(private val context: Context) {
     suspend fun setAutoPlay(enabled: Boolean) { context.dataStore.edit { it[AUTO_PLAY_KEY] = enabled } }
     suspend fun setLoginStreak(streak: Int) { context.dataStore.edit { it[STREAK_KEY] = streak } }
     suspend fun setLastLoginDate(date: String) { context.dataStore.edit { it[LAST_LOGIN_DATE_KEY] = date } }
+
+    fun getBookmark(key: String): Flow<String> =
+        context.dataStore.data.map { it[stringPreferencesKey("bm_$key")] ?: "" }
+
+    suspend fun setBookmark(key: String, id: String) {
+        context.dataStore.edit { it[stringPreferencesKey("bm_$key")] = id }
+    }
+
+    suspend fun clearBookmark(key: String) {
+        context.dataStore.edit { it.remove(stringPreferencesKey("bm_$key")) }
+    }
 }

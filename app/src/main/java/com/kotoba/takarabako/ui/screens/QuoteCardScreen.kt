@@ -23,6 +23,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Shuffle
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -68,6 +69,7 @@ fun QuoteCardScreen(
     val quotes by vm.quotes.collectAsState()
     val currentIndex by vm.currentIndex.collectAsState()
     val likedIds by vm.likedIds.collectAsState()
+    val bookmarkedId by vm.bookmarkedId.collectAsState()
     val autoBlur by settingsVm.autoBlur.collectAsState()
     val autoPlay by settingsVm.autoPlay.collectAsState()
 
@@ -235,6 +237,15 @@ fun QuoteCardScreen(
                         color = colors.textDim,
                         modifier = Modifier.weight(1f)
                     )
+                    IconButton(onClick = { vm.toggleBookmark() }, modifier = Modifier.size(32.dp)) {
+                        Icon(
+                            imageVector = Icons.Filled.Bookmark,
+                            contentDescription = "책갈피",
+                            tint = if (bookmarkedId == q.id) colors.accent else colors.border,
+                            modifier = Modifier.size(20.dp)
+                        )
+                    }
+                    Spacer(modifier = Modifier.width(2.dp))
                     HeartButton(isLiked = q.id in likedIds, onToggle = { vm.toggleLike(q.id) })
                 }
 

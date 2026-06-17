@@ -3,10 +3,12 @@ package com.kotoba.takarabako.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.kotoba.takarabako.data.local.DataStoreManager
 import com.kotoba.takarabako.data.model.Word
 import com.kotoba.takarabako.data.repository.WordRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -14,6 +16,7 @@ import kotlinx.coroutines.launch
 class JlptViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = WordRepository.getInstance(application)
+    private val ds = DataStoreManager(application)
 
     private val _currentLevel = MutableStateFlow("all")
     val currentLevel: StateFlow<String> = _currentLevel
@@ -27,6 +30,9 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
     private val _likedWordIds = MutableStateFlow<Set<String>>(emptySet())
     val likedWordIds: StateFlow<Set<String>> = _likedWordIds
 
+    private val _bookmarkedId = MutableStateFlow("")
+    val bookmarkedId: StateFlow<String> = _bookmarkedId
+
     init {
         repository.getFavoriteIds().onEach { _likedWordIds.value = it }.launchIn(viewModelScope)
         setLevel("all")
@@ -36,7 +42,15 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
         _currentLevel.value = level
         _currentIndex.value = 0
         viewModelScope.launch {
-            _words.value = repository.getByLevel(level)
+            val bmKey = "jlpt_$level"
+            val bookmarkId = ds.getBookmark(bmKey).first()
+            _bookmarkedId.value = bookmarkId
+            val words = repository.getByLevel(level)
+            _words.value = words
+            if (bookmarkId.isNotEmpty()) {
+                val idx = words.indexOfFirst { it.id == bookmarkId }
+                if (idx >= 0) _currentIndex.value = idx
+            }
         }
     }
 
@@ -56,6 +70,20 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
         val size = _words.value.size
         if (size == 0) return
         _currentIndex.value = if (_currentIndex.value == 0) size - 1 else _currentIndex.value - 1
+    }
+
+    fun toggleBookmark() {
+        val word = _words.value.getOrNull(_currentIndex.value) ?: return
+        val key = "jlpt_${_currentLevel.value}"
+        viewModelScope.launch {
+            if (_bookmarkedId.value == word.id) {
+                ds.clearBookmark(key)
+                _bookmarkedId.value = ""
+            } else {
+                ds.setBookmark(key, word.id)
+                _bookmarkedId.value = word.id
+            }
+        }
     }
 
     fun toggleLike(id: String) {

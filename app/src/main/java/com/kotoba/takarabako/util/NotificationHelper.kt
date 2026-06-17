@@ -6,6 +6,7 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import java.util.Calendar
 
 object NotificationHelper {
@@ -34,7 +35,14 @@ object NotificationHelper {
             set(Calendar.MILLISECOND, 0)
             if (timeInMillis <= System.currentTimeMillis()) add(Calendar.DAY_OF_YEAR, 1)
         }
-        am.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, cal.timeInMillis, buildPendingIntent(context, hour, minute))
+        val pi = buildPendingIntent(context, hour, minute)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && am.canScheduleExactAlarms()) {
+            am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, cal.timeInMillis, pi)
+        } else if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) {
+            am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, cal.timeInMillis, pi)
+        } else {
+            am.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, cal.timeInMillis, pi)
+        }
     }
 
     fun rescheduleFromPrefs(context: Context) {

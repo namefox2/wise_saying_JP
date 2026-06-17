@@ -20,7 +20,7 @@ class NotificationReceiver : BroadcastReceiver() {
         val nm = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         val notification = NotificationCompat.Builder(context, NotificationHelper.CHANNEL_ID)
             .setSmallIcon(R.mipmap.ic_launcher)
-            .setContentTitle("言葉の宝箱")
+            .setContentTitle("일본어명언집")
             .setContentText("오늘의 일본어 학습을 시작하세요!")
             .setAutoCancel(true)
             .build()

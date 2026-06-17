@@ -13,12 +13,9 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -99,30 +96,32 @@ fun SettingsScreen(
 
         // 테마
         SectionHeader(title = "테마")
-        LazyRow(
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            contentPadding = PaddingValues(horizontal = 16.dp)
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp),
+            horizontalArrangement = Arrangement.spacedBy(6.dp)
         ) {
-            items(themeOptions) { theme ->
+            themeOptions.forEach { theme ->
                 val isSelected = currentTheme == theme.key
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
-                        .width(80.dp)
-                        .clip(RoundedCornerShape(12.dp))
+                        .weight(1f)
+                        .clip(RoundedCornerShape(10.dp))
                         .border(
                             BorderStroke(if (isSelected) 2.dp else 1.dp, if (isSelected) colors.accent else colors.border),
-                            RoundedCornerShape(12.dp)
+                            RoundedCornerShape(10.dp)
                         )
                         .background(colors.surface)
                         .clickable { vm.setTheme(theme.key) }
-                        .padding(vertical = 12.dp, horizontal = 8.dp)
+                        .padding(vertical = 8.dp, horizontal = 2.dp)
                 ) {
-                    Text(text = theme.emoji, fontSize = 22.sp)
-                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(text = theme.emoji, fontSize = 18.sp)
+                    Spacer(modifier = Modifier.height(3.dp))
                     Text(
                         text = theme.label,
-                        fontSize = 9.sp,
+                        fontSize = 7.sp,
                         color = if (isSelected) colors.accent else colors.textMid,
                         fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
                         maxLines = 1

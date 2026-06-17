@@ -3,10 +3,12 @@ package com.kotoba.takarabako.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.kotoba.takarabako.data.local.DataStoreManager
 import com.kotoba.takarabako.data.model.Quote
 import com.kotoba.takarabako.data.repository.QuoteRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -14,6 +16,7 @@ import kotlinx.coroutines.launch
 class QuoteViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = QuoteRepository.getInstance(application)
+    private val ds = DataStoreManager(application)
 
     private val _quotes = MutableStateFlow<List<Quote>>(emptyList())
     val quotes: StateFlow<List<Quote>> = _quotes
@@ -24,13 +27,28 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
     private val _likedIds = MutableStateFlow<Set<String>>(emptySet())
     val likedIds: StateFlow<Set<String>> = _likedIds
 
+    private val _bookmarkedId = MutableStateFlow("")
+    val bookmarkedId: StateFlow<String> = _bookmarkedId
+
+    private var currentCategory = ""
+
     init {
         repository.getFavoriteIds().onEach { _likedIds.value = it }.launchIn(viewModelScope)
     }
 
     fun loadByCategory(category: String) {
-        _quotes.value = repository.getByCategory(category)
-        _currentIndex.value = 0
+        currentCategory = category
+        viewModelScope.launch {
+            val bmKey = "quote_$category"
+            val bookmarkId = ds.getBookmark(bmKey).first()
+            _bookmarkedId.value = bookmarkId
+            val quotes = repository.getByCategory(category)
+            _quotes.value = quotes
+            _currentIndex.value = if (bookmarkId.isNotEmpty()) {
+                val idx = quotes.indexOfFirst { it.id == bookmarkId }
+                if (idx >= 0) idx else 0
+            } else 0
+        }
     }
 
     fun next() {
@@ -49,6 +67,20 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
         if (_quotes.value.isEmpty()) return
         _quotes.value = _quotes.value.shuffled()
         _currentIndex.value = 0
+    }
+
+    fun toggleBookmark() {
+        val quote = _quotes.value.getOrNull(_currentIndex.value) ?: return
+        val key = "quote_$currentCategory"
+        viewModelScope.launch {
+            if (_bookmarkedId.value == quote.id) {
+                ds.clearBookmark(key)
+                _bookmarkedId.value = ""
+            } else {
+                ds.setBookmark(key, quote.id)
+                _bookmarkedId.value = quote.id
+            }
+        }
     }
 
     fun toggleLike(id: String) {
