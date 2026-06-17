@@ -263,18 +263,66 @@ fun SettingsScreen(
                         .fillMaxWidth()
                         .padding(horizontal = 16.dp, vertical = 12.dp)
                 ) {
+                    val isPm = notifyHour >= 12
+                    val displayHour = when {
+                        notifyHour == 0 -> 12
+                        notifyHour > 12 -> notifyHour - 12
+                        else -> notifyHour
+                    }
+                    fun to24Hour(h: Int, pm: Boolean) = when {
+                        pm && h == 12 -> 12
+                        pm -> h + 12
+                        h == 12 -> 0
+                        else -> h
+                    }
+
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Column(modifier = Modifier.weight(1f)) {
                             Text(text = "알림 시간", fontSize = 13.sp, color = colors.text)
                             Text(text = "매일 이 시간에 알림", fontSize = 11.sp, color = colors.textDim)
                         }
-                        // 시 조절
                         Row(verticalAlignment = Alignment.CenterVertically) {
+                            // 오전/오후 토글
+                            Column(
+                                modifier = Modifier
+                                    .clip(RoundedCornerShape(8.dp))
+                                    .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(8.dp))
+                                    .background(colors.surface2)
+                            ) {
+                                listOf("오전" to false, "오후" to true).forEach { (label, pm) ->
+                                    Box(
+                                        contentAlignment = Alignment.Center,
+                                        modifier = Modifier
+                                            .padding(horizontal = 1.dp, vertical = 1.dp)
+                                            .clip(RoundedCornerShape(7.dp))
+                                            .background(if (isPm == pm) colors.accent else colors.surface2)
+                                            .clickable {
+                                                val newH = if (pm) {
+                                                    if (notifyHour == 0) 12 else if (notifyHour < 12) notifyHour + 12 else notifyHour
+                                                } else {
+                                                    if (notifyHour == 12) 0 else if (notifyHour > 12) notifyHour - 12 else notifyHour
+                                                }
+                                                vm.setNotifyTime(newH, notifyMinute)
+                                            }
+                                            .padding(horizontal = 8.dp, vertical = 4.dp)
+                                    ) {
+                                        Text(
+                                            text = label,
+                                            fontSize = 11.sp,
+                                            fontWeight = FontWeight.Medium,
+                                            color = if (isPm == pm) colors.bg else colors.textDim
+                                        )
+                                    }
+                                }
+                            }
+                            Spacer(modifier = Modifier.width(8.dp))
+                            // 시 조절
                             TimeAdjustButton("-", colors) {
-                                vm.setNotifyTime(if (notifyHour == 0) 23 else notifyHour - 1, notifyMinute)
+                                val newD = if (displayHour == 1) 12 else displayHour - 1
+                                vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
                             }
                             Text(
-                                text = "%02d".format(notifyHour),
+                                text = "%02d".format(displayHour),
                                 fontSize = 18.sp,
                                 fontWeight = FontWeight.Bold,
                                 color = colors.accent,
@@ -286,23 +334,22 @@ fun SettingsScreen(
                                             { _, h, m -> vm.setNotifyTime(h, m) },
                                             notifyHour,
                                             notifyMinute,
-                                            true
+                                            false
                                         ).show()
                                     }
                             )
                             TimeAdjustButton("+", colors) {
-                                vm.setNotifyTime(if (notifyHour == 23) 0 else notifyHour + 1, notifyMinute)
+                                val newD = if (displayHour == 12) 1 else displayHour + 1
+                                vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
                             }
-                        }
-                        Text(
-                            text = ":",
-                            fontSize = 18.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = colors.textMid,
-                            modifier = Modifier.padding(horizontal = 4.dp)
-                        )
-                        // 분 조절
-                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                text = ":",
+                                fontSize = 18.sp,
+                                fontWeight = FontWeight.Bold,
+                                color = colors.textMid,
+                                modifier = Modifier.padding(horizontal = 4.dp)
+                            )
+                            // 분 조절
                             TimeAdjustButton("-", colors) {
                                 vm.setNotifyTime(notifyHour, if (notifyMinute == 0) 55 else notifyMinute - 5)
                             }
@@ -319,7 +366,7 @@ fun SettingsScreen(
                                             { _, h, m -> vm.setNotifyTime(h, m) },
                                             notifyHour,
                                             notifyMinute,
-                                            true
+                                            false
                                         ).show()
                                     }
                             )
@@ -328,12 +375,6 @@ fun SettingsScreen(
                             }
                         }
                     }
-                    Text(
-                        text = "시간을 탭하면 직접 입력할 수 있어요",
-                        fontSize = 10.sp,
-                        color = colors.textDim,
-                        modifier = Modifier.padding(top = 4.dp)
-                    )
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                         val am = context.getSystemService(android.app.AlarmManager::class.java)
                         if (!am.canScheduleExactAlarms()) {
