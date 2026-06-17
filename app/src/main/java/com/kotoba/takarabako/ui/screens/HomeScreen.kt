@@ -1,5 +1,7 @@
 package com.kotoba.takarabako.ui.screens
 
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -14,10 +16,15 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
@@ -60,6 +67,7 @@ fun HomeScreen(
 
     var quoteStepFurigana by remember { mutableStateOf(false) }
     var quoteStepKorean by remember { mutableStateOf(false) }
+    var isQuoteExpanded by remember { mutableStateOf(true) }
 
     Box(
         modifier = Modifier
@@ -103,45 +111,61 @@ fun HomeScreen(
                     .clip(RoundedCornerShape(20.dp))
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
+                    .animateContentSize(animationSpec = tween(durationMillis = 280))
+                    .clickable { isQuoteExpanded = !isQuoteExpanded }
                     .padding(18.dp)
             ) {
-                Text(
-                    text = "오늘의 명언",
-                    fontSize = 10.sp,
-                    color = colors.textDim,
-                    modifier = Modifier.padding(bottom = 8.dp)
-                )
-                FuriganaText(
-                    segments = quote.segments,
-                    fontSize = 15.sp,
-                    showFurigana = false,
-                    textColor = colors.text
-                )
-                Text(
-                    text = "— ${authorDisplay(quote.author)}",
-                    fontSize = 11.sp,
-                    color = colors.textDim,
-                    modifier = Modifier.padding(top = 6.dp, bottom = 10.dp)
-                )
-                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    BlurReveal(
-                        label = "후리가나",
-                        isRevealed = quoteStepFurigana,
-                        onToggle = { quoteStepFurigana = !quoteStepFurigana }
-                    ) {
-                        FuriganaText(
-                            segments = quote.segments,
-                            fontSize = 14.sp,
-                            showFurigana = true,
-                            textColor = colors.text
-                        )
-                    }
-                    BlurReveal(
-                        label = "한국어",
-                        isRevealed = quoteStepKorean,
-                        onToggle = { quoteStepKorean = !quoteStepKorean }
-                    ) {
-                        Text(text = quote.korean, fontSize = 13.sp, color = colors.textMid)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = "오늘의 명언",
+                        fontSize = 10.sp,
+                        color = colors.textDim,
+                        modifier = Modifier.weight(1f)
+                    )
+                    Icon(
+                        imageVector = if (isQuoteExpanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
+                        contentDescription = null,
+                        tint = colors.textDim,
+                        modifier = Modifier.size(16.dp)
+                    )
+                }
+                if (isQuoteExpanded) {
+                    Spacer(modifier = Modifier.height(8.dp))
+                    FuriganaText(
+                        segments = quote.segments,
+                        fontSize = 15.sp,
+                        showFurigana = false,
+                        textColor = colors.text
+                    )
+                    Text(
+                        text = "— ${authorDisplay(quote.author)}",
+                        fontSize = 11.sp,
+                        color = colors.textDim,
+                        modifier = Modifier.padding(top = 6.dp, bottom = 10.dp)
+                    )
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        BlurReveal(
+                            label = "후리가나",
+                            isRevealed = quoteStepFurigana,
+                            onToggle = { quoteStepFurigana = !quoteStepFurigana }
+                        ) {
+                            FuriganaText(
+                                segments = quote.segments,
+                                fontSize = 14.sp,
+                                showFurigana = true,
+                                textColor = colors.text
+                            )
+                        }
+                        BlurReveal(
+                            label = "한국어",
+                            isRevealed = quoteStepKorean,
+                            onToggle = { quoteStepKorean = !quoteStepKorean }
+                        ) {
+                            Text(text = quote.korean, fontSize = 13.sp, color = colors.textMid)
+                        }
                     }
                 }
             }

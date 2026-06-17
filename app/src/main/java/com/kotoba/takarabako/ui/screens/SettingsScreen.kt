@@ -1,6 +1,12 @@
 package com.kotoba.takarabako.ui.screens
 
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.os.Build
+import android.provider.Settings
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -25,6 +31,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.core.content.ContextCompat
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Modifier
@@ -67,6 +74,24 @@ fun SettingsScreen(
     val currentTheme by vm.currentTheme.collectAsState()
     val notifyEnabled by vm.notifyEnabled.collectAsState()
     val autoBlur by vm.autoBlur.collectAsState()
+
+    val notifyPermLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { granted -> if (granted) vm.toggleNotify() }
+
+    fun onToggleNotify() {
+        if (notifyEnabled) { vm.toggleNotify(); return }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            val perm = android.Manifest.permission.POST_NOTIFICATIONS
+            if (ContextCompat.checkSelfPermission(context, perm) == PackageManager.PERMISSION_GRANTED) {
+                vm.toggleNotify()
+            } else {
+                notifyPermLauncher.launch(perm)
+            }
+        } else {
+            vm.toggleNotify()
+        }
+    }
     val autoPlay by vm.autoPlay.collectAsState()
     val loginStreak by vm.loginStreak.collectAsState()
     val fontScale by vm.fontScale.collectAsState()
@@ -229,7 +254,7 @@ fun SettingsScreen(
                 title = "학습 알림",
                 description = "매일 알림으로 학습 유지",
                 checked = notifyEnabled,
-                onToggle = { vm.toggleNotify() }
+                onToggle = { onToggleNotify() }
             )
             if (notifyEnabled) {
                 SettingsDivider(colors.border2)
@@ -309,6 +334,24 @@ fun SettingsScreen(
                         color = colors.textDim,
                         modifier = Modifier.padding(top = 4.dp)
                     )
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                        val am = context.getSystemService(android.app.AlarmManager::class.java)
+                        if (!am.canScheduleExactAlarms()) {
+                            Text(
+                                text = "⚠️ 정확한 알림을 위해 탭해서 '알람 및 리마인더' 권한을 허용해 주세요",
+                                fontSize = 10.sp,
+                                color = colors.accent,
+                                modifier = Modifier
+                                    .padding(top = 6.dp)
+                                    .clickable {
+                                        context.startActivity(
+                                            Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM,
+                                                Uri.parse("package:${context.packageName}"))
+                                        )
+                                    }
+                            )
+                        }
+                    }
                 }
             }
             SettingsDivider(colors.border2)
