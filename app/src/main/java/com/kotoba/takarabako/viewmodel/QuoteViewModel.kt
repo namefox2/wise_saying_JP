@@ -30,6 +30,9 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
     private val _bookmarkedId = MutableStateFlow("")
     val bookmarkedId: StateFlow<String> = _bookmarkedId
 
+    private val _isShuffled = MutableStateFlow(false)
+    val isShuffled: StateFlow<Boolean> = _isShuffled
+
     private var currentCategory = ""
 
     init {
@@ -40,14 +43,53 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
         currentCategory = category
         viewModelScope.launch {
             val bmKey = "quote_$category"
+            val shuffleKey = "quote_$category"
             val bookmarkId = ds.getBookmark(bmKey).first()
+            val shuffleOrderCsv = ds.getShuffleOrder(shuffleKey).first()
+            val allQuotes = repository.getByCategory(category)
+
+            val quotes = if (shuffleOrderCsv.isNotEmpty()) {
+                val idList = shuffleOrderCsv.split(",")
+                val quoteMap = allQuotes.associateBy { it.id }
+                idList.mapNotNull { quoteMap[it] }
+            } else {
+                allQuotes
+            }
+
+            _isShuffled.value = shuffleOrderCsv.isNotEmpty()
             _bookmarkedId.value = bookmarkId
-            val quotes = repository.getByCategory(category)
             _quotes.value = quotes
+
             _currentIndex.value = if (bookmarkId.isNotEmpty()) {
                 val idx = quotes.indexOfFirst { it.id == bookmarkId }
                 if (idx >= 0) idx else 0
             } else 0
+        }
+    }
+
+    fun shuffle() {
+        if (_quotes.value.isEmpty()) return
+        val shuffled = _quotes.value.shuffled()
+        _quotes.value = shuffled
+        _currentIndex.value = 0
+        _isShuffled.value = true
+        val key = "quote_$currentCategory"
+        viewModelScope.launch {
+            ds.clearBookmark(key)
+            _bookmarkedId.value = ""
+            ds.saveShuffleOrder(key, shuffled.joinToString(",") { it.id })
+        }
+    }
+
+    fun resetOrder() {
+        val key = "quote_$currentCategory"
+        viewModelScope.launch {
+            ds.clearShuffleOrder(key)
+            ds.clearBookmark(key)
+            _bookmarkedId.value = ""
+            _isShuffled.value = false
+            _quotes.value = repository.getByCategory(currentCategory)
+            _currentIndex.value = 0
         }
     }
 
@@ -61,12 +103,6 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
         val size = _quotes.value.size
         if (size == 0) return
         _currentIndex.value = if (_currentIndex.value == 0) size - 1 else _currentIndex.value - 1
-    }
-
-    fun shuffle() {
-        if (_quotes.value.isEmpty()) return
-        _quotes.value = _quotes.value.shuffled()
-        _currentIndex.value = 0
     }
 
     fun toggleBookmark() {

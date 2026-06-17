@@ -86,6 +86,7 @@ fun JlptScreen(
     val currentIndex by vm.currentIndex.collectAsState()
     val likedWordIds by vm.likedWordIds.collectAsState()
     val bookmarkedId by vm.bookmarkedId.collectAsState()
+    val isShuffled by vm.isShuffled.collectAsState()
     val autoBlur by settingsVm.autoBlur.collectAsState()
     val autoPlay by settingsVm.autoPlay.collectAsState()
 
@@ -140,6 +141,20 @@ fun JlptScreen(
                 color = colors.text,
                 modifier = Modifier.weight(1f)
             )
+            if (isShuffled) {
+                Box(
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(colors.surface2)
+                        .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(8.dp))
+                        .clickable { vm.resetOrder() }
+                        .padding(horizontal = 10.dp, vertical = 6.dp)
+                ) {
+                    Text(text = "초기화", fontSize = 12.sp, color = colors.textMid, fontWeight = FontWeight.Medium)
+                }
+                Spacer(modifier = Modifier.width(6.dp))
+            }
             Box(
                 contentAlignment = Alignment.Center,
                 modifier = Modifier

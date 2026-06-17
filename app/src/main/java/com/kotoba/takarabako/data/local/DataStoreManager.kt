@@ -62,4 +62,15 @@ class DataStoreManager(private val context: Context) {
     suspend fun clearBookmark(key: String) {
         context.dataStore.edit { it.remove(stringPreferencesKey("bm_$key")) }
     }
+
+    fun getShuffleOrder(key: String): Flow<String> =
+        context.dataStore.data.map { it[stringPreferencesKey("so_$key")] ?: "" }
+
+    suspend fun saveShuffleOrder(key: String, orderCsv: String) {
+        context.dataStore.edit { it[stringPreferencesKey("so_$key")] = orderCsv }
+    }
+
+    suspend fun clearShuffleOrder(key: String) {
+        context.dataStore.edit { it.remove(stringPreferencesKey("so_$key")) }
+    }
 }

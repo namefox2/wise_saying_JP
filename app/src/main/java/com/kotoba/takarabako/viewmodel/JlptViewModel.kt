@@ -33,6 +33,9 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
     private val _bookmarkedId = MutableStateFlow("")
     val bookmarkedId: StateFlow<String> = _bookmarkedId
 
+    private val _isShuffled = MutableStateFlow(false)
+    val isShuffled: StateFlow<Boolean> = _isShuffled
+
     init {
         repository.getFavoriteIds().onEach { _likedWordIds.value = it }.launchIn(viewModelScope)
         setLevel("all")
@@ -43,10 +46,23 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
         _currentIndex.value = 0
         viewModelScope.launch {
             val bmKey = "jlpt_$level"
+            val shuffleKey = "jlpt_$level"
             val bookmarkId = ds.getBookmark(bmKey).first()
+            val shuffleOrderCsv = ds.getShuffleOrder(shuffleKey).first()
+            val allWords = repository.getByLevel(level)
+
+            val words = if (shuffleOrderCsv.isNotEmpty()) {
+                val idList = shuffleOrderCsv.split(",")
+                val wordMap = allWords.associateBy { it.id }
+                idList.mapNotNull { wordMap[it] }
+            } else {
+                allWords
+            }
+
+            _isShuffled.value = shuffleOrderCsv.isNotEmpty()
             _bookmarkedId.value = bookmarkId
-            val words = repository.getByLevel(level)
             _words.value = words
+
             if (bookmarkId.isNotEmpty()) {
                 val idx = words.indexOfFirst { it.id == bookmarkId }
                 if (idx >= 0) _currentIndex.value = idx
@@ -56,8 +72,28 @@ class JlptViewModel(application: Application) : AndroidViewModel(application) {
 
     fun shuffle() {
         if (_words.value.isEmpty()) return
-        _words.value = _words.value.shuffled()
+        val shuffled = _words.value.shuffled()
+        _words.value = shuffled
         _currentIndex.value = 0
+        _isShuffled.value = true
+        val key = "jlpt_${_currentLevel.value}"
+        viewModelScope.launch {
+            ds.clearBookmark(key)
+            _bookmarkedId.value = ""
+            ds.saveShuffleOrder(key, shuffled.joinToString(",") { it.id })
+        }
+    }
+
+    fun resetOrder() {
+        val key = "jlpt_${_currentLevel.value}"
+        viewModelScope.launch {
+            ds.clearShuffleOrder(key)
+            ds.clearBookmark(key)
+            _bookmarkedId.value = ""
+            _isShuffled.value = false
+            _words.value = repository.getByLevel(_currentLevel.value)
+            _currentIndex.value = 0
+        }
     }
 
     fun next() {
