@@ -29,7 +29,7 @@ class QuoteViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun loadByCategory(category: String) {
-        _quotes.value = repository.getByCategory(category).shuffled()
+        _quotes.value = repository.getByCategory(category)
         _currentIndex.value = 0
     }
 

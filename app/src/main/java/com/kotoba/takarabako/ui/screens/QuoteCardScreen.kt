@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -117,9 +118,22 @@ fun QuoteCardScreen(
                 color = colors.text,
                 modifier = Modifier.weight(1f)
             )
-            IconButton(onClick = { vm.shuffle() }) {
-                Icon(Icons.Filled.Shuffle, contentDescription = "섞기", tint = colors.textMid)
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(colors.accentBg)
+                    .border(BorderStroke(1.dp, colors.accentBorder), RoundedCornerShape(8.dp))
+                    .clickable { vm.shuffle() }
+                    .padding(horizontal = 10.dp, vertical = 6.dp)
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Icon(Icons.Filled.Shuffle, contentDescription = "섞기", tint = colors.accent, modifier = Modifier.size(14.dp))
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text(text = "섞기", fontSize = 12.sp, color = colors.accent, fontWeight = FontWeight.Medium)
+                }
             }
+            Spacer(modifier = Modifier.width(8.dp))
             Box(
                 modifier = Modifier
                     .size(6.dp)
