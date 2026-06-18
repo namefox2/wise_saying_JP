@@ -38,6 +38,9 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     private val _autoPlay = MutableStateFlow(false)
     val autoPlay: StateFlow<Boolean> = _autoPlay
 
+    private val _autoBlurDelay = MutableStateFlow(3)
+    val autoBlurDelay: StateFlow<Int> = _autoBlurDelay
+
     private val _loginStreak = MutableStateFlow(1)
     val loginStreak: StateFlow<Int> = _loginStreak
 
@@ -49,6 +52,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
         dataStore.notifyHour.onEach { _notifyHour.value = it }.launchIn(viewModelScope)
         dataStore.notifyMinute.onEach { _notifyMinute.value = it }.launchIn(viewModelScope)
         dataStore.autoPlay.onEach { _autoPlay.value = it }.launchIn(viewModelScope)
+        dataStore.autoBlurDelay.onEach { _autoBlurDelay.value = it }.launchIn(viewModelScope)
         dataStore.loginStreak.onEach { _loginStreak.value = it }.launchIn(viewModelScope)
         updateLoginStreak()
     }
@@ -83,6 +87,8 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
     fun toggleAutoBlur() { viewModelScope.launch { dataStore.setAutoBlur(!_autoBlur.value) } }
 
     fun toggleAutoPlay() { viewModelScope.launch { dataStore.setAutoPlay(!_autoPlay.value) } }
+
+    fun setAutoBlurDelay(seconds: Int) { viewModelScope.launch { dataStore.setAutoBlurDelay(seconds) } }
 
     fun setFontScale(scale: Float) { viewModelScope.launch { dataStore.setFontScale(scale) } }
 

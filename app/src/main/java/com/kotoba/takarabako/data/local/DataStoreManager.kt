@@ -30,6 +30,7 @@ class DataStoreManager private constructor(private val context: Context) {
         val NOTIFY_HOUR_KEY = intPreferencesKey("notify_hour")
         val NOTIFY_MINUTE_KEY = intPreferencesKey("notify_minute")
         val AUTO_PLAY_KEY = booleanPreferencesKey("auto_play")
+        val AUTO_BLUR_DELAY_KEY = intPreferencesKey("auto_blur_delay")
         val STREAK_KEY = intPreferencesKey("login_streak")
         val LAST_LOGIN_DATE_KEY = stringPreferencesKey("last_login_date")
     }
@@ -41,6 +42,7 @@ class DataStoreManager private constructor(private val context: Context) {
     val notifyHour: Flow<Int> = context.dataStore.data.map { it[NOTIFY_HOUR_KEY] ?: 9 }
     val notifyMinute: Flow<Int> = context.dataStore.data.map { it[NOTIFY_MINUTE_KEY] ?: 0 }
     val autoPlay: Flow<Boolean> = context.dataStore.data.map { it[AUTO_PLAY_KEY] ?: false }
+    val autoBlurDelay: Flow<Int> = context.dataStore.data.map { it[AUTO_BLUR_DELAY_KEY] ?: 3 }
     val loginStreak: Flow<Int> = context.dataStore.data.map { it[STREAK_KEY] ?: 1 }
     val lastLoginDate: Flow<String> = context.dataStore.data.map { it[LAST_LOGIN_DATE_KEY] ?: "" }
 
@@ -55,6 +57,7 @@ class DataStoreManager private constructor(private val context: Context) {
         }
     }
     suspend fun setAutoPlay(enabled: Boolean) { context.dataStore.edit { it[AUTO_PLAY_KEY] = enabled } }
+    suspend fun setAutoBlurDelay(seconds: Int) { context.dataStore.edit { it[AUTO_BLUR_DELAY_KEY] = seconds } }
     suspend fun setLoginStreak(streak: Int) { context.dataStore.edit { it[STREAK_KEY] = streak } }
     suspend fun setLastLoginDate(date: String) { context.dataStore.edit { it[LAST_LOGIN_DATE_KEY] = date } }
 

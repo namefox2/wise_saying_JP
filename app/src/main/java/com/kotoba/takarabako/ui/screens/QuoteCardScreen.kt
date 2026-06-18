@@ -68,6 +68,7 @@ fun QuoteCardScreen(
     val bookmarkedId by vm.bookmarkedId.collectAsState()
     val isShuffled by vm.isShuffled.collectAsState()
     val autoBlur by settingsVm.autoBlur.collectAsState()
+    val autoBlurDelay by settingsVm.autoBlurDelay.collectAsState()
     val autoPlay by settingsVm.autoPlay.collectAsState()
 
     var stepFurigana by remember { mutableStateOf(false) }
@@ -82,14 +83,17 @@ fun QuoteCardScreen(
         }
     }
 
-    LaunchedEffect(currentIndex) {
+    LaunchedEffect(currentIndex, autoBlur, autoBlurDelay) {
         stepFurigana = false
         stepKorean = false
         if (autoBlur) {
-            delay(3000)
+            val ms = autoBlurDelay * 1000L
+            delay(ms)
             stepFurigana = true
-            delay(3000)
+            delay(ms)
             stepKorean = true
+            delay(ms)
+            vm.next()
         }
     }
 

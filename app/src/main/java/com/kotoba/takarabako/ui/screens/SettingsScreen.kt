@@ -114,6 +114,7 @@ fun SettingsScreen(
         }
     }
     val autoPlay by vm.autoPlay.collectAsState()
+    val autoBlurDelay by vm.autoBlurDelay.collectAsState()
     val loginStreak by vm.loginStreak.collectAsState()
     val fontScale by vm.fontScale.collectAsState()
     val notifyHour by vm.notifyHour.collectAsState()
@@ -380,11 +381,46 @@ fun SettingsScreen(
             }
             SettingsDivider(colors.border2)
             SettingsToggleRow(
-                title = "블러 자동 해제",
-                description = "카드 진입 시 스텝 자동 표시",
+                title = "카드 자동 오픈",
+                description = "카드 진입 시 단계별 자동 공개 후 다음 카드로 이동",
                 checked = autoBlur,
                 onToggle = { vm.toggleAutoBlur() }
             )
+            if (autoBlur) {
+                SettingsDivider(colors.border2)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 10.dp)
+                ) {
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text(text = "공개 간격", fontSize = 13.sp, color = colors.text)
+                        Text(text = "각 단계 사이의 시간", fontSize = 11.sp, color = colors.textDim)
+                    }
+                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        listOf(1, 2, 3, 5).forEach { sec ->
+                            val isSelected = autoBlurDelay == sec
+                            Box(
+                                contentAlignment = Alignment.Center,
+                                modifier = Modifier
+                                    .clip(RoundedCornerShape(8.dp))
+                                    .border(BorderStroke(1.dp, if (isSelected) colors.accent else colors.border), RoundedCornerShape(8.dp))
+                                    .background(if (isSelected) colors.accentBg else colors.surface)
+                                    .clickable { vm.setAutoBlurDelay(sec) }
+                                    .padding(horizontal = 10.dp, vertical = 5.dp)
+                            ) {
+                                Text(
+                                    text = "${sec}초",
+                                    fontSize = 12.sp,
+                                    color = if (isSelected) colors.accent else colors.textMid,
+                                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                                )
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         Spacer(modifier = Modifier.height(32.dp))

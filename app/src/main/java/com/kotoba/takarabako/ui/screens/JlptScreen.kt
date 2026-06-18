@@ -84,6 +84,7 @@ fun JlptScreen(
     val bookmarkedId by vm.bookmarkedId.collectAsState()
     val isShuffled by vm.isShuffled.collectAsState()
     val autoBlur by settingsVm.autoBlur.collectAsState()
+    val autoBlurDelay by settingsVm.autoBlurDelay.collectAsState()
     val autoPlay by settingsVm.autoPlay.collectAsState()
 
     var stepHiragana by remember { mutableStateOf(false) }
@@ -100,16 +101,23 @@ fun JlptScreen(
         }
     }
 
-    LaunchedEffect(currentIndex) {
+    LaunchedEffect(currentIndex, autoBlur, autoBlurDelay) {
         stepHiragana = false
         stepMeaning = false
         stepExFurigana = false
         stepExKorean = false
         if (autoBlur) {
-            delay(3000)
+            val ms = autoBlurDelay * 1000L
+            delay(ms)
             stepHiragana = true
-            delay(3000)
+            delay(ms)
             stepMeaning = true
+            delay(ms)
+            stepExFurigana = true
+            delay(ms)
+            stepExKorean = true
+            delay(ms)
+            vm.next()
         }
     }
 
