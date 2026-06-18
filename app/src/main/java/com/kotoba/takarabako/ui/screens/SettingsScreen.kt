@@ -11,6 +11,8 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -24,19 +26,30 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.setValue
 import androidx.core.content.ContextCompat
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -45,6 +58,7 @@ import com.kotoba.takarabako.ui.theme.LocalAppColors
 import com.kotoba.takarabako.ui.theme.NotoSerifJP
 import com.kotoba.takarabako.viewmodel.FavoritesViewModel
 import com.kotoba.takarabako.viewmodel.SettingsViewModel
+import kotlin.math.abs
 
 private fun to24Hour(displayHour: Int, isPm: Boolean): Int = when {
     isPm && displayHour == 12 -> 12
@@ -317,69 +331,33 @@ fun SettingsScreen(
                         }
                     }
 
-                    // 2행: 시간 조절
+                    // 2행: 시간 드래그 입력
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.Center,
                         modifier = Modifier.fillMaxWidth()
                     ) {
-                        // 시 조절
-                        TimeAdjustButton("-", colors) {
-                            val newD = if (displayHour == 1) 12 else displayHour - 1
-                            vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
-                        }
-                        Text(
-                            text = "%02d".format(displayHour),
-                            fontSize = 22.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = colors.accent,
-                            modifier = Modifier
-                                .padding(horizontal = 8.dp)
-                                .clickable {
-                                    android.app.TimePickerDialog(
-                                        context,
-                                        { _, h, m -> vm.setNotifyTime(h, m) },
-                                        notifyHour,
-                                        notifyMinute,
-                                        false
-                                    ).show()
-                                }
-                        )
-                        TimeAdjustButton("+", colors) {
-                            val newD = if (displayHour == 12) 1 else displayHour + 1
-                            vm.setNotifyTime(to24Hour(newD, isPm), notifyMinute)
-                        }
+                        TimeDragNumber(
+                            value = displayHour, minVal = 1, maxVal = 12,
+                            hint = "1–12"
+                        ) { vm.setNotifyTime(to24Hour(it, isPm), notifyMinute) }
                         Text(
                             text = ":",
-                            fontSize = 22.sp,
+                            fontSize = 32.sp,
                             fontWeight = FontWeight.Bold,
                             color = colors.textMid,
-                            modifier = Modifier.padding(horizontal = 6.dp)
+                            modifier = Modifier.padding(horizontal = 4.dp)
                         )
-                        // 분 조절
-                        TimeAdjustButton("-", colors) {
-                            vm.setNotifyTime(notifyHour, if (notifyMinute == 0) 55 else notifyMinute - 5)
-                        }
-                        Text(
-                            text = "%02d".format(notifyMinute),
-                            fontSize = 22.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = colors.accent,
-                            modifier = Modifier
-                                .padding(horizontal = 8.dp)
-                                .clickable {
-                                    android.app.TimePickerDialog(
-                                        context,
-                                        { _, h, m -> vm.setNotifyTime(h, m) },
-                                        notifyHour,
-                                        notifyMinute,
-                                        false
-                                    ).show()
-                                }
-                        )
-                        TimeAdjustButton("+", colors) {
-                            vm.setNotifyTime(notifyHour, if (notifyMinute >= 55) 0 else notifyMinute + 5)
-                        }
+                        TimeDragNumber(
+                            value = notifyMinute, minVal = 0, maxVal = 59,
+                            hint = "0–59"
+                        ) { vm.setNotifyTime(notifyHour, it) }
                     }
+                    Text(
+                        text = "숫자를 탭하면 직접 입력 · 위아래로 드래그해서 조절",
+                        fontSize = 10.sp,
+                        color = colors.textDim
+                    )
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                         val am = context.getSystemService(android.app.AlarmManager::class.java)
                         if (!am.canScheduleExactAlarms()) {
@@ -423,22 +401,93 @@ fun SettingsScreen(
 }
 
 @Composable
-private fun TimeAdjustButton(
-    label: String,
-    colors: com.kotoba.takarabako.ui.theme.AppColors,
-    onClick: () -> Unit
+private fun TimeDragNumber(
+    value: Int,
+    minVal: Int,
+    maxVal: Int,
+    hint: String,
+    onValueChange: (Int) -> Unit
 ) {
-    Box(
-        contentAlignment = Alignment.Center,
-        modifier = Modifier
-            .size(32.dp)
-            .clip(RoundedCornerShape(8.dp))
-            .background(colors.surface2)
-            .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(8.dp))
-            .clickable { onClick() }
-    ) {
-        Text(text = label, fontSize = 16.sp, color = colors.accent, fontWeight = FontWeight.Bold)
+    val colors = LocalAppColors.current
+    var showDialog by remember { mutableStateOf(false) }
+    var inputText by remember { mutableStateOf("") }
+    val currentValue by rememberUpdatedState(value)
+    val currentOnChange by rememberUpdatedState(onValueChange)
+
+    if (showDialog) {
+        LaunchedEffect(Unit) { inputText = "%02d".format(currentValue) }
+        AlertDialog(
+            onDismissRequest = { showDialog = false },
+            title = null,
+            text = {
+                OutlinedTextField(
+                    value = inputText,
+                    onValueChange = { s ->
+                        if (s.length <= 2 && s.all { it.isDigit() }) inputText = s
+                    },
+                    placeholder = { Text(hint, color = colors.textDim) },
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                    singleLine = true
+                )
+            },
+            confirmButton = {
+                TextButton(onClick = {
+                    inputText.toIntOrNull()
+                        ?.takeIf { it in minVal..maxVal }
+                        ?.let(currentOnChange)
+                    showDialog = false
+                }) { Text("확인", color = colors.accent) }
+            },
+            dismissButton = {
+                TextButton(onClick = { showDialog = false }) {
+                    Text("취소", color = colors.textMid)
+                }
+            }
+        )
     }
+
+    Text(
+        text = "%02d".format(value),
+        fontSize = 36.sp,
+        fontWeight = FontWeight.Bold,
+        color = colors.accent,
+        modifier = Modifier
+            .padding(horizontal = 10.dp)
+            .pointerInput(minVal, maxVal) {
+                var accumulated = 0f
+                awaitEachGesture {
+                    awaitFirstDown(requireUnconsumed = false)
+                    accumulated = 0f
+                    var totalY = 0f
+                    var dragging = false
+                    while (true) {
+                        val event = awaitPointerEvent()
+                        val change = event.changes.firstOrNull() ?: break
+                        if (!change.pressed) {
+                            if (!dragging) showDialog = true
+                            break
+                        }
+                        val dy = change.position.y - change.previousPosition.y
+                        totalY += dy
+                        if (abs(totalY) > 8f) dragging = true
+                        if (dragging) {
+                            change.consume()
+                            accumulated += dy
+                            while (accumulated <= -24f) {
+                                accumulated += 24f
+                                val next = if (currentValue + 1 > maxVal) minVal else currentValue + 1
+                                currentOnChange(next)
+                            }
+                            while (accumulated >= 24f) {
+                                accumulated -= 24f
+                                val next = if (currentValue - 1 < minVal) maxVal else currentValue - 1
+                                currentOnChange(next)
+                            }
+                        }
+                    }
+                }
+            }
+    )
 }
 
 @Composable
