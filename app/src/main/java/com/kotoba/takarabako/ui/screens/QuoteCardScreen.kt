@@ -73,6 +73,7 @@ fun QuoteCardScreen(
 
     var stepFurigana by remember { mutableStateOf(false) }
     var stepKorean by remember { mutableStateOf(false) }
+    val cardScrollState = rememberScrollState()
 
     LaunchedEffect(category) { vm.loadByCategory(category) }
 
@@ -86,6 +87,7 @@ fun QuoteCardScreen(
     LaunchedEffect(currentIndex, autoBlur, autoBlurDelay) {
         stepFurigana = false
         stepKorean = false
+        cardScrollState.scrollTo(0)
         if (autoBlur) {
             val ms = autoBlurDelay * 1000L
             delay(ms)
@@ -94,6 +96,12 @@ fun QuoteCardScreen(
             stepKorean = true
             delay(ms)
             vm.next()
+        }
+    }
+
+    LaunchedEffect(stepFurigana, stepKorean) {
+        if (stepFurigana || stepKorean) {
+            cardScrollState.animateScrollTo(cardScrollState.maxValue)
         }
     }
 
@@ -192,7 +200,7 @@ fun QuoteCardScreen(
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
                     .cardSwipe(vm, onPrev = { vm.prev() }, onNext = { vm.next() })
-                    .verticalScroll(rememberScrollState())
+                    .verticalScroll(cardScrollState)
                     .padding(20.dp)
             ) {
                 Box(

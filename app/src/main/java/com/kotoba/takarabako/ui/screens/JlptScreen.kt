@@ -91,6 +91,7 @@ fun JlptScreen(
     var stepMeaning by remember { mutableStateOf(false) }
     var stepExFurigana by remember { mutableStateOf(false) }
     var stepExKorean by remember { mutableStateOf(false) }
+    val cardScrollState = rememberScrollState()
 
     LaunchedEffect(level) { vm.setLevel(level) }
 
@@ -106,6 +107,7 @@ fun JlptScreen(
         stepMeaning = false
         stepExFurigana = false
         stepExKorean = false
+        cardScrollState.scrollTo(0)
         if (autoBlur) {
             val ms = autoBlurDelay * 1000L
             delay(ms)
@@ -118,6 +120,12 @@ fun JlptScreen(
             stepExKorean = true
             delay(ms)
             vm.next()
+        }
+    }
+
+    LaunchedEffect(stepHiragana, stepMeaning, stepExFurigana, stepExKorean) {
+        if (stepHiragana || stepMeaning || stepExFurigana || stepExKorean) {
+            cardScrollState.animateScrollTo(cardScrollState.maxValue)
         }
     }
 
@@ -238,7 +246,7 @@ fun JlptScreen(
                     .border(BorderStroke(1.dp, colors.border), RoundedCornerShape(20.dp))
                     .background(colors.surface)
                     .cardSwipe(vm, onPrev = { vm.prev() }, onNext = { vm.next() })
-                    .verticalScroll(rememberScrollState())
+                    .verticalScroll(cardScrollState)
                     .padding(20.dp)
             ) {
                 // 상단: 레벨 배지 + 품사 배지 + 하트
