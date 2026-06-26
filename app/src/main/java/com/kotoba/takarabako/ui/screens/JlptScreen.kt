@@ -95,8 +95,8 @@ fun JlptScreen(
 
     LaunchedEffect(level) { vm.setLevel(level) }
 
-    LaunchedEffect(currentIndex, autoPlay) {
-        if (autoPlay) {
+    LaunchedEffect(currentIndex, autoPlay, autoBlur) {
+        if (autoPlay && !autoBlur) {
             delay(5000)
             vm.next()
         }

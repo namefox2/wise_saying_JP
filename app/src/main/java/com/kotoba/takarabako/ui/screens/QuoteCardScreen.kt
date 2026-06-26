@@ -77,8 +77,8 @@ fun QuoteCardScreen(
 
     LaunchedEffect(category) { vm.loadByCategory(category) }
 
-    LaunchedEffect(currentIndex, autoPlay) {
-        if (autoPlay) {
+    LaunchedEffect(currentIndex, autoPlay, autoBlur) {
+        if (autoPlay && !autoBlur) {
             delay(5000)
             vm.next()
         }
