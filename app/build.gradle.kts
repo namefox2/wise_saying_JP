@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.kotoba.takarabako"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.kotoba.takarabako"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 15
         versionName = "1.3.2"
 
